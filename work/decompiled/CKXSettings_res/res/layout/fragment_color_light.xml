@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="com.carocean.settings.ColorLightFragment" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/ic_hor_split_night" android:showDividers="middle">
+            <FrameLayout style="@style/main_item_style">
+                <TextView android:layout_gravity="start|center" android:text="@string/control_lights" style="@style/text_style" />
+                <RadioGroup android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/light_control" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_margin_end">
+                    <RadioButton android:textSize="@dimen/text_size_medium" android:id="@id/light_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton_style" android:text="@string/colorful_off" android:layout_marginStart="10.0dp" />
+                    <RadioButton android:textSize="@dimen/text_size_medium" android:id="@id/light_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton_style" android:text="@string/colorful_on" android:layout_marginStart="10.0dp" />
+                    <RadioButton android:textSize="@dimen/text_size_medium" android:id="@id/light_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton_style" android:text="@string/colorful_auto" android:layout_marginStart="10.0dp" />
+                </RadioGroup>
+            </FrameLayout>
+            <FrameLayout style="@style/main_item_style">
+                <TextView android:layout_gravity="start|center" android:text="@string/support_lights" style="@style/text_style" />
+                <CheckBox android:gravity="center" android:layout_gravity="end|center" android:id="@id/cb_switch_support" android:background="@drawable/selector_checkbox_night" android:layout_width="50.0dp" android:layout_height="25.0dp" android:layout_marginRight="@dimen/main_margin_end" android:button="@null" android:soundEffectsEnabled="true" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/ll_color_light_mode" style="@style/main_item_style">
+                <TextView android:layout_gravity="start|center" android:text="@string/mode_lights" style="@style/text_style" />
+                <RadioGroup android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/light_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_margin_end">
+                    <RadioButton android:textSize="@dimen/text_size_medium" android:id="@id/mode_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton_style" android:text="@string/colorful_hand" />
+                    <RadioButton android:textSize="@dimen/text_size_medium" android:id="@id/mode_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton_style" android:text="@string/colorful_auto" android:layout_marginStart="10.0dp" />
+                </RadioGroup>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_color_light" android:paddingTop="@dimen/item_margin_top_reverse" android:paddingBottom="@dimen/item_margin_top_reverse" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/ic_hor_split_night" android:showDividers="middle">
+                <FrameLayout style="@style/main_item_style">
+                    <TextView android:layout_gravity="start|center" android:text="@string/colorful_custom" style="@style/text_style" />
+                </FrameLayout>
+                <FrameLayout style="@style/main_item_style">
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/item_margin_top_reverse" android:paddingRight="@dimen/color_block_margin" android:paddingBottom="@dimen/item_margin_top_reverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+                        <TextView android:id="@id/light_red" android:background="@drawable/rb_red_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_orange" android:background="@drawable/rb_orange_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_yellow" android:background="@drawable/rb_yellow_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_green" android:background="@drawable/rb_green_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_blue" android:background="@drawable/rb_blue_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_deepblue" android:background="@drawable/rb_deepblue_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_purple" android:background="@drawable/rb_purple_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                        <TextView android:id="@id/light_white" android:background="@drawable/rb_white_style" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/color_block_margin" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:paddingTop="@dimen/color_block_margin" android:paddingBottom="@dimen/color_block_margin" style="@style/main_item_style">
+                    <TextView android:textSize="@dimen/text_size_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R" android:layout_marginStart="45.0dp" />
+                    <SeekBar android:id="@id/seekbar_r" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:progressDrawable="@drawable/seekbar_style_red" android:thumb="@drawable/ic_sys_seekbar_thumb_night" android:thumbOffset="0.0dp" android:layout_marginStart="65.0dp" android:layout_marginEnd="25.0dp" android:min="0" />
+                </FrameLayout>
+                <FrameLayout android:paddingTop="@dimen/color_block_margin" android:paddingBottom="@dimen/color_block_margin" style="@style/main_item_style">
+                    <TextView android:textSize="@dimen/text_size_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G" android:layout_marginStart="45.0dp" />
+                    <SeekBar android:id="@id/seekbar_g" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:progressDrawable="@drawable/seekbar_style_green" android:thumb="@drawable/ic_sys_seekbar_thumb_night" android:thumbOffset="0.0dp" android:layout_marginStart="65.0dp" android:layout_marginEnd="25.0dp" android:min="0" />
+                </FrameLayout>
+                <FrameLayout android:paddingTop="@dimen/color_block_margin" android:paddingBottom="@dimen/color_block_margin" style="@style/main_item_style">
+                    <TextView android:textSize="@dimen/text_size_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" android:layout_marginStart="45.0dp" />
+                    <SeekBar android:id="@id/seekbar_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:progressDrawable="@drawable/seekbar_style_blue" android:thumb="@drawable/ic_sys_seekbar_thumb_night" android:thumbOffset="0.0dp" android:layout_marginStart="65.0dp" android:layout_marginEnd="25.0dp" android:min="0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

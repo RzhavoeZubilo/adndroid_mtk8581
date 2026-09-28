@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="extra_wallpapers" />
+    <string-array name="hotseat_app_name">
+        <item>@string/home_radio</item>
+        <item>@string/home_bt</item>
+        <item></item>
+        <item>@string/home_music</item>
+        <item>@string/home_carsetting</item>
+    </string-array>
+    <string-array name="hotseat_class_name">
+        <item>com.yecon.carsetting.NavigationAcitivity</item>
+        <item>com.yecon.music.MusicPlaybackMainActivity</item>
+        <item>all_app</item>
+        <item>com.autochips.bluetooth.MainBluetoothActivity</item>
+        <item>com.yecon.fmradio.FMRadioMainActivity</item>
+    </string-array>
+    <string-array name="hotseat_package_name">
+        <item>com.yecon.carsetting</item>
+        <item>com.yecon.music</item>
+        <item>all_app</item>
+        <item>com.autochips.bluetooth</item>
+        <item>com.yecon.fmradio</item>
+    </string-array>
+    <string-array name="icon_name">
+        <item>icon_selector_radio</item>
+        <item>icon_selector_bt</item>
+        <item>icon_selector_allapp</item>
+        <item>icon_selector_music</item>
+        <item>icon_selector_carsetting</item>
+    </string-array>
+    <string-array name="map_name">
+        <item>com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen</item>
+        <item>com.autonavi.minimap/com.autonavi.minimap.Splashy</item>
+        <item>cld.navi.p2397.mainframe/cld.navi.p2397.mainframe.NaviMainActivity</item>
+        <item>com.kingwaytek/com.kingwaytek.NaviKing</item>
+        <item>com.papago.s1OBU/com.papago.S1.Papago</item>
+    </string-array>
+    <integer-array name="position_name">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="wallpapers">
+        <item>wallpaper_01</item>
+        <item>wallpaper_02</item>
+        <item>wallpaper_03</item>
+        <item>wallpaper_04</item>
+        <item>wallpaper_05</item>
+        <item>wallpaper_06</item>
+        <item>wallpaper_07</item>
+    </string-array>
+    <string-array name="weather_pm25_quality">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>严重</item>
+        <item>重度</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>tornado</item>
+        <item>tropical storm</item>
+        <item>hurricane</item>
+        <item>severe thunderstorms</item>
+        <item>thunderstorms</item>
+        <item>mixed rain and snow</item>
+        <item>mixed rain and sleet</item>
+        <item>mixed snow and sleet</item>
+        <item>freezing drizzle</item>
+        <item>drizzle</item>
+        <item>freezing</item>
+        <item>showers</item>
+        <item>Moderate Rain</item>
+        <item>snow flurries</item>
+        <item>light snow showers</item>
+        <item>blowing snow</item>
+        <item>snow</item>
+        <item>hail</item>
+        <item>sleet</item>
+        <item>dust</item>
+        <item>foggy</item>
+        <item>haze</item>
+        <item>smoky</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>cold</item>
+        <item>cloudy</item>
+        <item>mostly cloudy (night)</item>
+        <item>mostly cloudy (day)</item>
+        <item>partly cloudy (night)</item>
+        <item>partly cloudy (day)</item>
+        <item>clear (night)</item>
+        <item>sunny</item>
+        <item>fair (night)</item>
+        <item>fair (day)</item>
+        <item>mixed rain and hail</item>
+        <item>hot</item>
+        <item>isolated thunderstorms</item>
+        <item>scattered thunderstorms</item>
+        <item>scattered thunderstorms</item>
+        <item>scattered showers</item>
+        <item>heavy snow</item>
+        <item>scattered snow showers</item>
+        <item>snowstorm</item>
+        <item>partly cloudy</item>
+        <item>thundershowers</item>
+        <item>snow showers</item>
+        <item>isolated thundershowers</item>
+        <item>overcast</item>
+        <item>heavy rain</item>
+        <item>heavy storm</item>
+        <item>severe storm</item>
+        <item>moderate snow</item>
+        <item>sand</item>
+        <item>duststorm</item>
+        <item>sandstorm</item>
+        <item>windy</item>
+        <item>blustery</item>
+    </string-array>
+    <string-array name="yahoo_condition_image">
+        <item>overcase</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>snow</item>
+        <item>overcase</item>
+        <item>snow</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>snow</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>rain</item>
+        <item>sunny</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>cloudy</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>overcase</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/searchView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <ImageView android:id="@id/backButton" android:layout_width="80.0dp" android:layout_height="match_parent" android:src="@drawable/icon_back_sel" />
+        <EditText android:textSize="20.0sp" android:textColor="@color/text_normal" android:textColorHint="#99808080" android:gravity="center_vertical" android:id="@id/searchEditText" android:background="@mipmap/phonebook_search_edit" android:paddingLeft="10.0dp" android:layout_width="0.0px" android:layout_height="wrap_content" android:hint="@string/hint_search" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="10.0dp" />
+        <Button android:textSize="24.0px" android:textColor="@color/text_normal" android:gravity="center" android:background="@drawable/btn_comm_sel" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/searchView" android:layout_marginStart="80.0dp" />
+</RelativeLayout>

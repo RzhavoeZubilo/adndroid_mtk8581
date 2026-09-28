@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="match_parent" android:layout_height="match_parent" android:title="@string/device_info_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:icon="@drawable/image_list_bt_icon_24dp" android:key="bt_status" />
+    <Preference android:icon="@drawable/ic_add_24dp" android:title="@string/bluetooth_connect_device" android:key="connect_bt" />
+    <com.unisoc.bluelet.preference.DevicePreferenceCategory android:title="Connected Device" android:key="connected_device" />
+</PreferenceScreen>

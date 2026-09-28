@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/new_version" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_no_new_version" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_check_ota" />
+</androidx.appcompat.widget.LinearLayoutCompat>

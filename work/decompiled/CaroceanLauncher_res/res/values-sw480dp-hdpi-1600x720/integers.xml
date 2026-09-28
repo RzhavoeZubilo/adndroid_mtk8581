@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="apps_customize_cling_focused_x">2</integer>
+    <integer name="apps_customize_cling_focused_y">1</integer>
+    <integer name="apps_customize_widget_cell_count_x">3</integer>
+    <integer name="apps_customize_widget_cell_count_y">2</integer>
+    <integer name="cell_count_y">1</integer>
+    <integer name="config_cameraDistance">14000</integer>
+    <integer name="config_flingToDeleteMinVelocity">-1000</integer>
+    <integer name="fbox_popuwindow_width">751</integer>
+    <integer name="folder_max_count_x">5</integer>
+    <integer name="folder_max_count_y">2</integer>
+    <integer name="folder_max_num_items">10</integer>
+    <integer name="lc_true_of_count_cell_y">6</integer>
+    <integer name="switch_icon_x_gas">40</integer>
+    <integer name="switch_new_icon_x_gas">20</integer>
+    <integer name="true_of_count_cell_y">5</integer>
+</resources>

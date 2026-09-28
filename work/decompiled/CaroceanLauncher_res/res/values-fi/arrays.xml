@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>edut</item>
+        <item>liang</item>
+        <item>lievä</item>
+        <item>kohtalainen</item>
+        <item>vakava</item>
+        <item>vaikea</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>sunnuntaina.</item>
+        <item>maanantaina</item>
+        <item>tiistaina</item>
+        <item>keskiviikko</item>
+        <item>torstaina.</item>
+        <item>perjantaina</item>
+        <item>lauantai</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>tornado</item>
+        <item>trooppinen myrsky.</item>
+        <item>hurrikaani</item>
+        <item>ukkosmyrsky</item>
+        <item>sade</item>
+        <item>räntä</item>
+        <item>- sade.</item>
+        <item>- lunta.</item>
+        <item>on kylmä.</item>
+        <item>sade</item>
+        <item>on kylmä.</item>
+        <item>suihkussa</item>
+        <item>kohtalainen</item>
+        <item>lumisadekuuroja</item>
+        <item>lumi</item>
+        <item>lumi</item>
+        <item>lumi</item>
+        <item>terve,</item>
+        <item>räntä</item>
+        <item>pölyä.</item>
+        <item>sumu</item>
+        <item>haze</item>
+        <item>haze</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>kylmä</item>
+        <item>pilvistä</item>
+        <item>suuri osa.</item>
+        <item>suuri osa.</item>
+        <item>puolipilvistä</item>
+        <item>puolipilvistä</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>- sade - ja</item>
+        <item>kuuma</item>
+        <item>sade</item>
+        <item>ukkosmyrsky</item>
+        <item>ukkosmyrsky</item>
+        <item>suihkussa</item>
+        <item>lumi</item>
+        <item>räntä</item>
+        <item>lumimyrsky</item>
+        <item>sunny</item>
+        <item>ukkosta.</item>
+        <item>räntä</item>
+        <item>ukkosta.</item>
+        <item>yin</item>
+        <item>sade</item>
+        <item>sade</item>
+        <item>rankkasateet</item>
+        <item>- lumi</item>
+        <item>hiekan</item>
+        <item>hiekkamyrsky</item>
+        <item>hiekkamyrsky</item>
+        <item>tuuli</item>
+        <item>gale</item>
+    </string-array>
+</resources>

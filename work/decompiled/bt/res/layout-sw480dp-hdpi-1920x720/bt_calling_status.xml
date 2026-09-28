@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="left" android:orientation="vertical" android:background="@drawable/main_tab_bg" android:paddingTop="@dimen/status_bar_height" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:gravity="center" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+            <ImageView android:id="@id/cb_switchvoice_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:layout_gravity="center" android:id="@id/cb_switchvoice" android:background="@xml/switch_btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:background="@drawable/main_tab_btn_bg1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp">
+            <ImageView android:id="@id/cb_mic_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <CheckBox android:layout_gravity="center" android:id="@id/cb_mic" android:background="@drawable/switchvoice_checkbox_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp">
+            <ImageView android:id="@id/btn_softkeypad_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/btn_softkeypad" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@xml/bg_call_keypad_btn" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp">
+            <ImageView android:id="@id/btn_answer_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/btn_answer" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@xml/bg_call_answer_btn" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp">
+            <ImageView android:id="@id/btn_hangup_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/btn_hangup" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@xml/bg_call_hangup_btn" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp">
+            <ImageView android:id="@id/btn_volume_select" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/btn_volume" android:background="@drawable/main_tab_btn_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_call_volume" android:scaleType="centerInside" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="right" android:background="@drawable/bg1" android:layout_width="@dimen/fragment_width" android:layout_height="match_parent">
+        <TextView android:textSize="30.0sp" android:typeface="normal" android:textColor="#ffffff" android:ellipsize="start" android:gravity="center" android:id="@id/text_call_info" android:layout_width="290.0dp" android:layout_height="@dimen/status_bar_height" android:layout_marginLeft="180.0dp" android:singleLine="true" />
+        <com.autochips.bluetooth.view.DialpadCallingLayout android:id="@id/calling_softkeypad" android:background="@drawable/dialpad_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="220.0dp" android:layout_marginTop="80.0dp">
+            <ImageView android:layout_gravity="center" android:id="@id/dialpad_pointer" android:background="@drawable/dialpad_calling_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:background="@drawable/dialpad_calling_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="52.0dp" android:textColor="@color/text_normal" android:layout_gravity="center" android:id="@id/dialpad_center_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.autochips.bluetooth.view.DialpadCallingLayout>
+        <FrameLayout android:id="@id/calling_infopad" android:layout_width="690.0dp" android:layout_height="422.0dp" android:layout_marginLeft="@dimen/content_left1" android:layout_marginTop="@dimen/content_top">
+            <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/bt_layout_wait" android:background="@drawable/waitcall_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/bt_phone_name_wait" android:layout_width="210.0dp" android:layout_height="80.0dp" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="210.0dp" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                    <Button android:id="@id/btn_answer_wait" android:background="@xml/navi_bg_call_answer_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+                    <Button android:id="@id/btn_hangup_wait" android:background="@xml/navi_bg_call_hangup_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="60.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="32.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/bt_calling_phone_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </FrameLayout>
+                <TextView android:textSize="32.0sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bt_calling_phone_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:singleLine="true" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_marginTop="20.0dp">
+                    <TextView android:textSize="32.0sp" android:textColor="#ffffff" android:id="@id/bt_calling_phone_area" android:paddingRight="30.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/line1" />
+                    <ImageView android:id="@id/line1" android:background="@drawable/line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Chronometer android:textSize="32.0sp" android:textColor="#ffffff" android:id="@id/bt_calling_phone_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="30.0dp" android:layout_toEndOf="@id/line1" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/bt_callstate_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="30.0dp" android:layout_toEndOf="@id/line1">
+                        <ProgressBar android:id="@id/bt_callout_image" android:visibility="gone" android:layout_width="62.0dp" android:layout_height="47.0dp" android:indeterminateDrawable="@drawable/callout_progressbar" />
+                        <ProgressBar android:id="@id/bt_callin_image" android:visibility="gone" android:layout_width="109.0dp" android:layout_height="40.0dp" android:indeterminateDrawable="@drawable/callin_progressbar" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <ImageView android:background="@drawable/bt_logo_calling" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/right_logo_margin_left" android:layout_marginTop="@dimen/right_logo_margin_top" />
+        <TextView android:textSize="32.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="left|top" android:id="@id/bt_calling_status_tv" android:layout_width="wrap_content" android:layout_height="59.0dp" android:layout_marginLeft="51.0dp" android:text="@string/bt_DialerLabel" />
+        <ImageView android:layout_gravity="start|top" android:id="@id/audio_channel_img" android:layout_width="35.0dp" android:layout_height="34.0dp" android:layout_marginLeft="60.0dp" android:layout_marginTop="100.0dp" android:src="@drawable/bmw_id8_audio_bluetooth" android:scaleType="center" />
+    </FrameLayout>
+</FrameLayout>

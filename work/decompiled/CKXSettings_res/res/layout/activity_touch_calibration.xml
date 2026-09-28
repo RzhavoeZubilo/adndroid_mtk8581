@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:adjustViewBounds="true" app:srcCompat="@drawable/bg_touch_calibration" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/btn1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/btn_touch_calibration" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dp" android:layout_marginStart="100.0dp" app:srcCompat="@drawable/btn_touch_calibration" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|bottom" android:id="@id/btn3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" android:layout_marginStart="100.0dp" app:srcCompat="@drawable/btn_touch_calibration" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom" android:id="@id/btn4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" android:layout_marginEnd="100.0dp" app:srcCompat="@drawable/btn_touch_calibration" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/btn5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dp" android:layout_marginEnd="100.0dp" app:srcCompat="@drawable/btn_touch_calibration" />
+</FrameLayout>

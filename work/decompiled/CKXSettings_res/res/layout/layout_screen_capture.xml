@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/screen_capture_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/button_capture" android:background="@drawable/image_screen_capture" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:id="@id/button_close" android:background="@drawable/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="key_voice_func_entries">
+        <item>Žiadne</item>
+        <item>Krátka tlač - Prehovor， Dlhá tlač - Žiadne</item>
+        <item>Krátka tlač - Prehovor， Dlhá tlač - Navigácia</item>
+        <item>Krátka tlač - Navigácia， Dlhá tlač - Žiadne</item>
+    </string-array>
+    <string-array name="key_voice_func_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="phone_key_selection_entries">
+        <item>Pôvodné auto Bluetooth</item>
+        <item>Android Bluetooth</item>
+        <item>Nedefinované</item>
+    </string-array>
+    <string-array name="phone_key_selection_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

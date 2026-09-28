@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="?android:colorBackground" android:paddingBottom="@dimen/floating_action_button_list_bottom_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.unisoc.bluelet.view.DialerView android:id="@id/dial_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/dial_pad" android:paddingBottom="30.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:src="@drawable/image_call_log_unfold_dialpad_56dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

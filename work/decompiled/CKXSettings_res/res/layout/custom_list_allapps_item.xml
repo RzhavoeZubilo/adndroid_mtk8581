@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0sp" android:textColor="@android:color/white" android:gravity="left|center" android:id="@id/allapps_title" android:paddingLeft="90.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/allapps_icon" android:layout_width="50.0dp" android:layout_height="50.0dp" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/allapps_selected" android:background="@drawable/icon_tick" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

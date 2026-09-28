@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/wrap_content" android:background="@drawable/ic_choose_map_bg" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_list_item_large" android:textColor="@color/white" android:id="@id/message" android:layout_width="256.0dp" android:layout_height="wrap_content" android:layout_marginTop="25.0dp" android:lineSpacingExtra="6.0sp" android:letterSpacing="0.02" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="500.0dp" android:layout_height="220.0dp" android:layout_marginTop="20.0dp" android:layout_below="@id/message" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/singleButtonLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_below="@id/recyclerview">
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/highlight" android:id="@id/singleBtn" android:paddingLeft="10.0dp" android:paddingTop="10.0dp" android:paddingRight="5.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:lineSpacingExtra="2.0sp" android:letterSpacing="0.09" />
+    </RelativeLayout>
+</RelativeLayout>

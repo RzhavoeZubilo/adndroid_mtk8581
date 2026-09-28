@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/ford_dn_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/dz6_tv_oil_info_" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tx_renault_oil" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popwind_list_height" android:text="@string/ci_oil_left" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/ford_dn_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ci_traveling_speed" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tx_renault_speed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popwind_list_height" android:text="@string/ci_driven_distance" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/ford_dn_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ci_driven_distance" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_renault_distance" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popwind_list_height" android:text="@string/ci_driven_distance" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/ford_dn_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ci_outdoor_temp" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_renault_outdoor_temp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popwind_list_height" android:text="@string/ci_outdoor_temp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@color/black" android:id="@id/btn_renault_trip_clean" android:background="@drawable/choose_btn_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_renault_trip_clean" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

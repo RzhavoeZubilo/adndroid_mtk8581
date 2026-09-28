@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking" style="@style/car_info_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_defset" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking_defset" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking_spotalert" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_parking_spotalert" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking_lateral" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_parking_lateral" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking_front" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_parking_front" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_parking_rear" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_parking_rear" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_takecare" style="@style/car_info_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_takecare_fresh" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_takecare_fresh" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_takecare_autostart" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_takecare_autostart" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_takecare_generator" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_takecare_generator" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset" style="@style/car_info_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_envindicator" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_userset_envindicator" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_wiperopen" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_userset_wiperopen" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_cabinlamp" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_userset_cabinlamp" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_external" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_userset_external" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_drivinglock" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_renault_carset_userset_drivinglock" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_userset_promptvol" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_promptvol" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_userset_displaystyle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_displaystyle" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_userset_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_brightness" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_userset_color" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_color" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/btn_renault_carset_userset_lang" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_userset_lang" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_renault_carset_reset" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_renault_carset_reset" style="@style/car_info_style" />
+            <TextView style="@style/car_set_right_style2" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

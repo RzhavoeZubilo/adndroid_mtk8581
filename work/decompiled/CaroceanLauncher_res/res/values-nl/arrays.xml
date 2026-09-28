@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>-</item>
+        <item>Goede</item>
+        <item>Lichte</item>
+        <item>Matige</item>
+        <item>Ernstige</item>
+        <item>Ernstige</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>ZONDAG</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag,</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>ZATERDAG</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>"Tornado 's."</item>
+        <item>De tropische storm.</item>
+        <item>De orkaan</item>
+        <item>Onweer.</item>
+        <item>De regen</item>
+        <item>REGEN en sneeuw</item>
+        <item>REGEN en hagel</item>
+        <item>Sneeuw, hagel.</item>
+        <item>Ijzel</item>
+        <item>De regen</item>
+        <item>Ijzel</item>
+        <item>De douche</item>
+        <item>De regen</item>
+        <item>Sneeuw.</item>
+        <item>De sneeuw</item>
+        <item>De sneeuw</item>
+        <item>De sneeuw</item>
+        <item>De hagel</item>
+        <item>REGEN en sneeuw</item>
+        <item>Zwevend stof</item>
+        <item>Mist.</item>
+        <item>De waas.</item>
+        <item>De waas.</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Koude</item>
+        <item>Troebel.</item>
+        <item>Het grootste deel van het</item>
+        <item>Het grootste deel van het</item>
+        <item>Bewolkt</item>
+        <item>Bewolkt</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>De regen en hagel</item>
+        <item>Thermische</item>
+        <item>De regen</item>
+        <item>Onweer.</item>
+        <item>Onweer.</item>
+        <item>De douche</item>
+        <item>De sneeuw</item>
+        <item>REGEN en sneeuw</item>
+        <item>De sneeuwstorm</item>
+        <item>-</item>
+        <item>Onweer.</item>
+        <item>REGEN en sneeuw</item>
+        <item>Onweer.</item>
+        <item>Yin</item>
+        <item>De regen</item>
+        <item>Zware regen</item>
+        <item>Zware regen</item>
+        <item>De sneeuw</item>
+        <item>Het zand</item>
+        <item>De zandstorm.</item>
+        <item>Sterke storm.</item>
+        <item>De wind</item>
+        <item>De wind</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_video" android:background="@drawable/bmw_main_new_video" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height" android:layout_marginTop="@dimen/main_page_new_icon_margintop">
+        <TextView android:text="@string/home_movie" style="@style/bmw_main_page_new_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:layout_width="200.0dp" android:text="@string/home_video_text" style="@style/bmw_main_page_new_icon_text" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/main_page_new_icon_distance" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height" android:layout_marginTop="@dimen/main_page_new_icon_margintop">
+        <FrameLayout android:id="@id/main_setting" android:background="@drawable/bmw_main_new_setting" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height_half">
+            <TextView android:text="@string/home_setting" style="@style/bmw_main_page_new_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_setting_text" style="@style/bmw_main_page_new_icon_text" />
+        </FrameLayout>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/main_page_new_icon_middle_distance" />
+        <FrameLayout android:id="@id/main_zlink" android:background="@drawable/bmw_main_new_zlink" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height_half">
+            <TextView android:text="@string/home_zlink" style="@style/bmw_main_page_new_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_phonelink_text" style="@style/bmw_main_page_new_icon_text" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

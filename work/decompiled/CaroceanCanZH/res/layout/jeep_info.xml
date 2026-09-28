@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_jeep_menu_carset" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tx_jeep_menu_carset" android:drawableTop="@drawable/toyota_btn_menu_carset" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_jeep_menu_cdinfo" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tx_jeep_menu_cdinfo" android:drawableTop="@drawable/toyota_btn_menu_dsp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_jeep_menu_compass" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tx_jeep_menu_compass" android:drawableTop="@drawable/toyota_btn_menu_curfuel" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_jeep_menu_airset" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tx_jeep_menu_airset" android:drawableTop="@drawable/jeep_btn_menu_carinfo" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_menu_dsp" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tx_jeep_menu_dspinfo" android:drawableTop="@drawable/toyota_btn_menu_dsp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

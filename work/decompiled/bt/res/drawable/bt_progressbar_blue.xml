@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@mipmap/setting_loading1_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading2_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading3_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading4_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading5_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading6_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading7_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading8_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading9_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading10_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading11_blue" />
+    <item android:duration="50" android:drawable="@mipmap/setting_loading12_blue" />
+</animation-list>

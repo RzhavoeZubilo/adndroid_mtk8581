@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audi_dclk_rgb_entries">
+        <item>AUTO</item>
+        <item>RISING + RGB</item>
+        <item>FALLING + RGB</item>
+        <item>RISING + BGR</item>
+        <item>FALLING + BGR</item>
+    </string-array>
+    <string-array name="audi_dclk_rgb_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>@string/auto_time_network</item>
+        <item>@string/auto_time_gps</item>
+        <item>@string/off</item>
+    </string-array>
+    <string-array name="auto_time_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="backcar_mirror_entries">
+        <item>@string/mirror_lr</item>
+        <item>@string/mirror_ud</item>
+        <item>@string/mirror_all</item>
+        <item>@string/mirror_close</item>
+    </string-array>
+    <string-array name="backcar_mirror_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="camera_system_entries">
+        <item>CVBS PAL</item>
+        <item>CVBS NTSC</item>
+        <item>AHD1 P</item>
+        <item>AHD2 N</item>
+        <item>AHD3 P</item>
+        <item>AHD4 N</item>
+        <item>AUTO</item>
+    </string-array>
+    <string-array name="camera_system_values">
+        <item>pal</item>
+        <item>ntsc</item>
+        <item>720p_25fps</item>
+        <item>720p_30fps</item>
+        <item>1080p_25fps</item>
+        <item>1080p_30fps</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="can_mode_entries">
+        <item>Normal</item>
+        <item>Compatible</item>
+    </string-array>
+    <string-array name="can_mode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="car_aux_switch_mode">
+        <item>NUM 8</item>
+        <item>@string/setting_caraux_switch_mode_other</item>
+        <item>AUTO 2</item>
+        <item>NUM 6</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="car_aux_switch_mode_lexus">
+        <item>AUTO</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="car_aux_switch_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="car_aux_switch_mode_value_lexus">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="dclk_rgb_entries">
+        <item>AUTO</item>
+        <item>RISING + RGB</item>
+        <item>FALLING + RGB</item>
+    </string-array>
+    <string-array name="dclk_rgb_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="host_type">
+        <item>1, 1280*480 1(EVO/NBT 8.8/10.25)</item>
+        <item>2, 1280*480 2(EVO/NBT 8.8/10.25)</item>
+        <item>3, 1280*480 3(EVO/NBT 8.8/10.25)</item>
+        <item>4, 800*480 1(EVO/NBT 6.5)</item>
+        <item>5, 800*480 2(EVO/NBT 6.5)</item>
+        <item>6, 1280*480 1(CIC 8.8/10.25)</item>
+        <item>7, 1280*480 2(CIC 8.8/10.25)</item>
+        <item>8, 1280*480 3(CIC 8.8/10.25)</item>
+        <item>9, 800*480 1(CIC 6.5)</item>
+        <item>10, 800*480 2(CIC 6.5)</item>
+        <item>11, 800*480 3(CIC 6.5)</item>
+        <item>12, 800*480 1(CCC 6.5)</item>
+        <item>13, 800*480 2(CCC 6.5)</item>
+        <item>14, 800*480 3(CCC 6.5)</item>
+        <item>15, 800*480 4(CCC 6.5)</item>
+        <item>16, 1280*480 1(CCC 8.8)</item>
+        <item>17, 1280*480 2(CCC 8.8)</item>
+        <item>18, 1280*480 3(CCC 8.8)</item>
+        <item>19, 1280*480 4(CCC 8.8)</item>
+        <item>20, 0FF</item>
+    </string-array>
+    <string-array name="host_type_lexus">
+        <item>1: UX_2019</item>
+        <item>2: NX_14-17</item>
+        <item>3: NX_2018</item>
+        <item>4: ES_15-17</item>
+        <item>5: ES_2018</item>
+        <item>6: IS_13-17</item>
+        <item>7: CT_11-17</item>
+        <item>8: RX_2016</item>
+        <item>9: GS_2018</item>
+        <item>10: RX_11-15</item>
+    </string-array>
+    <string-array name="host_type_lexus_a">
+        <item>1:800*480 1</item>
+        <item>2:800*480 2</item>
+        <item>3:800*480 3</item>
+        <item>4:800*480 DE</item>
+        <item>5:1280*480 1</item>
+        <item>6:1280*480 2</item>
+        <item>7:1280*480 DE</item>
+        <item>8:------</item>
+        <item>9:------</item>
+        <item>10:------</item>
+    </string-array>
+    <string-array name="host_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>180</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>2</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>255</item>
+    </string-array>
+    <string-array name="host_type_value_lexus">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="key_voice_func_entries">
+        <item>No effect</item>
+        <item>Short press voice, long press no effect</item>
+        <item>Short press voice, long press navigation</item>
+        <item>Short press navigation, long press no effect</item>
+    </string-array>
+    <string-array name="key_voice_func_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>@string/chinese</item>
+        <item>@string/chinese_tw</item>
+        <item>@string/english</item>
+        <item>@string/lang_ar</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_fr</item>
+        <item>@string/lang_ja</item>
+        <item>@string/lang_pt</item>
+        <item>@string/lang_ru</item>
+        <item>@string/lang_ko</item>
+        <item>@string/lang_da</item>
+        <item>@string/lang_pl</item>
+        <item>@string/lang_iw</item>
+        <item>@string/lang_ro</item>
+        <item>@string/lang_uk</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="lt9211_host_type">
+        <item>1. 1280X480</item>
+        <item>2. 800X480</item>
+        <item>3. 400X240</item>
+        <item>4. 1440X540</item>
+        <item>5. 960X540</item>
+        <item>6. 576X124</item>
+        <item>7. 1024X480</item>
+        <item>T1. CCC 800X240</item>
+        <item>T2. CCC 800X240</item>
+        <item>T3. CCC 1280X240</item>
+        <item>T4. CCC 1280X240</item>
+        <item>T5. CCC 1280X240</item>
+        <item>T6. CCC 640X240</item>
+        <item>T7. CCC 400X240</item>
+        <item>T8. OFF</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="lt9211_host_type_lexus">
+        <item>1. 1280X480</item>
+        <item>2. 800X480</item>
+        <item>3. 400X240</item>
+        <item>4. 1440X540</item>
+        <item>5. 960X540</item>
+        <item>6. 640X240</item>
+        <item>7. 1920X720</item>
+        <item>T1. LX 800X480</item>
+        <item>T2. LX 1280X480</item>
+        <item>T3. LX 480X240</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="lt9211_host_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>128</item>
+        <item>129</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>138</item>
+        <item>140</item>
+        <item>255</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="lt9211_host_type_value_lexus">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>176</item>
+        <item>177</item>
+        <item>188</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="lt9211_reverse_type">
+        <item>@string/reverse_normal</item>
+        <item>@string/reverse_internal_360</item>
+        <item>@string/reverse_normal_fast</item>
+    </string-array>
+    <string-array name="lt9211_reverse_type_value">
+        <item>172</item>
+        <item>177</item>
+        <item>171</item>
+    </string-array>
+    <string-array name="panel_type">
+        <item>Normal+EVO 6.5</item>
+        <item>EVO 8.8</item>
+        <item>EVO 10.25</item>
+    </string-array>
+    <string-array name="panel_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pbs_buttons">
+        <item>@string/tbs_power</item>
+        <item>@string/tbs_home</item>
+        <item>@string/tbs_back</item>
+        <item>@string/tbs_previous</item>
+        <item>@string/tbs_next</item>
+        <item>@string/tbs_vol_plus</item>
+        <item>@string/tbs_vol_sub</item>
+        <item>@string/tbs_mute</item>
+        <item>@string/tbs_mode</item>
+        <item>@string/tbs_bt_phone</item>
+        <item>@string/tbs_answer</item>
+        <item>@string/tbs_hang_up</item>
+        <item>@string/tbs_band</item>
+        <item>@string/tbs_forward</item>
+        <item>@string/tbs_backward</item>
+        <item>@string/tbs_play_pause</item>
+        <item>@string/tbs_radio</item>
+        <item>@string/tbs_navigation</item>
+        <item>@string/tbs_music</item>
+        <item>@string/tbs_video</item>
+        <item>@string/tbs_balance</item>
+        <item>@string/tbs_auto_scan</item>
+        <item>@string/tbs_settings</item>
+        <item>@string/tbs_speech</item>
+        <item>@string/tbs_ff</item>
+    </string-array>
+    <string-array name="phone_key_selection_entries">
+        <item>Original vehicle function</item>
+        <item>Android Bluetooth feature</item>
+        <item>Undefined</item>
+    </string-array>
+    <string-array name="phone_key_selection_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pic_mode_entries">
+        <item>@string/standard</item>
+        <item>@string/colorful</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="pic_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="radio_area">
+        <item>EUROPE</item>
+        <item>USA</item>
+        <item>OIRT</item>
+        <item>Japan</item>
+        <item>M_East</item>
+        <item>Latin</item>
+        <item>Australia</item>
+        <item>Asia</item>
+        <item>SAmer1</item>
+        <item>Arabia</item>
+        <item>China</item>
+        <item>SAmer2</item>
+        <item>Korea</item>
+        <item>Russian</item>
+        <item>FM_ONLY</item>
+        <item>RUSSIAN1</item>
+        <item>RUSSIAN2</item>
+        <item>SouthAmerica</item>
+        <item>BRAZILl1</item>
+        <item>BRAZILl2</item>
+    </string-array>
+    <string-array name="rbs_buttons">
+        <item>@string/tbs_power</item>
+        <item>@string/tbs_home</item>
+        <item>@string/tbs_back</item>
+        <item>@string/tbs_previous</item>
+        <item>@string/tbs_next</item>
+        <item>@string/tbs_vol_plus</item>
+        <item>@string/tbs_vol_sub</item>
+        <item>@string/tbs_mute</item>
+        <item>@string/tbs_mode</item>
+        <item>@string/tbs_bt_phone</item>
+        <item>@string/tbs_answer</item>
+        <item>@string/tbs_hang_up</item>
+        <item>@string/tbs_band</item>
+        <item>@string/tbs_forward</item>
+        <item>@string/tbs_backward</item>
+        <item>@string/tbs_play_pause</item>
+        <item>@string/tbs_radio</item>
+        <item>@string/tbs_navigation</item>
+        <item>@string/tbs_music</item>
+        <item>@string/tbs_video</item>
+        <item>@string/tbs_balance</item>
+        <item>@string/tbs_auto_scan</item>
+        <item>@string/tbs_settings</item>
+        <item>@string/tbs_ff</item>
+        <item>@string/tbs_speech</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="reverse_type">
+        <item>@string/reverse_normal</item>
+        <item>@string/reverse_internal_360</item>
+    </string-array>
+    <string-array name="reverse_type_value">
+        <item>255</item>
+        <item>178</item>
+    </string-array>
+    <string-array name="screen_effect_entries">
+        <item>@string/digital_clock</item>
+        <item>@string/analog_clock</item>
+        <item>@string/black_screen</item>
+    </string-array>
+    <string-array name="screen_effect_values">
+        <item>saver.digital.clock</item>
+        <item>saver.analog.clock</item>
+        <item>saver.black</item>
+    </string-array>
+    <string-array name="sound_effect_entries">
+        <item>@string/se_jazz</item>
+        <item>@string/se_pop</item>
+        <item>@string/se_classic</item>
+        <item>@string/se_rock</item>
+        <item>@string/se_news</item>
+        <item>@string/se_city</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="sound_effect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="speaker_switch_mode">
+        <item>@string/speaker_switch_mode1</item>
+        <item>@string/speaker_switch_mode2</item>
+        <item>@string/speaker_switch_mode3</item>
+        <item>@string/speaker_switch_mode4</item>
+    </string-array>
+    <string-array name="speaker_switch_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="swc_keys">
+        <item>@string/swc_btn_volume_up</item>
+        <item>@string/swc_btn_volume_down</item>
+        <item>@string/swc_btn_pre</item>
+        <item>@string/swc_btn_next</item>
+        <item>@string/swc_btn_volume_mute</item>
+        <item>@string/swc_btn_home</item>
+        <item>@string/swc_btn_phone_on</item>
+        <item>@string/swc_btn_phone_off</item>
+        <item>@string/swc_btn_return</item>
+        <item>@string/swc_btn_src</item>
+        <item>@string/swc_btn_media</item>
+        <item>@string/swc_btn_navi</item>
+        <item>@string/swc_btn_radio</item>
+        <item>@string/swc_btn_power</item>
+        <item>@string/swc_btn_eq</item>
+        <item>@string/swc_btn_loud</item>
+        <item>@string/swc_btn_voice</item>
+        <item>@string/swc_btn_rand</item>
+    </string-array>
+    <string-array name="tbs_buttons">
+        <item>@string/tbs_power</item>
+        <item>@string/tbs_home</item>
+        <item>@string/tbs_back</item>
+        <item>@string/tbs_previous</item>
+        <item>@string/tbs_next</item>
+        <item>@string/tbs_vol_plus</item>
+        <item>@string/tbs_vol_sub</item>
+        <item>@string/tbs_mute</item>
+        <item>@string/tbs_mode</item>
+        <item>@string/tbs_bt_phone</item>
+        <item>@string/tbs_answer</item>
+        <item>@string/tbs_hang_up</item>
+        <item>@string/tbs_band</item>
+        <item>@string/tbs_forward</item>
+        <item>@string/tbs_backward</item>
+        <item>@string/tbs_play_pause</item>
+        <item>@string/tbs_radio</item>
+        <item>@string/tbs_navigation</item>
+        <item>@string/tbs_music</item>
+        <item>@string/tbs_video</item>
+        <item>@string/tbs_balance</item>
+        <item>@string/tbs_auto_scan</item>
+        <item>@string/tbs_settings</item>
+        <item>@string/tbs_ff</item>
+        <item>@string/tbs_speech</item>
+    </string-array>
+    <string-array name="time_format_entries">
+        <item>@string/time_12</item>
+        <item>@string/time_24</item>
+    </string-array>
+    <string-array name="time_format_values">
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="usb_mode_entries">
+        <item>@string/usb_host</item>
+        <item>@string/usb_device</item>
+    </string-array>
+    <string-array name="usb_mode_values">
+        <item>host</item>
+        <item>device</item>
+    </string-array>
+    <string-array name="usb_protocol_entries">
+        <item>@string/usb_20</item>
+        <item>@string/usb_30</item>
+    </string-array>
+    <string-array name="usb_protocol_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wifi_signal_intensity">
+        <item>@string/wifi_signal_weak</item>
+        <item>@string/wifi_signal_weak</item>
+        <item>@string/wifi_signal_low</item>
+        <item>@string/wifi_signal_mid</item>
+        <item>@string/wifi_signal_strength</item>
+    </string-array>
+</resources>

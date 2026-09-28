@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="allapps_bg_color">#c8000000</color>
+    <color name="appwidget_error_color">#fccc</color>
+    <color name="bmw_id8_blue_desk_icon_title_color">#b5dfff</color>
+    <color name="bmw_id8_orange_desk_icon_text_video_color">#e83340</color>
+    <color name="bmw_id8_orange_desk_icon_title_color">#ffa740</color>
+    <color name="bmw_id8_red_desk_icon_title_color">#fb3b36</color>
+    <color name="bubble_dark_background">#20000000</color>
+    <color name="cling_title_text_color">#ff49c0ec</color>
+    <color name="delete_target_hover_tint">#daff0000</color>
+    <color name="folder_text_color">#ff33b5e5</color>
+    <color name="info_target_hover_tint">#da0099cc</color>
+    <color name="launcher_first_disable">#ff878787</color>
+    <color name="launcher_first_eable">#ffff2a7f</color>
+    <color name="line">#8c8c8c</color>
+    <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="red_scene_color">#ffdc0101</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#ccffffff</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#a0000000</color>
+    <color name="workspace_icon_text_color">#fff</color>
+</resources>

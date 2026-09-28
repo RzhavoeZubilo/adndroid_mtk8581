@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bmw_id8_orange_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.can.ui.view.ID8SpeedMeter android:id="@id/carinfo_speedmeter" android:layout_width="262.0dp" android:layout_height="378.0dp" android:layout_marginTop="82.0dp" android:layout_marginStart="174.0dp" app:meterType="0" />
+    <com.can.ui.view.ID8SpeedMeter android:id="@id/carinfo_rpmmeter" android:layout_width="262.0dp" android:layout_height="380.0dp" android:layout_marginTop="80.0dp" android:layout_marginStart="845.0dp" app:meterType="1" />
+    <ImageView android:id="@id/carinfo_bigled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="66.0dp" android:src="@drawable/bmw_id8_carinfo_bigled_nor" android:layout_marginStart="1072.0dp" />
+    <ImageView android:id="@id/carinfo_safeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dp" android:src="@drawable/bmw_id8_carinfo_safeb" android:layout_marginStart="1210.0dp" />
+    <ImageView android:id="@id/carinfo_handbrake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="61.0dp" android:src="@drawable/bmw_id8_carinfo_handbreak" android:layout_marginStart="1144.0dp" />
+    <ImageView android:id="@id/carinfo_footbrake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dp" android:src="@drawable/carinfo_footbreak" android:layout_marginStart="760.0dp" />
+    <ImageView android:id="@id/carinfo_gear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="376.0dp" android:src="@drawable/bmw_id8_carinfo_gear_p" android:layout_marginStart="620.0dp" />
+    <LinearLayout android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="402.0dp" android:layout_marginStart="45.0dp">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmw_id8_carinfo_gas" />
+        <TextView android:textSize="26.0sp" android:textColor="@color/white" android:id="@id/carinfo_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/carinfo_mileage" android:layout_width="145.0dp" android:layout_height="wrap_content" android:layout_marginTop="430.0dp" android:layout_marginStart="570.0dp" />
+    <TextView android:textSize="26.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/carinfo_outtemp" android:layout_width="80.0dp" android:layout_height="wrap_content" android:layout_marginTop="402.0dp" android:layout_marginStart="1160.0dp" />
+    <ImageView android:id="@id/carinfo_leftl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dp" android:src="@drawable/carinfo_leftl" android:layout_marginStart="430.0dp" />
+    <ImageView android:id="@id/carinfo_rightl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dp" android:src="@drawable/carinfo_rightl" android:layout_marginStart="821.0dp" />
+    <TextView android:textSize="88.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/carinfo_rate_text" android:layout_width="180.0dp" android:layout_height="wrap_content" android:layout_marginTop="170.0dp" android:layout_marginStart="550.0dp" />
+    <TextView android:textSize="15.0sp" android:textColor="#9ea1a2" android:gravity="center" android:id="@id/carinfo_rate_unit" android:layout_width="180.0dp" android:layout_height="wrap_content" android:layout_marginTop="290.0dp" android:layout_marginStart="550.0dp" />
+    <TextView android:textSize="15.0sp" android:textColor="#9ea1a2" android:gravity="center" android:id="@id/carinfo_rate_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dp" android:layout_marginStart="325.0dp" />
+</FrameLayout>

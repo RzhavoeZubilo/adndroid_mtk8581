@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>严重</item>
+        <item>重 度</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>SOL</item>
+        <item>LUN</item>
+        <item>MAR</item>
+        <item>MIE</item>
+        <item>JUE</item>
+        <item>VIE</item>
+        <item>SAB</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>tornado</item>
+        <item>tormenta tropical</item>
+        <item>huracán</item>
+        <item>tormentas eléctricas severas</item>
+        <item>tormentas eléctricas</item>
+        <item>lluvia y nieve mixtas</item>
+        <item>lluvia mixta y aguanieve</item>
+        <item>nieve mixta y aguanieve</item>
+        <item>llovizna helada</item>
+        <item>llovizna</item>
+        <item>congelación</item>
+        <item>duchas</item>
+        <item>Lluvia moderada</item>
+        <item>copos de nieve</item>
+        <item>duchas de nieve liviana</item>
+        <item>la nieve que sopla</item>
+        <item>nieve</item>
+        <item>granizo</item>
+        <item>aguanieve</item>
+        <item>polvo</item>
+        <item>brumoso</item>
+        <item>calina</item>
+        <item>ahumado</item>
+        <item>soleado</item>
+        <item>soleado</item>
+        <item>frío</item>
+        <item>nublado</item>
+        <item>Mayormente nublado (noche)</item>
+        <item>Mayormente nublado (día)</item>
+        <item>parcialmente nublado (noche)</item>
+        <item>parcialmente nublado (día)</item>
+        <item>Noche clara)</item>
+        <item>soleado</item>
+        <item>justo (noche)</item>
+        <item>justo (día)</item>
+        <item>mezcla de lluvia y granizo</item>
+        <item>caliente</item>
+        <item>tormentas aisladas</item>
+        <item>tormentas eléctricas dispersas</item>
+        <item>tormentas eléctricas dispersas</item>
+        <item>Chubascos dispersos</item>
+        <item>fuertes nevadas</item>
+        <item>Chubascos de nieve dispersos</item>
+        <item>nevada</item>
+        <item>parcialmente nublado</item>
+        <item>chubascos</item>
+        <item>Duchas de nieve</item>
+        <item>Tormentas eléctricas aisladas</item>
+        <item>nublado</item>
+        <item>Lluvia Pesada</item>
+        <item>tormenta fuerte</item>
+        <item>tormenta severa</item>
+        <item>nieve moderada</item>
+        <item>arena</item>
+        <item>tormenta de arena</item>
+        <item>tormenta de arena</item>
+        <item>Ventoso</item>
+        <item>tempestuoso</item>
+    </string-array>
+</resources>

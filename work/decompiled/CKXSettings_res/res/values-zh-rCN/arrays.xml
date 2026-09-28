@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="key_voice_func_entries">
+        <item>无作用</item>
+        <item>短按启动语音，长按无作用</item>
+        <item>短按启动语音，长按启动导航</item>
+        <item>短按启动导航，长按无作用</item>
+    </string-array>
+    <string-array name="key_voice_func_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="phone_key_selection_entries">
+        <item>原车功能</item>
+        <item>安卓蓝牙功能</item>
+        <item>未定义</item>
+    </string-array>
+    <string-array name="phone_key_selection_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

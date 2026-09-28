@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>fordele og</item>
+        <item>benigne</item>
+        <item>mild</item>
+        <item>moderat</item>
+        <item>alvorlige</item>
+        <item>svær</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>søndag</item>
+        <item>mandag</item>
+        <item>tirsdag</item>
+        <item>onsdag</item>
+        <item>torsdag</item>
+        <item>fredag</item>
+        <item>lørdag</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>tornado</item>
+        <item>den tropiske storm</item>
+        <item>orkanen</item>
+        <item>tordenvejr</item>
+        <item>storm</item>
+        <item>regn med sne.</item>
+        <item>regn og hagl</item>
+        <item>sne - hagl</item>
+        <item>frosne regn</item>
+        <item>regn</item>
+        <item>frosne regn</item>
+        <item>bad</item>
+        <item>moderat nedbør</item>
+        <item>sne -</item>
+        <item>let sne</item>
+        <item>sne</item>
+        <item>sne</item>
+        <item>hagl</item>
+        <item>regn med sne.</item>
+        <item>støv</item>
+        <item>tåge</item>
+        <item>haze</item>
+        <item>haze</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>kold</item>
+        <item>uklar</item>
+        <item>store afdeling.</item>
+        <item>store afdeling.</item>
+        <item>overskyet</item>
+        <item>overskyet</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>regn og hagl</item>
+        <item>varme</item>
+        <item>storm</item>
+        <item>tordenvejr</item>
+        <item>tordenvejr</item>
+        <item>bad</item>
+        <item>sne</item>
+        <item>regn med sne.</item>
+        <item>snestorm</item>
+        <item>sunny</item>
+        <item>tordenvejr</item>
+        <item>regn med sne.</item>
+        <item>tordenvejr</item>
+        <item>yin.</item>
+        <item>regn</item>
+        <item>regn</item>
+        <item>voldsomme regnskyl</item>
+        <item>- sne.</item>
+        <item>sand</item>
+        <item>sandstorm</item>
+        <item>kraftig sandstorm</item>
+        <item>vind</item>
+        <item>vind</item>
+    </string-array>
+</resources>

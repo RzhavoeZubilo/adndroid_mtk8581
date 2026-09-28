@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="660.0dp" android:layout_height="wrap_content">
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_nav_maps_list" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_navi_maps_list" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_nav_volume_remix_ratio" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="10" carsetting:item_seekbarPos="3" carsetting:item_style="6" carsetting:item_subTitle="@string/setting_navi_remix_ratio" />
+    </LinearLayout>
+</ScrollView>

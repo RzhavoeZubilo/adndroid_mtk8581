@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollview" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon0" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_sound" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon2" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_video" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon10" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_navi" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_backcar" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon11" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_backcar_set" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_about" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon5" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_about" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_systemsetting" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_icon="@drawable/icon3" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_systemsetting" />
+    </LinearLayout>
+</ScrollView>

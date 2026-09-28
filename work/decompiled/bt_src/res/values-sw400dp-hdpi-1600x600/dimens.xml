@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="benz_normal_text_size">22.0sp</dimen>
+    <dimen name="content_left1">80.0dp</dimen>
+    <dimen name="content_top">58.0dp</dimen>
+    <dimen name="normal_text_size">22.0sp</dimen>
+    <dimen name="right_logo_margin_left">768.0dp</dimen>
+    <dimen name="right_logo_margin_top">122.0dp</dimen>
+</resources>

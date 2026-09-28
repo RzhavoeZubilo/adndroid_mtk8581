@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:id="@id/item_bt_check_ck" android:background="@drawable/checkbox_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:button="@null" android:layout_alignParentRight="true" />
+    <Button android:textSize="20.0sp" android:id="@id/item_bt_check_bt" android:background="@drawable/btn_ck_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:layout_toLeftOf="@id/item_bt_check_ck" />
+</RelativeLayout>

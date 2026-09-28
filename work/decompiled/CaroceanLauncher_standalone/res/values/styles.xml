@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ChangeSceneButton">
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/change_scene_button_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/change_scene_button_margin_right</item>
+        <item name="android:src">@drawable/change_scene_button_icon</item>
+        <item name="android:onClick">onClickChangeSceneButton</item>
+    </style>
+    <style name="ClingButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingLeft">35.0dp</item>
+        <item name="android:paddingTop">10.0dp</item>
+        <item name="android:paddingRight">35.0dp</item>
+        <item name="android:paddingBottom">15.0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cling_dismiss</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">#49c0ec</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5.0dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="CustomClingText" />
+    <style name="CustomClingTitleText" />
+    <style name="DropTargetButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">25.0dp</item>
+        <item name="android:paddingRight">25.0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:drawablePadding">7.5dp</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+    </style>
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.0dp</item>
+    </style>
+    <style name="MarketButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
+        <item name="android:paddingLeft">5.0dp</item>
+        <item name="android:paddingRight">5.0dp</item>
+        <item name="android:shadowColor">@color/workspace_all_apps_and_delete_zone_text_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="QSBBar">
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qsb_bar_height</item>
+    </style>
+    <style name="QSBBar.Layout" parent="@style/QSBBar">
+        <item name="android:paddingLeft">@dimen/qsb_padding_left</item>
+        <item name="android:paddingRight">@dimen/qsb_padding_right</item>
+    </style>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="SearchDropTargetBar">
+        <item name="android:layout_gravity">center|bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:textSize">@dimen/workspace_icon_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">20.0dp</item>
+        <item name="android:paddingRight">20.0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">2</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize" parent="@style/TabIndicator" />
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="Theme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.WallpaperPicker" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">@dimen/workspace_icon_text_size</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:shadowColor">#b0000000</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape" parent="@style/WorkspaceIcon">
+        <item name="android:paddingLeft">4.0dp</item>
+        <item name="android:paddingTop">1.0dp</item>
+        <item name="android:paddingRight">4.0dp</item>
+        <item name="android:paddingBottom">2.0dp</item>
+        <item name="android:drawablePadding">1.0dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize" parent="@style/WorkspaceIcon.Landscape">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">10.0dp</item>
+        <item name="android:paddingBottom">0.0dp</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding_land</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize.LC" parent="@style/WorkspaceIcon.Landscape.AppsCustomize">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">10.0dp</item>
+        <item name="android:paddingBottom">0.0dp</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding_lc</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize.id8" parent="@style/WorkspaceIcon.Landscape.AppsCustomize">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">25.0dp</item>
+        <item name="android:paddingBottom">0.0dp</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding_land</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.Folder" parent="@style/WorkspaceIcon.Landscape">
+        <item name="android:paddingTop">0.0dp</item>
+        <item name="android:layout_marginTop">-2.0dp</item>
+        <item name="android:drawablePadding">0.0dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait" parent="@style/WorkspaceIcon">
+        <item name="android:paddingLeft">4.0dp</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingRight">4.0dp</item>
+        <item name="android:paddingBottom">4.0dp</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.AppsCustomize" parent="@style/WorkspaceIcon.Portrait">
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">0.0dp</item>
+        <item name="android:paddingTop">0.0dp</item>
+        <item name="android:paddingRight">0.0dp</item>
+        <item name="android:paddingBottom">0.0dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">2.0dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.Folder" parent="@style/WorkspaceIcon.Portrait">
+        <item name="android:paddingTop">@dimen/folder_icon_padding_top</item>
+        <item name="android:drawablePadding">0.0dp</item>
+    </style>
+    <style name="YeconTheme.Blue" parent="@style/Theme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="HotSeatImageViewBtnStyle">@style/hotseat_imageview_btn_blue</item>
+        <item name="HotSeatStyle">@style/hotseat_blue</item>
+        <item name="HotSeatTextViewBtnStyle">@style/hotseat_textview_btn_blue</item>
+    </style>
+    <style name="YeconTheme.Red" parent="@style/Theme">
+        <item name="HotSeatImageViewBtnStyle">@style/hotseat_imageview_btn_red</item>
+        <item name="HotSeatStyle">@style/hotseat_red</item>
+        <item name="HotSeatTextViewBtnStyle">@style/hotseat_textview_btn_red</item>
+    </style>
+    <style name="bmw_main_id8_small_icon_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:drawablePadding">-2.0dp</item>
+    </style>
+    <style name="bmw_main_page_carinfo_text_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_icon_text" parent="@style/bmw_main_page_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15.0dp</item>
+        <item name="android:layout_marginTop">80.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_icon_text_style">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_icon_title">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">80.0dp</item>
+        <item name="android:layout_marginTop">10.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_new_icon_text" parent="@style/bmw_main_page_new_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15.0dp</item>
+        <item name="android:layout_marginTop">60.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_icon_text_lc" parent="@style/bmw_main_page_new_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dp</item>
+        <item name="android:layout_marginTop">75.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_icon_text_style">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_new_icon_text_yzg" parent="@style/bmw_main_page_new_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dp</item>
+        <item name="android:layout_marginTop">90.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_icon_title">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_icon_title_lc">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">20.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_icon_title_yzg">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">20.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_small_icon_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">-2.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_small_icon_style_lc">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">0.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_small_icon_style_mrw">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">-2.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_small_icon_style_yzg">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">-2.0dp</item>
+    </style>
+    <style name="bmw_orange_id8_main_page_icon_text" parent="@style/bmw_orange_id8_main_page_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">100.0dp</item>
+        <item name="android:layout_marginStart">40.0dp</item>
+        <item name="android:layout_marginEnd">40.0dp</item>
+    </style>
+    <style name="bmw_orange_id8_main_page_icon_text_style">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.6</item>
+    </style>
+    <style name="bmw_orange_id8_main_page_icon_title">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/bmw_id8_orange_desk_icon_title_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50.0dp</item>
+        <item name="android:layout_marginRight">40.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:layout_marginStart">40.0dp</item>
+    </style>
+    <style name="bmw_sub_page_icon_text" parent="@style/bmw_sub_page_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15.0dp</item>
+        <item name="android:layout_marginTop">43.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+    </style>
+    <style name="bmw_sub_page_icon_text_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_sub_page_icon_title">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">58.0dp</item>
+        <item name="android:layout_marginTop">3.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="dialog_car_flag" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="fontStyle01">
+        <item name="android:textSize">@dimen/weather_line1_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="fontStyle02">
+        <item name="android:textSize">@dimen/weather_line2_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="hotseat_blue" />
+    <style name="hotseat_imageview_btn_blue">
+        <item name="android:background">@drawable/hotseat_btn_bg_blue</item>
+        <item name="android:src">@drawable/hotseat_all_down</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="hotseat_imageview_btn_red">
+        <item name="android:background">@drawable/hotseat_btn_bg_red</item>
+        <item name="android:src">@drawable/hotseat_all_down</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="hotseat_red" />
+    <style name="hotseat_textview_btn_blue">
+        <item name="android:textSize">@dimen/hotseat_btn_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/hotseat_btn_bg_blue</item>
+    </style>
+    <style name="hotseat_textview_btn_red">
+        <item name="android:textSize">@dimen/hotseat_btn_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/hotseat_btn_bg_red</item>
+    </style>
+    <style name="jly_bmw_main_page_icon_title">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">253.0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dp</item>
+        <item name="android:layout_marginTop">6.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="jly_main_page_icon_text" parent="@style/bmw_main_page_new_icon_text_style">
+        <item name="android:layout_width">250.0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dp</item>
+        <item name="android:layout_marginTop">52.0dp</item>
+    </style>
+    <style name="timeFontStyle01">
+        <item name="android:textSize">@dimen/time_textsize</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textScaleX">1.5</item>
+        <item name="android:shadowColor">#aa000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">5.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="timeFontStyle02">
+        <item name="android:textSize">@dimen/time_pmam_textsize</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="workspace_icon_text_style">
+        <item name="android:textSize">@dimen/workspace_topbar_icon_text_size</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+    </style>
+</resources>

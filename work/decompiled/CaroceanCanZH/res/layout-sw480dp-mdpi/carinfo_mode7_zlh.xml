@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/drive_mode_bg7_zlh" android:paddingTop="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:speedometer="http://schemas.android.com/apk/res/com.can.activity">
+    <com.can.ui.view.MarqueeTextView android:textSize="32.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="left|center" android:layout_gravity="left|top" android:visibility="gone" android:layout_width="400.0dp" android:layout_height="59.0dp" android:layout_marginLeft="130.0dp" android:text="@string/app_name_new_carinfo" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <FrameLayout android:layout_width="351.0dp" android:layout_height="351.0dp" android:layout_marginTop="57.0dp" android:layout_marginStart="79.0dp">
+        <com.can.ui.view.Speedometer android:id="@id/carinfo_rate" android:layout_width="match_parent" android:layout_height="match_parent" speedometer:mode="0" speedometer:pointer="@drawable/drive_mode_spointer" speedometer:rotate_max="270.6" speedometer:value_max="330.0" />
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/carinfo_rate_text" android:layout_width="170.0dp" android:layout_height="wrap_content" android:layout_marginTop="160.0dp" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/carinfo_rate_unit" android:layout_width="170.0dp" android:layout_height="wrap_content" android:layout_marginTop="42.0dp" android:text="km/h" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="351.0dp" android:layout_height="351.0dp" android:layout_marginLeft="848.0dp" android:layout_marginTop="54.0dp">
+        <com.can.ui.view.Speedometer android:id="@id/carinfo_rpm" android:layout_width="match_parent" android:layout_height="match_parent" speedometer:mode="0" speedometer:pointer="@drawable/drive_mode_tpointer" speedometer:rotate_factor="-1" speedometer:rotate_max="240.0" speedometer:value_max="8000.0" />
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/carinfo_rpm_text" android:layout_width="170.0dp" android:layout_height="wrap_content" android:layout_marginTop="160.0dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center|bottom" android:layout_width="370.0dp" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+        <ImageView android:layout_gravity="left|center" android:id="@id/carinfo_handbrake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="53.0dp" android:src="@drawable/carinfo_handbreak_zlh" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/carinfo_safeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="53.0dp" android:src="@drawable/carinfo_safeb_zlh" />
+        <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/carinfo_mileage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="242132km" />
+        <ImageView android:layout_gravity="left|center" android:id="@id/carinfo_leftl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_leftl_zlh" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/carinfo_rightl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_rightl_zlh" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="847.0dp" android:layout_marginTop="347.0dp">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_gas" />
+        <TextView android:textSize="26.0sp" android:textColor="@color/white" android:id="@id/carinfo_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="36.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/carinfo_time" android:layout_width="148.0dp" android:layout_height="wrap_content" android:text="10:00" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/carinfo_outtemp" android:layout_width="74.0dp" android:layout_height="wrap_content" android:layout_marginTop="55.0dp" android:layout_marginStart="555.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/carinfo_week" android:layout_width="100.0dp" android:layout_height="wrap_content" android:layout_marginTop="55.0dp" android:singleLine="true" android:layout_marginStart="620.0dp" />
+    <ImageView android:id="@id/carinfo_big_led_zlh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="105.0dp" android:src="@drawable/light_on_zlh" android:layout_marginStart="543.0dp" />
+    <ImageView android:id="@id/carinfo_big_led_far_zlh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="105.0dp" android:src="@drawable/light_on_far_zlh" android:layout_marginStart="543.0dp" />
+    <include android:id="@id/door_layout" android:visibility="visible" android:layout_width="160.0dp" android:layout_height="191.0dp" android:layout_marginTop="195.0dp" android:layout_marginStart="560.0dp" layout="@layout/door_yzg" />
+</FrameLayout>

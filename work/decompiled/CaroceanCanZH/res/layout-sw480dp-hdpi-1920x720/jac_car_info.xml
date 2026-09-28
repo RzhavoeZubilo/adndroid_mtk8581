@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/can_bg" android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/jac_relative_warn" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/str_mini_tpms_warn" style="@style/car_info_style" />
+        <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/jac_relative_tpms" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/str_mini_tpms_info" style="@style/car_info_style" />
+        <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+    </RelativeLayout>
+</LinearLayout>

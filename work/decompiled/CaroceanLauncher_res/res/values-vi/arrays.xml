@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Yu.</item>
+        <item>Lương</item>
+        <item>Nhẹ thôi.</item>
+        <item>Vừa phải</item>
+        <item>Nghiêm trọng.</item>
+        <item>重度</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Tuần trước ngày.</item>
+        <item>Thứ 2.</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Tuần 4</item>
+        <item>Tuần 5</item>
+        <item>Tuần 6</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Một cơn lốc xoáy.</item>
+        <item>Bão nhiệt đới</item>
+        <item>Bão</item>
+        <item>Dông</item>
+        <item>Mưa lớn</item>
+        <item>Mưa băng tuyết.</item>
+        <item>Mưa clip mưa đá.</item>
+        <item>Clip mưa tuyết.</item>
+        <item>Mưa tuyết</item>
+        <item>Mưa nhỏ</item>
+        <item>Mưa tuyết</item>
+        <item>Mưa rào</item>
+        <item>Lượng mưa trung bình</item>
+        <item>阵雪</item>
+        <item>Yuki.</item>
+        <item>Tuyết</item>
+        <item>Tuyết</item>
+        <item>Mưa đá.</item>
+        <item>Mưa băng tuyết.</item>
+        <item>Bụi bặm</item>
+        <item>Sương mù.</item>
+        <item>霾</item>
+        <item>霾</item>
+        <item>Nitrile</item>
+        <item>Nitrile</item>
+        <item>Lạnh</item>
+        <item>Trời nhiều mây</item>
+        <item>Đại bộ phận trời nhiều mây</item>
+        <item>Đại bộ phận trời nhiều mây</item>
+        <item>Tinh giữa trời nhiều mây</item>
+        <item>Tinh giữa trời nhiều mây</item>
+        <item>Nitrile</item>
+        <item>Nitrile</item>
+        <item>Nitrile</item>
+        <item>Nitrile</item>
+        <item>Mưa và mưa đá.</item>
+        <item>Nóng</item>
+        <item>Mưa lớn</item>
+        <item>Sấm sét</item>
+        <item>Sấm sét</item>
+        <item>Mưa rào</item>
+        <item>Tuyết</item>
+        <item>Mưa băng tuyết.</item>
+        <item>Tuyết rơi dày đặc.</item>
+        <item>Nitrile</item>
+        <item>Mưa sấm sét</item>
+        <item>Mưa băng tuyết.</item>
+        <item>Mưa sấm sét</item>
+        <item>Âm</item>
+        <item>Mưa lớn</item>
+        <item>Mưa lớn</item>
+        <item>Một cơn mưa bão xối xả</item>
+        <item>Tuyết rơi vừa</item>
+        <item>Dương Cát</item>
+        <item>Bão cát</item>
+        <item>Mạnh bão cát</item>
+        <item>Gió</item>
+        <item>Gale</item>
+    </string-array>
+</resources>

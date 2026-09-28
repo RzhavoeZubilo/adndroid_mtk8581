@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="20.0dp" android:src="@drawable/image_in_call_portrait_green_80dp" />
+    <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/call_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+    <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/call_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+    <Chronometer android:layout_gravity="center" android:id="@id/call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <TableRow android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dial_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="48.0dp" android:src="@drawable/image_in_call_unfold_dialpad_48dp" />
+            <ImageView android:id="@id/call_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_end_call_56dp" />
+            <ImageView android:id="@id/call_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dp" android:src="@drawable/image_dialpad_call_56dp" />
+            <ImageView android:id="@id/call_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dp" android:src="@drawable/image_in_call_switch_to_automotive_48dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="25.0dp" android:paddingRight="25.0dp" android:descendantFocusability="blocksDescendants" android:layout_width="662.0dp" android:layout_height="70.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_call_history_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:src="@drawable/bmw_id8_history_in" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="300.0dp" android:layout_height="match_parent" android:layout_marginStart="20.0dp">
+        <TextView android:textSize="32.0sp" android:textColor="@color/text_normal" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_history_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" />
+        <com.autochips.bluetooth.view.MarqueeText android:textSize="18.0sp" android:textColor="#bebebe" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/item_history_number" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/text_normal" android:ellipsize="end" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/item_history_time" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" android:layout_marginStart="20.0dp" />
+    <ImageButton android:id="@id/item_history_del" android:background="@drawable/del_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/volume_bg" android:paddingLeft="15.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_icon" />
+    <SeekBar android:layout_gravity="center" android:id="@id/item_seekbar" android:layout_width="352.0dp" android:layout_height="25.0dp" android:maxHeight="25.0dp" android:max="40" android:progressDrawable="@drawable/custom_headlayout_seekbar_state" android:minHeight="25.0dp" android:thumb="@drawable/custom_headlayout_seekbar_thumb_state" android:thumbOffset="-5.0px" android:splitTrack="false" />
+    <TextView android:textSize="@dimen/tab_item_textview_textsize" android:textColor="@color/text_normal" android:layout_gravity="right|center" android:id="@id/item_seekbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

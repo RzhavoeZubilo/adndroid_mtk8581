@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <EditText android:textSize="26.0sp" android:id="@id/dial_info" android:background="@null" android:focusable="false" android:layout_width="220.0dp" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:singleLine="true" android:textAlignment="center" />
+            <ImageButton android:layout_gravity="center" android:id="@id/del" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/image_dialpad_delete_24dp" android:layout_toRightOf="@id/dial_info" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_1" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="1" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_2" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="2" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_3" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="3" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_4" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="4" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_7" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="7" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_asertrisk" android:layout_width="120.0dp" android:layout_height="48.0dp" android:text="*" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@id/num_pound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="#" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageButton android:id="@id/call" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="80.0dp" android:src="@drawable/image_dialpad_call_56dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

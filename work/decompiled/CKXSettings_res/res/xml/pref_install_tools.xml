@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/install_apk">
+        <com.carocean.settings.ui.ButtonPreference app:buttonText="@string/install" app:fragment="com.carocean.settings.about.SelectFileFragment" app:key="folder" app:title="@string/apk_folder" />
+        <com.carocean.settings.ui.ButtonPreference app:buttonText="@string/install" app:fragment="com.carocean.settings.about.SelectFileFragment" app:key="file" app:title="@string/apk_path" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/copy_data">
+        <com.carocean.settings.ui.ButtonPreference app:buttonText="@string/copy" app:fragment="com.carocean.settings.about.SelectFileFragment" app:key="copy" app:title="@string/source_path" />
+    </PreferenceCategory>
+</PreferenceScreen>

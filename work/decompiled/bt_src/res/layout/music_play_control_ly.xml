@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/bt_music_play_control_bg" android:layout_width="match_parent" android:layout_height="@dimen/sangde_ll_margin_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/prevButton" android:background="@drawable/selector_btn_pre_bg" android:layout_width="258.0dp" android:layout_height="86.0dp" android:src="@mipmap/ic_btn_pre" android:scaleType="centerInside" style="@style/BottomBarBtnTheme" />
+    <ImageView android:id="@id/playButton" android:background="@drawable/selector_btn_play_bg" android:layout_width="258.0dp" android:layout_height="86.0dp" android:src="@mipmap/ic_btn_play" android:scaleType="centerInside" style="@style/BottomBarBtnTheme" />
+    <ImageView android:id="@id/pauseButton" android:background="@drawable/selector_btn_play_bg" android:visibility="gone" android:layout_width="258.0dp" android:layout_height="86.0dp" android:src="@mipmap/ic_btn_pause" android:scaleType="centerInside" style="@style/BottomBarBtnTheme" />
+    <ImageView android:id="@id/nextButton" android:background="@drawable/selector_btn_next_bg" android:layout_width="258.0dp" android:layout_height="86.0dp" android:src="@mipmap/ic_btn_next" android:scaleType="centerInside" style="@style/BottomBarBtnTheme" />
+    <ImageView android:id="@id/stopButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:src="@drawable/btn_close_sel" />
+</LinearLayout>

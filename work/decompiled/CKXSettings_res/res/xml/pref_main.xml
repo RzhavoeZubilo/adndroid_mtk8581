@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.SystemSettingsFragment" app:isPreferenceVisible="false" app:key="system" app:title="@string/title_system" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.VolumeSettingsFragment" app:isPreferenceVisible="false" app:key="volume" app:title="@string/title_volume" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.DisplaySettingsFragment" app:key="display" app:title="@string/title_display" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.se.SoundEffectFragment" app:isPreferenceVisible="false" app:key="sound_effect" app:title="@string/title_sound_effect" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.ColorLightFragment" app:isPreferenceVisible="false" app:key="colorful_lights" app:title="@string/colorful_lights" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.NetworkSettingsFragment" app:isPreferenceVisible="false" app:key="network" app:title="@string/title_network" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.autochips.bluetooth.setting.module.BTSettingFragment" app:key="bluetooth" app:title="@string/title_bluetooth" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.PersonalFragment" app:isPreferenceVisible="false" app:key="personal" app:title="@string/title_personal" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.study.SWCFragment" app:isPreferenceVisible="false" app:key="swc" app:title="@string/title_swc" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.CleanFragment" app:key="clean" app:title="@string/title_clean" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.upgrade.UpgradeFragment" app:key="upgrade" app:title="@string/title_upgrade" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.RestoreFragment" app:isPreferenceVisible="false" app:key="restore" app:title="@string/title_restore" />
+    <com.carocean.settings.ui.SelectablePreference app:fragment="com.carocean.settings.about.AboutFragment" app:isPreferenceVisible="false" app:key="about" app:title="@string/title_about" />
+</PreferenceScreen>

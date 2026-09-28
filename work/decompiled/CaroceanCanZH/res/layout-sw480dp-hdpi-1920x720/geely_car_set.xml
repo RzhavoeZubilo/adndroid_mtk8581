@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/str_psa_set_lan" style="@style/car_info_style1" />
+        <RelativeLayout android:id="@id/geely_rl_lan_set" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_psa_set_lan1" style="@style/car_info_style" />
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+        <TextView android:text="@string/str_door_lock_set" style="@style/car_info_style1" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_close_wind" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_close_wind" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_close_lights" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_close_lights" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_unlock_by_off" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_unlock_by_off" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/geely_rl_remote_lock" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_remote_lock" style="@style/car_info_style" />
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/geely_rl_help_mode" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_help_mode" style="@style/car_info_style" />
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+        <TextView android:text="@string/str_panoramic" style="@style/car_info_style1" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_static_tra" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_static_tra" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_dynamic_tra" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_dynamic_tra" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_correction" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_correction" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_quit_r_delay" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_quit_r_delay" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_single_video" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_single_video" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_auxiliary_follow" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_auxiliary_follow" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_all_open" style="@style/car_info_style" />
+            <CheckBox android:id="@id/geely_checkbox_all_open" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

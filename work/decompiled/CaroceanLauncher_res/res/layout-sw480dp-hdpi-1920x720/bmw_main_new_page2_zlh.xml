@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_mybmw" android:background="@drawable/bmw_main_new_mybmw_zlh" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height" android:layout_marginTop="@dimen/main_page_new_icon_margintop">
+        <ImageView android:id="@id/main_mybmw_car" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="123.0dp" android:src="@drawable/mybmw_zlh_car9" android:scaleType="centerCrop" android:layout_marginStart="129.0dp" />
+        <TextView android:text="@string/home_mybmw" style="@style/bmw_main_page_new_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_mybmw_text" style="@style/bmw_main_page_new_icon_text" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/main_page_new_icon_distance" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height" android:layout_marginTop="@dimen/main_page_new_icon_margintop">
+        <FrameLayout android:id="@id/main_app" android:background="@drawable/bmw_main_new_apps" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height_half">
+            <TextView android:text="@string/home_app" style="@style/bmw_main_page_new_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_app_text" style="@style/bmw_main_page_new_icon_text" />
+        </FrameLayout>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/main_page_new_icon_middle_distance" />
+        <FrameLayout android:id="@id/main_carinfo" android:background="@drawable/bmw_main_new_carinfo" android:layout_width="@dimen/main_page_new_icon_width" android:layout_height="@dimen/main_page_new_icon_height_half">
+            <TextView android:text="@string/home_carinfo_new" style="@style/bmw_main_page_new_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:layout_gravity="end" android:id="@id/main_carinfo_tmp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dp" android:layout_marginEnd="55.0dp" style="@style/bmw_main_page_icon_text_style" />
+            <com.android.launcher2.popuView.MarqueeTextView android:layout_gravity="end" android:id="@id/main_carinfo_oil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dp" android:layout_marginEnd="55.0dp" style="@style/bmw_main_page_icon_text_style" />
+            <com.android.launcher2.popuView.MarqueeTextView android:layout_gravity="end" android:id="@id/main_carinfo_safe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="105.0dp" android:layout_marginEnd="55.0dp" style="@style/bmw_main_page_icon_text_style" />
+            <com.android.launcher2.popuView.MarqueeTextView android:layout_gravity="end" android:id="@id/main_carinfo_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="143.0dp" android:layout_marginEnd="55.0dp" style="@style/bmw_main_page_icon_text_style" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

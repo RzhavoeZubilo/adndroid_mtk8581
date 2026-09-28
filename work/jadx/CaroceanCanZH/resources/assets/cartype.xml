@@ -1,0 +1,3602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CANTABLE>
+    <Field>      
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">0</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="Series"    Format="Str">通用机</Item>
+        <Item Caption="SeriesId"  Format="Int">0</Item>
+        <Item Caption="Type"      Format="Str">通用机</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">通用机</Item>
+        <Item Caption="strProVer" Format="Str">通用机</Item>		
+    </Field>
+    
+    <Field>
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">非MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.ReMQB6Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">迈腾/帕萨特/昊锐/途观/高尔夫6/CC/新宝来/速腾</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz6CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.4</Item>		
+    </Field>
+    
+     <Field>
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">非MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.HdMQB6Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">迈腾/帕萨特/昊锐/途观/高尔夫6/CC/新宝来/速腾</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz6CarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V1.7_2014.11.25</Item>		
+    </Field>
+    
+     <Field>
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">非MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.SpMQB6Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">迈腾/帕萨特/昊锐/途观/高尔夫6/CC/新宝来/速腾</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz6CarInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">v2.81.000</Item>		
+    </Field>
+        
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.ReMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">高尔夫7/新明锐/凌度/新速派</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.8</Item>		
+	</Field>
+	
+     <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.HdMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">高尔夫7/新明锐/凌度/新速派</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.20(A)_2016.10.09</Item>		
+	</Field>
+	
+     <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.SpMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">高尔夫7/新明锐/凌度/新速派</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.36.002</Item>		
+    </Field>
+	        
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.ReMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">17款迈腾</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.dz.CanDz7Airset</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.8</Item>		
+	</Field>
+	        
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.HdMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">17款迈腾</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.dz.CanDz7Airset</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.20(A)_2016.10.09</Item>		
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">MQB平台全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.dz.ReMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">柯迪亚克</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanKodiaqCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.dz.CanDz7Airset</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.dz.CanKodiaqDriving</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.8</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.ReNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">天籁/奇骏/蓝鸟/逍客/轩逸</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.51</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.ReNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">17款奇骏</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.51</Item>		
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.ReNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">15楼兰</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">v1.51</Item>		
+	</Field>
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.SpNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">14款奇骏/13款天籁/公爵/15款楼兰</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.09.002</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.HdNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">天籁/奇骏/T70/蓝鸟/逍客</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.nissan.CanHdDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.6_2016.05.27</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+    	<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.SpTeana8Protocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">08款老天籁</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.nissan.CanTeana8Info</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.nissan.CanTeana8Audio</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">v1.00.004</Item>		
+    </Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.HdNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">楼兰/西玛</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.nissan.CanHdDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.6_2016.05.27</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.SpNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">天籁/奇骏/15楼兰</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">v1.09.002</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">DA平台系列</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>		
+	</Field>  
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">DA平台系列</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.9</Item>		
+	</Field>  
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">DA平台系列</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>		
+	</Field>
+		
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">DA平台系列</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">DA平台系列</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.9</Item>		
+	</Field>
+	  
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.Re12CrvProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">12款CRV/12款思域/15CRV低中配</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.honda.CanCrvUsbIpod</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.01.000</Item>			
+	</Field>  
+	  
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.Re12CrvProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">12款CRV/12款思域/15CRV低中配</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.honda.CanCrvUsbIpod</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.01.000</Item>			
+	</Field>
+		
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款凌派</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+		
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款凌派</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+		
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.SpHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款凌派/缤智</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanSpHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+		
+			
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款十代思域</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+				
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款十代思域</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+				
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款十代思域</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+        <Item Caption="strProVer" Format="Str">V1.12.000</Item>			
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">中低配兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaADProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款雅阁9代</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.2.1</Item>
+	</Field>
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款凌派</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.9</Item>
+	</Field>
+	
+     <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款凌派</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.9</Item>
+	</Field>
+	
+      <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">15款锋范/16款哥瑞</Item>
+        <Item Caption="TypeId"    Format="Int">6</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.9</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(不带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款思域</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.9</Item>			
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带右视)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款思域</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.9</Item>			
+	</Field>
+	
+     <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.HdHondaDAProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">15款奥赛德</Item>
+        <Item Caption="TypeId"    Format="Int">7</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.honda.CanHondaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="strProVer" Format="Str">V2.9</Item>			
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">中低配兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.SpHondaADProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">13款雅阁9代</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.11.001</Item>
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">9600</Item>
+        <Item Caption="BoxId"     Format="Int">6</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.CYTHondaAD7Protocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">雅阁7代</Item>
+        <Item Caption="TypeId"    Format="Int">5</Item>
+        <Item Caption="box"       Format="Str">长远通</Item>
+		<Item Caption="strProVer" Format="Str">V11.11.28</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">8</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.SpHondaADProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">16款雅阁9代</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">比纳瑞</Item>
+		<Item Caption="strProVer" Format="Str">V100-150622</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">9</Item>
+        <Item Caption="Cfg"       Format="Str">中低配兼容</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.honda.XbsHondaADProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">14/16款雅阁9代2.0L</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">鑫巴斯</Item>
+		<Item Caption="strProVer" Format="Str">V1.6</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">9</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.nissan.XbsTeana08Protocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">08款天籁</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.nissan.CanTeana8Info</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.nissan.CanXbsTeana08Audio</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">鑫巴斯</Item>
+		<Item Caption="strProVer" Format="Str">V1.0</Item>
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.ReToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">14款霸道</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanToyotaInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.20.000</Item>		
+	</Field>
+		    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.ReToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">锐志/RAV4/凯美瑞/卡罗拉</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanToyotaInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.20.000</Item>	
+	</Field>
+			    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带全景影像)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.ReToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">16款荣放</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanToyotaInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.20.000</Item>	
+	</Field>
+			    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.HdToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">霸道</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanHdCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+					    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.HdToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">锐志</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanHdCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+					    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.HdToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">RAV4</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanHdCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+				    			    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.HdToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">凯美瑞</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanHdCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+	    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.HdToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">卡罗拉</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanHdCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+					    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.toyota.SpToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">12款-15款凯美瑞/13款RAV4/13款锐志/14款普拉多/14款卡罗拉/14款雷凌/15款汉兰达</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanToyotaInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V2.1_2016.08.13</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.ReKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">全新胜达(IX45)/索纳塔9代</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>		
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.ReKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">16款名图/16款领动</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>		
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.SpKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">全新胜达(IX45)/索纳塔9代</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.SpKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">16款名图/16款领动</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>		
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.ReKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">起亚</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">16款KX5/16款k5/16款k3/15款索兰托</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.ReKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">起亚</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">17款KX7</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>
+	</Field>
+					
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.SpKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">起亚</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">16款KX5/16款k5/16款k3/15款索兰托</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V0.17</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">Ix35</Item>
+        <Item Caption="TypeId"    Format="Int">32</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">Ix45</Item>
+        <Item Caption="TypeId"    Format="Int">33</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">索纳塔8</Item>
+        <Item Caption="TypeId"    Format="Int">34</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">索纳塔9</Item>
+        <Item Caption="TypeId"    Format="Int">35</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">名图</Item>
+        <Item Caption="TypeId"    Format="Int">36</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">途胜</Item>
+        <Item Caption="TypeId"    Format="Int">37</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">现代</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">领动</Item>
+        <Item Caption="TypeId"    Format="Int">38</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">起亚</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">16K5</Item>
+        <Item Caption="TypeId"    Format="Int">39</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.korea.HdKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">起亚</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">16KX5</Item>
+        <Item Caption="TypeId"    Format="Int">40</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanHdKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.3_2016.05.26</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">15款科鲁兹/爱唯欧/创酷/赛欧3/16款乐风RV</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.2.1</Item>
+	</Field> 
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">16款迈锐宝/迈锐宝XL</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.2.1</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">探界者</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.2.1</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.HdGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">爱唯欧/科鲁兹/迈锐宝</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanHdGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanHdGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.8_2016.5.17</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">15款英朗/16款威朗GS/14款君威/君越/16款昂科威</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.1.6.1</Item>		
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">昂科拉</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.1.6.1</Item>		
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">老款GL8(商务版)</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.1.6.1</Item>		
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">17款GL8</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.gm.CanGmAirSet</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.1.6.1</Item>		
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.HdGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">英朗/君威</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanHdGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanHdGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.8_2016.5.17</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.HdGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">君越/GL8</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanHdGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanHdGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.8_2016.5.17</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.HdGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">昂科拉</Item>
+        <Item Caption="TypeId"    Format="Int">5</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanHdGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanHdGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.8_2016.5.17</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">11</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.DjGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">君越</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+		<Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanDjAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">道俊</Item>
+		<Item Caption="strProVer" Format="Str">V2.23.000-19</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.SpGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">英朗/新君威/新君越/威郎/2016威郎GS</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanSpGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanSpGmOnStar</Item>
+		<Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanSpGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V2.31.001</Item>		
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.SpGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">别克</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">英朗/新君威/新君越/威郎/2016威郎GS</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanSpGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanSpGmOnStar</Item>
+		<Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanSpGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V2.31.001</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.SpGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">科鲁兹/爱唯欧/奥兰多/迈锐宝/昂科拉/Insignia/Astra/Mokka</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanSpGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanSpGmOnStar</Item>
+		<Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanSpGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V2.31.001</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.gm.SpGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪弗兰</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">2016迈锐宝XL</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanSpGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanSpGmOnStar</Item>
+		<Item Caption="AirClass"  Format="Str">com.can.ui.gm.CanSpGmAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V2.31.001</Item>		
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.ReFordProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">12款福克斯/12款翼虎/12款翼博/13款嘉年华/15款福克斯低配</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.ReFordProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">12款福克斯/12款翼虎/12款翼博/13款嘉年华/15款福克斯低配</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field>
+			
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.ReFordProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">17款翼虎</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field>
+			
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>		
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.ReTaurusProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">13款-15款锐界/13款猛禽(F-150)/13款探险者/13款金牛座/13款蒙迪欧</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.ford.CanFordAirset</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field>
+			
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>		
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.ReTaurusProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">13款-15款锐界/13款猛禽(F-150)/13款探险者/13款金牛座/13款蒙迪欧</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.ford.CanFordAirset</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>		
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.SpMondeoProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">09款福克斯/蒙迪欧致胜</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>      
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>		
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.HdMondeoProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">07-12蒙迪欧致胜</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>      
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.ford.CanHdAirSet</Item>
+		<Item Caption="strProVer" Format="Str">V1.1_20161022</Item>		
+	</Field>
+		   		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">8</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>		
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.ford.BnrFordProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">13款蒙迪欧</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">比纳瑞</Item>
+		<Item Caption="strProVer" Format="Str">V104-160602</Item>		
+	</Field>
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.ReJeepProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">16款自由光</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanJeepCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.jeep.CanJeepCDInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.jeep.CanJeepAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.002</Item>	
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.ReCompassProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">17款指南者</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanJeepCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.jeep.CanJeepCDInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.jeep.CanJeepAirSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.06.002</Item>	
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.ReRenegadeProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">16款自由侠</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanJeepCarSet</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.05.001</Item>	
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.HdCompassProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">13款指南者</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanHdDspInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.0_2015.04.22</Item>	
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">5</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(带功放)</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.BagJeepProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">指南者/牧马人</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanBagDspInfo</Item>
+        <Item Caption="box"       Format="Str">巴谷</Item>
+		<Item Caption="strProVer" Format="Str">V1.1</Item>	
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">5</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(无功放)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.BagJeepProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">指南者/牧马人</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">巴谷</Item>
+		<Item Caption="strProVer" Format="Str">V1.1</Item>	
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.SpJeepProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">指南者/牧马人</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanSpDspInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.002</Item>	
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.jeep.SpRenegadeProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">16款自由侠</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanSpJeepCarInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.20.003</Item>	
+	</Field>	
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">马自达</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">马自达3/马自达5/马自达6(老马6)/睿翼/CX-7</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>	
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.SpMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">马自达</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">马自达3/马自达5</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaOpelKey</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.21.00</Item>	
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">标致301/2008</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.1</Item>
+	</Field> 
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">14款-15款408/16款308(空调控制)</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.6</Item>
+	</Field> 
+     
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">3008</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.6</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">17款4008</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.6</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">世嘉/爱丽舍/C4L/C5/C3-XR/DS5/DS6</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.6</Item>
+	</Field> 
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C3-XR(空调控制)</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.5.6</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">标致301/2008</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.22.002</Item>
+	</Field> 
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">14款-15款408/16款308(空调控制)</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.22.002</Item>
+	</Field> 
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">3008</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.22.002</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">17款4008</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.25.000</Item>
+	</Field>
+	    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">世嘉/爱丽舍/C4L/C5/C3-XR/DS5/DS6</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.22.002</Item>
+	</Field> 
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容(FSP)</Item>
+		<Item Caption="CfgId"     Format="Int">3</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.Re2SpPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C3-XR(空调控制)</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.22.002</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">世嘉</Item>
+        <Item Caption="TypeId"    Format="Int">17</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C4</Item>
+        <Item Caption="TypeId"    Format="Int">18</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.233</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C4L</Item>
+        <Item Caption="TypeId"    Format="Int">19</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C5</Item>
+        <Item Caption="TypeId"    Format="Int">20</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">2013款C5</Item>
+        <Item Caption="TypeId"    Format="Int">21</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">307</Item>
+        <Item Caption="TypeId"    Format="Int">22</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">308</Item>
+        <Item Caption="TypeId"    Format="Int">23</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">408</Item>
+        <Item Caption="TypeId"    Format="Int">24</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">低配508</Item>
+        <Item Caption="TypeId"    Format="Int">25</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">高配508</Item>
+        <Item Caption="TypeId"    Format="Int">26</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">3008全拆</Item>
+        <Item Caption="TypeId"    Format="Int">27</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS5</Item>
+        <Item Caption="TypeId"    Format="Int">28</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS5</Item>
+        <Item Caption="TypeId"    Format="Int">28</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS5LS</Item>
+        <Item Caption="TypeId"    Format="Int">29</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS5LS</Item>
+        <Item Caption="TypeId"    Format="Int">29</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">2008</Item>
+        <Item Caption="TypeId"    Format="Int">30</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS4</Item>
+        <Item Caption="TypeId"    Format="Int">31</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">DS4</Item>
+        <Item Caption="TypeId"    Format="Int">31</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">2014款408/308S</Item>
+        <Item Caption="TypeId"    Format="Int">32</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">3008留小屏</Item>
+        <Item Caption="TypeId"    Format="Int">33</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">301</Item>
+        <Item Caption="TypeId"    Format="Int">34</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">爱丽舍</Item>
+        <Item Caption="TypeId"    Format="Int">34</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">13</Item>
+        <Item Caption="Type"      Format="Str">C3-XR</Item>
+        <Item Caption="TypeId"    Format="Int">35</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.psa.HdPsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致</Item>
+        <Item Caption="SeriesId"  Format="Int">12</Item>
+        <Item Caption="Type"      Format="Str">17款4008</Item>
+        <Item Caption="TypeId"    Format="Int">36</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.psa.CanPsaAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V2.7_2016.11.23</Item>
+	</Field>
+       			
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.renault.ReKoleosProtocol</Item>
+        <Item Caption="Series"    Format="Str">雷诺</Item>
+        <Item Caption="SeriesId"  Format="Int">14</Item>
+        <Item Caption="Type"      Format="Str">16款科雷嘉/15款卡缤</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.renault.CanKoleosCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.renault.CanKoleosSosSys</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.4</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBaojunProtol</Item>
+        <Item Caption="Series"    Format="Str">宝骏</Item>
+        <Item Caption="SeriesId"  Format="Int">15</Item>
+        <Item Caption="Type"      Format="Str">14款宝骏730/14款-15款宝骏560/17款510</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.000</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBaojunProtol</Item>
+        <Item Caption="Series"    Format="Str">宝骏</Item>
+        <Item Caption="SeriesId"  Format="Int">15</Item>
+        <Item Caption="Type"      Format="Str">17款宝骏730</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.000</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReDF580Protol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">风光360/16款330s/16款580</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.004</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">中配</Item>
+		<Item Caption="CfgId"     Format="Int">1</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReJoyearX5Protocol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">17款景逸X5</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJoyearX5CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.002</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">其他配置</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReJoyearX5Protocol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">17款景逸X5</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJoyearX5CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.002</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReDFProtol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">16款-17款风神AX5、AX7/16款风度MX5</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.004</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">中高配</Item>
+		<Item Caption="CfgId"     Format="Int">1</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReDFProtol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">16款-17款风神AX5、AX7/16款风度MX5</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.004</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReDFProtol</Item>
+        <Item Caption="Series"    Format="Str">东风</Item>
+        <Item Caption="SeriesId"  Format="Int">16</Item>
+        <Item Caption="Type"      Format="Str">15款风神AX7</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.004</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBrillianceV3Protocol</Item>
+        <Item Caption="Series"    Format="Str">中华</Item>
+        <Item Caption="SeriesId"  Format="Int">17</Item>
+        <Item Caption="Type"      Format="Str">15款华晨中华V3</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">中华</Item>
+        <Item Caption="SeriesId"  Format="Int">17</Item>
+        <Item Caption="Type"      Format="Str">中华H530/V5</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.000</Item>
+	</Field>
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBrillianceV3Protocol</Item>
+        <Item Caption="Series"    Format="Str">中华</Item>
+        <Item Caption="SeriesId"  Format="Int">17</Item>
+        <Item Caption="Type"      Format="Str">中华H3</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReChanaCs75Protocol</Item>
+        <Item Caption="Series"    Format="Str">长安</Item>
+        <Item Caption="SeriesId"  Format="Int">18</Item>
+        <Item Caption="Type"      Format="Str">13款CS75</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.42</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReChanaV7Protocol</Item>
+        <Item Caption="Series"    Format="Str">长安</Item>
+        <Item Caption="SeriesId"  Format="Int">18</Item>
+        <Item Caption="Type"      Format="Str">15款悦翔V7</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field> 	
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdChanaV7Protocol</Item>
+        <Item Caption="Series"    Format="Str">长安</Item>
+        <Item Caption="SeriesId"  Format="Int">18</Item>
+        <Item Caption="Type"      Format="Str">悦翔V7</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.2_2017.02.22</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">中高配</Item>
+		<Item Caption="CfgId"     Format="Int">1</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdChanaV7Protocol</Item>
+        <Item Caption="Series"    Format="Str">长安</Item>
+        <Item Caption="SeriesId"  Format="Int">18</Item>
+        <Item Caption="Type"      Format="Str">悦翔V7</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.2_2017.02.22</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdChanaV7Protocol</Item>
+        <Item Caption="Series"    Format="Str">长安</Item>
+        <Item Caption="SeriesId"  Format="Int">18</Item>
+        <Item Caption="Type"      Format="Str">欧尚</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.2_2016.10.21</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGeelyEc7Protocol</Item>
+        <Item Caption="Series"    Format="Str">吉利</Item>
+        <Item Caption="SeriesId"  Format="Int">19</Item>
+        <Item Caption="Type"      Format="Str">帝豪14EC7</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.000</Item>
+	</Field> 	
+    	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">吉利</Item>
+        <Item Caption="SeriesId"  Format="Int">19</Item>
+        <Item Caption="Type"      Format="Str">GC7</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>		
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGeelyEc7Protocol</Item>
+        <Item Caption="Series"    Format="Str">吉利</Item>
+        <Item Caption="SeriesId"  Format="Int">19</Item>
+        <Item Caption="Type"      Format="Str">博越</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanGeelyCarSet</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanGeelyAirSet</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.000</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGeelyGsProtocol</Item>
+        <Item Caption="Series"    Format="Str">吉利</Item>
+        <Item Caption="SeriesId"  Format="Int">19</Item>
+        <Item Caption="Type"      Format="Str">帝豪GS</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.000</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdGeelyProtocol</Item>
+        <Item Caption="Series"    Format="Str">吉利</Item>
+        <Item Caption="SeriesId"  Format="Int">19</Item>
+        <Item Caption="Type"      Format="Str">16款吉利远景</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.0.0</Item>
+	</Field>
+				
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGreatWallC30Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">15款C30</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.001</Item>
+	</Field>
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGreatWallH2Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">14款-17款哈弗H2</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field> 	    	 	
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdHavalH2Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">哈弗H2</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdHavalH2Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">17款哈弗H2S</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanHdH2sCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanHdH2SAirSet</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdHavalH2Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">哈弗H1</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.0.000</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReGreatWallW6Protocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">14款风骏6</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field>
+	 	    	 	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">7</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.OdGreatWallProtocol</Item>
+        <Item Caption="Series"    Format="Str">长城</Item>
+        <Item Caption="SeriesId"  Format="Int">20</Item>
+        <Item Caption="Type"      Format="Str">17款风骏6</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">欧迪</Item>
+		<Item Caption="strProVer" Format="Str">V1.0</Item>
+	</Field>
+	 	    	 	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBQProtol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">绅宝14款D60/16款X25/16款BJ20/绅宝X35/昌河Q35</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.07.000</Item>
+	</Field>
+	 	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBQProtol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">绅宝16款X55</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.07.000</Item>
+	</Field> 
+		 	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBQM20Protocol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">北汽威旺M20</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.2</Item>
+	</Field>
+		 	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBQProtol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">绅宝M50F</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanM50FAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.07.000</Item>
+	</Field>	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">4</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.InBQM20Protocol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">威旺M20</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">内置协议</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBQEC180Protocol</Item>
+        <Item Caption="Series"    Format="Str">北汽</Item>
+        <Item Caption="SeriesId"  Format="Int">21</Item>
+        <Item Caption="Type"      Format="Str">EC180</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanEC180CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCQProtol</Item>
+        <Item Caption="Series"    Format="Str">传祺</Item>
+        <Item Caption="SeriesId"  Format="Int">22</Item>
+        <Item Caption="Type"      Format="Str">GS4</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCQCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.20</Item>
+	</Field> 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCQProtol</Item>
+        <Item Caption="Series"    Format="Str">传祺</Item>
+        <Item Caption="SeriesId"  Format="Int">22</Item>
+        <Item Caption="Type"      Format="Str">16款GS4</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCQCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.20</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCQProtol</Item>
+        <Item Caption="Series"    Format="Str">传祺</Item>
+        <Item Caption="SeriesId"  Format="Int">22</Item>
+        <Item Caption="Type"      Format="Str">GS5速博带全景</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.20</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCQProtol</Item>
+        <Item Caption="Series"    Format="Str">传祺</Item>
+        <Item Caption="SeriesId"  Format="Int">22</Item>
+        <Item Caption="Type"      Format="Str">传祺GA3/传祺GA3S/传祺GS5/传祺15款GA6/广汽吉奥星朗</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.10.002</Item>
+	</Field> 	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHimaM5Protocol</Item>
+        <Item Caption="Series"    Format="Str">海马</Item>
+        <Item Caption="SeriesId"  Format="Int">23</Item>
+        <Item Caption="Type"      Format="Str">14款M5/16款M3/16款V70</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanHimaCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanHimaAirset</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.05.000</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHimaM8Protocol</Item>
+        <Item Caption="Series"    Format="Str">海马</Item>
+        <Item Caption="SeriesId"  Format="Int">23</Item>
+        <Item Caption="Type"      Format="Str">15款M8</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.2.1</Item>
+	</Field> 	    	 	
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">海马</Item>
+        <Item Caption="SeriesId"  Format="Int">23</Item>
+        <Item Caption="Type"      Format="Str">海马老款福美来/M3/13款-15款s7</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>
+	</Field> 
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHimaFamilyProtocol</Item>
+        <Item Caption="Series"    Format="Str">海马</Item>
+        <Item Caption="SeriesId"  Format="Int">23</Item>
+        <Item Caption="Type"      Format="Str">17款福美来</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanHimaFamilyAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.003</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHimaFamilyProtocol</Item>
+        <Item Caption="Series"    Format="Str">海马</Item>
+        <Item Caption="SeriesId"  Format="Int">23</Item>
+        <Item Caption="Type"      Format="Str">S5 Young</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanHimaFamilyAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.003</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReJacRefineS3Protocol</Item>
+        <Item Caption="Series"    Format="Str">江淮</Item>
+        <Item Caption="SeriesId"  Format="Int">24</Item>
+        <Item Caption="Type"      Format="Str">瑞风15款S2/14款-17款S3/16款M4</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJacTpmsInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.02.000</Item>
+	</Field> 	    	 	
+		
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdJacRefineS3Protocol</Item>
+        <Item Caption="Series"    Format="Str">江淮</Item>
+        <Item Caption="SeriesId"  Format="Int">24</Item>
+        <Item Caption="Type"      Format="Str">瑞风S5/S3</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJacTpmsInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.8_2017.02.20</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdJacRefineS3Protocol</Item>
+        <Item Caption="Series"    Format="Str">江淮</Item>
+        <Item Caption="SeriesId"  Format="Int">24</Item>
+        <Item Caption="Type"      Format="Str">瑞风S2_Mini</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJacCarInfo</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.8_2017.02.20</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReLiFanProtocol</Item>
+        <Item Caption="Series"    Format="Str">力帆</Item>
+        <Item Caption="SeriesId"  Format="Int">25</Item>
+        <Item Caption="Type"      Format="Str">15款720/15款820</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.01.000</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReZotyeT600Protocol</Item>
+        <Item Caption="Series"    Format="Str">众泰</Item>
+        <Item Caption="SeriesId"  Format="Int">26</Item>
+        <Item Caption="Type"      Format="Str">14款T600/16款大迈X5</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanZotyeTpmsInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.03.000</Item>
+	</Field> 	    	 	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReMGProtol</Item>
+        <Item Caption="Series"    Format="Str">上汽</Item>
+        <Item Caption="SeriesId"  Format="Int">27</Item>
+        <Item Caption="Type"      Format="Str">15款MG锐腾</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanMGCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanMGAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.17.000</Item>		
+	</Field> 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReRoeweProtocol</Item>
+        <Item Caption="Series"    Format="Str">上汽</Item>
+        <Item Caption="SeriesId"  Format="Int">27</Item>
+        <Item Caption="Type"      Format="Str">12款荣威5501.8T/13款-14款荣威550/15款荣威360</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanRoeweCarset</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.17.000</Item>		
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReMGProtol</Item>
+        <Item Caption="Series"    Format="Str">上汽</Item>
+        <Item Caption="SeriesId"  Format="Int">27</Item>
+        <Item Caption="Type"      Format="Str">17款名爵ZS</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanMGCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.17.000</Item>		
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReSouAstProtol</Item>
+        <Item Caption="Series"    Format="Str">东南</Item>
+        <Item Caption="SeriesId"  Format="Int">28</Item>
+        <Item Caption="Type"      Format="Str">14款DX7</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanSouAstCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>			
+	</Field> 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">7</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.OdSouAstProtol</Item>
+        <Item Caption="Series"    Format="Str">东南</Item>
+        <Item Caption="SeriesId"  Format="Int">28</Item>
+        <Item Caption="Type"      Format="Str">15-17款DX7</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">欧迪</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>			
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">奔腾</Item>
+        <Item Caption="SeriesId"  Format="Int">29</Item>
+        <Item Caption="Type"      Format="Str">11款B50/11款B70/15款X80</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>
+	</Field>
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.Re13B50Protocol</Item>
+        <Item Caption="Series"    Format="Str">奔腾</Item>
+        <Item Caption="SeriesId"  Format="Int">29</Item>
+        <Item Caption="Type"      Format="Str">13款B50</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReB50X80Protocol</Item>
+        <Item Caption="Series"    Format="Str">奔腾</Item>
+        <Item Caption="SeriesId"  Format="Int">29</Item>
+        <Item Caption="Type"      Format="Str">16款B50/17款X80/17款X40</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V2.0</Item>
+	</Field>
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdBesturnProtol</Item>
+        <Item Caption="Series"    Format="Str">奔腾</Item>
+        <Item Caption="SeriesId"  Format="Int">29</Item>
+        <Item Caption="Type"      Format="Str">17款X80</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.2_2016.10.12</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">A3</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>
+	</Field>
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCheryProtol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">16款艾瑞泽5</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.04.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCheryProtol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">16款瑞虎3</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.04.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCheryProtol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">17款瑞虎3X</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.04.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCheryProtol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">16款瑞虎7</Item>
+        <Item Caption="TypeId"    Format="Int">5</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCheryCarSet</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanCheryAirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.04.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReCheryProtol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">16款艾瑞泽7</Item>
+        <Item Caption="TypeId"    Format="Int">6</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.04.000</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdCheryProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">艾瑞泽5</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanHdCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdCheryProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">瑞虎3</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdCheryProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">瑞虎3X</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdCheryProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">瑞虎5</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanHdCheryCarSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">2</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>	
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.HdCheryProtocol</Item>
+        <Item Caption="Series"    Format="Str">奇瑞</Item>
+        <Item Caption="SeriesId"  Format="Int">30</Item>
+        <Item Caption="Type"      Format="Str">瑞虎7</Item>
+        <Item Caption="TypeId"    Format="Int">5</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanHdCheryCarInfo</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanHdCheryAirSet</Item>
+        <Item Caption="box"       Format="Str">威驰</Item>
+		<Item Caption="strProVer" Format="Str">V1.00</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">比亚迪</Item>
+        <Item Caption="SeriesId"  Format="Int">31</Item>
+        <Item Caption="Type"      Format="Str">F3速锐</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.12</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReQiChengT70Protocol</Item>
+        <Item Caption="Series"    Format="Str">启辰</Item>
+        <Item Caption="SeriesId"  Format="Int">32</Item>
+        <Item Caption="Type"      Format="Str">T70</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"	  Format="Str">com.can.ui.domestic.CanT70AvmSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.40</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReQiChengT70Protocol</Item>
+        <Item Caption="Series"    Format="Str">启辰</Item>
+        <Item Caption="SeriesId"  Format="Int">32</Item>
+        <Item Caption="Type"      Format="Str">T90</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="AirClass"  Format="Str">com.can.ui.domestic.CanT90AirSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.40</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">低配</Item>
+		<Item Caption="CfgId"     Format="Int">1</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHantenX7Protocol</Item>
+        <Item Caption="Series"    Format="Str">汉腾</Item>
+        <Item Caption="SeriesId"  Format="Int">33</Item>
+        <Item Caption="Type"      Format="Str">17款汉腾X7</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.003</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">中高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReHantenX7Protocol</Item>
+        <Item Caption="Series"    Format="Str">汉腾</Item>
+        <Item Caption="SeriesId"  Format="Int">33</Item>
+        <Item Caption="Type"      Format="Str">17款汉腾X7</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.003</Item>
+	</Field>	
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">3</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="AirIcon"   Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.SpMitsubishiProtocol</Item>
+        <Item Caption="Series"    Format="Str">三菱</Item>
+        <Item Caption="SeriesId"  Format="Int">34</Item>
+        <Item Caption="Type"      Format="Str">欧蓝德</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanMitsubishiDspInfo</Item>
+        <Item Caption="box"       Format="Str">欣朴</Item>
+		<Item Caption="strProVer" Format="Str">V1.00.003</Item>
+	</Field>
+		
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBiSuM3T3Protocol</Item>
+        <Item Caption="Series"    Format="Str">比速</Item>
+        <Item Caption="SeriesId"  Format="Int">35</Item>
+        <Item Caption="Type"      Format="Str">17款M3</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.05.000</Item>
+	</Field>		
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.ReBiSuM3T3Protocol</Item>
+        <Item Caption="Series"    Format="Str">比速</Item>
+        <Item Caption="SeriesId"  Format="Int">35</Item>
+        <Item Caption="Type"      Format="Str">17款T3</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"	  Format="Str">com.can.ui.domestic.CanT3CarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+		<Item Caption="strProVer" Format="Str">V1.05.000</Item>
+	</Field>	
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">10</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.LzSmartProtocol</Item>
+        <Item Caption="Series"    Format="Str">奔驰</Item>
+        <Item Caption="SeriesId"  Format="Int">36</Item>
+        <Item Caption="Type"      Format="Str">奔驰Smart</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">路征</Item>
+		<Item Caption="strProVer" Format="Str">V1.0.000</Item>
+	</Field>
+	
+    	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">10</Item>
+        <Item Caption="Cfg"       Format="Str">全系兼容</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.protocol.domestic.LzBenzProtocol</Item>
+        <Item Caption="Series"    Format="Str">奔驰</Item>
+        <Item Caption="SeriesId"  Format="Int">36</Item>
+        <Item Caption="Type"      Format="Str">B200/唯雅诺/威霆/斯宾特</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">路征</Item>
+		<Item Caption="strProVer" Format="Str">V001</Item>
+	</Field>
+</CANTABLE>

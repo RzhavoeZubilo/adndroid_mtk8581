@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dp" android:text="@string/title_wallpaper" style="@style/PreferenceCategoryTitleTextStyle" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/radio_wallpaper" android:background="@drawable/bg_rg_wallpaper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dp">
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/wallpaper_system" android:checked="true" android:text="@string/wallpaper_system" style="@style/RadioButton.Wallpaper" />
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/wallpaper_usb" android:text="@string/wallpaper_usb" style="@style/RadioButton.Wallpaper" />
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/wallpaper_local" android:text="@string/wallpaper_local" style="@style/RadioButton.Wallpaper" />
+    </RadioGroup>
+    <GridView android:id="@id/grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:horizontalSpacing="4.0dp" android:verticalSpacing="4.0dp" android:numColumns="3" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_wallpaper" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>tercihen</item>
+        <item>iyi</item>
+        <item>ışık</item>
+        <item>Orta</item>
+        <item>ciddi</item>
+        <item>şiddetli</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Tornado</item>
+        <item>Tropik Fırtına</item>
+        <item>Kasırga</item>
+        <item>Yağışlı</item>
+        <item>fırtına</item>
+        <item>karyola</item>
+        <item>yağmur Dolu</item>
+        <item>Kar Dolu</item>
+        <item>dondurucu yağmur</item>
+        <item>yağmur</item>
+        <item>dondurucu yağmur</item>
+        <item>duş</item>
+        <item>yağmur</item>
+        <item>kar</item>
+        <item>kar</item>
+        <item>Kar</item>
+        <item>Kar</item>
+        <item>dolu</item>
+        <item>karyola</item>
+        <item>Yüzen toz</item>
+        <item>sis</item>
+        <item>pus</item>
+        <item>pus</item>
+        <item>net</item>
+        <item>net</item>
+        <item>soğuk</item>
+        <item>bulutlu</item>
+        <item>çoğunlukla bulutlu</item>
+        <item>çoğunlukla bulutlu</item>
+        <item>parçalı bulutlu</item>
+        <item>parçalı bulutlu</item>
+        <item>net</item>
+        <item>net</item>
+        <item>net</item>
+        <item>net</item>
+        <item>yağmur ve dolu</item>
+        <item>termal</item>
+        <item>fırtına</item>
+        <item>Gökgürültüsü</item>
+        <item>Gökgürültüsü</item>
+        <item>duş</item>
+        <item>kar</item>
+        <item>karyola</item>
+        <item>kar</item>
+        <item>net</item>
+        <item>Yağışlı</item>
+        <item>karyola</item>
+        <item>Yağışlı</item>
+        <item>kadın</item>
+        <item>Şiddetli yağmur</item>
+        <item>Büyük Yağmur Fırtınası</item>
+        <item>sağanak yağış</item>
+        <item>kar</item>
+        <item>üfleme</item>
+        <item>toz fırtınası</item>
+        <item>güçlü kum fırtınası</item>
+        <item>rüzgar</item>
+        <item>Gale</item>
+    </string-array>
+</resources>

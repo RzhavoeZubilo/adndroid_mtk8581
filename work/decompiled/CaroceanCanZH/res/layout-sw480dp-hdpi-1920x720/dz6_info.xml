@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layout_car_info" android:paddingTop="@dimen/layout_padding_bottom" android:paddingBottom="@dimen/layout_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/tx_def_width" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_oil_left" android:text="@string/ci_oil_left" android:drawableTop="@drawable/dz6_tv_oil_info_" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:background="@drawable/dz6_tv_horizontal_line" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <TextView android:id="@id/tv_outdoor_temp" android:text="@string/ci_outdoor_temp" android:drawableTop="@drawable/ci_outdoor_temp" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:background="@drawable/dz6_tv_horizontal_line" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <TextView android:id="@id/tv_battery_voltage" android:text="@string/ci_battery_voltage" android:drawableTop="@drawable/dz6_tv_battery_vol" style="@style/dz_warn_TextViewTheme" />
+        </LinearLayout>
+        <TextView android:background="@drawable/dz6_tv_vertical_line" android:layout_width="2.0dp" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/tx_def_width" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_seat_belts" android:text="@string/ci_seat_belts" android:drawableLeft="@drawable/dz6_tv_seat_belts" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:id="@id/tv_rear_door_open" android:text="@string/ci_rear_door" android:drawableLeft="@drawable/ci_rear_door_no_close" android:drawablePadding="@dimen/tx_door_padding" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:id="@id/tv_handbrake" android:text="@string/ci_handbrake" android:drawableLeft="@drawable/dz6_tv_handbrake" android:drawablePadding="@dimen/tx_door_padding" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:id="@id/tv_cleaning_fluid" android:text="@string/ci_cleaning_fluid" android:drawableLeft="@drawable/dz6_tv_clean_fluid" android:drawablePadding="@dimen/tx_door_padding" style="@style/dz_warn_TextViewTheme" />
+        </LinearLayout>
+        <TextView android:background="@drawable/dz6_tv_vertical_line" android:layout_width="2.0dp" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/tx_def_width" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_engine_speed" android:text="@string/ci_engine_speed" android:drawableTop="@drawable/ci_engine_speed" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:background="@drawable/dz6_tv_horizontal_line" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <TextView android:id="@id/tv_traveling_speed" android:text="@string/ci_traveling_speed" android:drawableTop="@drawable/ci_traveling_speed" style="@style/dz_warn_TextViewTheme" />
+            <TextView android:background="@drawable/dz6_tv_horizontal_line" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <TextView android:id="@id/tv_driven_distance" android:text="@string/ci_driven_distance" android:drawableTop="@drawable/ci_driven_distance" style="@style/dz_warn_TextViewTheme" />
+        </LinearLayout>
+        <TextView android:background="@drawable/dz6_tv_vertical_line" android:layout_width="2.0dp" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/tx_def_width" android:layout_height="match_parent" android:layout_weight="1.0">
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/tx_def_width" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_car" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="left|top" android:id="@id/iv_left_front_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_left_front_door" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="right|top" android:id="@id/iv_right_front_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_right_front_door" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="left|bottom" android:id="@id/iv_left_back_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_left_back_door" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="right|bottom" android:id="@id/iv_right_back_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_right_back_door" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="center|bottom" android:id="@id/iv_fueling" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_fueling" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="center|top" android:id="@id/iv_front_cover_open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_front_cover_open" android:contentDescription="@string/app_name" />
+                <ImageView android:layout_gravity="center|bottom" android:id="@id/iv_rear_door_open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_rear_door_open" android:contentDescription="@string/app_name" />
+            </FrameLayout>
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/tx_def_width" android:layout_weight="2.0" />
+            <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="right|bottom" android:id="@id/tv_door_open_warning" android:background="@drawable/ci_warning_bg" android:paddingLeft="@dimen/tx_warn_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ci_left_back_door_open" />
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/tx_def_width" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

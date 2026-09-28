@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:sharedUserId="android.uid.system" package="com.carocean.settings" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECOVERY"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.carocean.settings.App" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/Theme.Apps">
+        <activity android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_theme" android:label="@string/setting_theme_set" android:launchMode="singleTask" android:name="com.carocean.settings.CustomThemeSetActivity" android:taskAffinity="com.task.carsetting.CustomThemeSetActivity" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:icon="@drawable/ic_launcher_settings" android:label="@string/setting_avm" android:launchMode="singleTask" android:name="com.carocean.settings.Rear360Acitivity" android:taskAffinity="com.task.carocean.settings.Rear360Acitivity" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="com.carocean.settings.service.CPUInfoService">
+            <intent-filter>
+                <action android:name="com.carocean.settings.service.CPUInfoService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.carocean.settings.service.ScreenCaptureService"/>
+        <activity android:name="com.carocean.settings.CustomSettingActivity" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_eq" android:label="@string/setting_sound_effect" android:launchMode="singleTask" android:name="com.carocean.settings.CustomEqActivity" android:taskAffinity="com.task.carsetting.CustomEqActivity" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleTask" android:name="com.carocean.settings.MainActivity">
+            <intent-filter>
+                <action android:name="android.settings.WIFI_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleTask" android:name="com.carocean.settings.about.FactoryActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.carocean.settings.WallpaperActivity" android:theme="@style/Theme.Apps.NoActionBar.FullScreen"/>
+        <activity android:launchMode="singleTask" android:name="com.carocean.settings.about.TouchCalibrationActivity" android:theme="@style/Theme.Apps.NoActionBar.FullScreen"/>
+    </application>
+</manifest>

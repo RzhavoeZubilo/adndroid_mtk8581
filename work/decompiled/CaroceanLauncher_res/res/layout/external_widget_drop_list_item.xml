@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="64.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/provider_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:src="@mipmap/ic_launcher_application" android:scaleType="fitCenter" android:maxWidth="32.0dp" android:maxHeight="32.0dp" />
+    <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/provider" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5.0dp" />
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Τα</item>
+        <item>Liang</item>
+        <item>ήπια</item>
+        <item>Μέτρια</item>
+        <item>σοβαρή</item>
+        <item>σοβαρή</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>την Κυριακή</item>
+        <item>τη Δευτέρα</item>
+        <item>την τρίτη</item>
+        <item>την Τετάρτη</item>
+        <item>την Πέμπτη</item>
+        <item>την Παρασκευή</item>
+        <item>Το Σάββατο</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>ανεμοστρόβιλος</item>
+        <item>τροπική καταιγίδα</item>
+        <item>Ο τυφώνας</item>
+        <item>Η καταιγίδα</item>
+        <item>Η καταιγίδα</item>
+        <item>Η βροχή και το χιόνι</item>
+        <item>χαλάζι χαλάζι</item>
+        <item>Το χιόνι χαλάζι.</item>
+        <item>παγωμένη βροχή</item>
+        <item>Xiaoyu</item>
+        <item>παγωμένη βροχή</item>
+        <item>ντους</item>
+        <item>Η βροχή</item>
+        <item>χιονοπτώσεις</item>
+        <item>Το χιόνι</item>
+        <item>Το χιόνι</item>
+        <item>Το χιόνι</item>
+        <item>χαλάζι</item>
+        <item>Η βροχή και το χιόνι</item>
+        <item>σκόνη</item>
+        <item>Η ομίχλη</item>
+        <item>ομίχλη</item>
+        <item>ομίχλη</item>
+        <item>ηλιόλουστη</item>
+        <item>ηλιόλουστη</item>
+        <item>κρύο</item>
+        <item>θολό.</item>
+        <item>Το μεγαλύτερο μέρος της θολό.</item>
+        <item>Το μεγαλύτερο μέρος της θολό.</item>
+        <item>Η μερική συννεφιά</item>
+        <item>Η μερική συννεφιά</item>
+        <item>ηλιόλουστη</item>
+        <item>ηλιόλουστη</item>
+        <item>ηλιόλουστη</item>
+        <item>ηλιόλουστη</item>
+        <item>Η βροχή και χαλάζι</item>
+        <item>θερμική</item>
+        <item>Η καταιγίδα</item>
+        <item>Η καταιγίδα</item>
+        <item>Η καταιγίδα</item>
+        <item>ντους</item>
+        <item>Το χιόνι</item>
+        <item>Η βροχή και το χιόνι</item>
+        <item>Η θύελλα</item>
+        <item>ηλιόλουστη</item>
+        <item>Ο ντους</item>
+        <item>Η βροχή και το χιόνι</item>
+        <item>Ο ντους</item>
+        <item>γιν</item>
+        <item>Η βροχή</item>
+        <item>καταρρακτώδεις βροχές</item>
+        <item>καταρρακτώδεις βροχές</item>
+        <item>χιόνι</item>
+        <item>αμμοθύελλα.</item>
+        <item>αμμοθύελλα.</item>
+        <item>δυνατή αμμοθύελλα.</item>
+        <item>Ο άνεμος</item>
+        <item>γκέιλ</item>
+    </string-array>
+</resources>

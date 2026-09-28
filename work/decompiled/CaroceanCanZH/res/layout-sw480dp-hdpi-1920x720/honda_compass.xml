@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity">
+    <TextView android:textSize="@dimen/tmps_prompt_size" android:textColor="@color/white" android:gravity="center" android:id="@id/compass_valid" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str_gm_compass_valid" />
+    <RelativeLayout android:id="@id/compass_layout" android:background="@drawable/can_bg" android:paddingLeft="@dimen/ll_pading_left" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.can.ui.draw.Compass android:id="@id/compass_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dp" yeconui:clock_bg="@drawable/compass_bg" yeconui:needle="@drawable/compass_pointer" />
+        <com.can.ui.draw.AutoText android:gravity="center" android:paddingBottom="100.0dp" android:layout_width="@dimen/compass_auto_text_width" android:text="@string/str_compass_calibration" android:layout_alignParentBottom="true" style="@style/compass_tv_style" />
+        <LinearLayout android:paddingLeft="@dimen/compass_ll_left" android:paddingTop="@dimen/compass_padingtop_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.can.ui.draw.AutoText android:text="@string/str_compass_state" style="@style/compass_tv_style" />
+            <com.can.ui.draw.AutoText android:id="@id/compass_tv_state" android:layout_marginLeft="20.0dp" style="@style/compass_tv_style" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="@dimen/compass_ll_left" android:paddingTop="@dimen/compass_padingtop_top1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.can.ui.draw.AutoText android:text="@string/str_compass_area" style="@style/compass_tv_style" />
+            <SeekBar android:layout_gravity="center" android:id="@id/compass_skbar_area" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="@dimen/compass_skbar_width" android:layout_height="wrap_content" android:progressDrawable="@drawable/compass_seekbar_img" android:thumb="@drawable/compass_thumb" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="@dimen/compass_ll_left" android:paddingTop="@dimen/compass_padingtop_top2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/tv_compass_calibration" android:background="@drawable/selector_fuel_del" android:text="@string/str_compass_exe_calibration" style="@style/compass_tv_style" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

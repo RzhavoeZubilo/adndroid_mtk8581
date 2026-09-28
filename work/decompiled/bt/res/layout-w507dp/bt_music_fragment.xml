@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@mipmap/appbg_blue" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/iv_bt_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67.0dp" android:src="@mipmap/icon_bt" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rl_layout_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_below="@id/iv_bt_icon">
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/albumName" android:layout_width="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:layout_centerHorizontal="true" style="@style/sangde_tv_default_style" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/singerName" android:layout_width="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="20.0dp" android:layout_below="@id/albumName" android:layout_centerHorizontal="true" style="@style/sangde_tv_default_style" />
+            <TextView android:textSize="26.0sp" android:textColor="@color/white" android:id="@id/musicTitle" android:layout_width="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="20.0dp" android:layout_below="@id/singerName" android:layout_centerHorizontal="true" style="@style/sangde_tv_default_style" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/rl_layout_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dp" android:layout_marginTop="80.0dp" android:layout_below="@id/rl_layout_1" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_size_24" android:textColor="@color/default_font_color" android:gravity="center_vertical" android:id="@id/tv_seekbar_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <SeekBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="243.0dp" android:layout_height="@dimen/seekbar_default_height" android:layout_marginTop="3.0dp" android:maxHeight="@dimen/seekbar_default_height" android:progressDrawable="@xml/seekbar_img" android:minHeight="@dimen/seekbar_default_height" android:thumb="@null" android:layout_marginStart="14.0dp" />
+            <TextView android:textSize="@dimen/text_size_24" android:textColor="@color/default_font_color" android:gravity="center" android:id="@id/tv_seekbar_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="14.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_24" android:textColor="@color/default_font_color" android:gravity="center" android:id="@id/tv_track_index" android:layout_width="@dimen/sangde_track_width" android:layout_height="wrap_content" android:layout_below="@id/rl_layout_2" />
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dp" android:layout_below="@id/rl_layout_1" layout="@layout/music_play_control_ly" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/bt_no_connect" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dp" android:text="@string/bt_music_no_conn" android:layout_below="@id/iv_bt_icon" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/albumart_iv" android:background="@mipmap/albumart_mp_unknown" android:visibility="gone" android:layout_width="444.0dp" android:layout_height="284.0dp" android:layout_marginTop="40.0dp" />
+</FrameLayout>

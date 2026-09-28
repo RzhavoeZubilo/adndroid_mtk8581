@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:clipToPadding="false" android:layout_width="780.0dp" android:layout_height="480.0dp" android:layout_marginLeft="20.0dp" android:layout_marginRight="25.0dp" android:layout_marginBottom="35.0dp" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:visibility="gone" android:layout_width="90.0dp" android:layout_height="90.0dp" android:indeterminateDrawable="@drawable/bt_progressbar_blue" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/progressHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/hintText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

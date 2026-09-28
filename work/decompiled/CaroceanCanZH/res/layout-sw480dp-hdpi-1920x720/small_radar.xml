@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.can.ui.draw.TouchLayout android:id="@id/radarlayout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/the_radarlayout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/top_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/left_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                <ImageButton android:id="@id/btn_radar_left_show" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_lbtn_show" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/layout_surface_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.can.ui.draw.RadarSurface android:id="@id/radar_surfaceview" android:background="@android:color/transparent" android:layout_width="175.0dp" android:layout_height="wrap_content" android:layout_marginLeft="-15.0dp" android:layout_marginTop="-20.0dp" />
+                    <ImageButton android:id="@id/btn_radar_left_hide" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_lbtn_show" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/right_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@id/left_layout" android:layout_alignParentRight="true">
+                <ImageButton android:id="@id/btn_radar_right_show" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_rbtn_show" />
+                <ImageButton android:id="@id/btn_radar_rigth_hide" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_rbtn_show" />
+                <LinearLayout android:orientation="vertical" android:id="@id/button_group" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageButton android:id="@id/btn_radar_right_volume" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/radar_rbtn_unmute" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/btn_radar_right_park" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/radar_rbtn_park1" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/btn_radar_right_magnify" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/radar_rbtn_magnify" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RadioGroup android:orientation="vertical" android:id="@id/button_avm" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RadioButton android:id="@id/btn_video_wideangle" android:background="@drawable/video_wideangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" />
+                    <RadioButton android:id="@id/btn_video_standardview" android:background="@drawable/video_standardview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" />
+                    <RadioButton android:id="@id/btn_video_depresangle" android:background="@drawable/video_depresangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" />
+                </RadioGroup>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/layout_track" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/static_track_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/trajectory" />
+        <com.can.ui.draw.Track android:layout_gravity="center" android:id="@id/track_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_panoramic" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:layout_gravity="left|top" android:id="@id/btn_left_top" android:background="@drawable/btn_video_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="right|top" android:id="@id/btn_right_top" android:background="@drawable/btn_video_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="left|bottom" android:id="@id/btn_left_bottom" android:background="@drawable/btn_video_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="right|bottom" android:id="@id/btn_right_bottom" android:background="@drawable/btn_video_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center|bottom" android:id="@id/btn_center_bottom" android:background="@drawable/btn_video_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/layout_hd_toyota" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/toyota_video_width">
+        <Button android:id="@id/hd_toyota_view1" android:background="@null" android:layout_width="0.0dp" android:layout_height="@dimen/video_btn_width" android:layout_weight="1.0" />
+        <TextView android:id="@id/hd_toyota_view2" android:background="@null" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/hd_toyota_view3" android:background="@null" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/hd_toyota_view4" android:background="@null" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layout_video_switch" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@id/btn_forward" android:background="@null" android:layout_width="@dimen/video_btn_height" android:layout_height="@dimen/video_btn_width" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/btn_rear" android:background="@null" android:layout_width="@dimen/video_btn_height" android:layout_height="@dimen/video_btn_width" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/btn_left" android:background="@null" android:layout_width="@dimen/video_btn_width" android:layout_height="@dimen/video_btn_height" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <Button android:id="@id/btn_right" android:background="@null" android:layout_width="@dimen/video_btn_width" android:layout_height="@dimen/video_btn_height" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_video_switch1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_marg_top">
+        <Button android:id="@id/btn_forward_all" android:layout_marginStart="@dimen/video_btn1_left" style="@style/video_btn_style" />
+        <Button android:id="@id/btn_forward_right" android:layout_marginStart="@dimen/video_btn2_left" style="@style/video_btn_style" />
+        <Button android:id="@id/btn_rear_all" android:layout_marginStart="@dimen/video_btn3_left" style="@style/video_btn_style" />
+        <Button android:id="@id/btn_horizontal_all" android:layout_marginStart="@dimen/video_btn4_left" style="@style/video_btn_style" />
+        <Button android:id="@id/btn_vertical_all" android:layout_marginStart="@dimen/video_btn5_left" style="@style/video_btn_style" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_t70_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <Button android:id="@id/t70_video_all" android:background="@drawable/t70_video_view_all" style="@style/video_view_style" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <Button android:id="@id/t70_video_right" android:background="@drawable/t70_video_view_right" android:layout_centerVertical="true" style="@style/video_view_style" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <Button android:id="@id/t70_video_left" android:background="@drawable/t70_video_view_left" style="@style/video_view_style" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <Button android:id="@id/t70_video_rear" android:background="@drawable/t70_video_view_rear" style="@style/video_view_style" />
+                <Button android:id="@id/t70_video_forward" android:background="@drawable/t70_video_view_forward" android:visibility="invisible" style="@style/video_view_style" />
+            </RelativeLayout>
+        </LinearLayout>
+        <Button android:id="@id/t70_video_rigth_hide" android:background="@drawable/radar_rbtn_show" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.can.ui.draw.TouchLayout>

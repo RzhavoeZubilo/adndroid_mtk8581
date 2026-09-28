@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/ac_poweroff_layout" android:background="@drawable/lexus_air_bg" android:paddingLeft="0.0dp" android:paddingRight="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/air_power_off" android:layout_width="132.0dp" android:layout_height="match_parent" android:text="@string/ac_off" style="@style/lexus_air_text_style" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/ac_poweron_layout" android:background="@drawable/lexus_air_bg" android:paddingLeft="0.0dp" android:paddingRight="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/air_temp_left" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ac_temp_unit_c" style="@style/lexus_air_text_style" />
+        </FrameLayout>
+        <ImageView android:gravity="center" android:id="@id/air_wind" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lexus_wind_0" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/air_loop" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lexus_inner_loop" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/air_ac" android:layout_width="match_parent" android:layout_height="0.0dp" android:src="@drawable/lexus_ac_off" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <ImageView android:gravity="center" android:id="@id/air_auto" android:layout_width="match_parent" android:layout_height="0.0dp" android:src="@drawable/lexus_ac_auto" android:scaleType="centerInside" android:layout_weight="1.0" android:alpha="0.1" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@id/air_front_win" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lexus_front_win_on" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/air_wind_direct" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lexus_winddirect_all" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/air_rear_win" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/lexus_rear_win_on" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/air_temp_right" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ac_temp_unit_c" style="@style/lexus_air_text_style" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

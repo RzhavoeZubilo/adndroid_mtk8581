@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/can_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/air_honda_bg" android:layout_width="@dimen/dsp_air_ctrl_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dsp_air_margintop">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dsp_air_temp_width" android:layout_height="@dimen/dsp_air_ctrl_height">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <TextView android:id="@id/mondeo_air_left_temp_add" android:background="@drawable/air_temp_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_tv_left_temp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <TextView android:id="@id/mondeo_air_left_temp_del" android:background="@drawable/air_temp_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dsp_air_temp_width" android:layout_height="@dimen/dsp_air_ctrl_height" android:layout_alignParentEnd="true">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <TextView android:id="@id/mondeo_air_right_temp_add" android:background="@drawable/air_temp_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_tv_right_temp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <TextView android:id="@id/mondeo_air_right_temp_del" android:background="@drawable/air_temp_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/mondeo_air_ll_wind" android:layout_width="wrap_content" android:layout_height="@dimen/dsp_air_wind_height" android:layout_centerHorizontal="true">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/mondeo_btn_air_wind_del" android:background="@drawable/air_wind_del" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.can.ui.draw.FuelSeekBar android:layout_gravity="center_vertical" android:id="@id/mondeo_seekbar_wind" android:layout_width="@dimen/dsp_air_seekbar_width" android:layout_height="@dimen/dsp_air_seekbar_height" android:progressDrawable="@drawable/air_wind_seekbar" android:thumb="@null" android:layout_marginStart="@dimen/dsp_air_marginleft_wind" yeconui:can_move="false" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/mondeo_btn_air_wind_add" android:background="@drawable/air_win_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dsp_air_marginleft_wind" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/mondeo_air_ll_set1" android:layout_width="wrap_content" android:layout_height="@dimen/dsp_air_wind_height" android:layout_below="@id/mondeo_air_ll_wind" android:layout_centerHorizontal="true">
+            <FrameLayout android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent">
+                <Button android:layout_gravity="center" android:id="@id/mondeo_btn_air_front_deg" android:background="@drawable/air_front_deg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_btn_air_ac" android:background="@null" android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent" android:text="@string/str_air_ac" />
+            <FrameLayout android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent">
+                <Button android:layout_gravity="center" android:id="@id/mondeo_btn_air_cycle_in" android:background="@drawable/air_cycle_in" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Button android:layout_gravity="center" android:id="@id/mondeo_btn_air_cycle_out" android:background="@drawable/air_cycle_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_btn_air_on_off" android:background="@null" android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent" android:text="@string/str_air_on" />
+        </LinearLayout>
+        <LinearLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/dsp_air_wind_height" android:layout_below="@id/mondeo_air_ll_set1" android:layout_alignStart="@id/mondeo_air_ll_set1">
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_btn_air_auto" android:background="@null" android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent" android:text="@string/str_air_auto" />
+            <TextView android:textSize="@dimen/tx_air_info_size" android:textColor="@color/air_text_selector_color" android:gravity="center" android:id="@id/mondeo_btn_air_dual" android:background="@null" android:layout_width="@dimen/dsp_air_auto_width" android:layout_height="match_parent" android:text="@string/str_air_dual" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/air_bottom_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/mondeo_btn_air_up_wind" android:background="@drawable/air_wind_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/mondeo_btn_air_par_wind" android:background="@drawable/air_par_wind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/mondeo_btn_air_down_wind" android:background="@drawable/air_down_wind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

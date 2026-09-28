@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_prompt_bk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/tx_default_size"
+        android:gravity="center"
+        android:id="@+id/pop_dailog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popwind_list_magl"
+        android:layout_marginTop="@dimen/popwind_list_magr">
+        <ListView
+            android:id="@+id/pop_dailog_list_info"
+            android:visibility="visible"
+            android:layout_width="@dimen/popwind_list_width"
+            android:layout_height="@dimen/popwind_list_height"
+            android:drawSelectorOnTop="false"
+            android:divider="@null"/>
+    </LinearLayout>
+</LinearLayout>

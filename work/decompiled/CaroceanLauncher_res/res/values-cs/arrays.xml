@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Vynikající</item>
+        <item>Dobrá</item>
+        <item>Mírná</item>
+        <item>Střední</item>
+        <item>Těžká</item>
+        <item>Těžká</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Tornádo</item>
+        <item>Tropická bouře</item>
+        <item>Hurikán</item>
+        <item>Bouřka</item>
+        <item>Dešťová bouře</item>
+        <item>Sleet</item>
+        <item>Sleet</item>
+        <item>Sleet</item>
+        <item>Mrazivý déšť</item>
+        <item>Lehký déšť</item>
+        <item>Mrazivý déšť</item>
+        <item>Sprcha</item>
+        <item>Mírný déšť</item>
+        <item>Sněhová dešť</item>
+        <item>Lehký sníh</item>
+        <item>Sníh</item>
+        <item>Sníh</item>
+        <item>Krup</item>
+        <item>Sleet</item>
+        <item>Plovoucí prach</item>
+        <item>Mlha</item>
+        <item>Zamlžení</item>
+        <item>Zamlžení</item>
+        <item>Vymazat</item>
+        <item>Vymazat</item>
+        <item>Studená</item>
+        <item>Zataženo</item>
+        <item>Většinou zataženo</item>
+        <item>Většinou zataženo</item>
+        <item>Slunečno a oblačno</item>
+        <item>Slunečno a oblačno</item>
+        <item>Vymazat</item>
+        <item>Vymazat</item>
+        <item>Vymazat</item>
+        <item>Vymazat</item>
+        <item>Déšť a krupobití</item>
+        <item>Teplo</item>
+        <item>Dešťová bouře</item>
+        <item>Bouřka</item>
+        <item>Bouřka</item>
+        <item>Sprcha</item>
+        <item>Silný sníh</item>
+        <item>sleet</item>
+        <item>Blizzard</item>
+        <item>Vymazat</item>
+        <item>Bouřka</item>
+        <item>Sleet</item>
+        <item>Bouřka</item>
+        <item>Zataženo</item>
+        <item>Silný déšť</item>
+        <item>Silný déšť</item>
+        <item>Mimořádná dešťová bouře</item>
+        <item>Střední sníh</item>
+        <item>Zvedání písku</item>
+        <item>Písková bouře</item>
+        <item>Silná písečná bouře</item>
+        <item>Vítr</item>
+        <item>Silný vítr</item>
+    </string-array>
+</resources>

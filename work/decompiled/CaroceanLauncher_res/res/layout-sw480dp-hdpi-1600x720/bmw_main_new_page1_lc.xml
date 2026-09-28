@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_navi" android:background="@drawable/bmw_main_new_navi_lc" android:layout_width="@dimen/main_page_new_icon_width_lc" android:layout_height="@dimen/main_page_new_icon_height_lc" android:layout_marginTop="@dimen/main_page_new_icon_margintop_lc">
+        <TextView android:text="@string/home_navi" style="@style/bmw_main_page_new_icon_title_lc" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_navi_text" style="@style/bmw_main_page_new_icon_text_lc" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/main_page_new_icon_distance_lc" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/main_page_new_icon_width_lc" android:layout_height="@dimen/main_page_new_icon_height_lc" android:layout_marginTop="@dimen/main_page_new_icon_margintop_lc">
+        <FrameLayout android:id="@id/main_music" android:background="@drawable/bmw_main_new_music_lc" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="380.0dp" android:text="@string/home_music" style="@style/bmw_main_page_new_icon_title_lc" />
+            <com.android.launcher2.popuView.MarqueeTextView android:id="@id/main_music_title" android:layout_width="380.0dp" android:layout_height="wrap_content" style="@style/bmw_main_page_new_icon_text_lc" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/main_bt" android:background="@drawable/bmw_main_new_bt_lc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:text="@string/home_bt" style="@style/bmw_main_page_new_icon_title_lc" />
+            <com.android.launcher2.popuView.MarqueeTextView android:id="@id/main_bt_description_text" android:layout_width="190.0dp" android:text="@string/home_bt_disconnected" style="@style/bmw_main_page_new_icon_text_lc" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

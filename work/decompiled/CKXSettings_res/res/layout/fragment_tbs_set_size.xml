@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:text="调整按键区域大小" />
+    <FrameLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="200.0dp">
+        <View android:layout_gravity="center" android:id="@id/oval" android:background="@drawable/oval_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" />
+    <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seek_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:maxWidth="640.0dp" android:max="100" android:progress="24" />
+</androidx.appcompat.widget.LinearLayoutCompat>

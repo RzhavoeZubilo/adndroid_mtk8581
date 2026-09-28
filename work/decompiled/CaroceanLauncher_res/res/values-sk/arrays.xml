@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Výborne</item>
+        <item>Dobre</item>
+        <item>Svetlo</item>
+        <item>Mediums</item>
+        <item>Vážne</item>
+        <item>Tažké</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Nedeľa</item>
+        <item>Pondelok</item>
+        <item>Utorok</item>
+        <item>Streda</item>
+        <item>Thursday</item>
+        <item>Piatok</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Tornado</item>
+        <item>Tropická búrka</item>
+        <item>Hurricane</item>
+        <item>Thunderstorm</item>
+        <item>rainstorm</item>
+        <item>sleet</item>
+        <item>Dážďová lúpež</item>
+        <item>Snow hail</item>
+        <item>Mrazený dážď</item>
+        <item>Ľahký dážď</item>
+        <item>Mrazený dážď</item>
+        <item>Shower</item>
+        <item>Stredný dážď</item>
+        <item>Blizzard</item>
+        <item>Xiaoxue</item>
+        <item>Snow</item>
+        <item>Snow</item>
+        <item>Hail</item>
+        <item>sleet</item>
+        <item>Plávajúci prach</item>
+        <item>hmla</item>
+        <item>Haze</item>
+        <item>Haze</item>
+        <item>Sunny</item>
+        <item>Sunny</item>
+        <item>Cold</item>
+        <item>Cloudy</item>
+        <item>Väčšinou mravý</item>
+        <item>Väčšinou mravý</item>
+        <item>Sunny with partly cloudy</item>
+        <item>Slnko s čiastočne mravným</item>
+        <item>Sunny</item>
+        <item>Sunny</item>
+        <item>Sunny</item>
+        <item>Sunny</item>
+        <item>Dážď a lúpež</item>
+        <item>Hot</item>
+        <item>rainstorm</item>
+        <item>Thunderstorm</item>
+        <item>Thunderstorm</item>
+        <item>Shower</item>
+        <item>Veľký sneh</item>
+        <item>sleet</item>
+        <item>Blizzard</item>
+        <item>Sunny</item>
+        <item>Thunderstorm</item>
+        <item>sleet</item>
+        <item>Thunderstorm</item>
+        <item>Yin</item>
+        <item>Veľký dážď</item>
+        <item>heavy rainstorm</item>
+        <item>Veľmi ťažká dažďová búrka</item>
+        <item>Stred snehu</item>
+        <item>Yangsha</item>
+        <item>Sandstorm</item>
+        <item>Silná piesková búrka</item>
+        <item>Wind</item>
+        <item>Silné vetry</item>
+    </string-array>
+</resources>

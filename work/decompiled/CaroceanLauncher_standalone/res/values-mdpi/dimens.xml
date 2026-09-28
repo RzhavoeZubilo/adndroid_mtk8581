@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_drawable_padding">2.0dp</dimen>
+    <dimen name="app_icon_padding_top">4.0dp</dimen>
+    <dimen name="folder_preview_size">52.0dp</dimen>
+    <dimen name="workspace_cell_height_port">74.0dp</dimen>
+</resources>

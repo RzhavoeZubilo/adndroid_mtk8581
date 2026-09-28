@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>ممتاز</item>
+        <item>حميد</item>
+        <item>معتدل</item>
+        <item>معتدل</item>
+        <item>خطيرة</item>
+        <item>شديدة</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>الأحد</item>
+        <item>يوم الاثنين</item>
+        <item>يوم الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>يوم الخميس</item>
+        <item>يوم الجمعة</item>
+        <item>يوم السبت</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>تورنادو</item>
+        <item>العاصفة الاستوائية</item>
+        <item>إعصار</item>
+        <item>عاصفة رعدية</item>
+        <item>ممطرة</item>
+        <item>المطر</item>
+        <item>مطر في حائل</item>
+        <item>كليب برد الثلج</item>
+        <item>ثلج</item>
+        <item>مطر</item>
+        <item>ثلج</item>
+        <item>دش</item>
+        <item>أمطار معتدلة</item>
+        <item>ثلج</item>
+        <item>ثلوج</item>
+        <item>الثلج</item>
+        <item>الثلج</item>
+        <item>حائل</item>
+        <item>المطر</item>
+        <item>الغبار</item>
+        <item>الضباب</item>
+        <item>ضباب</item>
+        <item>ضباب</item>
+        <item>مشمس</item>
+        <item>مشمس</item>
+        <item>الباردة</item>
+        <item>غائم</item>
+        <item>جزء كبير من غائم</item>
+        <item>جزء كبير من غائم</item>
+        <item>مطر</item>
+        <item>مطر</item>
+        <item>مشمس</item>
+        <item>مشمس</item>
+        <item>مشمس</item>
+        <item>مشمس</item>
+        <item>المطر والبرد</item>
+        <item>الحرارية</item>
+        <item>ممطرة</item>
+        <item>عاصفة رعدية</item>
+        <item>عاصفة رعدية</item>
+        <item>دش</item>
+        <item>الثلوج</item>
+        <item>المطر</item>
+        <item>عاصفة ثلجية</item>
+        <item>مشمس</item>
+        <item>رعدية</item>
+        <item>المطر</item>
+        <item>رعدية</item>
+        <item>يين</item>
+        <item>الأمطار الغزيرة</item>
+        <item>الأمطار الغزيرة</item>
+        <item>الأمطار الغزيرة</item>
+        <item>الثلوج</item>
+        <item>رفع الرمال.</item>
+        <item>عاصفة رملية</item>
+        <item>عاصفة رملية قوية</item>
+        <item>الرياح</item>
+        <item>غيل</item>
+    </string-array>
+</resources>

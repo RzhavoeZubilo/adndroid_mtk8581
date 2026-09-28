@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_car" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="left|top" android:id="@id/iv_left_front_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_left_front_door" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="right|top" android:id="@id/iv_right_front_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_right_front_door" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="left|bottom" android:id="@id/iv_left_back_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_left_back_door" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="right|bottom" android:id="@id/iv_right_back_door" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_right_back_door" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="center|bottom" android:id="@id/iv_fueling" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_fueling" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="center|top" android:id="@id/iv_front_cover_open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_front_cover_open" android:contentDescription="@string/app_name" />
+        <ImageView android:layout_gravity="center|bottom" android:id="@id/iv_rear_door_open" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci_rear_door_open" android:contentDescription="@string/app_name" />
+    </FrameLayout>
+</RelativeLayout>

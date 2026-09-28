@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="2" app:entries="@array/language_entries" app:entryValues="@array/language_values" app:key="language" app:title="@string/title_language" />
+    <SwitchPreferenceCompat app:key="float" app:title="@string/title_float_ball" />
+    <SwitchPreferenceCompat app:key="key_sound" app:title="@string/title_key_sound" />
+    <SwitchPreferenceCompat app:key="auto_play_usb" app:title="@string/title_auto_play_usb" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="2" app:entries="@array/auto_time_entries" app:entryValues="@array/auto_time_values" app:key="auto_time" app:title="@string/title_auto_time" />
+    <com.carocean.settings.ui.TimePreference app:key="time" app:title="@string/time_setting" />
+    <com.carocean.settings.ui.DatePreference app:key="date" app:title="@string/date_setting" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="12" app:entries="@array/time_format_entries" app:entryValues="@array/time_format_values" app:key="time_format" app:title="@string/time_format" />
+    <com.carocean.settings.ui.SettingsPreference app:key="set_map" app:showMore="true" app:title="@string/title_set_map" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference app:isPreferenceVisible="false" app:key="power_off_time" app:title="@string/title_power_off_time" />
+</PreferenceScreen>

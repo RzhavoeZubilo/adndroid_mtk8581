@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Отличное</item>
+        <item>Хорошее</item>
+        <item>Умеренное</item>
+        <item>Среднее</item>
+        <item>Плохое</item>
+        <item>Опасное</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Торнадо</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>Гроза</item>
+        <item>Шторм</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь с градом</item>
+        <item>Снег с градом</item>
+        <item>Прогноз погоды</item>
+        <item>Небольшой дождь</item>
+        <item>Прогноз погоды</item>
+        <item>Ливень</item>
+        <item>Дождь</item>
+        <item>Снежные заряды</item>
+        <item>Небольшой снегопад</item>
+        <item>Снег</item>
+        <item>Снег</item>
+        <item>Град</item>
+        <item>Дождь со снегом</item>
+        <item>Пыльная буря</item>
+        <item>Туман</item>
+        <item>Дымка</item>
+        <item>Мгла</item>
+        <item>Ясно</item>
+        <item>Ясно</item>
+        <item>Холодно</item>
+        <item>Переменная облачность</item>
+        <item>Облачно</item>
+        <item>Облачно</item>
+        <item>Переменная облачность</item>
+        <item>Переменная облачность</item>
+        <item>Ясно</item>
+        <item>Ясно</item>
+        <item>Ясно</item>
+        <item>Ясно</item>
+        <item>Дождь с градом</item>
+        <item>Жара</item>
+        <item>Шторм</item>
+        <item>Гроза</item>
+        <item>Гроза</item>
+        <item>Ливень</item>
+        <item>Сильный снегопад</item>
+        <item>Дождь со снегом</item>
+        <item>Метель</item>
+        <item>Ясно</item>
+        <item>Прогноз погоды</item>
+        <item>Дождь со снегом</item>
+        <item>Прогноз погоды</item>
+        <item>Пасмурно</item>
+        <item>Сильный дождь</item>
+        <item>Сильный шторм</item>
+        <item>Сильный шторм</item>
+        <item>Снегопад</item>
+        <item>Ветрено</item>
+        <item>Песчаная буря</item>
+        <item>Сильная буря</item>
+        <item>Ветер</item>
+        <item>Сильный ветер</item>
+    </string-array>
+</resources>

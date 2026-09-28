@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Hotseat android:layout_width="match_parent" android:layout_height="wrap_content" launcher:cellCountX="@integer/hotseat_cell_count" launcher:cellCountY="1" style="?HotSeatStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <com.android.launcher2.CellLayout android:id="@id/layout" android:paddingTop="0.0dp" android:paddingRight="0.0dp" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dp" android:paddingStart="0.0dp" launcher:cellHeight="@dimen/hotseat_cell_height" launcher:cellWidth="@dimen/hotseat_cell_width" launcher:heightGap="0.0dp" launcher:maxGap="@dimen/workspace_max_gap" launcher:widthGap="0.0dp" />
+</com.android.launcher2.Hotseat>

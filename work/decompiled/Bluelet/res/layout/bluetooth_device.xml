@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp">
+        <TextView android:paddingLeft="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_device_name" />
+        <TextView android:id="@id/device_name" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:paddingLeft="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/already_connected_device" />
+        <TextView android:id="@id/connected_device" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/device_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

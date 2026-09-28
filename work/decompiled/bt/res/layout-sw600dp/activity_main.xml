@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/appbg_blue" android:paddingTop="@dimen/status_bar_size" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="167.0dp" android:layout_height="wrap_content" android:layout_marginLeft="29.0dp" android:layout_marginBottom="132.0dp" android:layout_alignParentBottom="true">
+        <RadioGroup android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tab_List" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="true">
+            <RadioButton android:id="@id/tab_dial" android:background="@drawable/cb_navi_blue" android:paddingTop="15.0dp" android:layout_width="match_parent" android:checked="false" android:drawableTop="@mipmap/dial" android:soundEffectsEnabled="true" style="@style/tab_rb_style" />
+            <RadioButton android:id="@id/tab_history" android:background="@drawable/cb_navi_blue" android:paddingTop="15.0dp" android:layout_marginTop="11.0dp" android:checked="false" android:drawableTop="@mipmap/calllog" android:soundEffectsEnabled="true" style="@style/tab_rb_style" />
+            <RadioButton android:id="@id/tab_phonebook" android:background="@drawable/cb_navi_blue" android:paddingTop="15.0dp" android:layout_marginTop="11.0dp" android:checked="false" android:drawableTop="@mipmap/pb_phone" android:soundEffectsEnabled="true" style="@style/tab_rb_style" />
+            <RadioButton android:id="@id/tab_setting" android:background="@drawable/cb_navi_blue" android:paddingTop="15.0dp" android:layout_marginTop="11.0dp" android:checked="false" android:drawableTop="@mipmap/setting" android:soundEffectsEnabled="true" style="@style/tab_rb_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout android:id="@id/frameLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="199.0dp" />
+    <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/backButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60.0dp" android:text="@string/f_phone" android:layout_marginStart="50.0dp" />
+</RelativeLayout>

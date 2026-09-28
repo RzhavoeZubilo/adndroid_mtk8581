@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/launcher_first" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:textColor="@android:color/white" android:gravity="left|center" android:paddingLeft="50.0dp" android:paddingTop="60.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/launcher_frist_open_tips" />
+    <Button android:textSize="26.0sp" android:layout_gravity="center|bottom" android:id="@id/cling_first_button" android:background="@drawable/launcher_first_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:layout_marginBottom="15.0dp" android:text="@string/launcher_frist_button_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

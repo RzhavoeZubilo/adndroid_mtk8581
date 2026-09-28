@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_zlink" android:background="@drawable/jly_bmw_blue_zlink" android:layout_width="@dimen/jly_main_page_new_icon_width" android:layout_height="@dimen/jly_main_page_new_icon_height" android:layout_marginTop="@dimen/jly_main_page_new_icon_margintop">
+        <TextView android:text="@string/home_zlink" style="@style/jly_bmw_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_phonelink_text" style="@style/jly_main_page_icon_text" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/jly_main_page_new_icon_distance" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_navi" android:background="@drawable/jly_bmw_blue_navi" android:layout_width="@dimen/jly_main_page_new_icon_width" android:layout_height="@dimen/jly_main_page_new_icon_height" android:layout_marginTop="@dimen/jly_main_page_new_icon_margintop">
+        <TextView android:text="@string/home_navi" style="@style/jly_bmw_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_navi_text" style="@style/jly_main_page_icon_text" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/jly_main_page_new_icon_distance" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_music" android:background="@drawable/jly_bmw_blue_music" android:layout_width="@dimen/jly_main_page_new_icon_width" android:layout_height="@dimen/jly_main_page_new_icon_height" android:layout_marginTop="@dimen/jly_main_page_new_icon_margintop">
+        <TextView android:text="@string/home_music" style="@style/jly_bmw_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:id="@id/main_music_title" android:text="@string/home_unknow" style="@style/jly_main_page_icon_text" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/jly_main_page_new_icon_distance" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_bt" android:background="@drawable/jly_bmw_blue_bt" android:layout_width="@dimen/jly_main_page_new_icon_width" android:layout_height="@dimen/jly_main_page_new_icon_height" android:layout_marginTop="@dimen/jly_main_page_new_icon_margintop">
+        <TextView android:text="@string/home_bt" style="@style/jly_bmw_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:id="@id/main_bt_description_text" android:text="@string/home_bt_disconnected" style="@style/jly_main_page_icon_text" />
+    </FrameLayout>
+</LinearLayout>

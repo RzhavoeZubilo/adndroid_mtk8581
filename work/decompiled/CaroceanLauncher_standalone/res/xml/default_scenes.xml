@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenes
+  xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <scene launcher:previewResId="@drawable/scene_default" launcher:sceneNameResId="@string/scene_name_default" launcher:scenePos="0" launcher:sceneTitleResId="@string/scene_title_default" launcher:sceneWallpaper="@drawable/wallpaper_custom01" launcher:workspaceResId="@xml/default_workspace" />
+    <scene launcher:iconScale="" launcher:innerIconScale="0.70" launcher:previewResId="@drawable/scene_red" launcher:sceneNameResId="@string/scene_name_red" launcher:scenePos="1" launcher:sceneTitleResId="@string/scene_title_red" launcher:sceneWallpaper="@drawable/wallpaper_custom01" launcher:workspaceResId="@xml/red" />
+    <scene launcher:iconScale="" launcher:innerIconScale="0.70" launcher:previewResId="@drawable/scene_red" launcher:sceneNameResId="@string/scene_name_red" launcher:scenePos="2" launcher:sceneTitleResId="@string/scene_title_red" launcher:sceneWallpaper="@drawable/wallpaper_custom01" launcher:workspaceResId="@xml/red" />
+</scenes>

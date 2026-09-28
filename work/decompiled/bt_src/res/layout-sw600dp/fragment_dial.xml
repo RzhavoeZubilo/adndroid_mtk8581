@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:id="@id/gridLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:rowCount="4" android:columnCount="4">
+        <Button android:id="@id/dialOne" android:tag="1" android:background="@drawable/btn_dialpad_1_blue" android:layout_marginLeft="0.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialTwo" android:tag="2" android:background="@drawable/btn_dialpad_2_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialThree" android:tag="3" android:background="@drawable/btn_dialpad_3_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialButton" android:background="@drawable/btn_dialpad_dial_blue" android:layout_marginLeft="9.0dp" android:layout_rowSpan="4" style="@style/dialNumber" />
+        <Button android:id="@id/dialFour" android:tag="4" android:background="@drawable/btn_dialpad_4_blue" style="@style/dialNumber" />
+        <Button android:id="@id/dialFive" android:tag="5" android:background="@drawable/btn_dialpad_5_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialSix" android:tag="6" android:background="@drawable/btn_dialpad_6_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialSeven" android:tag="7" android:background="@drawable/btn_dialpad_7_blue" style="@style/dialNumber" />
+        <Button android:id="@id/dialEight" android:tag="8" android:background="@drawable/btn_dialpad_8_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialNine" android:tag="9" android:background="@drawable/btn_dialpad_9_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialStar" android:tag="*" android:background="@drawable/btn_dialpad_star_blue" style="@style/dialNumber" />
+        <Button android:id="@id/dialZero" android:tag="0" android:background="@drawable/btn_dialpad_0_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+        <Button android:id="@id/dialPound" android:tag="#" android:background="@drawable/btn_dialpad_sharp_blue" android:layout_marginLeft="9.0dp" style="@style/dialNumber" />
+    </GridLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_num_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:layout_above="@id/gridLayout" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/phoneNumberTextView" android:layout_width="549.0dp" android:layout_height="match_parent" android:maxLength="15" />
+            <Button android:id="@id/deleteButton" android:background="@drawable/btn_dialpad_del_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/dial_input_line" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/not_link_bt_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="284.0dp" android:layout_marginTop="127.0dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_bt" />
+        <TextView android:textSize="@dimen/text_content_size" android:textColor="@color/text_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p_no_link_bt" />
+        <Button android:textSize="@dimen/text_content_size" android:textColor="@color/text_normal" android:id="@id/go_btsetting_btn" android:background="@drawable/btn_comm_sel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/b_btsetting" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat app:key="cellular" app:title="@string/title_cellular" />
+    <SwitchPreferenceCompat app:key="hotspot" app:title="@string/hotspot" />
+    <SwitchPreferenceCompat app:key="hotspot_auto_close" app:singleLineTitle="true" app:summary="@string/summary_hotspot_auto_close" app:title="@string/title_hotspot_auto_close" />
+    <com.carocean.settings.ui.SettingsEditPreference app:key="hotspot_name" app:title="@string/hotspot_name" />
+    <com.carocean.settings.ui.SettingsPreference app:key="hotspot_security" app:selectable="false" app:title="@string/hotspot_security" />
+    <com.carocean.settings.ui.SettingsEditPreference app:key="hotspot_pwd" app:password="true" app:title="@string/hotspot_pwd" />
+</PreferenceScreen>

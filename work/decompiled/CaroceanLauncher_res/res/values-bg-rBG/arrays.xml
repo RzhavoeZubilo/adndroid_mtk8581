@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>Отличен</item>
+        <item>Добре</item>
+        <item>Лека</item>
+        <item>Умерено</item>
+        <item>Критичен</item>
+        <item>Тежко</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>Неделя</item>
+        <item>понеделник</item>
+        <item>Вторник</item>
+        <item>сряда</item>
+        <item>Четвъртък</item>
+        <item>Петък</item>
+        <item>Събота</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>Торнадо</item>
+        <item>Тропическа буря</item>
+        <item>Ураган</item>
+        <item>Гръмотевична буря</item>
+        <item>Дъждовна буря</item>
+        <item>Кишка киша</item>
+        <item>Дъжд и градушка</item>
+        <item>Сняг и градушка</item>
+        <item>Следяващ дъжд</item>
+        <item>Слаб дъжд</item>
+        <item>Следяващ дъжд</item>
+        <item>Душове</item>
+        <item>Умерен дъжд</item>
+        <item>Валежи от сняг</item>
+        <item>Xiaoxue</item>
+        <item>Сняг</item>
+        <item>Сняг</item>
+        <item>Здравей</item>
+        <item>Кишка киша</item>
+        <item>Прах</item>
+        <item>Мъгла</item>
+        <item>Мъгла</item>
+        <item>Мъгла</item>
+        <item>Слънчево</item>
+        <item>Слънчево</item>
+        <item>студено</item>
+        <item>Облачно</item>
+        <item>Предимно облачно</item>
+        <item>Предимно облачно</item>
+        <item>Частна облачност</item>
+        <item>Частна облачност</item>
+        <item>Слънчево</item>
+        <item>Слънчево</item>
+        <item>Слънчево</item>
+        <item>Слънчево</item>
+        <item>Дъжд и градушка</item>
+        <item>Горещо</item>
+        <item>Дъждовна буря</item>
+        <item>Гръмотевична буря</item>
+        <item>Гръмотевична буря</item>
+        <item>Душове</item>
+        <item>Обилен сняг</item>
+        <item>Кишка киша</item>
+        <item>Blizzard</item>
+        <item>Слънчево</item>
+        <item>Гръмотевична буря</item>
+        <item>Кишка киша</item>
+        <item>Гръмотевична буря</item>
+        <item>Ин</item>
+        <item>Проливен дъжд</item>
+        <item>Силна дъждовна буря</item>
+        <item>Изключително силен дъжд</item>
+        <item>Среден сняг</item>
+        <item>Раздухване на пясък</item>
+        <item>Пясъчна буря</item>
+        <item>Силна пясъчна буря</item>
+        <item>Вятър</item>
+        <item>Ветър</item>
+    </string-array>
+</resources>

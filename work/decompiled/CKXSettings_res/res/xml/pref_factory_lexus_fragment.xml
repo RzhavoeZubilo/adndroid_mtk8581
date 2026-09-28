@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="4" app:entries="@array/host_type_lexus" app:entryValues="@array/host_type_value_lexus" app:key="lexus_car_type" app:title="@string/setting_cartype" />
+    <com.carocean.settings.ui.SettingsPreference app:key="automatic_vehicle_selection" app:title="@string/setting_automatic_vehicle_selection" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/dclk_rgb_entries" app:entryValues="@array/dclk_rgb_values" app:key="dclk_rgb" app:title="DLCK&amp;RGB" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/car_aux_switch_mode_lexus" app:entryValues="@array/car_aux_switch_mode_value_lexus" app:key="lexus_car_aux_mode" app:title="@string/setting_caraux_switch_mode" />
+    <SwitchPreferenceCompat app:key="lexus_full_screen" app:title="@string/setting_full_screen" />
+    <SwitchPreferenceCompat app:key="lexus_original_car_ui" app:title="@string/setting_original_car_ui" />
+    <SwitchPreferenceCompat app:key="lexus_original_car_bt" app:title="@string/setting_orginal_bt" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="lexus_dvr_cvbs" app:title="@string/setting_dvr_cvbs" />
+    <SwitchPreferenceCompat app:key="lexus_display_door" app:title="@string/display_door_info" />
+    <SwitchPreferenceCompat app:key="lexus_next_prev_reverse" app:title="@string/next_prev_reverse" />
+    <SwitchPreferenceCompat app:key="lexus_hide_air_temp" app:title="@string/hide_air_temp" />
+    <SwitchPreferenceCompat app:key="lexus_air_temp_reverse" app:title="@string/air_temp_reverse" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/speaker_switch_mode" app:entryValues="@array/speaker_switch_mode_value" app:key="lexus_speaker_switch_mode" app:title="@string/speaker_switch_mode" />
+    <SwitchPreferenceCompat app:key="lexus_front_door" app:title="@string/setting_front_door" />
+    <SwitchPreferenceCompat app:key="lexus_rear_door" app:title="@string/setting_rear_door" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="lexus_temp_uint" app:title="@string/setting_temp_uint_f" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="lexus_oil_uint" app:title="@string/setting_oil_uint_gal" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="lexus_ddr_flag" app:title="@string/setting_ddr_flag" />
+    <com.carocean.settings.ui.SettingsPreference app:key="lexus_gps_mode_selection" app:title="@string/setting_gps_mode_selection" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/can_mode_entries" app:entryValues="@array/can_mode_entryvalues" app:key="bmw_can_mode" app:title="@string/settings_can_mode" />
+</PreferenceScreen>

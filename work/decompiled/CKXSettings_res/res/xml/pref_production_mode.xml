@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsPreference app:key="sys" app:showMore="true" app:title="@string/export_sys_param" />
+    <com.carocean.settings.ui.SettingsPreference app:key="touch_panel" app:showMore="true" app:title="@string/export_touch_key_param" />
+    <com.carocean.settings.ui.SettingsPreference app:key="panel" app:showMore="true" app:title="@string/export_panel_key_param" />
+    <com.carocean.settings.ui.SettingsPreference app:key="touch_calibration" app:showMore="true" app:title="@string/export_touch_calibration_param" />
+</PreferenceScreen>

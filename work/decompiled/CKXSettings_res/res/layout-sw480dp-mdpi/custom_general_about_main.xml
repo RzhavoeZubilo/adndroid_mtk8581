@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center" android:id="@id/scrollview" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/about_model" android:visibility="gone" style="@style/custom_textview_style_about" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/about_Version" style="@style/custom_textview_style_about" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/about_Version_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:src="@drawable/custom_btn_update" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/about_mcuVersion" style="@style/custom_textview_style_about" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/about_mcuVersion_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:src="@drawable/custom_btn_update" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/about_smcuVersion_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/about_smcuVersion" style="@style/custom_textview_style_about" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/about_smcuVersion_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:src="@drawable/custom_btn_update" />
+        </FrameLayout>
+        <TextView android:id="@id/about_canVersion" android:visibility="gone" android:text="@string/setting_can_info" style="@style/custom_textview_style_about" />
+        <TextView android:id="@id/about_mcuID" android:visibility="gone" style="@style/custom_textview_style_about" />
+        <TextView android:id="@id/about_androidVersion" style="@style/custom_textview_style_about" />
+        <TextView android:id="@id/about_kernelVersion" android:visibility="gone" style="@style/custom_textview_style_about" />
+        <TextView android:id="@id/about_core_board_id" android:visibility="gone" style="@style/custom_textview_style_about" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_factory" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_factory" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_reset_factory" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/set_music_apk" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="3" carsetting:item_subTitle="@string/setting_music_apk" />
+        <TextView android:id="@id/about_device_info" android:background="@drawable/custom_selector_listview_state" android:layout_marginTop="0.0dp" style="@style/custom_textview_style_about" />
+    </LinearLayout>
+</ScrollView>

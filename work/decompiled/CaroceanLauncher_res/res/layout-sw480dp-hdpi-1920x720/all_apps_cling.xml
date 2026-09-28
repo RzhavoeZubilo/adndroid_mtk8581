@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Cling android:layout_width="match_parent" android:layout_height="match_parent" launcher:drawIdentifier="all_apps_portrait"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:layout_marginTop="20.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/all_apps_cling_title" android:text="@string/all_apps_cling_title" style="@style/ClingTitleText" />
+            <TextView android:id="@id/all_apps_cling_add_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="300.0dp" android:text="@string/all_apps_cling_add_item" style="@style/ClingText" />
+        </LinearLayout>
+    </FrameLayout>
+    <Button android:textSize="24.0sp" android:layout_gravity="right|top" android:id="@id/cling_dismiss" android:layout_marginTop="30.0dp" android:layout_marginRight="36.0dp" android:minWidth="168.0dp" android:onClick="dismissAllAppsCling" style="@style/ClingButton" />
+</com.android.launcher2.Cling>

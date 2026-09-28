@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_wind" android:background="@color/white" android:layout_width="520.0dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/red" android:id="@id/tx_about_appver" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" />
+            <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/black" android:id="@id/tx_about_canver" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" />
+            <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/black" android:id="@id/tx_about_canbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" />
+            <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/black" android:id="@id/tx_about_carline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" android:text="@string/bt_can_type" />
+                <com.can.ui.draw.AutoText android:id="@id/tx_about_cartype" style="@style/about_auto" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/about_tx_size" android:textColor="@color/black" android:id="@id/tx_about_carconfig" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_curfuel_marginbottom" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left">
+                <Button android:textSize="@dimen/dsp_air_seekbar_height" android:textColor="@android:color/black" android:id="@id/btn_check_update" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_check_update" android:drawableTop="@drawable/check_update" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_update" android:background="@color/white" android:visibility="gone" android:layout_width="520.0dp" android:layout_height="100.0dp" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/black" android:id="@id/btn_update_local" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_update_loacl" android:drawableTop="@drawable/update_btn_local" />
+                <Space android:layout_width="100.0dp" android:layout_height="match_parent" />
+                <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/black" android:id="@id/btn_update_remote" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_update_remote" android:drawableTop="@drawable/update_btn_remote" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

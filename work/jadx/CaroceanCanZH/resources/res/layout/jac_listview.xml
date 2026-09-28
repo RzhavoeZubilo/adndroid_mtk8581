@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dps_psa_warn_width"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/btn_can_choose_padding">
+    <com.can.ui.draw.AutoText
+        android:textSize="@dimen/tx_default_size"
+        android:textColor="@color/white"
+        android:ellipsize="marquee"
+        android:id="@+id/jac_tx_list_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</LinearLayout>

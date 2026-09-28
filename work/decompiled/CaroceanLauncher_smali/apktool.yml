@@ -1,0 +1,13 @@
+version: 3.0.3
+apkFileName: CaroceanLauncher.apk
+sdkInfo:
+  minSdkVersion: 29
+doNotCompress:
+- arsc
+- jpg
+- png
+- META-INF/androidx.core_core.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version

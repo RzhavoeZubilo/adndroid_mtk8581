@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/appbg_blue" android:paddingTop="@dimen/status_bar_size" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bt_call_lay" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/singleCallLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="60.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_calling_person" android:background="@mipmap/bt_phone_personhead_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="60.0dp" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/bt_calling_phone_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:id="@id/bt_calling_phone_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="40.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:id="@id/bt_calling_phone_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+        <RelativeLayout android:gravity="center" android:id="@id/btn_ly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp">
+            <ImageButton android:id="@id/btn_softkeypad" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_softkeypad_blue" />
+            <CheckBox android:id="@id/cb_mic" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:button="@drawable/cb_mic_blue" android:layout_toRightOf="@id/btn_softkeypad" />
+            <CheckBox android:id="@id/cb_audio_channel" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:button="@drawable/cb_audio_channel_blue" android:layout_toRightOf="@id/cb_mic" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:id="@id/btns_incomming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <ImageButton android:id="@id/btn_incomming_answer" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_incomming_answer_blue" />
+            <ImageButton android:id="@id/btn_incomming_hangup" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:src="@drawable/btn_incomming_hangup_blue" />
+        </LinearLayout>
+        <ImageButton android:id="@id/btn_hangup" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dp" android:src="@drawable/btn_outgoing_hangup_blue" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/calling_softkeypad" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dp">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="26.0sp" android:textColor="@android:color/white" android:ellipsize="start" android:gravity="center" android:id="@id/calling_input_et" android:background="@android:color/transparent" android:layout_width="354.0dp" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <Button android:id="@id/btn_calling_1" android:tag="1" android:background="@drawable/btn_dialpad_1_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/btn_calling_2" android:tag="2" android:background="@drawable/btn_dialpad_2_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+            <Button android:id="@id/btn_calling_3" android:tag="3" android:background="@drawable/btn_dialpad_3_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px">
+            <Button android:id="@id/btn_calling_4" android:tag="4" android:background="@drawable/btn_dialpad_4_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/btn_calling_5" android:tag="5" android:background="@drawable/btn_dialpad_5_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+            <Button android:id="@id/btn_calling_6" android:tag="6" android:background="@drawable/btn_dialpad_6_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px">
+            <Button android:id="@id/btn_calling_7" android:tag="7" android:background="@drawable/btn_dialpad_7_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/btn_calling_8" android:tag="8" android:background="@drawable/btn_dialpad_8_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+            <Button android:id="@id/btn_calling_9" android:tag="9" android:background="@drawable/btn_dialpad_9_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px">
+            <Button android:id="@id/bt_dial_star" android:tag="*" android:background="@drawable/btn_dialpad_star_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/btn_calling_0" android:tag="0" android:background="@drawable/btn_dialpad_0_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+            <Button android:id="@id/bt_dial_sharp" android:tag="#" android:background="@drawable/btn_dialpad_sharp_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" />
+        </LinearLayout>
+        <Button android:textSize="28.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/callingpad_back" android:background="@drawable/btn_callingpad_back_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/back" />
+    </LinearLayout>
+</RelativeLayout>

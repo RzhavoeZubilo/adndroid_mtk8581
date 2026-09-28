@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bmw_id8_orange_custom_layout_bg_selector" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:scaleType="center" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/custom_title_size_id8" android:textColor="@color/custom_textcolor" android:gravity="left|center" android:id="@id/item_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/headlayout_title_min_width" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/custom_text_size_id8" android:textColor="@color/custom_textcolor" android:gravity="center" android:id="@id/item_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50.0dp" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" android:layout_toLeftOf="@id/item_parent_right" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_parent_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

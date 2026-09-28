@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:layout_marginRight="25.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="780.0dp" android:layout_height="392.0dp" android:layout_marginBottom="115.0dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:textColorHint="#99808080" android:gravity="center_vertical" android:id="@id/searchButton" android:background="@mipmap/phonebook_searchpan_bg_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dp" android:hint="@string/hint_search" android:singleLine="true" android:paddingStart="100.0dp" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/contactCount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dp" android:layout_marginTop="10.0dp" android:layout_alignBottom="@id/searchButton" android:layout_marginStart="15.0dp" android:layout_toEndOf="@id/searchButton" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/searchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/progressView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="90.0dp" android:layout_height="90.0dp" android:indeterminateDrawable="@drawable/bt_progressbar_blue" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/progressHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/hintText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.autochips.bluetooth.view.CustomLetterNavigationView android:id="@id/letterNavigation" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginBottom="15.0dp" android:layout_alignParentBottom="true" android:paddingEnd="29.0dp" android:layout_alignParentEnd="true" app:customBackgroundColorDown="#00000000" />
+    <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/letterHint" android:background="@drawable/letter_hint_bg" android:visibility="gone" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_centerInParent="true" />
+</RelativeLayout>

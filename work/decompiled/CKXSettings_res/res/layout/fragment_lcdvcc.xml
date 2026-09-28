@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_window" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="135.0dp" android:layout_marginStart="60.0dp">
+        <TextView android:textSize="@dimen/text_size_list_item_large" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VCOM" android:layout_marginStart="50.0dp" android:layout_marginEnd="40.0dp" />
+        <ImageView android:id="@id/vcom_plus" android:background="@drawable/factory_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/sb_vcom" android:layout_width="450.0dp" android:layout_height="wrap_content" android:max="100" android:min="0" />
+        <ImageView android:id="@id/vcom_add" android:background="@drawable/factory_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" />
+        <TextView android:textSize="@dimen/text_size_list_item_large" android:layout_gravity="center_vertical" android:id="@id/tv_vcom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="50.0dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dp" android:layout_marginStart="30.0dp">
+        <TextView android:textSize="@dimen/text_size_list_item_large" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LCDVCC" android:layout_marginStart="50.0dp" android:layout_marginEnd="30.0dp" />
+        <ImageView android:id="@id/lcdvcc_plus" android:background="@drawable/factory_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/sb_lcdvcc" android:layout_width="450.0dp" android:layout_height="wrap_content" android:max="100" android:min="0" />
+        <ImageView android:id="@id/lcdvcc_add" android:background="@drawable/factory_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" />
+        <TextView android:textSize="@dimen/text_size_list_item_large" android:layout_gravity="center_vertical" android:id="@id/tv_lcdvcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="50.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_list_item_large" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_reset" android:background="@drawable/selector_navi_bar_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dp" android:text="@string/btn_swc_reset" />
+</LinearLayout>

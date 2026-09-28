@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/sangde_ll_margin_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/prevButton" android:src="@drawable/btn_pre_bg" android:scaleType="centerInside" style="@style/BottomBarBtnThemeMulti" />
+    <ImageView android:id="@id/playButton" android:src="@drawable/btn_play_bg" android:scaleType="centerInside" style="@style/BottomBarBtnThemeMulti" />
+    <ImageView android:id="@id/pauseButton" android:visibility="gone" android:src="@drawable/btn_pause_bg" android:scaleType="centerInside" style="@style/BottomBarBtnThemeMulti" />
+    <ImageView android:id="@id/nextButton" android:layout_marginRight="10.0dp" android:src="@drawable/btn_next_bg" android:scaleType="centerInside" style="@style/BottomBarBtnThemeMulti" />
+    <ImageView android:id="@id/stopButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:src="@drawable/btn_close_sel" />
+</LinearLayout>

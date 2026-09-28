@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/lv_callhistory_item_bg_blue" android:paddingRight="45.0dp" android:layout_width="match_parent" android:layout_height="80.0dp">
+        <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/item_type" android:background="@mipmap/type_phonebook_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" />
+        <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_name" android:layout_width="290.0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_marginStart="23.0dp" />
+        <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="right|center" android:id="@id/item_num" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_marginStart="20.0dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.customer.BMWFactoryFragment" app:key="bmw_settings" app:title="@string/bmw_settings" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="host" app:entries="@array/usb_mode_entries" app:entryValues="@array/usb_mode_values" app:key="usb" app:title="@string/usb_mode" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/key_voice_func_entries" app:entryValues="@array/key_voice_func_values" app:key="key_voice_func" app:title="@string/key_voice_func_string" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/phone_key_selection_entries" app:entryValues="@array/phone_key_selection_values" app:key="key_phone_key_slelction" app:title="@string/phone_key_selection_string" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/usb_protocol_entries" app:entryValues="@array/usb_protocol_values" app:isPreferenceVisible="false" app:key="usb_protocol" app:title="@string/usb_protocol" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.AllAppsFragment" app:isPreferenceVisible="false" app:key="app" app:title="@string/all_app" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.setting.base.fragment.BackgroundWhitelistFragment" app:key="background_whitelist" app:title="@string/background_whitelist_app" />
+    <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="mcu" app:title="@string/mcu_upgrade" />
+    <com.carocean.settings.ui.SettingsPreference app:key="ui_theme" app:title="@string/setting_ui_theme" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="720p_25fps" app:entries="@array/camera_system_entries" app:entryValues="@array/camera_system_values" app:isPreferenceVisible="false" app:key="key_camera_system" app:title="@string/setting_camera_system" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="720p_25fps" app:entries="@array/camera_system_entries" app:entryValues="@array/camera_system_values" app:isPreferenceVisible="false" app:key="key_aux_camera_system" app:title="@string/setting_aux_camera_system" />
+    <com.carocean.settings.ui.SettingsPreference app:key="key_imei" app:title="@string/modify_imei" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.InstallToolsFragment" app:isPreferenceVisible="false" app:key="install" app:title="@string/install_tool" />
+    <com.carocean.settings.ui.SettingsPreference app:key="logo" app:title="@string/boot_start_logo" />
+    <SwitchPreferenceCompat app:key="forbid_video" app:title="@string/forbid_video" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="255" app:entries="@array/reverse_type" app:entryValues="@array/reverse_type_value" app:key="key_reverse" app:title="@string/setting_backcar_set" />
+    <com.carocean.settings.ui.SettingsPreference app:key="gps" app:title="@string/gps_test" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.RadioAreaFragment" app:isPreferenceVisible="false" app:key="radio_area" app:title="@string/radio_area" />
+    <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="touch_calibration" app:title="@string/title_touch_calibration" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.study.TBSFragment" app:isPreferenceVisible="false" app:key="tbs" app:title="@string/touch_button_study" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.study.MCUKeyLearnFragment" app:isPreferenceVisible="false" app:key="pbs" app:title="@string/panel_button_study" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.study.MCUKeyLearnFragment" app:isPreferenceVisible="false" app:key="rbs" app:title="@string/remote_button_study" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.LcdvccFragment" app:isPreferenceVisible="false" app:key="lcd_vcc" app:title="@string/lcdvcc" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.TimeZoneFragment" app:key="time_zone" app:title="@string/title_time_zone" />
+    <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="can_box_upgrade" app:title="@string/can_box_upgrade" />
+    <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="can_version" app:title="@string/factory_can_version" />
+    <com.carocean.settings.ui.SettingsPreference app:fragment="com.carocean.settings.about.ProductionModeFragment" app:isPreferenceVisible="false" app:key="production_mode" app:title="@string/title_production_mode" />
+    <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="car_model" app:title="@string/factory_car_model" />
+    <SwitchPreferenceCompat app:key="save_log" app:title="@string/title_export_log" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="backcar_radar" app:title="@string/factory_backcar_radar" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="backcar_staticlines" app:title="@string/factory_backcar_staticlines" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="backcar_guidelines" app:title="@string/factory_backcar_guidelines" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="set_extern_amp" app:title="@string/set_extern_amp" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference android:max="7" app:key="mic_gain" app:min="0" app:title="@string/mic_gain" />
+    <SwitchPreferenceCompat app:key="key_voice_btn_enable" app:title="@string/string_voice_btn_enable" />
+    <SwitchPreferenceCompat app:key="key_voice_wakeup_enable" app:title="@string/string_voice_wakeup_enable" />
+    <SwitchPreferenceCompat app:key="key_voice_without_wakeup_enable" app:title="@string/string_voice_without_wakeup_enable" />
+</PreferenceScreen>

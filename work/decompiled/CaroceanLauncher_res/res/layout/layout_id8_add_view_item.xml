@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="66.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_image" android:layout_width="66.0dp" android:layout_height="66.0dp" android:scaleType="centerCrop" android:layout_marginStart="20.0dp" />
+    <TextView android:textSize="32.0sp" android:layout_gravity="center_vertical" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_bt" android:layout_marginStart="170.0dp" style="@style/bmw_orange_id8_main_page_icon_text_style" />
+</FrameLayout>

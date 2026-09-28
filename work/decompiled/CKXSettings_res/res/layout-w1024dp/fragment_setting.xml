@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="25.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="780.0dp" android:layout_height="480.0dp" android:layout_marginBottom="35.0dp" android:layout_alignParentBottom="true">
+        <ScrollView android:orientation="vertical" android:id="@id/ll_device" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_one" android:layout_centerVertical="true" />
+                    <Switch android:id="@id/bluetoothSwitch" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:layout_centerVertical="true" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_two" android:layout_centerVertical="true" />
+                    <Switch android:id="@id/syncSwitch" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:layout_centerVertical="true" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_five" android:layout_centerVertical="true" />
+                    <Switch android:id="@id/autoAnswer" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:layout_centerVertical="true" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_eight" android:layout_centerVertical="true" />
+                    <Switch android:id="@id/autoConnect" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:layout_centerVertical="true" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_three" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bluetoothName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dp" android:lines="1" android:layout_centerVertical="true" android:drawableEnd="@drawable/btn_right" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="@dimen/text_content_size" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_six" android:layout_centerVertical="true" />
+                    <ImageButton android:id="@id/discoverButton" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_search_blue" android:text="" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

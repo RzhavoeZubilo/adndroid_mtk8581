@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/item_seekbar" android:background="@null" android:layout_width="@dimen/custom_seekbar_width" android:layout_height="@dimen/custom_seekbar_height" android:layout_marginRight="10.0dp" android:maxHeight="@dimen/custom_seekbar_height" android:max="100" android:progressDrawable="@drawable/bmw_id8_orange_custom_seekbar_state" android:minHeight="@dimen/custom_seekbar_height" android:thumb="@drawable/bmw_id8_orange_custom_seekbar_thumb_state" android:thumbOffset="-5.0px" android:splitTrack="false" />
+    <TextView android:textSize="22.0sp" android:textColor="@color/custom_textcolor" android:gravity="right" android:id="@id/item_seekbar_title" android:layout_width="50.0dp" android:layout_height="wrap_content" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" />
+</LinearLayout>

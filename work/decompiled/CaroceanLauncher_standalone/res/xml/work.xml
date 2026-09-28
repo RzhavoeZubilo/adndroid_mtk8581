@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <appwidget launcher:className="com.android.settings.widget.SettingsAppWidgetProvider" launcher:packageName="com.android.settings" launcher:screen="1" launcher:spanX="4" launcher:spanY="1" launcher:x="1" launcher:y="2" />
+    <appwidget launcher:className="com.android.alarmclock.AnalogAppWidgetProvider" launcher:packageName="com.android.deskclock" launcher:screen="2" launcher:spanX="2" launcher:spanY="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.google.android.maps.MapsActivity" launcher:packageName="com.google.android.apps.maps" launcher:screen="2" launcher:x="3" launcher:y="3" />
+    <favorite launcher:className="com.mediatek.filemanager.FileManagerOperationActivity" launcher:packageName="com.mediatek.filemanager" launcher:screen="2" launcher:x="4" launcher:y="3" />
+    <favorite launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" launcher:screen="2" launcher:x="5" launcher:y="3" />
+</favorites>

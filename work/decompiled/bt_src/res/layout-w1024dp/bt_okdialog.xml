@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/bt_tipbox_fg" android:background="@mipmap/bt_switchbt_bg" android:layout_width="450.0dp" android:layout_height="300.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_tip" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="200.0dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_alignParentBottom="true">
+        <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_ok" android:background="@drawable/bt_phone_dialog_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_confirm" />
+        <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_cancel" android:background="@drawable/bt_phone_dialog_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_cancel" android:layout_marginStart="50.0dp" />
+    </LinearLayout>
+</RelativeLayout>

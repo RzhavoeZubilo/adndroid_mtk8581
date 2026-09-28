@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.popuView.TouchCheckFrameLayout android:id="@id/launcher" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher2.DragLayer android:id="@id/drag_layer" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher2.popuView.MainCustomer android:id="@id/layout_custom" android:background="@drawable/bg_desk" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/layout_main_page" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="software">
+                <androidx.viewpager.widget.ViewPager android:layout_gravity="center_horizontal" android:id="@id/main_page_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <ImageView android:layout_gravity="left|center" android:id="@id/main_page_left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:src="@drawable/bmw_main_left_arrow" />
+                <ImageView android:layout_gravity="right|center" android:id="@id/main_page_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:src="@drawable/bmw_main_right_arrow" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/layout_sub_page" android:visibility="invisible" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.viewpager.widget.ViewPager android:layout_gravity="center_horizontal" android:id="@id/sub_page_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </FrameLayout>
+        </com.android.launcher2.popuView.MainCustomer>
+        <com.android.launcher2.Workspace android:layout_gravity="center|bottom" android:id="@id/workspace" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/workspace_layout_height" launcher:cellCountX="@integer/cell_count_x" launcher:cellCountY="@integer/cell_count_y" launcher:defaultScreen="0" launcher:pageSpacing="@dimen/workspace_page_spacing">
+            <include android:id="@id/cell1" layout="@layout/workspace_screen" />
+        </com.android.launcher2.Workspace>
+        <include android:layout_gravity="center|top" android:id="@id/qsb_bar" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/qsb_bar" />
+        <include android:id="@id/folder_cling" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/folder_cling" />
+        <include android:layout_gravity="left|center" android:id="@id/apps_customize_pane_only" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/apps_customize_pane_only" />
+    </com.android.launcher2.DragLayer>
+</com.android.launcher2.popuView.TouchCheckFrameLayout>

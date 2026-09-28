@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/dialog_prompt_bk" android:layout_width="408.0dp" android:layout_height="241.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/textcolor" android:id="@id/upgrade_status_bootanimation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/textcolor" android:id="@id/upgrade_status_factoryconfig" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/upgrade_status_bootanimation" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/textcolor" android:id="@id/upgrade_status_bootlogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/upgrade_status_factoryconfig" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/textcolor" android:id="@id/upgrade_status_systemos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/upgrade_status_bootlogo" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/upgrade_fail_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/prepare_upgrade" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+</RelativeLayout>

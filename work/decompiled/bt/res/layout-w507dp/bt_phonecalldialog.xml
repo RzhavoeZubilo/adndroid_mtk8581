@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:background="@mipmap/appbg_transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bt_tipbox_bg" android:background="@mipmap/bt_calldialog_fg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/answerButton" android:background="@drawable/bt_calldialog_answer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dp" />
+        <ImageButton android:id="@id/hangupButton" android:background="@drawable/bt_calldialog_hangup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dp" />
+        <ImageButton android:id="@id/endButton" android:background="@drawable/bt_calldialog_hangup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dp" />
+        <CheckBox android:id="@id/cb_mic" android:background="@drawable/cb_mic_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:button="@null" />
+        <CheckBox android:id="@id/cb_audio_channel" android:background="@drawable/cb_audio_channel_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:button="@null" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="200.0dp" android:layout_height="match_parent" android:layout_marginLeft="45.0dp">
+            <TextView android:textSize="24.0sp" android:textColor="#009efb" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/nameTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/phoneNumberTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="24.0sp" android:textColor="#828282" android:gravity="center" android:id="@id/stateTextView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

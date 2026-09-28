@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/launcher" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <com.android.launcher2.DragLayer android:id="@id/drag_layer" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher2.popuView.CustomView android:id="@id/layout_custom" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_gravity="center|top" android:id="@id/layout_timeweather" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timeweather_layout_margin_top" />
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/layout_topbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/workspace_layout_height">
+                <LinearLayout android:layout_gravity="left|center" android:id="@id/vCarlife" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" />
+                    <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_carlife" style="@style/workspace_icon_text_style" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="right|center" android:id="@id/vAllapp" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_app" style="@style/workspace_icon_text_style" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </com.android.launcher2.popuView.CustomView>
+        <com.android.launcher2.Workspace android:layout_gravity="bottom" android:id="@id/workspace" android:paddingLeft="10.0dp" android:paddingTop="10.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="@dimen/workspace_layout_height" launcher:cellCountX="@integer/cell_count_x" launcher:cellCountY="@integer/cell_count_y" launcher:defaultScreen="0" launcher:pageSpacing="@dimen/workspace_page_spacing">
+            <include android:id="@id/cell1" layout="@layout/workspace_screen" />
+            <include android:id="@id/cell2" layout="@layout/workspace_screen" />
+        </com.android.launcher2.Workspace>
+        <com.android.launcher2.popuView.SwitchIconView android:layout_gravity="center|bottom" android:id="@id/switchIconViewWorkspace" android:layout_width="match_parent" android:layout_height="wrap_content" launcher:yPos="@dimen/workspace_switch_icon_y" />
+        <com.android.launcher2.popuView.SwitchIconView android:layout_gravity="center|bottom" android:id="@id/switchIconView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" launcher:yPos="@dimen/switch_icon_y" />
+        <include android:layout_gravity="bottom" android:id="@id/hotseat" android:visibility="gone" android:layout_width="match_parent" android:layout_height="86.0dp" layout="@layout/hotseat" />
+        <include android:layout_gravity="center|top" android:id="@id/qsb_bar" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/qsb_bar" />
+        <include android:id="@id/folder_cling" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/folder_cling" />
+        <include android:id="@id/apps_customize_pane_only" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/apps_customize_pane_only" />
+    </com.android.launcher2.DragLayer>
+</FrameLayout>

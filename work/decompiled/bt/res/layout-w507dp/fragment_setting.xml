@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="28.0dp" android:paddingRight="28.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="380.0dp" android:layout_marginTop="16.0dp">
+        <ScrollView android:orientation="vertical" android:id="@id/ll_device" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_one" />
+                    <Switch android:id="@id/bluetoothSwitch" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_two" />
+                    <Switch android:id="@id/syncSwitch" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_five" />
+                    <Switch android:id="@id/autoAnswer" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_eight" />
+                    <Switch android:id="@id/autoConnect" android:background="@drawable/cb_switch_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@null" android:text="" android:track="@null" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_three" />
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bluetoothName" android:layout_width="wrap_content" android:layout_height="30.0dp" android:maxWidth="250.0dp" android:lines="1" android:drawableEnd="@drawable/btn_right" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@mipmap/listitem_n_blue" android:layout_width="match_parent" android:layout_height="76.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+                    <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f_setting_six" />
+                    <ImageButton android:id="@id/discoverButton" android:background="@null" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_search_blue" android:text="" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycleView" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

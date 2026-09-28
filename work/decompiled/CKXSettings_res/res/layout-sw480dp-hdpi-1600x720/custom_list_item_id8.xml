@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/custom_title_size_id8" android:textColor="@color/custom_textcolor" android:gravity="left|center" android:id="@id/language_item_title" android:background="@drawable/bmw_id8_orange_custom_layout_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.6" android:paddingStart="20.0dp" />
+    <ImageView android:id="@id/selected" android:background="@drawable/bmw_id8_orange_icon8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

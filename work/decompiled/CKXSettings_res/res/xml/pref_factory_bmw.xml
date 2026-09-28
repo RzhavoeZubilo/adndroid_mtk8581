@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/host_type" app:entryValues="@array/host_type_value" app:key="bmw_car_type" app:title="@string/setting_cartype" />
+    <com.carocean.settings.ui.SettingsPreference app:key="automatic_vehicle_selection" app:title="@string/setting_automatic_vehicle_selection" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/dclk_rgb_entries" app:entryValues="@array/dclk_rgb_values" app:key="dclk_rgb" app:title="DCLK&amp;RGB" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/car_aux_switch_mode" app:entryValues="@array/car_aux_switch_mode_value" app:key="bmw_car_aux_mode" app:title="@string/setting_caraux_switch_mode" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/speaker_switch_mode" app:entryValues="@array/speaker_switch_mode_value" app:key="lexus_speaker_switch_mode" app:title="@string/speaker_switch_mode" />
+    <SwitchPreferenceCompat app:key="full_screen" app:title="@string/setting_full_screen" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="bmw_dvr_cvbs" app:title="@string/setting_dvr_cvbs" />
+    <SwitchPreferenceCompat app:key="bmw_display_door" app:title="@string/display_door_info" />
+    <SwitchPreferenceCompat app:key="bmw_front_door" app:title="@string/setting_front_door" />
+    <SwitchPreferenceCompat app:key="bmw_rear_door" app:title="@string/setting_rear_door" />
+    <SwitchPreferenceCompat app:key="bmw_temp_uint" app:title="@string/setting_temp_uint_f" />
+    <SwitchPreferenceCompat app:key="bmw_oil_uint" app:title="@string/setting_oil_uint_gal" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/panel_type" app:entryValues="@array/panel_type_value" app:key="panel_type" app:title="@string/setting_panel_type" />
+    <SwitchPreferenceCompat app:isPreferenceVisible="false" app:key="bmw_ddr_flag" app:title="@string/setting_ddr_flag" />
+    <com.carocean.settings.ui.SettingsPreference app:key="bmw_gps_mode_selection" app:title="@string/setting_gps_mode_selection" />
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/can_mode_entries" app:entryValues="@array/can_mode_entryvalues" app:key="bmw_can_mode" app:title="@string/settings_can_mode" />
+</PreferenceScreen>

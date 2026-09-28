@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/can_bg" android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/kodiaq_rl_driving_mode" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_kodiaq_driving_mode" style="@style/car_info_style1" />
+            <TextView android:id="@id/kodiaq_txt_driving_mode" style="@style/car_set_middle_style" />
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_kodiaq_mode_reset" style="@style/car_info_style1" />
+            <TextView android:id="@id/kodiaq_txt_or_reset" style="@style/car_set_right_style2" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/kodiaq_layout_or" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_off_road" style="@style/car_info_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_slow_down" style="@style/car_info_style" />
+                <CheckBox android:id="@id/kodiaq_checkbox_slow_down" style="@style/car_set_checkbox" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/kodiaq_layout_person" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_personalise" style="@style/car_info_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_steering" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_steering" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_steering" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_engine" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_engine" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_engine" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_air" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_air" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_air" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_front_light" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_front_light" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_front_light" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_mode_reset" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_reset" style="@style/car_set_right_style2" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/kodiaq_layout_or_person" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_off_road_p" style="@style/car_info_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_or_steering" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_steering" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_or_steering" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_or_engine" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_engine" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_or_engine" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_or_four_wheel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_four_wheel" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_or_four_wheel" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/kodiaq_rl_or_air" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_air" style="@style/car_info_style" />
+                <TextView android:id="@id/kodiaq_txt_or_air" style="@style/car_set_middle_style" />
+                <TextView style="@style/car_set_right_style1" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_down_hill" style="@style/car_info_style" />
+                <CheckBox android:id="@id/kodiaq_checkbox_down_hill" style="@style/car_set_checkbox" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_ramp_start" style="@style/car_info_style" />
+                <CheckBox android:id="@id/kodiaq_checkbox_ramp_start" style="@style/car_set_checkbox" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/str_kodiaq_paking_assit" style="@style/car_info_style" />
+                <CheckBox android:id="@id/kodiaq_checkbox_paking_assit" style="@style/car_set_checkbox" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

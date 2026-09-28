@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="NobackDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="bmw_title_text">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="panel_button_text">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="panel_input_text">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_ford_menu_sync" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ford_menu_sync" android:drawableTop="@drawable/toyota_btn_menu_dsp" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_ford_menu_carset" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ford_menu_carset" android:drawableTop="@drawable/toyota_btn_menu_carset" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_ford_menu_airset" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_airset" android:drawableTop="@drawable/toyota_btn_menu_carset" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_ford_menu_seatset" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ford_menu_seat" android:drawableTop="@drawable/toyota_btn_menu_seatset" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

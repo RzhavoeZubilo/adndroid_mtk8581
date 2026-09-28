@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="key_voice_func_entries">
+        <item>Ogiltig</item>
+        <item>Kort press - Röst, lång press - Ogiltig</item>
+        <item>Kort press - Röst, lång press - Navigering</item>
+        <item>Kort press - Navigering，lång press - Ogiltig</item>
+    </string-array>
+    <string-array name="key_voice_func_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="phone_key_selection_entries">
+        <item>Original bil Bluetooth</item>
+        <item>Android Bluetooth</item>
+        <item>Obefinerad</item>
+    </string-array>
+    <string-array name="phone_key_selection_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

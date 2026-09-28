@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="20.0dp">
+                <TextView android:textSize="20.0sp" android:id="@id/music_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="16.0sp" android:id="@id/music_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/image_music_ic_album_cover" android:contentDescription="TODO" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/prev" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_music_btn_skip_previous_36dp" android:layout_alignParentLeft="true" android:contentDescription="TODO" android:paddingStart="30.0dp" />
+                <ImageButton android:layout_gravity="center" android:id="@id/pause" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_music_btn_play_36dp" android:layout_centerHorizontal="true" android:contentDescription="TODO" />
+                <ImageButton android:id="@id/next" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_music_btn_skip_next_36dp" android:layout_alignParentRight="true" android:contentDescription="TODO" android:paddingEnd="30.0dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

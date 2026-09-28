@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_bal" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_bal_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_bal_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_bal_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_fade" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_fade_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_fade_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_fade_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_bass" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_bass_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_bass_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_bass_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_mid" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_mid_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_mid_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_mid_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_tre" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_tre_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_tre_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_tre_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_main_vol" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_main_vol_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_main_vol_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_main_vol_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_vol_by_speed" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_vol_speed_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_vol_speed_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_vol_speed_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:text="@string/dsp_surround_vol" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_surround_del" android:background="@drawable/dsp_del_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dsp_surround_value" android:layout_width="@dimen/nissan_dsp_value_width" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" style="@style/nissan_dsp_func_style" />
+            <TextView android:id="@id/dsp_surround_add" android:background="@drawable/dsp_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nissan_dsp_margin_left" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:gravity="left" android:layout_width="@dimen/nissan_dsp_long_width" android:text="@string/dsp_centerpoint" style="@style/nissan_dsp_func_style" />
+            <CheckBox android:id="@id/dsp_center_point" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:gravity="left" android:layout_width="@dimen/nissan_dsp_long_width" android:text="@string/dsp_driver_seat" style="@style/nissan_dsp_func_style" />
+            <CheckBox android:id="@id/dsp_driver_set" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/upgrade_version_info">
+        <com.carocean.settings.ui.SettingsPreference app:key="system" app:layout="@layout/preference_long_value" app:selectable="false" app:title="@string/upgrade_version_system" />
+        <com.carocean.settings.ui.SettingsPreference app:key="mcu" app:layout="@layout/preference_long_value" app:selectable="false" app:title="@string/upgrade_version_mcu" />
+        <com.carocean.settings.ui.SettingsPreference app:key="nav" app:selectable="false" app:title="@string/upgrade_version_navi" />
+        <com.carocean.settings.ui.SettingsPreference app:isPreferenceVisible="false" app:key="speech" app:selectable="false" app:title="@string/upgrade_version_speech" />
+        <com.carocean.settings.ui.SettingsPreference app:key="bt" app:selectable="false" app:title="@string/upgrade_version_bt" />
+    </PreferenceCategory>
+    <com.carocean.settings.upgrade.CheckUpgradePreference app:allowDividerBelow="false" app:key="check" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="25.0dp" android:paddingRight="25.0dp" android:layout_width="match_parent" android:layout_height="68.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/btn_call_history_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:src="@drawable/history_in" />
+        <TextView android:textSize="32.0sp" android:textColor="@color/text_normal" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_history_name" android:layout_width="400.0dp" android:layout_height="match_parent" android:singleLine="true" />
+        <com.autochips.bluetooth.view.MarqueeText android:textSize="32.0sp" android:textColor="@color/text_normal" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/item_history_number" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="400.0dp" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="32.0sp" android:textColor="@color/text_normal" android:ellipsize="end" android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/item_history_time" android:paddingRight="10.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="false" />
+        <ImageButton android:id="@id/item_history_del" android:background="@drawable/del_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

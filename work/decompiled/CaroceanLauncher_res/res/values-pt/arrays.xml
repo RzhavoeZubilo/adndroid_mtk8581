@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>严重</item>
+        <item>重 度</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>DOM</item>
+        <item>SEG</item>
+        <item>TER</item>
+        <item>QUA</item>
+        <item>QUI</item>
+        <item>SEX</item>
+        <item>SENTOU</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>tornado</item>
+        <item>tempestade tropical</item>
+        <item>furacão</item>
+        <item>tempestades severas</item>
+        <item>trovoadas</item>
+        <item>chuva mista e neve</item>
+        <item>chuva mista e aguaceiro</item>
+        <item>neve misturada e granizo</item>
+        <item>chuvisco gelado</item>
+        <item>chuvisco</item>
+        <item>congelando</item>
+        <item>chuveiros</item>
+        <item>Chuva moderada</item>
+        <item>flocos de neve</item>
+        <item>nevascas leves</item>
+        <item>soprando neve</item>
+        <item>neve</item>
+        <item>saudar</item>
+        <item>granizo</item>
+        <item>poeira</item>
+        <item>nebuloso</item>
+        <item>neblina</item>
+        <item>esfumaçado</item>
+        <item>ensolarado</item>
+        <item>ensolarado</item>
+        <item>frio</item>
+        <item>nublado</item>
+        <item>geralmente nublado (noite)</item>
+        <item>mais nublado (dia)</item>
+        <item>parcialmente nublado (noite)</item>
+        <item>parcialmente nublado (dia)</item>
+        <item>noite clara)</item>
+        <item>ensolarado</item>
+        <item>feira (noite)</item>
+        <item>justo (dia)</item>
+        <item>Ombrófila Mista e granizo</item>
+        <item>quente</item>
+        <item>tempestades isoladas</item>
+        <item>tempestades dispersas</item>
+        <item>tempestades dispersas</item>
+        <item>chuveiros dispersos</item>
+        <item>neve pesada</item>
+        <item>Nevadas dispersas</item>
+        <item>tempestade de neve</item>
+        <item>parcialmente nublado</item>
+        <item>trovoadas</item>
+        <item>chuvas de neve</item>
+        <item>trovoadas isoladas</item>
+        <item>nublado</item>
+        <item>chuva pesada</item>
+        <item>tempestade pesada</item>
+        <item>tempestade forte</item>
+        <item>neve moderada</item>
+        <item>areia</item>
+        <item>tempestade de areia</item>
+        <item>tempestade de areia</item>
+        <item>ventoso</item>
+        <item>blustery</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_swicthview_0" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_swicthview_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_swicthview_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/textsize_general_b" android:textColor="@android:color/white" android:id="@id/btn_view_wideangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_view_wideangle" android:drawableTop="@drawable/view_wideangle" />
+            <Button android:textSize="@dimen/textsize_general_b" android:textColor="@android:color/white" android:id="@id/btn_view_standardview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_view_standardview" android:drawableTop="@drawable/view_standardview" />
+            <Button android:textSize="@dimen/textsize_general_b" android:textColor="@android:color/white" android:id="@id/btn_view_depresangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_view_depresangle" android:drawableTop="@drawable/view_depresangle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

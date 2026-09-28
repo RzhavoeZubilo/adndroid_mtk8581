@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_left1">86.0dp</dimen>
+    <dimen name="content_top">74.0dp</dimen>
+    <dimen name="fragment_width">1150.0dp</dimen>
+    <dimen name="navi_callstatus_keypad_distance_horizontal">5.0dp</dimen>
+    <dimen name="navi_callstatus_keypad_distance_vertical">5.0dp</dimen>
+    <dimen name="right_logo_margin_left">768.0dp</dimen>
+    <dimen name="right_logo_margin_top">122.0dp</dimen>
+    <dimen name="status_bar_height">65.0dp</dimen>
+    <dimen name="tab_item_textview_textsize">36.0sp</dimen>
+</resources>

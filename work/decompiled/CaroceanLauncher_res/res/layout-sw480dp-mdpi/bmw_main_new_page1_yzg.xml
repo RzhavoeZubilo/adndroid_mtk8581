@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_navi" android:background="@drawable/bmw_main_new_navi_yzg" android:layout_width="@dimen/main_page_new_icon_width_yzg" android:layout_height="@dimen/main_page_new_icon_height_yzg" android:layout_marginTop="@dimen/main_page_new_icon_margintop_yzg">
+        <TextView android:text="@string/home_navi" style="@style/bmw_main_page_new_icon_title_yzg" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_navi_text" style="@style/bmw_main_page_new_icon_text_yzg" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/main_page_new_icon_distance_yzg" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_bt" android:background="@drawable/bmw_main_new_bt_yzg" android:layout_width="@dimen/main_page_new_icon_width_yzg" android:layout_height="@dimen/main_page_new_icon_height_yzg" android:layout_marginTop="@dimen/main_page_new_icon_margintop_yzg">
+        <TextView android:text="@string/home_bt" style="@style/bmw_main_page_new_icon_title_yzg" />
+        <com.android.launcher2.popuView.MarqueeTextView android:id="@id/main_bt_description_text" android:layout_width="202.0dp" android:text="@string/home_bt_disconnected" style="@style/bmw_main_page_new_icon_text_yzg" />
+    </FrameLayout>
+</LinearLayout>

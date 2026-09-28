@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/volume_amplifier_ctrl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/set_extern_amp" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_volume_music" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="40" carsetting:item_seekbarPos="11" carsetting:item_style="6" carsetting:item_subTitle="@string/setting_volume_media" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_volume_gis" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="40" carsetting:item_seekbarPos="11" carsetting:item_style="6" carsetting:item_subTitle="@string/setting_volume_gis" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_volume_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="40" carsetting:item_seekbarPos="1" carsetting:item_style="6" carsetting:item_subTitle="@string/setting_volume_bt" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_bass" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="14" carsetting:item_seekbarPos="7" carsetting:item_style="6" carsetting:item_subTitle="@string/se_bass" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_alto" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="14" carsetting:item_seekbarPos="7" carsetting:item_style="6" carsetting:item_subTitle="@string/se_alto" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/seekBar_treble" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_seekbarMax="14" carsetting:item_seekbarPos="7" carsetting:item_style="6" carsetting:item_subTitle="@string/se_treble" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_mute" />
+    </LinearLayout>
+</ScrollView>

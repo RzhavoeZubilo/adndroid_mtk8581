@@ -1,0 +1,62 @@
+.class public Lcom/hp/hpl/sparta/xpath/ElementTest;
+.super Lcom/hp/hpl/sparta/xpath/NodeTest;
+.source "ElementTest.java"
+
+
+# instance fields
+.field private final tagName_:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 24
+    invoke-direct {p0}, Lcom/hp/hpl/sparta/xpath/NodeTest;-><init>()V
+
+    .line 25
+    invoke-static {p1}, Lcom/hp/hpl/sparta/Sparta;->intern(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/hp/hpl/sparta/xpath/ElementTest;->tagName_:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public accept(Lcom/hp/hpl/sparta/xpath/Visitor;)V
+    .locals 0
+
+    .line 29
+    invoke-interface {p1, p0}, Lcom/hp/hpl/sparta/xpath/Visitor;->visit(Lcom/hp/hpl/sparta/xpath/ElementTest;)V
+
+    return-void
+.end method
+
+.method public getTagName()Ljava/lang/String;
+    .locals 1
+
+    .line 39
+    iget-object v0, p0, Lcom/hp/hpl/sparta/xpath/ElementTest;->tagName_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public isStringValue()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    .line 43
+    iget-object v0, p0, Lcom/hp/hpl/sparta/xpath/ElementTest;->tagName_:Ljava/lang/String;
+
+    return-object v0
+.end method

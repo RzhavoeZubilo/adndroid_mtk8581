@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_pm25_quality">
+        <item>우승</item>
+        <item>良</item>
+        <item>轻度</item>
+        <item>중간 정도</item>
+        <item>ell</item>
+        <item>重 度</item>
+    </string-array>
+    <string-array name="weather_weekday">
+        <item>태양</item>
+        <item>MON</item>
+        <item>화</item>
+        <item>수요일</item>
+        <item>THU</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+    <string-array name="weather_yahoo_condition">
+        <item>폭풍</item>
+        <item>열대성 폭풍</item>
+        <item>허리케인</item>
+        <item>심한 뇌우</item>
+        <item>뇌우</item>
+        <item>눈과 비가 섞인 비</item>
+        <item>혼합 비와 진눈깨비</item>
+        <item>눈과 진눈깨비가 섞인</item>
+        <item>얼어 붙는 이슬비</item>
+        <item>이슬비</item>
+        <item>동결</item>
+        <item>샤워</item>
+        <item>보통 비</item>
+        <item>눈이 내리 쬐다</item>
+        <item>가벼운 눈 샤워</item>
+        <item>불어 오는 눈</item>
+        <item>눈</item>
+        <item>빗발</item>
+        <item>진눈깨비</item>
+        <item>먼지</item>
+        <item>흐린</item>
+        <item>안개</item>
+        <item>침침한</item>
+        <item>맑은</item>
+        <item>맑은</item>
+        <item>감기</item>
+        <item>흐린</item>
+        <item>대부분 흐림 (야간)</item>
+        <item>주로 흐린 날 (일)</item>
+        <item>부분적으로 흐린 (밤)</item>
+        <item>부분적으로 흐린 날 (일)</item>
+        <item>맑은 (밤)</item>
+        <item>맑은</item>
+        <item>공정한 (밤)</item>
+        <item>공정 (일)</item>
+        <item>혼합 비와 우박</item>
+        <item>뜨거운</item>
+        <item>고립 된 뇌우</item>
+        <item>흩어져있는 뇌우</item>
+        <item>흩어져있는 뇌우</item>
+        <item>흩어져있는 소나기</item>
+        <item>폭설</item>
+        <item>눈이 내리는 소나기</item>
+        <item>눈보라</item>
+        <item>부분적으로 흐린</item>
+        <item>천둥 번개꾼들</item>
+        <item>눈이 내리는 소나기</item>
+        <item>고립 된 천둥 번개</item>
+        <item>흐린</item>
+        <item>폭우</item>
+        <item>폭풍우</item>
+        <item>심한 폭풍</item>
+        <item>온화한 눈</item>
+        <item>모래</item>
+        <item>모래 폭풍</item>
+        <item>모래 폭풍</item>
+        <item>깜짝 놀란</item>
+        <item>세차게 몰아 치는</item>
+    </string-array>
+</resources>

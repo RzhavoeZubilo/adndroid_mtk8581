@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_app" android:background="@drawable/bmw_sub_app" android:layout_width="@dimen/sub_page_icon_width" android:layout_height="wrap_content" android:layout_marginTop="133.0dp" android:layout_marginStart="125.0dp">
+        <TextView android:text="@string/home_app" style="@style/bmw_sub_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_app_text" style="@style/bmw_sub_page_icon_text" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/main_mybmw" android:background="@drawable/bmw_sub_mybmw" android:layout_width="@dimen/sub_page_icon_width" android:layout_height="wrap_content" android:layout_marginTop="133.0dp" android:layout_marginStart="325.0dp">
+        <TextView android:text="@string/home_mybmw" style="@style/bmw_sub_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_mybmw_text" style="@style/bmw_sub_page_icon_text" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/main_carinfo" android:background="@drawable/bmw_sub_carinfo" android:layout_width="@dimen/sub_page_icon_width" android:layout_height="wrap_content" android:layout_marginTop="133.0dp" android:layout_marginStart="525.0dp">
+        <TextView android:text="@string/home_carinfo" style="@style/bmw_sub_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_carinfo_text" style="@style/bmw_sub_page_icon_text" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/main_setting" android:background="@drawable/bmw_sub_setting" android:layout_width="@dimen/sub_page_icon_width" android:layout_height="wrap_content" android:layout_marginTop="133.0dp" android:layout_marginStart="755.0dp">
+        <TextView android:text="@string/home_setting" style="@style/bmw_sub_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_setting_text" style="@style/bmw_sub_page_icon_text" />
+    </FrameLayout>
+    <ImageView android:id="@id/sub_page_highlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_pointtoright" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="35.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:text="@string/radar_text" />
+    <TextView android:background="@color/blue" android:layout_width="match_parent" android:layout_height="3.0dp" />
+    <com.can.ui.draw.RadarSurface android:id="@id/big_radar_surfaceview" android:layout_width="wrap_content" android:layout_height="@dimen/radar_height" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/radar_bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/black" android:layout_width="wrap_content" android:layout_height="80.0dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/imageView_warn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tx_warn" />
+            <TextView android:textSize="30.0sp" android:id="@id/tx_radar_warn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radar_warn_text" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/radar_botton_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageButton android:id="@id/big_radar_mute" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_rbtn_unmute" />
+            <ImageButton android:id="@id/btn_radar_video" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_bbtn_video" android:layout_toRightOf="@id/big_radar_mute" android:keepScreenOn="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

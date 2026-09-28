@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:contentDescription="@null" app:srcCompat="@drawable/ic_warning" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dp" android:text="@string/restore" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dp" android:text="@string/restore_warning" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_restore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dp" android:text="@string/btn_restore" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

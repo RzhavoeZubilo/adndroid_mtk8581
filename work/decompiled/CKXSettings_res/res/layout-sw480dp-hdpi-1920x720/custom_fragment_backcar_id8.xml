@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollview" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="660.0dp" android:layout_height="wrap_content">
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_original" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_original" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_mirror_leftright" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_mirror" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_trace" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_trace" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_360vga" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_360vga" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_360cvbs" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_360cvbs" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_wheel_auto_360" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_wheel_auto_360" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_auto_front_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_auto_front_camera" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_backcar_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_backcar_mute" />
+        <com.carocean.settings.view.CustomHeaderLayout android:id="@id/factory_fast_reversing" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:item_style="2" carsetting:item_subTitle="@string/setting_fast_reversing" />
+    </LinearLayout>
+</ScrollView>

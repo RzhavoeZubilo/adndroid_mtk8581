@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:id="@id/contacts_name" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0sp" android:id="@id/contacts_number" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

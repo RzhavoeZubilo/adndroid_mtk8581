@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@mipmap/cb_audio_channel_disable_blue" />
+    <item android:state_checked="true" android:drawable="@drawable/cb_audio_channel_tocar_blue_sel" />
+    <item android:state_pressed="true" android:drawable="@mipmap/cb_audio_channel_tophone_p_blue" />
+    <item android:state_checked="false" android:drawable="@drawable/cb_audio_channel_tophone_blue_sel" />
+    <item android:drawable="@mipmap/cb_audio_channel_tophone_blue" />
+</selector>

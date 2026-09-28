@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/eq_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="713.0dp" android:layout_height="41.0dp" android:layout_marginTop="78.0dp">
+        <TextView android:id="@id/eq_style_standard" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_rgb_standard" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+        <TextView android:id="@id/eq_style_pop" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_sound_effect_eq_Pop" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+        <TextView android:id="@id/eq_style_rock" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_sound_effect_eq_Rock" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+        <TextView android:id="@id/eq_style_jazz" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_sound_effect_eq_Jazz" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+        <TextView android:id="@id/eq_style_classic" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_sound_effect_eq_Classic" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+        <TextView android:id="@id/eq_style_user" android:background="@drawable/eq_cur_style_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/setting_sound_effect_eq_User" android:layout_weight="1.0" style="@style/custom_eq_style_text" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar0_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar0" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar0_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar1_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar1" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar1_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar2_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar2" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar2_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar3_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar3" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar3_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar4_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar4" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar4_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar5_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar5" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar5_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar6_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar6" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar6_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar7_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar7" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar7_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar8_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar8" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar8_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar9_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar9" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar9_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar10_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar10" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar10_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar11_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar11" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar11_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar12_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar12" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar12_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar13_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar13" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar13_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar14_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar14" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar14_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/custom_eq_bar_layout_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/bar15_value" style="@style/custom_verticalseekbar_text" />
+            <com.carocean.settings.view.VerticalSeekBar android:id="@id/bar15" style="@style/custom_verticalseekbar" />
+            <TextView android:textSize="13.0sp" android:id="@id/bar15_band" style="@style/custom_verticalseekbar_text" />/> </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:textSize="25.0sp" android:textColor="@color/textcolor" android:layout_gravity="left|bottom" android:id="@id/eq_loud" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="240.0dp" android:layout_marginBottom="8.0dp" android:button="@null" android:text="@string/setting_sound_effect_loundness" android:drawableRight="@drawable/eq_loud_bg" />
+    <Button android:textSize="25.0sp" android:textColor="@color/textcolor" android:layout_gravity="right|bottom" android:id="@id/eq_reset" android:background="@drawable/soundeffectbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="208.0dp" android:layout_marginBottom="8.0dp" android:text="@string/reset" />
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/drive_eco_bg" android:paddingTop="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:speedometer="http://schemas.android.com/apk/res/com.can.activity">
+    <com.can.ui.view.MarqueeTextView android:textSize="42.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="left|center" android:layout_gravity="left|top" android:layout_width="wrap_content" android:layout_height="82.0dp" android:layout_marginLeft="200.0dp" android:text="@string/app_name_new_carinfo" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <com.can.ui.view.Speedometer android:id="@id/carinfo_rate" android:layout_width="582.0dp" android:layout_height="582.0dp" android:layout_marginLeft="227.0dp" android:layout_marginTop="81.0dp" speedometer:mode="0" speedometer:pointer="@drawable/drive_eco_spointer" />
+    <TextView android:textSize="26.0sp" android:textColor="@color/white" android:id="@id/carinfo_rate_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300.0dp" android:layout_marginTop="400.0dp" />
+    <com.can.ui.view.Speedometer android:id="@id/carinfo_rpm" android:layout_width="584.0dp" android:layout_height="584.0dp" android:layout_marginLeft="1109.0dp" android:layout_marginTop="80.0dp" speedometer:mode="0" speedometer:pointer="@drawable/drive_eco_tpointer" />
+    <ImageView android:id="@id/carinfo_bigled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="232.0dp" android:layout_marginTop="88.0dp" android:src="@drawable/carinfo_bigled_nor" />
+    <ImageView android:id="@id/carinfo_safeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="232.0dp" android:layout_marginTop="608.0dp" android:src="@drawable/carinfo_safeb" />
+    <ImageView android:id="@id/carinfo_handbrake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1624.0dp" android:layout_marginTop="88.0dp" android:src="@drawable/carinfo_handbreak" />
+    <ImageView android:id="@id/carinfo_footbrake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1624.0dp" android:layout_marginTop="608.0dp" android:src="@drawable/carinfo_footbreak" />
+    <ImageView android:id="@id/carinfo_gear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="608.0dp" android:layout_marginTop="515.0dp" android:src="@drawable/carinfo_gear_p" />
+    <LinearLayout android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1254.0dp" android:layout_marginTop="515.0dp">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_gas" />
+        <TextView android:textSize="42.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/carinfo_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center|bottom" android:layout_width="480.0dp" android:layout_height="64.0dp" android:layout_marginBottom="10.0dp">
+        <TextView android:textSize="42.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/carinfo_mileage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="left|center" android:id="@id/carinfo_leftl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_leftl" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/carinfo_rightl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carinfo_rightl" />
+    </FrameLayout>
+</FrameLayout>

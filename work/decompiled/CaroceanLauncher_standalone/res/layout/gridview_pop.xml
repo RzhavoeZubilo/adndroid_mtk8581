@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/fbox_bg" android:layout_width="296.0dp" android:layout_height="751.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.popuView.SetGridView android:gravity="fill" android:layout_gravity="center" android:id="@id/gridview_icon_top" android:scrollbars="none" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="108.0dp" android:numColumns="7" />
+    <com.android.launcher2.popuView.MenuGridView android:gravity="fill" android:layout_gravity="center" android:id="@id/gridview_icon_bottom" android:scrollbars="none" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="162.0dp" android:numColumns="5" />
+</LinearLayout>

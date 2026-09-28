@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_box_collapsed" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/search_img" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_search_theme_24" android:scaleType="center" android:tint="@color/google_grey_700" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_marginStart="8.0dp" />
+        <TextView android:textSize="16.0dp" android:textColor="@color/google_grey_700" android:id="@id/search_start_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialer_hint_find_contact" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_toStartOf="@id/contact_refresh" android:layout_toEndOf="@id/search_img" />
+        <ImageButton android:id="@id/contact_refresh" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/image_refresh_24dp" android:scaleType="center" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include layout="@layout/expanded_search_bar" />
+</FrameLayout>

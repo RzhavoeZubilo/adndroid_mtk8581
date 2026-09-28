@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/choosebk" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_choose_title" android:background="@drawable/titlebk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/tx_curfuel_size" android:textColor="@color/white" android:id="@id/tx_choose_pro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_can_show" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_choose_step" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:id="@id/btn_choose_1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_choose_1" android:drawableTop="@drawable/choose_btn_1" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img_choose_line_1" android:background="@drawable/choose_line_s" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:id="@id/btn_choose_2" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_choose_2" android:drawableTop="@drawable/choose_btn_2" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img_choose_line_2" android:background="@drawable/choose_line_s" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:textSize="@dimen/tx_default_size" android:textColor="@color/white" android:id="@id/btn_choose_3" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_choose_3" android:drawableTop="@drawable/choose_btn_3" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_choose_list" android:layout_width="@dimen/choose_list_width" android:layout_height="@dimen/choose_list_height" android:layout_below="@id/layout_choose_title" android:layout_centerHorizontal="true">
+        <ListView android:id="@id/list_can_info" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/choose_list_item" android:drawSelectorOnTop="false" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/layout_choose_list" android:layout_centerHorizontal="true">
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@color/black" android:id="@id/btn_choose_sure" android:background="@drawable/choose_btn_save" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/can_choose_marquee" android:text="@string/bt_can_sure" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/space_view_top_margin" android:textColor="@color/grey" android:id="@id/tx_ver_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_view_top_margin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

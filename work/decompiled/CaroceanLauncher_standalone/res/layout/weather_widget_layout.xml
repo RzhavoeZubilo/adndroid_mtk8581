@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frontview01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:layout_width="@dimen/time_layout_width" android:layout_height="@dimen/time_layout_height">
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/hour" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeFontStyle01" />
+            <ImageView android:layout_gravity="center" android:background="@color/line" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginLeft="10.0dp" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/minute" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeFontStyle01" />
+            <ImageView android:layout_gravity="center" android:background="@color/line" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginRight="12.0dp" />
+            <TextView android:layout_gravity="right|bottom" android:id="@id/pmam" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeFontStyle02" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|bottom" android:orientation="vertical" android:paddingRight="20.0dp" android:layout_width="@dimen/date_layout_width" android:layout_height="@dimen/date_layout_height">
+        <TextView android:layout_gravity="right" android:id="@id/week" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/fontStyle01" />
+        <TextView android:layout_gravity="right" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/fontStyle02" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="left|bottom" android:id="@id/frontview02" android:layout_width="@dimen/weather_widget_layout_right_width" android:layout_height="@dimen/weather_widget_layout_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/weather_img" android:paddingLeft="10.0dp" android:paddingBottom="20.0dp" android:layout_width="80.0dp" android:layout_height="80.0dp" android:src="@drawable/cloudy" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_city" android:layout_width="@dimen/city_layout_width" android:layout_height="match_parent">
+            <com.mediatek.launcher2.ext.MarqueeTextView android:ellipsize="marquee" android:id="@id/city" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/fontStyle01" />
+            <com.mediatek.launcher2.ext.MarqueeTextView android:ellipsize="marquee" android:id="@id/temp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/fontStyle02" />
+            <com.mediatek.launcher2.ext.MarqueeTextView android:ellipsize="marquee" android:id="@id/weather" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/fontStyle02" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

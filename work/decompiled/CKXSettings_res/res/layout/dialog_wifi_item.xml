@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/appCompatTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="@string/label_security" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="end" android:id="@id/security" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/appCompatTextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="@string/label_intensity" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="end" android:id="@id/intensity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

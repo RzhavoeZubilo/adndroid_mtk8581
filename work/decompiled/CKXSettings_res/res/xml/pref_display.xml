@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/title_screen">
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="back_light" app:title="@string/back_light" />
+        <com.carocean.settings.ui.ButtonPreference app:buttonText="@string/off" app:key="screen_off" app:selectable="false" app:title="@string/screen_off" />
+        <com.carocean.settings.ui.SettingsListPreference app:defaultValue="saver.black" app:entries="@array/screen_effect_entries" app:entryValues="@array/screen_effect_values" app:key="screen_effect" app:title="@string/screen_off_effect" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/title_video">
+        <SwitchPreferenceCompat app:key="forbid_video" app:title="@string/forbid_video" />
+        <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/backcar_mirror_entries" app:entryValues="@array/backcar_mirror_values" app:key="backcar_mirror" app:title="@string/backcar_mirror" />
+    </PreferenceCategory>
+    <PreferenceCategory app:isPreferenceVisible="false" app:title="@string/title_picture">
+        <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/pic_mode_entries" app:entryValues="@array/pic_mode_values" app:key="pic_mode" app:title="@string/pic_mode" />
+        <PreferenceCategory app:title="@string/base_color">
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="bright" app:title="@string/title_bright" />
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="contrast" app:title="@string/contrast" />
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="grayscale" app:title="@string/grayscale" />
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="saturation" app:title="@string/saturation" />
+        </PreferenceCategory>
+        <PreferenceCategory app:title="@string/advance">
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="sharpness" app:title="@string/sharpness" />
+            <com.carocean.settings.ui.SettingsSeekBarPreference app:key="color_temp" app:title="@string/color_temp" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+    <PreferenceCategory app:isPreferenceVisible="false" app:title="@string/video_enhance">
+        <SwitchPreferenceCompat app:key="dynamic_contrast" app:title="@string/dynamic_contrast" />
+        <SwitchPreferenceCompat app:key="view_comfort" app:title="@string/view_comfort" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="blue_light" app:title="@string/blue_light_defender" />
+    </PreferenceCategory>
+    <PreferenceCategory app:isPreferenceVisible="false" app:title="@string/other">
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="skin_grayscale" app:title="@string/skin_grayscale" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="skin_saturation" app:title="@string/skin_saturation" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="sky_grayscale" app:title="@string/sky_grayscale" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="sky_saturation" app:title="@string/sky_saturation" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="grass_grayscale" app:title="@string/grass_grayscale" />
+        <com.carocean.settings.ui.SettingsSeekBarPreference app:key="grass_saturation" app:title="@string/grass_saturation" />
+    </PreferenceCategory>
+</PreferenceScreen>

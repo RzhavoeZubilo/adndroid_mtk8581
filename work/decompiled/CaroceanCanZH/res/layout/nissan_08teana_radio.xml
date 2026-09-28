@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/nissan_08_layout_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/textView_rds_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_rds" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/textView_scan_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_scane" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/textView_st_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_st" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/textView_auto_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_auto" android:layout_weight="1.0" />
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="24.0sp" android:textColor="#ffffff" android:id="@id/textView_textinfo_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_str" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="40.0sp" android:textColor="#ffffff" android:id="@id/textView_band_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="50.0sp" android:textColor="#ffffff" android:id="@id/textView_freq_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="30.0sp" android:textColor="#ffffff" android:id="@id/textView_unit_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/nissan_08_layout_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/textView_floder_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_rds" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/textView_wma_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_scane" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/textView_mp3_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_st" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/textView_scane_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_auto" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/textView_playmode_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_auto" android:layout_weight="1.0" />
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/textView_textinfo1_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nissan_rd_str" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+            <LinearLayout android:layout_width="150.0dp" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/textView_workmode_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/textView_track_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/textView_discstatus_08teana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

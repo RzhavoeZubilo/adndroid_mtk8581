@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.carocean.settings.ui.SettingsListPreference app:defaultValue="0" app:entries="@array/sound_effect_entries" app:entryValues="@array/sound_effect_values" app:key="effect" app:title="@string/sound_effect" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference android:max="14" app:key="treble" app:title="@string/se_treble" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference android:max="14" app:key="atlo" app:title="@string/se_alto" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference android:max="14" app:key="bass" app:title="@string/se_bass" />
+    <com.carocean.settings.ui.SettingsSeekBarPreference android:max="14" app:key="subwoofer" app:title="@string/se_subwoofer" />
+    <SwitchPreferenceCompat app:key="loudness" app:title="@string/se_loudness" />
+    <com.carocean.settings.ui.ButtonPreference app:buttonText="@string/se_reset_balance" app:key="balance" app:selectable="false" app:title="@string/se_balance" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/gm_btn_car_set" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_car_set" android:drawableTop="@drawable/toyota_btn_menu_carset" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/gm_btn_tpms" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ad_tpms_title" android:drawableTop="@drawable/toyota_btn_tpms_n" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/gm_btn_compass" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_compass" android:drawableTop="@drawable/toyota_btn_menu_curfuel" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/gm_btn_on_star" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_on_star" android:drawableTop="@drawable/toyota_btn_menu_hisfuel" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="HotSeatImageViewBtnStyle" format="reference" />
+    <attr name="HotSeatStyle" format="reference" />
+    <attr name="HotSeatTextViewBtnStyle" format="reference" />
+    <attr name="alpha" format="float" />
+    <attr name="animaDownSelect" format="color|reference" />
+    <attr name="animaDrawableWidth" format="integer" />
+    <attr name="animaUpSelect" format="color|reference" />
+    <attr name="animabackground" format="color|reference" />
+    <attr name="cellCountX" format="integer" />
+    <attr name="cellCountY" format="integer" />
+    <attr name="cellHeight" format="dimension" />
+    <attr name="cellWidth" format="dimension" />
+    <attr name="className" format="string" />
+    <attr name="clingFocusedX" format="integer" />
+    <attr name="clingFocusedY" format="integer" />
+    <attr name="container" format="string" />
+    <attr name="defaultScreen" format="integer" />
+    <attr name="direction">
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="0" />
+    </attr>
+    <attr name="downDrawableHeight" format="integer" />
+    <attr name="downDrawableWidth" format="integer" />
+    <attr name="drawIdentifier" format="string" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="heightGap" format="dimension" />
+    <attr name="icon" format="reference" />
+    <attr name="iconScale" format="string" />
+    <attr name="innerIconScale" format="string" />
+    <attr name="key" format="string" />
+    <attr name="maxAppCellCountX" format="integer" />
+    <attr name="maxAppCellCountY" format="integer" />
+    <attr name="maxGap" format="dimension" />
+    <attr name="newClassName" format="string" />
+    <attr name="newPackageName" format="string" />
+    <attr name="oldClassName" format="string" />
+    <attr name="oldPackageName" format="string" />
+    <attr name="packageName" format="string" />
+    <attr name="pageIndicator" format="reference" />
+    <attr name="pageLayoutHeightGap" format="dimension" />
+    <attr name="pageLayoutPaddingBottom" format="dimension" />
+    <attr name="pageLayoutPaddingLeft" format="dimension" />
+    <attr name="pageLayoutPaddingRight" format="dimension" />
+    <attr name="pageLayoutPaddingTop" format="dimension" />
+    <attr name="pageLayoutWidthGap" format="dimension" />
+    <attr name="pageSpacing" format="dimension" />
+    <attr name="previewResId" format="reference" />
+    <attr name="sceneNameResId" format="reference" />
+    <attr name="scenePos" format="integer" />
+    <attr name="sceneTitleResId" format="reference" />
+    <attr name="sceneWallpaper" format="reference" />
+    <attr name="screen" format="string" />
+    <attr name="scrollIndicatorPaddingLeft" format="dimension" />
+    <attr name="scrollIndicatorPaddingRight" format="dimension" />
+    <attr name="sourceImageViewId" format="integer" />
+    <attr name="sourceViewId" format="integer" />
+    <attr name="spanX" format="string" />
+    <attr name="spanY" format="string" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeTextColor" format="color" />
+    <attr name="strokeWidth" format="float" />
+    <attr name="title" format="reference" />
+    <attr name="titleColor" format="color" />
+    <attr name="titleSize" format="dimension" />
+    <attr name="topClassName" format="string" />
+    <attr name="topOrder" format="integer" />
+    <attr name="topPackageName" format="string" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="unreadClassName" format="string" />
+    <attr name="unreadKey" format="string" />
+    <attr name="unreadPackageName" format="string" />
+    <attr name="unreadType" format="integer" />
+    <attr name="upDrawableHeight" format="integer" />
+    <attr name="upDrawableWidth" format="integer" />
+    <attr name="uri" format="string" />
+    <attr name="value" format="string" />
+    <attr name="widgetCellHeightGap" format="dimension" />
+    <attr name="widgetCellWidthGap" format="dimension" />
+    <attr name="widgetCountX" format="integer" />
+    <attr name="widgetCountY" format="integer" />
+    <attr name="widthGap" format="dimension" />
+    <attr name="windowSize" format="integer" />
+    <attr name="workspaceResId" format="reference" />
+    <attr name="x" format="string" />
+    <attr name="y" format="string" />
+    <attr name="yPos" format="reference" />
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/can_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/tv_honda_air_temp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/honda_left_temp" android:layout_width="@dimen/tv_honda_air_width" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/tv_honda_air_temp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="@dimen/tv_honda_air_width" android:layout_height="wrap_content" android:text="@string/str_air_temp" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/tv_honda_air_temp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/honda_right_temp" android:layout_width="@dimen/tv_honda_air_width" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ll_honda_air_interval">
+        <TextView android:textSize="@dimen/tv_honda_air_textsize" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/honda_ac_mode" android:layout_width="@dimen/tv_honda_air_width" android:layout_height="wrap_content" android:text="@string/str_air_ac_mode" />
+        <ImageView android:id="@id/honda_btn_ac_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/honda_air_ac_on" />
+        <ImageView android:id="@id/honda_btn_ac_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/honda_air_ac_off" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ll_honda_air_interval">
+        <TextView android:textSize="@dimen/tv_honda_air_textsize" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/honda_air_win_mode" android:layout_width="@dimen/tv_honda_air_width" android:layout_height="wrap_content" android:text="@string/str_air_win_mode" />
+        <ImageView android:id="@id/honda_btn_win_para" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/honda_win_par" />
+        <ImageView android:id="@id/honda_btn_win_para_dn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tv_honda_air_interval" android:src="@drawable/honda_win_par_dn" />
+        <ImageView android:id="@id/honda_btn_win_dn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tv_honda_air_interval" android:src="@drawable/honda_win_dn" />
+        <ImageView android:id="@id/honda_btn_win_up_dn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tv_honda_air_interval" android:src="@drawable/honda_win_up_dn" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ll_honda_air_interval">
+        <TextView android:layout_gravity="center" android:background="@drawable/honda_air_win" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.can.ui.draw.FuelSeekBar android:id="@id/honda_seekbar_air_win" android:layout_width="@dimen/seekbar_win_width" android:layout_height="@dimen/seekbar_win_height" android:progressDrawable="@drawable/honda_seekbar_win" android:thumb="@null" yeconui:can_move="true" />
+        <Button android:id="@id/honda_btn_air_rear_swicth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_air_front_swicth_cur" android:layout_centerInParent="true" />
+    </LinearLayout>
+</LinearLayout>

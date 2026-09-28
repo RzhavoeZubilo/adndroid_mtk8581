@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bmw_main_page_icon_text" parent="@style/bmw_main_page_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25.0dp</item>
+        <item name="android:layout_marginTop">125.0dp</item>
+        <item name="android:layout_marginRight">25.0dp</item>
+    </style>
+    <style name="bmw_main_page_icon_text_style">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_icon_title">
+        <item name="android:textSize">42.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">103.0dp</item>
+        <item name="android:layout_marginTop">18.0dp</item>
+        <item name="android:layout_marginRight">25.0dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_new_icon_text_style">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_main_page_new_icon_title">
+        <item name="android:textSize">42.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dp</item>
+        <item name="android:layout_marginRight">10.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">15.0dp</item>
+    </style>
+    <style name="bmw_main_page_new_small_icon_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/desk_bmw6_small_icon_selector</item>
+        <item name="android:layout_width">193.0dp</item>
+        <item name="android:layout_height">124.0dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="bmw_sub_page_icon_text" parent="@style/bmw_sub_page_icon_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dp</item>
+        <item name="android:layout_marginTop">65.0dp</item>
+        <item name="android:layout_marginRight">20.0dp</item>
+    </style>
+    <style name="bmw_sub_page_icon_text_style">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="bmw_sub_page_icon_title">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/workpace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">65.0dp</item>
+        <item name="android:layout_marginTop">5.0dp</item>
+        <item name="android:layout_marginRight">15.0dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

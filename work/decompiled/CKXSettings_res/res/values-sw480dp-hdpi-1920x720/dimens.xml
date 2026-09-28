@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_eq_bar_layout_width">67.0dp</dimen>
+    <dimen name="custom_text_size_id8">28.0sp</dimen>
+    <dimen name="custom_title_size_id8">32.0sp</dimen>
+    <dimen name="normal_text_size">28.0sp</dimen>
+    <dimen name="right_logo_margin_left">815.0dp</dimen>
+    <dimen name="right_logo_margin_top">112.0dp</dimen>
+</resources>

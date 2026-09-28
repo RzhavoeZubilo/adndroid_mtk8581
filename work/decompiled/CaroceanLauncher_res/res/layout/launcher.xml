@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.popuView.TouchCheckFrameLayout android:id="@id/launcher" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <com.android.launcher2.DragLayer android:id="@id/drag_layer" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher2.popuView.MainCustomer android:id="@id/layout_custom" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dp" android:src="@drawable/part1_bg" />
+            <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/part2_bg" />
+            <LinearLayout android:layout_gravity="top" android:paddingTop="25.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/clock_layout" android:visibility="visible" android:layout_width="296.0dp" android:layout_height="296.0dp" android:layout_marginLeft="42.0dp" android:layout_marginTop="0.0dp" android:layout_marginRight="0.0dp">
+                    <com.example.launchermainviewdemo.AnalogClock android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <ImageView android:id="@id/id_time" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/weather_layout" android:background="@drawable/weather_bg" android:padding="50.0dp" android:visibility="gone" android:layout_width="296.0dp" android:layout_height="296.0dp" android:layout_marginLeft="42.0dp" android:layout_marginTop="0.0dp" android:layout_marginRight="0.0dp">
+                    <com.example.launchermainviewdemo.MarqueeTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/tv_city" android:paddingLeft="30.0dp" android:paddingRight="30.0dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_weather" android:layout_width="110.0dp" android:layout_height="80.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/cloudy" android:scaleType="centerCrop" />
+                    <com.example.launchermainviewdemo.MarqueeTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_weather" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <com.example.launchermainviewdemo.MarqueeTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_temp" android:paddingLeft="30.0dp" android:paddingRight="30.0dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp">
+                    <ImageView android:id="@id/iv_clock_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clock_icon_selector" />
+                    <ImageView android:id="@id/iv_weather_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:src="@drawable/weather_icon_selector" />
+                </LinearLayout>
+                <com.android.launcher2.popuView.CarWidget android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingTop="15.0dp" android:paddingRight="20.0dp" android:layout_width="452.0dp" android:layout_height="wrap_content" android:layout_marginLeft="85.0dp">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dp">
+                        <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/id_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/id_week" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.android.launcher2.popuView.MarqueeTextView android:textSize="28.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/music_name" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dp">
+                        <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center" android:id="@id/music_prev_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_btn_prev" />
+                        </FrameLayout>
+                        <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center" android:id="@id/music_playpause_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_btn_playpause" />
+                        </FrameLayout>
+                        <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center" android:id="@id/music_next_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_btn_next" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </com.android.launcher2.popuView.CarWidget>
+                <FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="20.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center" android:layout_gravity="left" android:id="@id/btn_allapp" android:background="@drawable/icon_selector_allapp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+        </com.android.launcher2.popuView.MainCustomer>
+        <com.android.launcher2.Workspace android:layout_gravity="center|bottom" android:id="@id/workspace" android:layout_width="@dimen/workspace_layout_width" android:layout_height="@dimen/workspace_layout_height" android:layout_marginBottom="60.0dp" launcher:cellCountX="@integer/cell_count_x" launcher:cellCountY="@integer/cell_count_y" launcher:defaultScreen="0" launcher:pageSpacing="@dimen/workspace_page_spacing">
+            <include android:id="@id/cell1" layout="@layout/workspace_screen" />
+        </com.android.launcher2.Workspace>
+        <include android:layout_gravity="center|top" android:id="@id/qsb_bar" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/qsb_bar" />
+        <include android:id="@id/folder_cling" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/folder_cling" />
+        <include android:id="@id/apps_customize_pane_only" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/apps_customize_pane_only" />
+    </com.android.launcher2.DragLayer>
+</com.android.launcher2.popuView.TouchCheckFrameLayout>

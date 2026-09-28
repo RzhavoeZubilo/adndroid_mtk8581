@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.fragment.app.FragmentContainerView android:name="com.carocean.settings.se.SEFragment" android:id="@id/audio" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.carocean.settings.se.BalanceView android:id="@id/balance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_to_default" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

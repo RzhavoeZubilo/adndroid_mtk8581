@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bmw_id8_left_btn">
+        <item name="android:textSize">@dimen/custom_title_size</item>
+        <item name="android:textColor">@color/bmw_id8_orange_left_btn_text_color_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bmw_id8_orange_left_btn_bg</item>
+        <item name="android:paddingLeft">23.0dp</item>
+        <item name="android:paddingRight">23.0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70.0dp</item>
+        <item name="android:layout_marginTop">2.0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.6</item>
+    </style>
+    <style name="custom_textview_style_about_id8">
+        <item name="android:textSize">@dimen/custom_title_size</item>
+        <item name="android:textColor">@color/custom_textcolor</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/bmw_id8_orange_custom_layout_bg_selector</item>
+        <item name="android:paddingLeft">20.0dp</item>
+        <item name="android:paddingRight">20.0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0.0dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.6</item>
+    </style>
+    <style name="custom_verticalseekbar" parent="@android:style/Widget.Holo.SeekBar">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">21.0dp</item>
+        <item name="android:layout_height">178.0dp</item>
+        <item name="android:layout_marginTop">0.0dp</item>
+        <item name="android:layout_marginBottom">0.0dp</item>
+        <item name="android:maxHeight">178.0dp</item>
+        <item name="android:max">24</item>
+        <item name="android:progressDrawable">@drawable/soundbar</item>
+        <item name="android:minHeight">178.0dp</item>
+        <item name="android:thumb">@drawable/soundbar_thumb</item>
+        <item name="android:thumbOffset">0.0dp</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+</resources>

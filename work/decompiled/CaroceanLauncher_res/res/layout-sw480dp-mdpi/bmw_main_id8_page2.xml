@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher2.popuView.AnimationFrameLayout android:id="@id/main_video" android:background="@drawable/bmw_id8_orange_desk_video_n" android:layout_width="280.0dp" android:layout_height="480.0dp" app:animaDownSelect="@drawable/bmw_id8_orange_desk_down_selector" app:animaUpSelect="@drawable/bmw_id8_orange_desk_up_selector" app:downDrawableHeight="340" app:downDrawableWidth="288" app:upDrawableHeight="338" app:upDrawableWidth="288">
+        <TextView android:id="@id/main_video_title" android:text="@string/home_movie" style="@style/bmw_orange_id8_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:textColor="@color/bmw_id8_orange_desk_icon_text_video_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dp" android:text="@string/home_video_text" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" style="@style/bmw_orange_id8_main_page_icon_text_style" />
+    </com.android.launcher2.popuView.AnimationFrameLayout>
+    <Space android:layout_width="16.0dp" android:layout_height="match_parent" />
+    <com.android.launcher2.popuView.AnimationFrameLayout android:id="@id/main_mybmw" android:background="@drawable/bmw_id8_orange_desk_mycar_n" android:layout_width="325.0dp" android:layout_height="480.0dp" app:animaDownSelect="@drawable/bmw_id8_orange_desk_down_selector" app:animaUpSelect="@drawable/bmw_id8_orange_desk_up_selector" app:downDrawableHeight="340" app:downDrawableWidth="288" app:upDrawableHeight="338" app:upDrawableWidth="288">
+        <TextView android:id="@id/main_mybmw_title" android:text="@string/home_mybmw" style="@style/bmw_orange_id8_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dp" android:text="@string/home_mybmw_text" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" style="@style/bmw_orange_id8_main_page_icon_text_style" />
+    </com.android.launcher2.popuView.AnimationFrameLayout>
+    <Space android:layout_width="16.0dp" android:layout_height="match_parent" />
+    <com.android.launcher2.popuView.AnimationFrameLayout android:id="@id/main_setting" android:background="@drawable/bmw_id8_orange_desk_setup_n" android:layout_width="280.0dp" android:layout_height="480.0dp" app:animaDownSelect="@drawable/bmw_id8_orange_desk_down_selector" app:animaUpSelect="@drawable/bmw_id8_orange_desk_up_selector" app:downDrawableHeight="340" app:downDrawableWidth="288" app:upDrawableHeight="338" app:upDrawableWidth="288">
+        <TextView android:id="@id/main_setting_title" android:text="@string/home_setting" style="@style/bmw_orange_id8_main_page_icon_title" />
+        <com.android.launcher2.popuView.MarqueeTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dp" android:text="@string/home_setting_text" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" style="@style/bmw_orange_id8_main_page_icon_text_style" />
+    </com.android.launcher2.popuView.AnimationFrameLayout>
+</LinearLayout>

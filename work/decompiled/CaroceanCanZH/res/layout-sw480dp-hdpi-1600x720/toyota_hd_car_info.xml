@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/toyota_relative_car_set" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_btn_menu_carset" style="@style/car_info_style" />
+            <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/tpyota_relative_cur_fule" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_btn_menu_curfuel" style="@style/car_info_style" />
+            <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/toyata_relative_his_fule" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_btn_menu_hisfuel" style="@style/car_info_style" />
+            <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/toyota_relative_hybrid" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_btn_menu_hybrid" style="@style/car_info_style" />
+            <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/toyota_relative_dsp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_btn_menu_dsp" style="@style/car_info_style" />
+            <TextView android:background="@drawable/item_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/honda_tv_padding_left" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

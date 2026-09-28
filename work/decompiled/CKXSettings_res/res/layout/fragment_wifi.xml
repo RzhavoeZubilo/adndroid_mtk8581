@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="72.0dp" android:layout_marginHorizontal="48.0dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/appCompatTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_wifi" />
+            <androidx.appcompat.widget.AppCompatTextView android:enabled="false" android:id="@id/mac" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end|center" android:id="@id/enabler" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?colorAccent" android:id="@id/available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_available" android:layout_marginStart="48.0dp" />
+    <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="48.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

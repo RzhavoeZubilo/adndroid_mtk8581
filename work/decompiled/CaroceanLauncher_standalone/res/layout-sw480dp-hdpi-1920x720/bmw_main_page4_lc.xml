@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/main_aux" android:background="@drawable/bmw_main_lc_aux" android:layout_width="@dimen/main_page_icon_width" android:layout_height="wrap_content">
+            <TextView android:text="@string/home_aux" style="@style/bmw_main_page_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_aux_text" style="@style/bmw_main_page_icon_text" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/main_mybmw" android:background="@drawable/bmw_main_lc_mybmw" android:layout_width="@dimen/main_page_icon_width" android:layout_height="wrap_content">
+            <TextView android:text="@string/home_mybmw_lc" style="@style/bmw_main_page_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_mybmw_text" style="@style/bmw_main_page_icon_text" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/main_setting" android:background="@drawable/bmw_main_lc_setting" android:layout_width="@dimen/main_page_icon_width" android:layout_height="wrap_content">
+            <TextView android:text="@string/home_setting" style="@style/bmw_main_page_icon_title" />
+            <com.android.launcher2.popuView.MarqueeTextView android:text="@string/home_setting_text" style="@style/bmw_main_page_icon_text" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

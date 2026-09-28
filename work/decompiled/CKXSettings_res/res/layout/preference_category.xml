@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="72.0dp" android:layout_marginStart="48.0dp" style="@style/PreferenceCategoryTitleTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

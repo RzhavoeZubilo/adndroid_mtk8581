@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_drawable_padding_lc">15.0dp</dimen>
+    <dimen name="app_icon_lc_size">160.0dp</dimen>
+    <dimen name="app_icon_size">160.0dp</dimen>
+    <dimen name="apps_customize_cell_height">240.0dp</dimen>
+    <dimen name="apps_customize_cell_width">260.0dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">10.0dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">0.0dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">60.0dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">10.0dp</dimen>
+    <dimen name="button_bar_height_plus_padding">120.0dp</dimen>
+    <dimen name="hotseat_cell_height">240.0dp</dimen>
+    <dimen name="hotseat_cell_width">260.0dp</dimen>
+    <dimen name="main_page_icon_width">490.0dp</dimen>
+    <dimen name="main_page_new_icon_distance">40.0dp</dimen>
+    <dimen name="main_page_new_icon_height">588.0dp</dimen>
+    <dimen name="main_page_new_icon_margintop">90.0dp</dimen>
+    <dimen name="main_page_new_icon_width">825.0dp</dimen>
+    <dimen name="new_switch_icon_y">688.0dp</dimen>
+    <dimen name="qsb_bar_height">48.0dp</dimen>
+    <dimen name="reveal_radius">160.0dp</dimen>
+    <dimen name="sub_page_icon_width">285.0dp</dimen>
+    <dimen name="sub_page_margin_bottom">80.0dp</dimen>
+    <dimen name="switch_icon_y">720.0dp</dimen>
+    <dimen name="workspace_cell_height">240.0dp</dimen>
+    <dimen name="workspace_cell_height_land">240.0dp</dimen>
+    <dimen name="workspace_cell_width">260.0dp</dimen>
+    <dimen name="workspace_cell_width_land">260.0dp</dimen>
+    <dimen name="workspace_icon_text_size">32.0sp</dimen>
+    <dimen name="workspace_topbar_icon_text_size">32.0sp</dimen>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/can_bg" android:padding="@dimen/fragment_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/layout_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set1" android:text="@string/str_adjust_out_temp" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set1" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_fuel_effc_bk" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set1" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/layout_3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set3" android:text="@string/str_trip_a_reset_timeing" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set3" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set4" android:text="@string/str_trip_b_reset_timeing" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set4" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set5" android:text="@string/str_interior_light_diming_time" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set5" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set6" android:text="@string/str_headlight_auto_off_time" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set6" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set7" android:text="@string/str_auto_light_sensitivity" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set7" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set8" android:text="@string/str_auto_door_lock_with" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set8" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set9" android:text="@string/str_auto_door_unlock_with" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set9" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set10" android:text="@string/str_key_and_remote_unlock_mode" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set10" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_keyless_lock_answer_back" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set2" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set12" android:text="@string/str_security_relock_time" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set12" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_13" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set13" android:text="@string/str_voice_alarm_system_volume" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set13" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_14" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_keyless_access_beep" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set3" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_15" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_keyless_access_beep" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set4" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_16" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_reset_settings" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_right_set16" style="@style/car_set_right_style2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_18" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_tyres_set" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_right_set18" style="@style/car_set_right_style2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_21" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set21" android:text="@string/str_door_unlock_mode" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set21" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_22" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_keyless_access_light_flash" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set5" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_23" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_fuel_efficienty_backlight" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set6" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/layout_24" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_gm_lan" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set24" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_25" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_gm_intelligent_remote_key" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set7" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_26" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_engine_auto_notification" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set8" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_27" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_remote_start_system" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set9" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_28" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set28" android:text="@string/str_set_front_waring_distance" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set28" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_29" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_acc_front_waring" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set10" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_30" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set30" android:text="@string/str_minor_lane_departure_system_settings" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set30" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_31" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_pause_lkas_tone" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set11" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_32" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_traffic_sign_system" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set12" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_33" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_pause_lkas_tone" style="@style/car_info_style" />
+            <CheckBox android:id="@id/checkbox_honda_set13" style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_34" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="@string/str_gm_screen_display" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set34" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_35" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set35" android:text="@string/str_brightness_settings" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set35" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_36" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set36" android:text="@string/str_contrast_settings" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set36" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_37" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_honda_set37" android:text="@string/str_saturation_settings" style="@style/car_info_style" />
+            <TextView android:id="@id/btn_honda_left_set37" style="@style/car_set_right_style1" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

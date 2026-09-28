@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toppackages
+  xmlns:launcher="http://schemas.android.com/apk/res/com.yecon.launcher1">
+    <app launcher:topClassName="cn.kuwo.kwmusiccar.WelcomeActivity" launcher:topOrder="0" launcher:topPackageName="cn.kuwo.kwmusiccas" />
+    <app launcher:topClassName="com.qiyi.video.pad.WelcomeActivity" launcher:topOrder="1" launcher:topPackageName="com.qiyi.video.pad" />
+    <app launcher:topClassName="com.yecon.fmradio.FMRadioMainActivity" launcher:topOrder="2" launcher:topPackageName="com.yecon.fmradio" />
+    <app launcher:topClassName="com.autochips.bluetooth.MainBluetoothActivity" launcher:topOrder="3" launcher:topPackageName="com.autochips.bluetooth" />
+    <app launcher:topClassName="com.yecon.music.MusicPlaybackMainActivity" launcher:topOrder="4" launcher:topPackageName="com.yecon.music" />
+    <app launcher:topClassName="com.yecon.video.VideoPlaybackMainActivity" launcher:topOrder="5" launcher:topPackageName="com.yecon.video" />
+    <app launcher:topClassName="com.yecon.carsetting.FragmentTabAcitivity" launcher:topOrder="6" launcher:topPackageName="com.yecon.carsetting" />
+    <app launcher:topClassName="com.android.settings.Settings" launcher:topOrder="7" launcher:topPackageName="com.android.settings" />
+    <app launcher:topClassName="com.yecon.imagebrowser.ImageBrowserActivity" launcher:topOrder="8" launcher:topPackageName="com.yecon.imagebrowser" />
+    <app launcher:topClassName="com.yecon.filemanager.LauncherActivity" launcher:topOrder="9" launcher:topPackageName="com.yecon.filemanager" />
+    <app launcher:topClassName="com.yecon.avin.AVInActivity" launcher:topOrder="10" launcher:topPackageName="com.yecon.avin" />
+    <app launcher:topClassName="com.yecon.avin.AVInExtActivity" launcher:topOrder="11" launcher:topPackageName="com.yecon.avin" />
+    <app launcher:topClassName="com.yecon.avin.TvActivity" launcher:topOrder="12" launcher:topPackageName="com.yecon.avin" />
+    <app launcher:topClassName="com.yecon.avin.DvrActivity" launcher:topOrder="13" launcher:topPackageName="com.yecon.avin" />
+    <app launcher:topClassName="com.autochips.dvr.MainActivity" launcher:topOrder="13" launcher:topPackageName="com.autochips.dvr" />
+    <app launcher:topClassName="com.yecon.dvdplayer.DvdStartupActivity" launcher:topOrder="14" launcher:topPackageName="com.yecon.dvdplayer" />
+    <app launcher:topClassName="com.yecon.ipodplayer.MainActivity" launcher:topOrder="15" launcher:topPackageName="com.yecon.ipodplayer" />
+    <app launcher:topClassName="com.mediatek.FMRadio.FMRadioActivity" launcher:topOrder="15" launcher:topPackageName="com.mediatek.FMRadio" />
+    <app launcher:topClassName="com.android.providers.downloads.ui.DownloadList" launcher:topOrder="16" launcher:topPackageName="com.android.providers.downloads.ui" />
+    <app launcher:topClassName="com.android.videoeditor.ProjectsActivity" launcher:topOrder="17" launcher:topPackageName="com.android.videoeditor" />
+    <app launcher:topClassName="com.mediatek.bluetooth.prx.monitor.PrxmDeviceMgmtActivity" launcher:topOrder="18" launcher:topPackageName="com.mediatek.bluetooth" />
+    <app launcher:topClassName="com.mediatek.bluetooth.hid.BluetoothHidActivity" launcher:topOrder="19" launcher:topPackageName="com.mediatek.bluetooth" />
+    <app launcher:topClassName="com.mediatek.oobe.basic.MainActivity" launcher:topOrder="20" launcher:topPackageName="com.mediatek.oobe" />
+    <app launcher:topClassName="com.mediatek.todos.TodosActivity" launcher:topOrder="21" launcher:topPackageName="com.mediatek.todos" />
+    <app launcher:topClassName="com.android.yecon.gpstest.GPSTest" launcher:topOrder="22" launcher:topPackageName="com.android.yecon.gpstest" />
+    <app launcher:topClassName="com.mediatek.StkSelection.StkSelection" launcher:topOrder="23" launcher:topPackageName="com.mediatek.StkSelection" />
+    <app launcher:topClassName="com.android.vending.AssetBrowserActivity" launcher:topOrder="24" launcher:topPackageName="com.android.vending" />
+    <app launcher:topClassName="com.google.android.maps.MapsActivity" launcher:topOrder="25" launcher:topPackageName="com.google.android.apps.maps" />
+    <app launcher:topClassName="com.google.android.maps.driveabout.app.DestinationActivity" launcher:topOrder="26" launcher:topPackageName="com.google.android.apps.maps" />
+    <app launcher:topClassName="com.google.android.maps.PlacesActivity" launcher:topOrder="27" launcher:topPackageName="com.google.android.apps.maps" />
+    <app launcher:topClassName="com.google.android.gm.ConversationListActivityGmail" launcher:topOrder="28" launcher:topPackageName="com.google.android.gm" />
+    <app launcher:topClassName="com.google.android.talk.SigningInActivity" launcher:topOrder="29" launcher:topPackageName="com.google.android.talk" />
+    <app launcher:topClassName="com.google.android.apps.plus.phone.HomeActivity" launcher:topOrder="30" launcher:topPackageName="com.google.android.apps.plus" />
+    <app launcher:topClassName="com.google.android.apps.plus.phone.ConversationListActivity" launcher:topOrder="31" launcher:topPackageName="com.google.android.apps.plus" />
+    <app launcher:topClassName="com.google.android.googlequicksearchbox.SearchActivity" launcher:topOrder="32" launcher:topPackageName="com.google.android.googlequicksearchbox" />
+    <app launcher:topClassName="com.google.android.voicesearch.RecognitionActivity" launcher:topOrder="33" launcher:topPackageName="com.google.android.voicesearch" />
+    <app launcher:topClassName="com.google.android.gms.common.settings.GoogleSettingsActivity" launcher:topOrder="34" launcher:topPackageName="com.google.android.gms" />
+    <app launcher:topClassName="com.google.android.apps.genie.geniewidget.activities.NewsActivity" launcher:topOrder="35" launcher:topPackageName="com.google.android.apps.genie.geniewidget" />
+    <app launcher:topClassName="com.mxtech.videoplayer.ad.ActivityVideoList" launcher:topOrder="36" launcher:topPackageName="com.mxtech.videoplayer.ad" />
+    <app launcher:topClassName="com.adobe.flashplayer.SettingsManager" launcher:topOrder="37" launcher:topPackageName="com.adobe.flashplayer" />
+</toppackages>

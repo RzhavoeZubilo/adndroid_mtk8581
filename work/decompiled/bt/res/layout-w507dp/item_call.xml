@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/call_item_bg" android:layout_width="match_parent" android:layout_height="90.0dp" android:layout_marginTop="3.0dp" android:layout_marginBottom="3.0dp" android:paddingStart="20.0dp" android:layout_marginEnd="30.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="90.0dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/nameTextView" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/stateTextView" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/text_gray" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/phoneNumberTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/timeTextView" android:layout_width="90.0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

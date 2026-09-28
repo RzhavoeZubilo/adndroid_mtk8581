@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/history_listview" android:background="@android:color/transparent" android:layout_width="672.0dp" android:layout_height="wrap_content" android:listSelector="@drawable/bmw_id8_orange_item_bg_selector" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="0.0dp" android:choiceMode="singleChoice" android:paddingStart="1.0dp" android:paddingEnd="9.0dp" android:layout_marginStart="42.0dp" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/callhistoryisempty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bt_callhistorylistisempty" style="@style/bmw_normal_text" />
+</FrameLayout>

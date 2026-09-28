@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/tx_curfuel_trip_padding1" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_car_state" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/layout_menu_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <RelativeLayout android:paddingLeft="@dimen/golf7_conv_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/golf7_conv_width2">
+                <ImageView android:id="@id/img_dz7_menu_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dz7_normals" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/tx_dz7_menu_notify_num" android:paddingLeft="@dimen/tx_curfuel_trip_padding1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_notify_num" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="@dimen/golf7_conv_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/golf7_conv_width2">
+                <Button android:id="@id/btn_dz7_menu_startstop" android:background="@drawable/dz7_btn_menu_startstop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tx_hisfuel_progress_width1" android:layout_marginTop="@dimen/honda_fuel_trip_marg_left" android:text="@string/str_dz7_menu_startstop" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dz7_golfcar" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:background="@color/blue" android:layout_width="match_parent" android:layout_height="3.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_dz7_menu_carset" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_carset" android:drawableTop="@drawable/dz7_btn_menu_carset" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_dz7_menu_convs" android:background="@android:color/transparent" android:paddingLeft="@dimen/tx_curfuel_trip_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_convs" android:drawableTop="@drawable/dz7_btn_menu_convs" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_dz7_menu_serivces" android:background="@android:color/transparent" android:paddingLeft="@dimen/tx_curfuel_trip_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_services" android:drawableTop="@drawable/dz7_btn_menu_convs" />
+        <Button android:textSize="@dimen/tx_default_size" android:textColor="@android:color/white" android:id="@id/btn_dz7_menu_airset" android:background="@android:color/transparent" android:paddingLeft="@dimen/tx_curfuel_trip_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_dz7_menu_airset" android:drawableTop="@drawable/dz7_btn_menu_convs" />
+    </LinearLayout>
+</LinearLayout>

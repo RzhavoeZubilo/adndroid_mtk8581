@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="37.0dp" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_navi" android:background="@drawable/bmw_main_new_icon_bg_selector_lfe" android:layout_width="327.0dp" android:layout_height="371.0dp" android:layout_marginTop="76.0dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_bmw6_navi_n_lfe" />
+        <TextView android:layout_marginTop="300.0dp" android:text="@string/home_navi_lfe" style="@style/bmw_main_page_new_icon_title" />
+    </FrameLayout>
+    <Space android:layout_width="37.0dp" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_bt" android:background="@drawable/bmw_main_new_icon_bg_selector_lfe" android:layout_width="327.0dp" android:layout_height="371.0dp" android:layout_marginTop="76.0dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_bmw6_bt_n_lfe" />
+        <TextView android:layout_marginTop="300.0dp" android:text="@string/home_bt" style="@style/bmw_main_page_new_icon_title" />
+    </FrameLayout>
+    <Space android:layout_width="37.0dp" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_music" android:background="@drawable/bmw_main_new_icon_bg_selector_lfe" android:layout_width="327.0dp" android:layout_height="371.0dp" android:layout_marginTop="76.0dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/desk_bmw6_music_n_lfe" />
+        <TextView android:layout_marginTop="300.0dp" android:text="@string/home_music" style="@style/bmw_main_page_new_icon_title" />
+    </FrameLayout>
+</LinearLayout>

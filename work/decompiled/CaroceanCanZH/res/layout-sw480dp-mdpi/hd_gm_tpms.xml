@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tmps_prompt_size" android:textColor="@color/white" android:gravity="center" android:id="@id/gm_tpms_prompt" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str_gm_tpms_valid" />
+    <RelativeLayout android:id="@id/gm_tpms_rl_device" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/gm_tpms_imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toyota_tpms_bg" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tmps_offset" android:layout_alignTop="@id/gm_tpms_imageView1" android:layout_toStartOf="@id/gm_tpms_imageView1">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_val_lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_check_lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_check_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_l_lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_low_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_h_lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_high_tire_pressure" />
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toyota_tpms_trice" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tmps_offset" android:layout_alignBottom="@id/gm_tpms_imageView1" android:layout_toStartOf="@id/gm_tpms_imageView1">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_val_lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_check_lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_check_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_l_lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_low_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_h_lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_high_tire_pressure" />
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toyota_tpms_trice" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tmps_offset" android:layout_alignTop="@id/gm_tpms_imageView1" android:layout_toEndOf="@id/gm_tpms_imageView1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toyota_tpms_trice" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_val_rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_check_rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_check_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_l_rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_low_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_h_rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_high_tire_pressure" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tmps_offset" android:layout_alignBottom="@id/gm_tpms_imageView1" android:layout_toEndOf="@id/gm_tpms_imageView1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toyota_tpms_trice" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_val_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_check_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_check_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_l_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_low_tire_pressure" />
+                <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_alarm_h_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_high_tire_pressure" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/gm_tpms_imageView1" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tpms_trice_hori" />
+            <TextView android:textSize="@dimen/tx_default_size" android:textColor="@color/air_text_selector_color" android:id="@id/tx_gm_tpms_val_spare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_tire_pressure" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

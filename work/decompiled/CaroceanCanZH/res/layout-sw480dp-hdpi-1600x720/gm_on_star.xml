@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/can_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_general" android:textColor="@color/white" android:gravity="center" android:id="@id/gm_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_gm_wifi_name" />
+            <TextView android:textSize="@dimen/textsize_general" android:textColor="@color/white" android:gravity="center" android:id="@id/gm_tv_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dsp_on_start_left" android:text="@string/str_gm_wifi_pwd" />
+            <TextView android:textSize="@dimen/textsize_general" android:textColor="@color/white" android:gravity="center" android:id="@id/gm_tv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dsp_on_start_left" android:text="@string/str_gm_wifi_type" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dsp_on_start_top">
+            <com.can.ui.draw.AutoText android:textSize="45.0sp" android:typeface="normal" android:textColor="#ffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text_call_info" android:background="@drawable/gm_inputline" android:layout_width="@dimen/dps_phone_txt_width" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/gm_btn_call_one" android:background="@drawable/gm_btn_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_two" android:background="@drawable/gm_btn_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_three" android:background="@drawable/gm_btn_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shrinkColumns="3" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/gm_btn_call_four" android:background="@drawable/gm_btn_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_five" android:background="@drawable/gm_btn_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_six" android:background="@drawable/gm_btn_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/gm_btn_call_seven" android:background="@drawable/gm_btn_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_eight" android:background="@drawable/gm_btn_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_nine" android:background="@drawable/gm_btn_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/gm_btn_call_star" android:background="@drawable/gm_btn_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_zero" android:background="@drawable/gm_btn_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageButton android:id="@id/gm_btn_call_recall" android:background="@drawable/gm_btn_recall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </TableRow>
+                </TableLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton android:id="@id/gm_btn_del_num" android:background="@drawable/gm_btn_del" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageButton android:id="@id/gm_btn_hung" android:background="@drawable/gm_btn_hung" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageButton android:id="@id/gm_btn_call" android:background="@drawable/gm_btn_call" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

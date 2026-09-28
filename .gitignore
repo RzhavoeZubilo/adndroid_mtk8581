@@ -1,0 +1,39 @@
+# ==========================================
+# Large binary firmware archives & partitions
+# ==========================================
+*.zip
+*.img
+*.new.dat
+*.new.dat.br
+*.transfer.list
+HUTUpdate/
+BMW_OS_8581_*/
+
+# ==========================================
+# Extracted / temporary firmware folders
+# ==========================================
+work/extracted_product/
+work/extracted_system/
+work/old_fw/
+work/test_build/
+
+# ==========================================
+# Apktool & build outputs
+# ==========================================
+build/
+**/build/
+*.apk
+*.dex
+
+# Keep framework dependency
+!work/framework/1.apk
+
+# ==========================================
+# OS & editor caches
+# ==========================================
+.DS_Store
+*.tmp
+__pycache__/
+*.pyc
+.idea/
+.vscode/

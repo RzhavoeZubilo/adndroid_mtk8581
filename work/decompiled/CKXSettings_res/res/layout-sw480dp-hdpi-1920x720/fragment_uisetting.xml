@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:carsetting="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="9.0">
+        <com.carocean.settings.view.ViewFlow android:id="@id/id_view_flow" android:layout_width="match_parent" android:layout_height="match_parent" carsetting:sidebuffer="3" />
+        <com.carocean.settings.view.CircleFlowIndicator android:layout_gravity="center_horizontal" android:id="@id/id_view_flow_indic" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" carsetting:fadeOut="1000" carsetting:inactiveType="fill" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="26.0sp" android:layout_gravity="center_horizontal" android:id="@id/save" android:paddingLeft="20.0dp" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_save" />
+        <Button android:textSize="26.0sp" android:layout_gravity="center_horizontal" android:id="@id/cancel" android:paddingLeft="20.0dp" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_cancel" android:layout_marginStart="20.0dp" />
+    </LinearLayout>
+</LinearLayout>

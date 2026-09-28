@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10"  package="com.autochips.bluetooth" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.autochips.bluetooth.GlobalApplication" android:persistent="true" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/AppTheme">
+        <activity android:label="" android:launchMode="singleInstance" android:name="com.autochips.bluetooth.PhoneBookActivity"/>
+        <activity android:configChanges="mcc|mnc|touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.autochips.bluetooth.MainActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.autochips.bluetooth.intent.BLUETOOTH_PHONE"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.autochips.bluetooth.AgentActivity"/>
+        <activity android:configChanges="mcc|mnc|touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize|layoutDirection" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.autochips.bluetooth.CallActivity"/>
+        <service android:exported="true" android:name="com.autochips.bluetooth.service.BTService">
+            <intent-filter>
+                <action android:name="com.autochips.bluetooth.service.BTService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.autochips.bluetooth.service.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="" android:launchMode="singleInstance" android:name="com.autochips.bluetooth.BTCallActivity" android:taskAffinity="com.autochips.bluetooth.PhoneCall"/>
+        <service android:name="com.autochips.bluetooth.music.module.BTMusicService" android:persistent="true">
+            <intent-filter>
+                <action android:name="com.carocean.bluetooth.music.module.MusicService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.autochips.bluetooth.music.module.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.autochips.bluetooth.music.module.BTMediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.autochips.bluetooth.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+    </application>
+</manifest>
