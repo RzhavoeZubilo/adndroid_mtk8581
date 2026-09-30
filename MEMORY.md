@@ -178,4 +178,39 @@ adb shell getprop | grep bmw
 
 1. **Physical Vehicle CAN Validation**: Connect to actual BMW E90 CAN bus (via OBD-II / CanBox) and verify real coolant temperature and fuel level telemetry.
 2. **Optional Custom Gauges**: Potential addition of Oil Temperature gauge (vital for BMW N52/N54/N55 engines) if broadcast by the CAN adapter.
-3. **Launcher Integration**: Syncing styling with `CaroceanLauncher` widgets to match the E90 amber/red aesthetic across the entire system.
+3. **CaroceanLauncher E90 Widget Integration**: Replaced modern G-series cars in main launcher widgets with authentic BMW E90 3-series LCI sedans (Blue Angel Eyes, Alpinweiss III, Sparkling Graphite Metallic).
+
+---
+
+## 9. CaroceanLauncher BMW E90 Widget Customization
+
+### Overview
+In `CaroceanLauncher` (`com.yecon.launcher1`, decompiled at `work/decompiled/CaroceanLauncher_standalone`), the "Мой автомобиль" widget on Page 1 displays vehicle preview drawables mapped by property `persist.sys.car.flag.index` (values 0..9).
+
+### Car Drawables & Colors
+All modern G-series cars (G06 X6, G02 X4, G01 X3, F15 X5) were replaced with authentic BMW E90 3-Series LCI Sedans facing front-left (matching OEM launcher perspective and road angle):
+1. **Blue E90 with Glowing Angel Eyes** (Photo 1):
+   - Mapped to `mybmw_zlh_car9.png` (Default when `persist.sys.car.flag.index` is unset/9), `mybmw_zlh_car2.png`, `car5.png`, `car8.png`.
+2. **Alpinweiss III (Alpine White 300 non-metallic)** (Photo 2 retouched):
+   - European front license plate frame removed from bumper; lower mesh grille restored.
+   - Mapped to `mybmw_zlh_car0.png`, `car3.png`, `car6.png`.
+3. **Sparkling Graphite Metallic (A22)** (Dark gray / wet asphalt with graphite reflections):
+   - Mapped to `mybmw_zlh_car1.png`, `car4.png`, `car7.png`.
+
+### Dimensions & Target Paths
+* **`hdpi` (1920x720)**: `res/drawable-sw480dp-hdpi-1920x720/mybmw_zlh_car0.png` .. `car9.png` (`480 x 270 px`, tire contact at `Y = 265px`).
+* **`mdpi`**: `res/drawable-sw480dp-mdpi/mybmw_zlh_car0.png` .. `car9.png` (`320 x 180 px`).
+
+### How to Change Car Color on Device
+```bash
+# Set car color flag:
+# 0 = Alpinweiss III White
+# 1 = Sparkling Graphite Metallic
+# 9 = Blue with Glowing Angel Eyes (Default)
+adb shell "su 0 setprop persist.sys.car.flag.index 1"
+
+# Restart Launcher to apply immediately:
+adb shell am force-stop com.yecon.launcher1
+adb shell input keyevent KEYCODE_HOME
+```
+
