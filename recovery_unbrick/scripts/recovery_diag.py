@@ -108,6 +108,14 @@ def main():
     run_cmd("Storage Listing", [ADB, "shell", "ls", "-la", "/storage"], timeout=15)
     run_cmd("Mnt Listing", [ADB, "shell", "ls", "-la", "/mnt"], timeout=15)
 
+    # Collect pstore / ramoops (persistent crash logs across reboot)
+    run_cmd("Pstore Listing", [ADB, "shell", "ls", "-la", "/sys/fs/pstore"], timeout=15)
+    run_cmd("Pstore Console Ramoops", [ADB, "shell", "cat", "/sys/fs/pstore/console-ramoops*"], timeout=30)
+    run_cmd("Pstore Dmesg Ramoops", [ADB, "shell", "cat", "/sys/fs/pstore/dmesg-ramoops*"], timeout=30)
+    pstore_dst = os.path.join(OUT_DIR, "pstore")
+    os.makedirs(pstore_dst, exist_ok=True)
+    run_cmd("Pull /sys/fs/pstore", [ADB, "pull", "/sys/fs/pstore", pstore_dst], timeout=20)
+
     # Attempt to pull logs
     for src in ("/tmp/recovery.log", "/cache/recovery/last_log", "/cache/recovery/last_install"):
         dst = os.path.join(OUT_DIR, os.path.basename(src))
