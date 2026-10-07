@@ -214,3 +214,19 @@ adb shell am force-stop com.yecon.launcher1
 adb shell input keyevent KEYCODE_HOME
 ```
 
+---
+
+## 10. Head Unit Unbrick & Fastboot Recovery (Unisoc UIS8581A)
+
+> **Detailed Guide**: See [`recovery_unbrick/AGENTS_GUIDE.md`](recovery_unbrick/AGENTS_GUIDE.md) and [`recovery_unbrick/README.md`](recovery_unbrick/README.md).
+
+### The Fastboot Mode Bootloop Incident
+* **Cause**: Interrupted OTA 6.67 installation left dynamic partitions (`system`, `product`, `vendor` inside `super` `mmcblk0p33`) incomplete, tripping AVB slot verification (`init: [libfs_avb]avb_slot_verify failed, result: 6`).
+* **Hardware Recovery Quirks**:
+  1. **USB Host disabled in Recovery**: `/storage/sdcard0` maps to SDIO slot `mmcblk1p1`. USB controller `musb-hdrc` is forced into Device mode for ADB. USB flash drives will never mount in Recovery. Recovery must be performed via `adb sideload` over USB Port 1.
+  2. **SignApk DER Offset**: AOSP `verifier.cpp` expects ASN.1 SEQUENCE `0x30` at `comment_len - sig_len`. Fixed formula: `sig_block_len = der_len + 6`, `comment_len = 18 + sig_block_len`. Offset is strictly 18.
+  3. **The 514 MB Verification Crash**: Full 1.9 GB OTAs memory-mapped over FUSE trigger page cache accumulation or hardware Watchdog resets (~45-60s) during `verify_package()`, abruptly rebooting to Fastboot.
+  4. **Modular Architecture**: Split packages under ~250 MB (starting with `vendor_boot_ota.zip` 233 MB) verify in 15 seconds and bypass all memory/watchdog traps.
+* **Tooling Directory**: Complete standalone toolkit located in `recovery_unbrick/scripts/` (`sign_ota.py`, `verify_ota.py`, `build_modular_ota.py`, `sideload_runner.py`, `recovery_diag.py`).
+
+

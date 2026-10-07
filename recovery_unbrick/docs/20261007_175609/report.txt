@@ -1,0 +1,73 @@
+=== SIDELOAD CAPTURE 20261007_175609 ===
+Package: C:\platform-tools\update.zip (1906806102 bytes)
+
+[0/5] SHA-1 of package (must match handoff)...
+SHA-1: 39bf1f4424864a9619c04cec21f56d1c898d9fda
+[OK] package intact.
+
+[1/5] Device state...
+
+===== fastboot devices =====
+$ C:\platform-tools\fastboot.exe devices
+0123456789ABCDEF	 fastboot
+[exit code: 0]
+
+===== fastboot reboot recovery =====
+$ C:\platform-tools\fastboot.exe reboot recovery
+Rebooting into recovery                            OKAY [  0.052s]
+Finished. Total time: 0.054s
+[exit code: 0]
+state: waiting
+
+[2/5] Waiting for adb 'recovery' state (240 s)...
+Recovery is up.
+
+[3/5] >>> ON THE HEAD UNIT SELECT: 'Apply update from ADB' <<<
+    (waiting up to 300 s)
+Sideload mode entered.
+
+[4/5] adb sideload C:\platform-tools\update.zip
+!!! DO NOT UNPLUG. Expect several minutes (verify + write). !!!
+
+sideload exit code: 1
+console saved: D:\BMW Dash\recovery_logs\20261007_175609\sideload_console.txt
+
+[5/5] Post-run: collecting recovery logs...
+
+===== adb devices -l =====
+$ C:\platform-tools\adb.exe devices -l
+List of devices attached
+[exit code: 0]
+
+===== find logs =====
+$ C:\platform-tools\adb.exe shell ls -la /tmp /metadata /cache 2>/dev/null; find /tmp /metadata /cache /data -maxdepth 4 \( -name '*recovery*' -o -name 'log*' -o -name 'last_*' \) 2>/dev/null
+adb.exe: no devices/emulators found
+[exit code: 1]
+
+===== adb pull /tmp/recovery.log =====
+$ C:\platform-tools\adb.exe pull /tmp/recovery.log D:\BMW Dash\recovery_logs\20261007_175609\tmp_recovery.log
+adb: error: failed to get feature set: no devices/emulators found
+[exit code: 1]
+
+===== adb pull /metadata/recovery/log =====
+$ C:\platform-tools\adb.exe pull /metadata/recovery/log D:\BMW Dash\recovery_logs\20261007_175609\metadata_recovery_log
+adb: error: failed to get feature set: no devices/emulators found
+[exit code: 1]
+
+===== adb pull /cache/recovery/log =====
+$ C:\platform-tools\adb.exe pull /cache/recovery/log D:\BMW Dash\recovery_logs\20261007_175609\cache_recovery_log
+adb: error: failed to get feature set: no devices/emulators found
+[exit code: 1]
+
+===== adb pull /cache/recovery/last_log =====
+$ C:\platform-tools\adb.exe pull /cache/recovery/last_log D:\BMW Dash\recovery_logs\20261007_175609\cache_recovery_last_log
+adb: error: failed to get feature set: no devices/emulators found
+[exit code: 1]
+
+===== adb pull /cache/recovery/last_install =====
+$ C:\platform-tools\adb.exe pull /cache/recovery/last_install D:\BMW Dash\recovery_logs\20261007_175609\cache_recovery_last_install
+adb: error: failed to get feature set: no devices/emulators found
+[exit code: 1]
+
+=== DONE ===
+Report: D:\BMW Dash\recovery_logs\20261007_175609\report.txt

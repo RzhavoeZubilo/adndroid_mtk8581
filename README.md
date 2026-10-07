@@ -38,3 +38,11 @@ jarsigner -keystore work/debug.keystore -storepass android -keypass android work
 # Install
 adb install -r work/test_build/CaroceanCanZH_standalone.apk
 ```
+
+## 🚑 Unbrick & Fastboot Recovery Toolkit
+If the head unit is stuck in **Fastboot Mode** or bricked after a failed OTA update:
+* **User Guide (RU)**: [recovery_unbrick/README.md](recovery_unbrick/README.md)
+* **Agent & Developer Deep-Dive (EN)**: [recovery_unbrick/AGENTS_GUIDE.md](recovery_unbrick/AGENTS_GUIDE.md)
+* **Research Journey & Diagnostics**: [recovery_unbrick/RESEARCH_JOURNEY.md](recovery_unbrick/RESEARCH_JOURNEY.md)
+* **Automated Scripts & Signers**: [`recovery_unbrick/scripts/`](recovery_unbrick/scripts/)
+
