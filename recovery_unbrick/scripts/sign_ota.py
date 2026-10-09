@@ -106,6 +106,7 @@ def sign_ota(in_zip, out_zip, cert_pem=None, key_file=None):
             "-out", dummy_sig.name,
             "-outform", "DER",
             "-binary",
+            "-noattr",
             "-signer", cert_pem,
             "-inkey", key_pem,
             "-md", "sha1"
@@ -121,11 +122,9 @@ def sign_ota(in_zip, out_zip, cert_pem=None, key_file=None):
         sig_block_len = der_len + 6
         total_comment_len = len(prefix) + sig_block_len
 
-        # 2. Compute final digest over base_data + comment_length_field
-        final_file_prefix = base_data + struct.pack("<H", total_comment_len)
-
+        # 2. Compute final digest over base_data (AOSP verifier signed_len = length - comment_len - 2)
         file_to_sign = tempfile.NamedTemporaryFile(delete=False)
-        file_to_sign.write(final_file_prefix)
+        file_to_sign.write(base_data)
         file_to_sign.close()
 
         real_sig = tempfile.NamedTemporaryFile(delete=False)
@@ -137,6 +136,7 @@ def sign_ota(in_zip, out_zip, cert_pem=None, key_file=None):
             "-out", real_sig.name,
             "-outform", "DER",
             "-binary",
+            "-noattr",
             "-signer", cert_pem,
             "-inkey", key_pem,
             "-md", "sha1"
@@ -154,7 +154,8 @@ def sign_ota(in_zip, out_zip, cert_pem=None, key_file=None):
         full_comment = prefix + real_der + footer
 
         with open(out_zip, "wb") as f:
-            f.write(final_file_prefix)
+            f.write(base_data)
+            f.write(struct.pack("<H", total_comment_len))
             f.write(full_comment)
 
         print(f"[OK] Successfully signed {out_zip} ({os.path.getsize(out_zip)} bytes)")

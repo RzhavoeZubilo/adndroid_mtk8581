@@ -122,9 +122,11 @@ def main():
             sys.stdout.flush()
 
     proc.wait()
-    print(f"\nProcess completed with return code: {proc.returncode}")
+    print(f"\n[USB Stream complete] Process exit code: {proc.returncode}")
     if proc.returncode == 0:
-        print("[SUCCESS] OTA package installed cleanly!")
+        print("[CHECK SCREEN] File transfer finished. Check the head unit screen:")
+        print("              - If it shows 'Installing update...', package is being written!")
+        print("              - If it shows an error (e.g. signature error), installation failed.")
     else:
         print("[WARNING] Sideload ended with non-zero exit code. Check on-screen status.")
 

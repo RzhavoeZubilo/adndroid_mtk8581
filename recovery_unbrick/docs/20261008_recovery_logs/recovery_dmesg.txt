@@ -1,0 +1,1975 @@
+[    0.000000] c0 Booting Linux on physical CPU 0x0
+[    0.000000] c0 Linux version 4.14.133 (zhtd001@ubuntu) (Android (5484270 based on r353983c) clang version 9.0.3 (https://android.googlesource.com/toolchain/clang 745b335211bb9eadfa6aa6301f84715cee4b37c5) (https://android.googlesource.com/toolchain/llvm 60cf23e54e46c807513f7a36d0a7b777920b5881) (based on LLVM 9.0.3svn)) #1 SMP PREEMPT Tue Sep 3 19:40:26 CST 2024
+[    0.000000] c0 Boot CPU: AArch64 Processor [411fd050]
+[    0.000000] c0 Machine model: Spreadtrum UIS8581A2H10 Board
+[    0.000000] c0 earlycon: sprd_serial0 at MMIO 0x0000000070100000 (options '921600n8')
+[    0.000000] c0 bootconsole [sprd_serial0] enabled
+[    0.000000] c0 sprd_iq early_mode 
+[    0.000000] c0 On node 0 totalpages: 1048512
+[    0.000000] c0   DMA zone: 8192 pages used for memmap
+[    0.000000] c0   DMA zone: 0 pages reserved
+[    0.000000] c0   DMA zone: 524288 pages, LIFO batch:31
+[    0.000000] c0   Normal zone: 8191 pages used for memmap
+[    0.000000] c0   Normal zone: 524224 pages, LIFO batch:31
+[    0.000000] c0 psci: probing for conduit method from DT.
+[    0.000000] c0 psci: PSCIv1.0 detected in firmware.
+[    0.000000] c0 psci: Using standard PSCI v0.2 function IDs
+[    0.000000] c0 psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] c0 psci: SMC Calling Convention v1.0
+[    0.000000] c0 random: get_random_bytes called from start_kernel+0x94/0x418 with crng_init=0
+[    0.000000] c0 percpu: Embedded 22 pages/cpu s52248 r8192 d29672 u90112
+[    0.000000] c0 pcpu-alloc: s52248 r8192 d29672 u90112 alloc=22*4096
+[    0.000000] c0 pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7 
+[    0.000000] c0 Detected VIPT I-cache on CPU0
+[    0.000000] c0 Built 1 zonelists, mobility grouping on.  Total pages: 1032129
+[    0.000000] c0 Kernel command line: earlycon=sprd_serial,0x70100000,921600n8 console=ttyS1,921600n8 loglevel=1 init=/init root=/dev/ram0 rw androidboot.hardware=uis8581a2h10 androidboot.dtbo_idx=0 printk.devkmsg=on androidboot.boot_devices=soc/soc:ap-ahb/20600000.sdio lcd_id=ID8002 lcd_name=lcd_lvds1920x720 lcd_base=fd482000 lcd_size=1920x720 pixel_clock=96000000 logo_bpix=24 androidboot.ddrsize=4096M androidboot.ddrsize.range=[2048,)  sysdump_magic=85500000 modem=shutdown androidboot.mode=recovery ltemode=lcsfb rfboard.id=-1 wifionly=0 rfhw.id=1 crystal=3 32k.less=0 androidboot.pmic.chipid=2721 pix_clk=1000 phy_freq=36768 fastrvc=255 lcmpara.enable=0 lcm.hw=0 lcm.hb=0 lcm.hf=100 lcm.vw=0 lcm.vb=0 lcm.vf=0 lcm.id=0 modemboot.method=emmcboot  androidboot.verifiedbootstate=green androidboot.flash.locked=1  androidboot.serialno=0123456789ABCDEF
+[    0.000000] c0 [drm] lcd name from uboot: lcd_lvds1920x720
+[    0.000000] c0 sprd-sysdump: [sysdump_magic_setup]SYSDUMP paddr from uboot: 0x85500000
+[    0.000000] c0 ckx_touch_boot_mode 1! recovery
+[    0.000000] c0 [ pixel_clk ] 0x3e8
+[    0.000000] c0 [ phy_freq ] 0x8fa0
+[    0.000000] c0 [ fastrvc ] 0xff
+[    0.000000] c0 [ lcmpara_enable ] 0x0
+[    0.000000] c0 [ lcm_hw ] 0
+[    0.000000] c0 [ lcm_hb ] 0
+[    0.000000] c0 [ lcm_hf ] 100
+[    0.000000] c0 [ lcm_vw ] 0
+[    0.000000] c0 [ lcm_vb ] 0
+[    0.000000] c0 [ lcm_vf ] 0
+[    0.000000] c0 [ lcm_id ] 0
+[    0.000000] c0 PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] c0 Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+[    0.000000] c0 Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] c0 software IO TLB: mapped [mem 0xf9482000-0xfd482000] (64MB)
+[    0.000000] c0 Memory: 3842828K/4194048K available (10366K kernel code, 1576K rwdata, 4176K rodata, 4416K init, 979K bss, 351220K reserved, 0K cma-reserved)
+[    0.000000] c0 Virtual kernel memory layout:
+[    0.000000] c0     modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+[    0.000000] c0     vmalloc : 0xffffff8008000000 - 0xffffffbebfff0000   (   250 GB)
+[    0.000000] c0       .text : 0x        (ptrval) - 0x        (ptrval)   ( 10368 KB)
+[    0.000000] c0     .rodata : 0x        (ptrval) - 0x        (ptrval)   (  4224 KB)
+[    0.000000] c0       .init : 0x        (ptrval) - 0x        (ptrval)   (  4416 KB)
+[    0.000000] c0       .data : 0x        (ptrval) - 0x        (ptrval)   (  1576 KB)
+[    0.000000] c0        .bss : 0x        (ptrval) - 0x        (ptrval)   (   980 KB)
+[    0.000000] c0     fixed   : 0xffffffbefe7fb000 - 0xffffffbefec00000   (  4116 KB)
+[    0.000000] c0     PCI I/O : 0xffffffbefee00000 - 0xffffffbeffe00000   (    16 MB)
+[    0.000000] c0     vmemmap : 0xffffffbf00000000 - 0xffffffc000000000   (     4 GB maximum)
+[    0.000000] c0               0xffffffbf00000000 - 0xffffffbf03fff000   (    63 MB actual)
+[    0.000000] c0     memory  : 0xffffffc000000000 - 0xffffffc0fffc0000   (  4095 MB)
+[    0.000000] c0 SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.000000] c0 ftrace: allocating 37718 entries in 148 pages
+[    0.000000] c0 
+[    0.000000] c0 **********************************************************
+[    0.000000] c0 **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] c0 **                                                      **
+[    0.000000] c0 ** trace_printk() being used. Allocating extra memory.  **
+[    0.000000] c0 **                                                      **
+[    0.000000] c0 ** This means that this is a DEBUG kernel and it is     **
+[    0.000000] c0 ** unsafe for production use.                           **
+[    0.000000] c0 **                                                      **
+[    0.000000] c0 ** If you see this message and you are not debugging    **
+[    0.000000] c0 ** the kernel, report this immediately to your vendor!  **
+[    0.000000] c0 **                                                      **
+[    0.000000] c0 **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] c0 **********************************************************
+[    0.000000] c0 Preemptible hierarchical RCU implementation.
+[    0.000000] c0 	Tasks RCU enabled.
+[    0.000000] c0 NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] c0 GICv3: GIC: Using split EOI/Deactivate mode
+[    0.000000] c0 GICv3: no VLPI support, no direct LPI support
+[    0.000000] c0 GICv3: CPU0: found redistributor 0 region 0:0x0000000014040000
+[    0.000000] c0 clocksource: sprd_suspend_timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 58327039986419 ns
+[    0.000000] c0 arch_timer: cp15 timer(s) running at 26.00MHz (phys).
+[    0.000000] c0 clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x5ff13d5a9, max_idle_ns: 440795202370 ns
+[    0.000000] c0 sched_clock: 56 bits at 26MHz, resolution 38ns, wraps every 4398046511088ns
+[    0.000000] c0 CPU0: Unknown IPI message 0xd
+[    0.000000] c0 Console: colour dummy device 80x25
+[    0.000000] c0 serial port 1 not yet initialized
+[    0.000000] c0 Calibrating delay loop (skipped), value calculated using timer frequency.. 52.00 BogoMIPS (lpj=104000)
+[    0.000000] c0 pid_max: default: 32768 minimum: 301
+[    0.000000] c0 Security Framework initialized
+[    0.000000] c0 SELinux:  Initializing.
+[    0.000000] c0 SELinux:  Starting in permissive mode
+[    0.000000] c0 Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.000000] c0 Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.016000] c0 ASID allocator initialised with 32768 entries
+[    0.024000] c0 Hierarchical SRCU implementation.
+[    0.048000] c0 smp: Bringing up secondary CPUs ...
+[    0.080000] c1 Detected VIPT I-cache on CPU1
+[    0.080000] c1 GICv3: CPU1: found redistributor 100 region 0:0x0000000014060000
+[    0.080000] c1 CPU1: Booted secondary processor [411fd050]
+[    0.112000] c2 Detected VIPT I-cache on CPU2
+[    0.112000] c2 GICv3: CPU2: found redistributor 200 region 0:0x0000000014080000
+[    0.112000] c2 CPU2: Booted secondary processor [411fd050]
+[    0.144000] c3 Detected VIPT I-cache on CPU3
+[    0.144000] c3 GICv3: CPU3: found redistributor 300 region 0:0x00000000140a0000
+[    0.144000] c3 CPU3: Booted secondary processor [411fd050]
+[    0.176000] c4 Detected VIPT I-cache on CPU4
+[    0.176000] c4 GICv3: CPU4: found redistributor 400 region 0:0x00000000140c0000
+[    0.176000] c4 CPU4: Booted secondary processor [411fd050]
+[    0.208000] c5 Detected VIPT I-cache on CPU5
+[    0.208000] c5 GICv3: CPU5: found redistributor 500 region 0:0x00000000140e0000
+[    0.208000] c5 CPU5: Booted secondary processor [411fd050]
+[    0.240000] c6 Detected VIPT I-cache on CPU6
+[    0.240000] c6 GICv3: CPU6: found redistributor 600 region 0:0x0000000014100000
+[    0.240000] c6 CPU6: Booted secondary processor [411fd050]
+[    0.272000] c7 Detected VIPT I-cache on CPU7
+[    0.272000] c7 GICv3: CPU7: found redistributor 700 region 0:0x0000000014120000
+[    0.272000] c7 CPU7: Booted secondary processor [411fd050]
+[    0.272000] c0 smp: Brought up 1 node, 8 CPUs
+[    0.272000] c0 SMP: Total of 8 processors activated.
+[    0.272000] c0 CPU features: detected feature: GIC system register CPU interface
+[    0.272000] c0 CPU features: detected feature: Privileged Access Never
+[    0.272000] c0 CPU features: detected feature: LSE atomic instructions
+[    0.272000] c0 CPU features: detected feature: User Access Override
+[    0.272000] c0 CPU features: detected feature: 32-bit EL0 Support
+[    0.272000] c0 CPU features: detected feature: Kernel page table isolation (KPTI)
+[    0.272000] c0 CPU: All CPU(s) started at EL2
+[    0.272000] c0 alternatives: patching kernel code
+[    0.276000] c0 CPU7: update max cpu_capacity 1024
+[    0.276000] c0 devtmpfs: initialized
+[    0.280000] c1 CPU1: update max cpu_capacity 1024
+[    0.296000] c0 Initilizing CustomIPI irq domain
+[    0.296000] c0 Registered cp15_barrier emulation handler
+[    0.296000] c0 Registered setend emulation handler
+[    0.300000] c0 clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.300000] c0 futex hash table entries: 2048 (order: 6, 262144 bytes)
+[    0.300000] c0 pinctrl core: initialized pinctrl subsystem
+[    0.300000] c0 [disp-pm-domain][drm][ disp_pm_domain_init] display power domain init ok!
+[    0.300000] c0 NET: Registered protocol family 16
+[    0.300000] c0 schedtune: configured to support 5 boost groups
+[    0.300000] c0 [drm] display class register
+[    0.304000] c0 cpuidle: using governor menu
+[    0.304000] c0 vdso: 2 pages (1 code @         (ptrval), 1 data @         (ptrval))
+[    0.304000] c0 hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.304000] c0 DMA: preallocated 256 KiB pool for atomic allocations
+[    0.304000] c0 pstore: using zlib compression
+[    0.304000] c0 console [pstore-1] enabled
+[    0.304000] c0 pstore: Registered ramoops as persistent store backend
+[    0.304000] c0 ramoops: attached 0x40000@0xfff80000, ecc: 0/0
+[    0.316000] c0 sprd_hwspinlock 40060000.hwspinlock: get hwspinlock clock failed!
+[    0.372000] c0 SCSI subsystem initialized
+[    0.372000] c0 usbcore: registered new interface driver usbfs
+[    0.372000] c0 usbcore: registered new interface driver hub
+[    0.372000] c0 usbcore: registered new device driver usb
+[    0.372000] c0 Linux video capture interface: v2.00
+[    0.372000] c0 EDAC MC: Ver: 3.0.0
+[    0.376000] c0 sprd_ion_parse_dt: num_heaps=3
+[    0.376000] c0 sprd_ion_parse_dt: heaps[0]: id: 1 carveout_mm type: 2 base: 0x0 size 0x0
+[    0.376000] c0 sprd_ion_parse_dt: heaps[1]: id: 3 carveout_fb type: 2 base: 0xfe769000 size 0x1817000
+[    0.376000] c0 sprd_ion_parse_dt: heaps[2]: id: 4 carveout_camera type: 2 base: 0xfdd69000 size 0xa00000
+[    0.384000] c0 sprd_ion_init,result:0
+[    0.384000] c0 mbox:mbox_init!
+[    0.388000] c0 trusty trusty: trusty version: sharkl3, Built: 21:26:25 Mar 31 2021
+[    0.388000] c0 trusty trusty: selected api version: 2 (requested 3)
+[    0.388000] c0 Advanced Linux Sound Architecture Driver Initialized.
+[    0.388000] c0 sipc_probe: segnr = 2
+[    0.388000] c0 sipc: name=sipc-wcn
+[    0.388000] c0 sipc: core_sensor_id = 8
+[    0.388000] c0 sipc: dst = 3, core_id = 5
+[    0.388000] c0 sipc: tag count = 1
+[    0.388000] c0 sipc:[tag0] smsg name=sipc-wcn, dst=3, core_id=5
+[    0.388000] c0 sipc: smem_init smem_base=0x84180000, smem_size=0x180000
+[    0.388000] c0 smem_init: pool addr = 0x84180000, size = 0x180000 added.
+[    0.388000] c0 sipc:[tag0] created, dst = 3
+[    0.388000] c0 sipc: name=sipc-gnss
+[    0.388000] c0 sipc: core_sensor_id = 8
+[    0.388000] c0 sipc: dst = 4, core_id = 6
+[    0.388000] c0 sipc: tag count = 1
+[    0.388000] c0 sipc:[tag0] smsg name=sipc-gnss, dst=4, core_id=6
+[    0.388000] c0 sipc: smem_init smem_base=0x8441b000, smem_size=0x32000
+[    0.388000] c0 smem_init: pool addr = 0x8441b000, size = 0x32000 added.
+[    0.388000] c0 sipc:[tag0] created, dst = 4
+[    0.388000] c0 sipc_probe: segnr = 2
+[    0.388000] c0 sipc: name=sipc-lte
+[    0.388000] c0 sipc: core_sensor_id = 8
+[    0.388000] c0 sipc: dst = 5, core_id = 2
+[    0.388000] c0 sipc: tag count = 1
+[    0.388000] c0 sipc:[tag0] smsg name=sipc-lte, dst=5, core_id=2
+[    0.388000] c0 sipc: smem_init smem_base=0x87800000, smem_size=0x800000
+[    0.388000] c0 set main_pool_addr = 0x87800000.
+[    0.388000] c0 smem_init: pool addr = 0x87800000, size = 0x800000 added.
+[    0.388000] c0 sipc:[tag0] created, dst = 5
+[    0.388000] c0 sipc: name=sipc-pmsys
+[    0.388000] c0 sipc: core_sensor_id = 7
+[    0.388000] c0 sipc: dst = 6, core_id = 1
+[    0.388000] c0 sipc: tag count = 1
+[    0.388000] c0 sipc:[tag0] smsg name=sipc-pmsys, dst=6, core_id=1
+[    0.388000] c0 sipc: smem_init smem_base=0xd000, smem_size=0x2000
+[    0.388000] c0 smem_init: pool addr = 0xd000, size = 0x2000 added.
+[    0.388000] c0 sipc:[tag0] created, dst = 6
+[    0.392019] c0 clocksource: Switched to clocksource arch_sys_counter
+[    0.494729] c0 VFS: Disk quotas dquot_6.6.0
+[    0.494804] c0 VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.504634] c0 sprd-vsp-pw: vsp_pw_domain_init
+[    0.505242] c0 thermal thermal_zone1: power_allocator: sustainable_power will be estimated
+[    0.505340] c0 thermal thermal_zone2: power_allocator: sustainable_power will be estimated
+[    0.505471] c0 NET: Registered protocol family 2
+[    0.506137] c0 TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+[    0.506351] c0 TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+[    0.506761] c0 TCP: Hash tables configured (established 32768 bind 32768)
+[    0.506900] c0 UDP hash table entries: 2048 (order: 4, 65536 bytes)
+[    0.506969] c0 UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+[    0.507211] c0 NET: Registered protocol family 1
+[    0.507444] c0 Trying to unpack rootfs image as initramfs...
+[    0.868760] c0 Freeing initrd memory: 10256K
+[    0.871096] c0 hw perfevents: no interrupt-affinity property for /pmu, guessing.
+[    0.871942] c0 hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 counters available
+[    0.878730] c0 audit: initializing netlink subsys (disabled)
+[    0.879324] c0 Initialise system trusted keyrings
+[    0.879506] c0 workingset: timestamp_bits=45 max_order=20 bucket_order=0
+[    0.886231] c0 exFAT: Core Version 1.2.24
+[    0.886238] c0 exFAT: FS Version 1.2.24
+[    0.886323] c0 Registering sdcardfs 0.1
+[    0.886589] c0 fuse init (API version 7.26)
+[    0.887736] c0 SELinux:  Registering netfilter hooks
+[    0.895158] c0 Key type asymmetric registered
+[    0.895166] c0 Asymmetric key parser 'x509' registered
+[    0.895188] c0 io scheduler noop registered
+[    0.895220] c0 io scheduler cfq registered (default)
+[    0.895227] c0 io scheduler mq-deadline registered
+[    0.895233] c0 io scheduler kyber registered
+[    0.902476] c0 sprd-pwm 40260000.pwm: get clk 0 failed
+[    0.902950] c0 pwm-backlight sprd_backlight: sprd_backlight supply power not found, using dummy regulator
+[    0.958159] c0 sprd-dma 20100000.dma-controller: no optional ashb eb clock
+[    0.960062] c0 sprd-dma 40100000.dma-controller: no optional ashb eb clock
+[    0.960120] c0 sprd-dma 40100000.dma-controller: no interrupts for the dma controller
+[    0.962300] c0 sprd-powerdebug power-debug: ##### Power debug log init start #####
+[    0.962324] c0 sprd-powerdebug power-debug: power-dbg-parameter:6 6 1 1 14 3 0
+[    0.962348] c0 sprd-powerdebug power-debug: sprd_pm_parse_regmap, Warned to get aon-sec regmap
+[    0.963358] c0 sprd-powerdebug power-debug: ##### Power debug log init successfully #####
+[    0.963603] c0 [iommu]sprd_iommu_init()-begin
+[    0.964733] c0 [iommu]sprd_iommu_probe()-start
+[    0.964795] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x63000000
+[    0.964816] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff8009725000,pgt_size:800
+[    0.964838] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x63000800
+[    0.964850] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff800972d800
+[    0.964858] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x30000000,iova_size:10000000
+[    0.964866] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce2000
+[    0.964872] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.964894] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.964947] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.965010] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-dispc end
+[    0.965115] c0 [iommu]sprd_iommu_probe()-start
+[    0.965172] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x62201000
+[    0.965199] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff8009bf0000,pgt_size:b000
+[    0.965220] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x62200000
+[    0.965237] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff8009735000
+[    0.965244] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x20000000,iova_size:10000000
+[    0.965251] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce3000
+[    0.965258] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.965280] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.965332] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.965378] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-vsp end
+[    0.965481] c0 [iommu]sprd_iommu_probe()-start
+[    0.965539] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x62300000
+[    0.965549] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff800973d000,pgt_size:300
+[    0.965570] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x62300300
+[    0.965578] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff8009745300
+[    0.965585] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x70000000,iova_size:10000000
+[    0.965592] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce4000
+[    0.965598] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.965620] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.965673] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.965716] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-jpg end
+[    0.965846] c0 [iommu]sprd_iommu_probe()-start
+[    0.965917] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x60a00000
+[    0.965942] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff800c000000,pgt_size:c000
+[    0.965963] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x60a0c000
+[    0.965980] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff800974d000
+[    0.965987] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x40000000,iova_size:20000000
+[    0.965994] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce6000
+[    0.966000] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.966022] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.966118] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.966162] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-dcam end
+[    0.966272] c0 [iommu]sprd_iommu_probe()-start
+[    0.966328] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x60b00000
+[    0.966356] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff800c100000,pgt_size:ffc00
+[    0.966377] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x60bffc00
+[    0.966396] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff8009755c00
+[    0.966403] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x50000000,iova_size:20000000
+[    0.966410] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce8000
+[    0.966415] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.966438] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.966533] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.966586] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-isp end
+[    0.966730] c0 [iommu]sprd_iommu_probe()-start
+[    0.966786] c0 [iommu]sprd_iommu_get_resource()-pgt_base phy:0x62400000
+[    0.966797] c0 [iommu]sprd_iommu_get_resource()-pgt_base:ffffff800975d000,pgt_size:200
+[    0.966818] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg phy:0x62400200
+[    0.966826] c0 [iommu]sprd_iommu_get_resource()-ctrl_reg:0xffffff8009765200
+[    0.966834] c0 [iommu]sprd_iommu_get_resource()-iova_base:0x60000000,iova_size:8000000
+[    0.966841] c0 [iommu]sprd_iommu_get_resource()-fault_page: 0x177ce9000
+[    0.966847] c0 [iommu]sprd_iommu_get_resource()-no reserved rr page addr
+[    0.966868] c0 [iommu]sprd_iommuex_hw_init()-begin
+[    0.966917] c0 [iommu]sprd_iommuex_hw_init()-done
+[    0.966962] c0 [iommu]sprd_iommu_probe()-sprd,iommuexl3-cpp end
+[    0.968265] c0 [iommu]sprd_iommu_init()-end
+[    0.968734] c0 spipe_probe: segnr = 2
+[    0.968755] c0 spipe: after parse device tree, name=spipe_wcn, dst=3, channel=4, ringnr=16,  rxbuf_size=0x2400, txbuf_size=0x2400
+[    0.971003] c0 spipe: after parse device tree, name=sttygnss0, dst=4, channel=4, ringnr=1,  rxbuf_size=0x19000, txbuf_size=0xc800
+[    0.971434] c0 spipe_probe: segnr = 6
+[    0.971453] c0 spipe: after parse device tree, name=spipe_pm, dst=6, channel=4, ringnr=2,  rxbuf_size=0xb00, txbuf_size=0x180
+[    0.971876] c0 spipe: after parse device tree, name=slog_pm, dst=6, channel=5, ringnr=1,  rxbuf_size=0x5c0, txbuf_size=0x20
+[    0.972174] c0 spipe: after parse device tree, name=sctl_pm, dst=6, channel=6, ringnr=1,  rxbuf_size=0x40, txbuf_size=0x20
+[    0.972464] c0 spipe: after parse device tree, name=spipe_lte, dst=5, channel=4, ringnr=15,  rxbuf_size=0x1000, txbuf_size=0x1000
+[    0.974509] c0 spipe: after parse device tree, name=sdiag_lte, dst=5, channel=21, ringnr=1,  rxbuf_size=0x20000, txbuf_size=0x8000
+[    0.974788] c0 spipe: after parse device tree, name=stty_lte, dst=5, channel=6, ringnr=32,  rxbuf_size=0x800, txbuf_size=0x800
+[    0.980732] c0 SIPX: [E] sipx == NULL: sipx-5-7
+[    0.980886] c0 SIPX: [E] sipx == NULL: sipx-5-8
+[    0.981002] c0 SIPX: [E] sipx == NULL: sipx-5-9
+[    0.981115] c0 SIPX: [E] sipx == NULL: sipx-5-18
+[    0.981227] c0 SIPX: [E] sipx == NULL: sipx-5-19
+[    0.981340] c0 SIPX: [E] sipx == NULL: sipx-5-20
+[    0.981455] c0 SIPX: [E] sipx == NULL: sipx-5-24
+[    0.981569] c0 SIPX: [E] sipx == NULL: sipx-5-25
+[    0.981683] c0 SIPX: [E] sipx == NULL: sipx-5-26
+[    0.981797] c0 SIPX: [E] sipx == NULL: sipx-5-27
+[    0.981910] c0 SIPX: [E] sipx == NULL: sipx-5-28
+[    0.982022] c0 SIPX: [E] sipx == NULL: sipx-5-29
+[    0.982135] c0 SIPX: [E] sipx == NULL: sipx-5-30
+[    0.982249] c0 SIPX: [E] sipx == NULL: sipx-5-31
+[    0.982841] c0 SIPX: parse dt, name=sipx_lte, dst=5, pool size=2048, 64, 2048, 1024
+[    1.008780] c0 sprd_cproc_parse_dt:can't find dspreset
+[    1.009274] c0 sprd_cproc_parse_dt:can't find dspreset
+[    1.010040] c0 sprd_iq no in iq mode
+[    1.015315] c0 70000000.serial: ttyS0 at MMIO 0x70000000 (irq = 10, base_baud = 1625000) is a SPX
+[    1.015333] c0 serial port 1 not yet initialized
+[    1.015761] c0 70100000.serial: ttyS1 at MMIO 0x70100000 (irq = 11, base_baud = 1625000) is a SPX
+[    1.015831] c0 console [ttyS1] enabled
+[    1.015838] c0 bootconsole [sprd_serial0] disabled
+[    1.016276] c0 70200000.serial: ttyS2 at MMIO 0x70200000 (irq = 12, base_baud = 1625000) is a SPX
+[    1.016698] c0 70400000.serial: ttyS4 at MMIO 0x70400000 (irq = 13, base_baud = 1625000) is a SPX
+[    1.028288] c0 [disp-pm-domain][drm][       disp_power_on] disp power domain on
+[    1.030638] c0 [drm] dphy driver probe success
+[    1.030974] c0 [drm] backlight is not ready, panel probe deferred
+[    1.032810] c0 sprd-gsp: gsp_drv_init()-gsp device init begin
+[    1.033278] c0 sprd-gsp sprd-gsp: gsp_dev_alloc()-node count: 1
+[    1.033288] c0 sprd-gsp sprd-gsp: gsp_dev_alloc()-gsp device name: sprd-gsp
+[    1.033296] c0 sprd-gsp sprd-gsp: gsp_dev_alloc()-io count: 7
+[    1.033395] c0 sprd-gsp: gsp_r6p0_core_alloc()-core[0] device name: 63000000.gsp
+[    1.033401] c0 sprd-gsp: gsp_r6p0_core_alloc()-gsp_r6p0_cap_size = 176
+[    1.033406] c0 sprd-gsp: gsp_r6p0_core_alloc()-gsp_r6p0 core allocate success
+[    1.033413] c0 sprd-gsp: gsp_core_alloc()-read core[0] id
+[    1.033421] c0 sprd-gsp: gsp_core_alloc()-read core[0] kfg number: 16
+[    1.033427] c0 sprd-gsp: gsp_core_alloc()-core[0] realtime priority: disable
+[    1.033433] c0 sprd-gsp: gsp_core_alloc()-core[0] need iommu: no need
+[    1.033467] c0 sprd-gsp sprd-gsp: gsp_dev_alloc()-core[0] allocate success
+[    1.033630] c0 sprd-gsp sprd-gsp: gsp_dev_probe()-probe success
+[    1.033641] c0 [drm] sprd_drm_bind()
+[    1.033817] c0 [drm] sprd_dpu_bind()
+[    1.034008] c0 [drm] dpu plane init ok
+[    1.034042] c0 [drm] sprd_crtc_init() ok
+[    1.034103] c0 [drm] dpu irq_num = 30
+[    1.034161] c0 [drm] sprd_te_irq_request gpio = -2
+[    1.034184] c0 sprd-drm-drv display-subsystem: bound 63000000.dpu (ops dpu_component_ops)
+[    1.034219] c0 [drm] find possible crtcs: 0x00000001
+[    1.034550] c0 [drm] dsi irq0 num = 34
+[    1.034643] c0 [drm] dsi irq1 num = 35
+[    1.034708] c0 sprd-drm-drv display-subsystem: bound 63100000.dsi (ops dsi_component_ops)
+[    1.034728] c0 sprd-gsp: gsp_dev_sysfs_init()-create gsp sysfs attribute: core_cnt success
+[    1.034736] c0 sprd-gsp: gsp_dev_sysfs_init()-create gsp sysfs attribute: dev_state success
+[    1.034744] c0 sprd-gsp: gsp_interface_attach()-gsp interface name: sharkl3
+[    1.034852] c0 sprd-gsp: gsp_r6p0_core_parse_dt()-gsp_ctl_reg_base: 0x        (ptrval)
+[    1.034998] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[0]
+[    1.035003] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[1]
+[    1.035008] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[2]
+[    1.035013] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[3]
+[    1.035018] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[4]
+[    1.035023] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[5]
+[    1.035028] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[6]
+[    1.035032] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[7]
+[    1.035037] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[8]
+[    1.035041] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[9]
+[    1.035046] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[10]
+[    1.035051] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[11]
+[    1.035056] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[12]
+[    1.035060] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[13]
+[    1.035065] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[14]
+[    1.035070] c0 sprd-gsp: gsp_workqueue_load()-workqueue load kcfg[15]
+[    1.035075] c0 sprd-gsp: gsp_sync_timeline_create()-create timeline: gsp-core[0]
+[    1.035090] c0 sprd-gsp: gsp_core_sysfs_init()-create core[0] sysfs attribute: core_state success
+[    1.035099] c0 sprd-gsp: gsp_core_sysfs_init()-create core[0] sysfs attribute: total_kcfg_num success
+[    1.035107] c0 sprd-gsp: gsp_core_sysfs_init()-create core[0] sysfs attribute: empty_kcfg_num success
+[    1.035115] c0 sprd-gsp: gsp_core_sysfs_init()-create core[0] sysfs attribute: fill_kcfg_num success
+[    1.035290] c0 sprd-gsp sprd-gsp: gsp_dev_init()-initialize core[0] success
+[    1.035299] c0 sprd-gsp sprd-gsp: sprd_gsp_bind()-dev bind success
+[    1.035317] c0 sprd-drm-drv display-subsystem: bound sprd-gsp (ops gsp_component_ops)
+[    1.035324] c0 [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[    1.035328] c0 [drm] No driver support for vblank timestamp query.
+[    1.035335] c0 [drm] sprd_plane_reset()
+[    1.035340] c0 [drm] sprd_plane_reset()
+[    1.035345] c0 [drm] sprd_plane_reset()
+[    1.035350] c0 [drm] sprd_plane_reset()
+[    1.035355] c0 [drm] sprd_plane_reset()
+[    1.035360] c0 [drm] sprd_plane_reset()
+[    1.035768] c0 [drm] Initialized sprd 1.0.0 20180501 for display-subsystem on minor 0
+[    1.036220] c0 sprd-gsp: gsp_drv_init()-gsp device init end
+[    1.036407] c0 cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    1.043914] c0 brd: module loaded
+[    1.062868] c0 loop: module loaded
+[    1.063302] c0 zram: Added device: zram0
+[    1.063779] c0 sprd_vsp 62200000.video-codec: sprd_vsp_phys_addr = 62200000
+[    1.063787] c0 sprd_vsp 62200000.video-codec: sprd_vsp_base =         (ptrval)
+[    1.063794] c0 sprd_vsp 62200000.video-codec: vsp_glb_reg_base =         (ptrval)
+[    1.063894] c0 sprd_vsp 62200000.video-codec: vsp: irq = 0x20, version = 0x10
+[    1.063923] c0 sprd_vsp 62200000.video-codec: VSP syscon[pmu_vsp_auto_shutdown]        (ptrval), offset 0x30, mask 0x1000000
+[    1.063943] c0 sprd_vsp 62200000.video-codec: VSP syscon[pmu_vsp_force_shutdown]        (ptrval), offset 0x30, mask 0x2000000
+[    1.063970] c0 sprd_vsp 62200000.video-codec: VSP syscon[pmu_pwr_status]        (ptrval), offset 0x128, mask 0x1f
+[    1.064001] c0 sprd_vsp 62200000.video-codec: VSP syscon[vsp_domain_eb]        (ptrval), offset 0x4, mask 0x4000
+[    1.064059] c0 sprd_vsp 62200000.video-codec: VSP syscon[reset]        (ptrval), offset 0x4, mask 0xc
+[    1.064143] c0 sprd_vsp 62200000.video-codec: vsp clk in dts file: clk[0] = (76800000, clk_src_76m8)
+[    1.064155] c0 sprd_vsp 62200000.video-codec: clk clk_src_96m not found,continue to find next clock
+[    1.064227] c0 sprd_vsp 62200000.video-codec: vsp clk in dts file: clk[1] = (128000000, clk_src_128m)
+[    1.064237] c0 sprd_vsp 62200000.video-codec: clk clk_src_153m6 not found,continue to find next clock
+[    1.064248] c0 sprd_vsp 62200000.video-codec: clk clk_src_192m not found,continue to find next clock
+[    1.064324] c0 sprd_vsp 62200000.video-codec: vsp clk in dts file: clk[2] = (256000000, clk_src_256m)
+[    1.064407] c0 sprd_vsp 62200000.video-codec: vsp clk in dts file: clk[3] = (307200000, clk_src_307m2)
+[    1.064495] c0 sprd_vsp 62200000.video-codec: vsp clk in dts file: clk[4] = (384000000, clk_src_384m)
+[    1.064506] c0 sprd_vsp 62200000.video-codec: clk clk_src_512m not found,continue to find next clock
+[    1.064514] c0 sprd_vsp 62200000.video-codec: can't find vsp qos cfg node
+[    1.064522] c0 sprd_vsp 62200000.video-codec: 0, 0, 0, 0
+[    1.064538] c0 sprd_vsp 62200000.video-codec: iommu_vsp enabled 1
+[    1.066314] c0 sprd-jpg 62300000.jpeg-codec: sprd_jpg_phys jpg:  0X62300000
+[    1.066323] c0 sprd-jpg 62300000.jpeg-codec: sprd_jpg_virt jpg:  0xffffff800cfa8000
+[    1.066329] c0 sprd-jpg 62300000.jpeg-codec:  jpg_hw_dev.irq  0X21
+[    1.066354] c0 sprd-jpg 62300000.jpeg-codec: VSP syscon[aon_apb_eb]        (ptrval), offset 0x0, mask 0x2000000
+[    1.066372] c0 sprd-jpg 62300000.jpeg-codec: VSP syscon[reset]        (ptrval), offset 0x4, mask 0x20
+[    1.066383] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_76m8 not found,continue to find next clock
+[    1.066393] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_96m not found,continue to find next clock
+[    1.066403] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_128m not found,continue to find next clock
+[    1.066413] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_153m6 not found,continue to find next clock
+[    1.066422] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_192m not found,continue to find next clock
+[    1.066496] c0 sprd-jpg 62300000.jpeg-codec: jpg clk in dts file: clk[0] = (256000000, clk_src_256m)
+[    1.066567] c0 sprd-jpg 62300000.jpeg-codec: jpg clk in dts file: clk[1] = (307200000, clk_src_307m2)
+[    1.066577] c0 sprd-jpg 62300000.jpeg-codec: clk clk_src_384m not found,continue to find next clock
+[    1.066585] c0 sprd-jpg 62300000.jpeg-codec: can't find jpg qos cfg node
+[    1.066592] c0 sprd-jpg 62300000.jpeg-codec: 0, 0, 0, 0
+[    1.067977] c0 linuxc get gps_gpio is : 123
+[    1.067983] c0 gnss_ctl: gnss_common_ctl_probe enter
+[    1.068355] c0 gnss_pmnotify_ctl_init
+[    1.068934] c0 <<-ICN6201-INFO->> [265]icn6201 driver installing..
+[    1.068969] c0 <<-TP9950PQ-INFO->> [307]tp9950_pq driver installing..
+[    1.069362] c0 [saudio] saudio: snd_saudio_probe: no sprd,ap_addr_to_cp in dt node
+[    1.069369] c0 [saudio] saudio: snd_saudio_probe: 0 in dt node
+[    1.069573] c0 [saudio] saudio:workqueue create ok
+[    1.069791] c0 [saudio] saudio: snd_saudio_probe: no sprd,ap_addr_to_cp in dt node
+[    1.069797] c0 [saudio] saudio: snd_saudio_probe: 0 in dt node
+[    1.069982] c0 [saudio] saudio:workqueue create ok
+[    1.071071] c1 [saudio] saudio:don't need register channel i=1
+[    1.071278] c1 [saudio] saudio:don't need register channel i=2
+[    1.071286] c1 [saudio] saudio_ctrl_thread,saudio: waiting for modem boot handshake,dst 5,channel 10
+[    1.071293] c1 sblock_receive:sblock-5-13 not ready!
+[    1.071299] c1 [saudio] Error: sblock_receive dst 5, channel 13 result is -5
+[    1.071576] c1 [saudio] saudio:don't need register channel i=1
+[    1.071584] c1 [saudio] saudio_ctrl_thread,saudio: waiting for modem boot handshake,dst 5,channel 14
+[    1.071590] c1 sblock_receive:sblock-5-17 not ready!
+[    1.071596] c1 [saudio] Error: sblock_receive dst 5, channel 17 result is -5
+[    1.072308] c0 sprd-adi 41800000.spi: no hardware spinlock supplied
+[    1.087598] c0 libphy: Fixed MDIO Bus: probed
+[    1.087607] c0 tun: Universal TUN/TAP device driver, 1.6
+[    1.087815] c0 PPP generic driver version 2.4.2
+[    1.087972] c0 PPP BSD Compression module registered
+[    1.087980] c0 PPP Deflate Compression module registered
+[    1.088052] c0 PPP MPPE Compression module registered
+[    1.088091] c0 NET: Registered protocol family 24
+[    1.088112] c0 PPTP driver version 0.8.5
+[    1.088407] c0 usbcore: registered new interface driver r8152
+[    1.088469] c0 usbcore: registered new interface driver cdc_ether
+[    1.088504] c0 usbcore: registered new interface driver rndis_host
+[    1.088536] c0 usbcore: registered new interface driver cdc_subset
+[    1.088585] c0 usbcore: registered new interface driver cdc_ncm
+[    1.089442] c0 ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.089472] c0 ehci-platform: EHCI generic platform driver
+[    1.090068] c0 ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.090088] c0 ohci-platform: OHCI generic platform driver
+[    1.091288] c0 usbcore: registered new interface driver cdc_acm
+[    1.091294] c0 cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    1.091342] c0 usbcore: registered new interface driver usb-storage
+[    1.091417] c0 usbcore: registered new interface driver usbserial
+[    1.092904] c0 sc27xx-typec sc27xx-typec: failed to set typec rtrim -517
+[    1.093529] c0 mousedev: PS/2 mouse device common for all mice
+[    1.093591] c0 usbcore: registered new interface driver usb_acecad
+[    1.093625] c0 usbcore: registered new interface driver aiptek
+[    1.093658] c0 usbcore: registered new interface driver gtco
+[    1.093691] c0 usbcore: registered new interface driver hanwang
+[    1.093724] c0 usbcore: registered new interface driver kbtab
+[    1.093731] c0 ignore controller "dummy_ts" cuz validation failed!
+[    1.094844] c0 input: sc27xx:vibrator as /devices/platform/soc/soc:aon/41800000.spi/spi_master/spi4/spi4.0/sc27xx-vibrator/input/input0
+[    1.095536] c0 unisoc-acc-det unisoc-acc-det: acc detect gpio =-2
+[    1.095544] c0 unisoc-acc-det unisoc-acc-det: invalid unisoc gpio acc dectect: -1
+[    1.095562] c0 unisoc-acc-det: probe of unisoc-acc-det failed with error -22
+[    1.096203] c0 unisoc-rvc-det unisoc-rvc-det: rvc detect gpio =348
+[    1.096212] c0 unisoc-rvc-det unisoc-rvc-det: rvc_on_keycode=249
+[    1.096220] c0 unisoc-rvc-det unisoc-rvc-det: rvc_off_keycode=250
+[    1.096241] c0 unisoc-rvc-det unisoc-rvc-det:  rvc gpio init, gpio=348 value=0
+[    1.096315] c0 unisoc-rvc-det unisoc-rvc-det: gpio_rvc->input_dev =f7721000
+[    1.096443] c0 input: unisoc-rvc-det as /devices/platform/unisoc-rvc-det/input/input1
+[    1.096629] c0 [ unisoc_rvc_gpio_probe ] requeset irq fastrvc:0xff
+[    1.099320] c0 sprd-rtc sc27xx-rtc: RTC values are invalid
+[    1.099503] c0 sprd-rtc sc27xx-rtc: registered as rtc0
+[    1.099617] c0 i2c /dev entries driver
+[    1.102821] c0 [lt9211][info] lt9211_i2c_probe 775: 
+[    1.103453] c0 [lt9211][info] lt9211_i2c_init 682: 
+[    1.105499] c0 ERROR: could not get clock /soc/aon/i2c@40080000:i2c(1)
+[    1.105510] c0  (null): i2c7 can't get the i2c clock
+[    1.105521] c0 ERROR: could not get clock /soc/aon/i2c@40080000:source(2)
+[    1.105527] c0  (null): i2c7 can't get the source clock
+[    1.105537] c0 ERROR: could not get clock /soc/aon/i2c@40080000:enable(0)
+[    1.105543] c0  (null): i2c7 can't get the enable clock
+[    1.105553] c0 ERROR: could not get clock /soc/aon/i2c@40080000:clk_hw_i2c(3)
+[    1.105559] c0  (null): i2c7 can't get the clk_hw clock
+[    1.106531] c0 fan53555-regulator 7-0060: FAN53555 Option[13] Rev[1] Detected!
+[    1.106540] c0 fan53555-regulator 7-0060: Chip ID 13 not supported!
+[    1.106546] c0 fan53555-regulator 7-0060: Failed to setup device!
+[    1.106724] c0 fan53555-regulator: probe of 7-0060 failed with error -22
+[    1.107486] c0 IR NEC protocol handler initialized
+[    1.107492] c0 IR RC5(x/sz) protocol handler initialized
+[    1.107497] c0 IR RC6 protocol handler initialized
+[    1.107502] c0 IR JVC protocol handler initialized
+[    1.107507] c0 IR Sony protocol handler initialized
+[    1.107512] c0 IR SANYO protocol handler initialized
+[    1.107516] c0 IR Sharp protocol handler initialized
+[    1.107521] c0 IR MCE Keyboard/mouse protocol handler initialized
+[    1.107526] c0 IR XMP protocol handler initialized
+[    1.107599] c0 usbcore: registered new interface driver uvcvideo
+[    1.107604] c0 USB Video Class driver (1.1.1)
+[    1.109121] c0 sc27xx-fgu sc27xx-fgu: no fgu compensated resistance support
+[    1.109164] c0 sc27xx-fgu sc27xx-fgu: failed to get IIO channel
+[    1.109701] c0 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.110208] c0 generic-adc-thermal thermal-sensor: IIO channel not found: -517
+[    1.111300] c0 device-mapper: uevent: version 1.0.3
+[    1.111651] c0 device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+[    1.112576] c0 sprd_hotplug_init: Hotplug and qos init!!!
+[    1.112583] c0 hotplug: cluster[0] cpus: 4
+[    1.112588] c0 hotplug: cluster[1] cpus: 4
+[    1.112698] c0 DT: not find sprd-hotplug
+[    1.112919] c0 update cluster0 cpu num: 1 - 4
+[    1.112927] c0 update cluster0 cpu num: 1 - 4
+[    1.112933] c0 update cluster0 cpu num: 4 - 4
+[    1.112941] c0 update cluster1 cpu num: 0 - 4
+[    1.112948] c0 update cluster1 cpu num: 4 - 4
+[    1.114657] c0 sprd-sdhcr11 20600000.sdio: Can't get clock property: sdio_hp_det_clk
+[    1.114669] c0 sprd-sdhcr11 20600000.sdio: Can't get clock property: sdio_2x_eb
+[    1.114679] c0 sprd-sdhcr11 20600000.sdio: Can't get sdio_1x eb in dts maybe default on
+[    1.114690] c0 sprd-sdhcr11 20600000.sdio: find sdio-adma
+[    1.115340] c0 sprd-sdhcr11 20600000.sdio: using ADMA2
+[    1.115352] c0 sprd-sdhcr11 20600000.sdio: ocr avail = 0x40000, base clock = 390000000
+[    1.115352] c0 pm_caps = 0x0, caps: 0xc0001547, caps2: 0x388020,
+[    1.115352] c0 host->flags:0x62, host_caps:0x1e6d
+[    1.115738] c0 sprd-sdhcr11 20600000.sdio: There is no signalling voltage
+[    1.115752] c0 mmc0: clock 0Hz busmode 2 powermode 1 cs 0 Vdd 18 width 1 timing 0
+[    1.116129] c0 sprd-sdhcr11 20600000.sdio: there is no signal voltage!
+[    1.136361] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.137576] c0 sprd-sdhcr11 20600000.sdio: there is no signal voltage!
+[    1.156427] c0 sprd-sdhcr11 20600000.sdio: sdio_emmc[mmc0] host controller, irq 19
+[    1.156768] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 1 Vdd 18 width 1 timing 0
+[    1.157366] c1 sprd-sdhcr11 20300000.sdio: Can't get clock property: sdio_hp_det_clk
+[    1.157378] c1 sprd-sdhcr11 20300000.sdio: Can't get clock property: sdio_2x_eb
+[    1.157389] c1 sprd-sdhcr11 20300000.sdio: Can't get sdio_1x eb in dts maybe default on
+[    1.157401] c1 sprd-sdhcr11 20300000.sdio: find sdio-adma
+[    1.157419] c1 read sdio fast hotplug sd_detect_pol regmap fail
+[    1.157425] c1 read sdio fast hotplug sd_hotplug_protect_en regmap fail
+[    1.157430] c1 read sdio fast hotplug sd_hotplug_debounce_en regmap fail
+[    1.157436] c1 read sdio fast hotplug sd_hotplug_debounce_cn regmap fail
+[    1.157465] c1 sprd-sdhcr11 20300000.sdio: Can't find pinctrl
+[    1.157829] c1 sprd-sdhcr11 20300000.sdio: Got CD GPIO
+[    1.157937] c1 sprd-sdhcr11 20300000.sdio: using ADMA2
+[    1.157948] c1 sprd-sdhcr11 20300000.sdio: ocr avail = 0x40000, base clock = 390000000
+[    1.157948] c1 pm_caps = 0x0, caps: 0x400c0407, caps2: 0x480000,
+[    1.157948] c1 host->flags:0x62, host_caps:0x1e6d
+[    1.158276] c1 mmc1: clock 0Hz busmode 2 powermode 1 cs 0 Vdd 18 width 1 timing 0
+[    1.158912] c1 sprd-sdhcr11 20300000.sdio: signal voltage enable success!
+[    1.159171] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.160183] c0 mmc0: clock 400000Hz busmode 1 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.160712] c0 mmc0: clock 400000Hz busmode 1 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.160722] c0 mmc0: clock 400000Hz busmode 1 powermode 2 cs 1 Vdd 18 width 1 timing 0
+[    1.163110] c0 mmc0: clock 400000Hz busmode 1 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.176060] c1 mmc1: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.196356] c1 sprd-sdhcr11 20300000.sdio: sdio_sd[mmc1] host controller, irq 20
+[    1.196386] c1 mmc1: clock 0Hz busmode 2 powermode 0 cs 0 Vdd 0 width 1 timing 0
+[    1.196476] c1 sprd-sdhcr11 20300000.sdio: signal voltage disable success!
+[    1.198570] c0 sprd-sdhcr110 20400000.sdio: Can't get clock property: sdio_hp_det_clk
+[    1.198583] c0 sprd-sdhcr110 20400000.sdio: Can't get clock property: sdio_2x_eb
+[    1.198594] c0 sprd-sdhcr110 20400000.sdio: Can't get sdio_1x eb in dts maybe default on
+[    1.198604] c0 sprd-sdhcr110 20400000.sdio: find sdio-adma
+[    1.199350] c0 sprd-sdhcr110 20400000.sdio: using ADMA2
+[    1.199361] c0 sprd-sdhcr110 20400000.sdio: ocr avail = 0x40000, base clock = 409600000
+[    1.199361] c0 pm_caps = 0x1, caps: 0x40184407, caps2: 0x600000,
+[    1.199361] c0 host->flags:0x62, host_caps:0x1e6d
+[    1.200005] c0 sprd-sdhcr110 20400000.sdio: There is no signalling voltage
+[    1.200045] c0 mmc2: clock 0Hz busmode 2 powermode 1 cs 0 Vdd 18 width 1 timing 0
+[    1.200256] c0 sprd-sdhcr110 20400000.sdio: there is no signal voltage!
+[    1.220370] c0 mmc2: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.221583] c0 sprd-sdhcr110 20400000.sdio: there is no signal voltage!
+[    1.225826] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.239387] c0 sprd-sdhcr11 20600000.sdio: There is no signalling voltage
+[    1.240068] c0 sprd-sdhcr110 20400000.sdio: sdio_wifi[mmc2] host controller, irq 21
+[    1.240299] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 8 timing 0
+[    1.240665] c0 sprd-sdhcr110 20400000.sdio: CMD52 int 0x18000 error happen !!!!!!
+[    1.240673] c0 sprd-sdhcr110 20400000.sdio: CMD52 int 0x18000
+[    1.240683] c0 sprd-sdhcr1100000000: 00000000 00000000 00000c00 341a0003
+[    1.240690] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.240698] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.240705] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.240713] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.240720] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.241050] c0 sprd-sdhcr110 20400000.sdio: CMD52 int 0x18000 error happen !!!!!!
+[    1.241056] c0 sprd-sdhcr110 20400000.sdio: CMD52 int 0x18000
+[    1.241064] c0 sprd-sdhcr1100000000: 00000000 00000000 80000c08 341a0003
+[    1.241071] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.241078] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.241086] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.241093] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.241101] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.241110] c0 mmc2: clock 400000Hz busmode 2 powermode 2 cs 1 Vdd 18 width 1 timing 0
+[    1.243299] c0 mmc2: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 1 timing 0
+[    1.243885] c1 hidraw: raw HID events driver (C) Jiri Kosina
+[    1.244627] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000 error happen !!!!!!
+[    1.244634] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000
+[    1.244642] c0 sprd-sdhcr1100000000: 00000000 00000000 00000000 05020003
+[    1.244650] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.244657] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.244665] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.244672] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.244680] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.244999] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000 error happen !!!!!!
+[    1.245005] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000
+[    1.245013] c0 sprd-sdhcr1100000000: 00000000 00000000 00000000 05020003
+[    1.245020] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.245027] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.245034] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.245041] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.245048] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.245369] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000 error happen !!!!!!
+[    1.245375] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000
+[    1.245382] c0 sprd-sdhcr1100000000: 00000000 00000000 00000000 05020003
+[    1.245389] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.245397] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.245404] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.245411] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.245418] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.245739] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000 error happen !!!!!!
+[    1.245745] c0 sprd-sdhcr110 20400000.sdio: CMD5 int 0x18000
+[    1.245752] c0 sprd-sdhcr1100000000: 00000000 00000000 00000000 05020003
+[    1.245759] c0 sprd-sdhcr1100000010: 00000000 00000000 00000000 00000000
+[    1.245766] c0 sprd-sdhcr1100000020: 00000000 01f00000 00000000 08000047
+[    1.245773] c0 sprd-sdhcr1100000030: 00000001 000f0001 000f0001 30000000
+[    1.245781] c0 sprd-sdhcr11 + 0x200: 00000000: 40000100 00000000 00202000 00000000
+[    1.245788] c0 sprd-sdhcr11 + 0x200: 00000010: 00080000 00000000 00000000 00000000
+[    1.245798] c0 mmc2: clock 0Hz busmode 2 powermode 0 cs 0 Vdd 0 width 1 timing 0
+[    1.245807] c0 sprd-sdhcr110 20400000.sdio: there is no signal voltage!
+[    1.246137] c1 usbcore: registered new interface driver usbhid
+[    1.246142] c1 usbhid: USB HID core driver
+[    1.246846] c1 ashmem: initialized
+[    1.246967] c1 [modem-dbg-log][       dbg_log_probe] entry
+[    1.247077] c1 [modem-dbg-log][dbg_log_device_register] entry
+[    1.247158] c1 [modem-dbg-log][       dbg_log_probe] mm enable
+[    1.247165] c1 [modem-dbg-log][       dbg_log_probe] dcfix enable
+[    1.247173] c1 [modem-dbg-log][       dbg_log_probe] ch_num 6
+[    1.247180] c1 [modem-dbg-log][       dbg_log_probe] ch-index count 6, rc 0
+[    1.247185] c1 [modem-dbg-log][       dbg_log_probe] sel 0 = 0xf
+[    1.247190] c1 [modem-dbg-log][       dbg_log_probe] sel 1 = 0x1
+[    1.247195] c1 [modem-dbg-log][       dbg_log_probe] sel 2 = 0x0
+[    1.247199] c1 [modem-dbg-log][       dbg_log_probe] sel 3 = 0x2
+[    1.247204] c1 [modem-dbg-log][       dbg_log_probe] sel 4 = 0x3
+[    1.247209] c1 [modem-dbg-log][       dbg_log_probe] sel 5 = 0x4
+[    1.247215] c1 [modem-dbg-log][       dbg_log_probe] ch-name count 6, rc 6
+[    1.247220] c1 [modem-dbg-log][       dbg_log_probe] str 0 = TRAINING
+[    1.247225] c1 [modem-dbg-log][       dbg_log_probe] str 1 = WTL
+[    1.247230] c1 [modem-dbg-log][       dbg_log_probe] str 2 = MDAR
+[    1.247235] c1 [modem-dbg-log][       dbg_log_probe] str 3 = TPIU
+[    1.247239] c1 [modem-dbg-log][       dbg_log_probe] str 4 = DBUS
+[    1.247244] c1 [modem-dbg-log][       dbg_log_probe] str 5 = WCN
+[    1.247383] c1 modem-dbg-log 1000c000.modem-dbg-log: can't get the clock dts config: src3
+[    1.247394] c1 modem-dbg-log 1000c000.modem-dbg-log: can't get the clock dts config: src4
+[    1.247400] c1 [modem-dbg-log][inter_dbg_log_is_freq_valid] input freq 1500000
+[    1.247723] c0 mmc0: clock 400000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 8 timing 1
+[    1.248268] c0 mmc0: clock 52000000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 8 timing 1
+[    1.248281] c0 sprd-sdhcr11 20600000.sdio: mmchs default timing delay value 0x00000000
+[    1.248568] c1 failed read freqnum
+[    1.249336] c0 mmc0: clock 52000000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 8 timing 10
+[    1.249401] c0 mmc0: clock 200000000Hz busmode 2 powermode 2 cs 0 Vdd 18 width 8 timing 10
+[    1.249413] c0 sprd-sdhcr11 20600000.sdio: hs400es final timing delay value: 0x38387f55
+[    1.250508] c1 extcon-gpio usb device true
+[    1.251505] c1 sc27xx-adc sc27xx-adc: failed to get hwspinlock id
+[    1.252421] c0 sprd-sdhcr11 20600000.sdio: dpll locked done
+[    1.253241] c0 mmc0: new HS400 Enhanced strobe MMC card at address 0001
+[    1.254019] c0 mmcblk0: mmc0:0001 SCA128 117 GiB 
+[    1.254442] c0 mmcblk0boot0: mmc0:0001 SCA128 partition 1 4.00 MiB
+[    1.254851] c0 mmcblk0boot1: mmc0:0001 SCA128 partition 2 4.00 MiB
+[    1.255045] c0 mmcblk0rpmb: mmc0:0001 SCA128 partition 3 4.00 MiB
+[    1.260042] c0  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46
+[    1.263630] c1 coresight-etm4x 13040000.etm: There is no etm clock.
+[    1.263643] c1 coresight-etm4x 13040000.etm: There is no etm source clock.
+[    1.263930] c1 coresight-etm4x 13040000.etm: CPU0: ETM v4.2 initialized
+[    1.264370] c1 coresight-etm4x 13140000.etm: There is no etm clock.
+[    1.264383] c1 coresight-etm4x 13140000.etm: There is no etm source clock.
+[    1.264649] c1 coresight-etm4x 13140000.etm: CPU1: ETM v4.2 initialized
+[    1.265029] c1 coresight-etm4x 13240000.etm: There is no etm clock.
+[    1.265040] c1 coresight-etm4x 13240000.etm: There is no etm source clock.
+[    1.265311] c1 coresight-etm4x 13240000.etm: CPU2: ETM v4.2 initialized
+[    1.265673] c1 coresight-etm4x 13340000.etm: There is no etm clock.
+[    1.265684] c1 coresight-etm4x 13340000.etm: There is no etm source clock.
+[    1.265956] c1 coresight-etm4x 13340000.etm: CPU3: ETM v4.2 initialized
+[    1.266318] c1 coresight-etm4x 13440000.etm: There is no etm clock.
+[    1.266329] c1 coresight-etm4x 13440000.etm: There is no etm source clock.
+[    1.266592] c1 coresight-etm4x 13440000.etm: CPU4: ETM v4.2 initialized
+[    1.266971] c1 coresight-etm4x 13540000.etm: There is no etm clock.
+[    1.266982] c1 coresight-etm4x 13540000.etm: There is no etm source clock.
+[    1.267244] c1 coresight-etm4x 13540000.etm: CPU5: ETM v4.2 initialized
+[    1.267618] c1 coresight-etm4x 13640000.etm: There is no etm clock.
+[    1.267629] c1 coresight-etm4x 13640000.etm: There is no etm source clock.
+[    1.267889] c1 coresight-etm4x 13640000.etm: CPU6: ETM v4.2 initialized
+[    1.268300] c1 coresight-etm4x 13740000.etm: There is no etm clock.
+[    1.268311] c1 coresight-etm4x 13740000.etm: There is no etm source clock.
+[    1.268573] c1 coresight-etm4x 13740000.etm: CPU7: ETM v4.2 initialized
+[    1.270140] c1 sprd-efuse 40240000.efuse: failed to get hwlock id
+[    1.271516] c1 sc27xx-efuse sc27xx-efuse: failed to get hwspinlock id
+[    1.276706] c1 trusty-virtio trusty:virtio: initializing
+[    1.276851] c1 trusty: [    3.400111] c1 sm_decode_ns_memory_attr:89: raw=0xff00017607df13: pa=0x17607d000: mair=0xff, sharable=0x3
+[    1.276993] c1 trusty_ipc virtio0: vring0: va(pa)          (ptrval)(0) qsz 32 notifyid 1
+[    1.277008] c1 trusty_ipc virtio0: vring1: va(pa)          (ptrval)(0) qsz 32 notifyid 2
+[    1.277288] c1 trusty: [    3.400410] c1 sm_decode_ns_memory_attr:89: raw=0xff00017607df13: pa=0x17607d000: mair=0xff, sharable=0x3
+[    1.277314] c1 trusty-virtio trusty:virtio: initializing done
+[    1.277548] c1 proc create
+[    1.277580] c1 quec_devinfo init success!
+[    1.277584] c1 fulinux I am here
+[    1.277722] c1 trusty_ipc virtio0: is online
+[    1.277911] c1 usbcore: registered new interface driver snd-usb-audio
+[    1.279192] c1 [ASoC: PCM ] sprd_soc_platform_probe probed
+[    1.279270] c1 [ASoC: PCM ] sprd_soc_platform_probe probed
+[    1.280470] c1 vaudio vaudio: get tuned 26m clock failed(-2)!
+[    1.280995] c1 [ASoC: I2S ] dt version i2s->dai_name i2s_bt_sco0
+[    1.281002] c1 [ASoC: I2S ] i2s config_type pcm
+[    1.281558] c1 [ASoC:POWER] Probe 1
+[    1.282010] c1 [ASoC:POWER] Register VREG Success!
+[    1.282065] c1 [ASoC:POWER] Probe 2
+[    1.282081] c1 VB: supplied by SRG_VREG
+[    1.282329] c1 [ASoC:POWER] Register VB Success!
+[    1.282373] c1 [ASoC:POWER] Probe 3
+[    1.282382] c1 [ASoC:POWER] min_uV:1500000, max_uV:1550000
+[    1.282395] c1 BG: supplied by SRG_VB
+[    1.282672] c1 [ASoC:POWER] Register BG Success!
+[    1.282716] c1 [ASoC:POWER] Probe 4
+[    1.282731] c1 BIAS: supplied by SRG_VB
+[    1.282975] c1 [ASoC:POWER] Register BIAS Success!
+[    1.283019] c1 [ASoC:POWER] Probe 5
+[    1.283028] c1 [ASoC:POWER] min_uV:2200000, max_uV:3000000
+[    1.283041] c1 VHEADMICBIAS: supplied by SRG_BG
+[    1.283297] c1 [ASoC:POWER] Register VHEADMICBIAS Success!
+[    1.283340] c1 [ASoC:POWER] Probe 6
+[    1.283348] c1 [ASoC:POWER] min_uV:2200000, max_uV:3000000
+[    1.283360] c1 VMICBIAS: supplied by SRG_BG
+[    1.283605] c1 [ASoC:POWER] Register VMICBIAS Success!
+[    1.283647] c1 [ASoC:POWER] Probe 7
+[    1.283662] c1 MICBIAS: supplied by SRG_VMICBIAS
+[    1.283868] c1 [ASoC:POWER] Register MICBIAS Success!
+[    1.283914] c1 [ASoC:POWER] Probe 8
+[    1.283922] c1 [ASoC:POWER] min_uV:400000, max_uV:1000000
+[    1.283935] c1 HEADMICBIAS: supplied by SRG_VHEADMICBIAS
+[    1.284229] c1 [ASoC:POWER] Register HEADMICBIAS Success!
+[    1.284665] c1 u32 classifier
+[    1.284670] c1     Actions configured
+[    1.284688] c1 Netfilter messages via NETLINK v0.30.
+[    1.284926] c1 nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+[    1.285136] c1 ctnetlink v0.93: registering with nfnetlink.
+[    1.285463] c1 xt_time: kernel timezone is -0000
+[    1.285574] c1 gre: GRE over IPv4 demultiplexor driver
+[    1.285579] c1 IPv4 over IPsec tunneling driver
+[    1.286098] c1 ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.287026] c1 arp_tables: arp_tables: (C) 2002 David S. Miller
+[    1.287157] c1 Initializing XFRM netlink socket
+[    1.287185] c1 IPsec XFRM device driver
+[    1.287616] c1 NET: Registered protocol family 10
+[    1.289083] c1 Segment Routing with IPv6
+[    1.289172] c1 mip6: Mobile IPv6
+[    1.289199] c1 ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    1.290533] c1 sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    1.291459] c1 NET: Registered protocol family 17
+[    1.291485] c1 NET: Registered protocol family 15
+[    1.291521] c1 l2tp_core: L2TP core driver, V2.0
+[    1.291534] c1 l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[    1.291559] c1 Key type dns_resolver registered
+[    1.295308] c1 registered taskstats version 1
+[    1.295316] c1 Loading compiled-in X.509 certificates
+[    1.295381] c1 Key type ._fscrypt registered
+[    1.295387] c1 Key type .fscrypt registered
+[    1.296326] c1 Key type encrypted registered
+[    1.310102] c0 unisoc_gpio_rvc_handler called gpio=348 value=1 g_fastrvc=0xff
+[    1.311007] c0 rvc off
+[    1.321948] c1 pwm-backlight sprd_backlight: sprd_backlight supply power not found, using dummy regulator
+[    1.322112] c1 [zhtd] brightness : 102
+[    1.387151] c1 sprd-busmonitor aon-busmonitor: AP busmonitor is disable
+[    1.387160] c1 sprd-busmonitor aon-busmonitor: WTLCP busmonitor is disable
+[    1.387166] c1 sprd-busmonitor aon-busmonitor: PUBCP busmonitor is disable
+[    1.387171] c1 sprd-busmonitor aon-busmonitor: SP busmonitor is disable
+[    1.387177] c1 sprd-busmonitor aon-busmonitor: DMA busmonitor is disable
+[    1.387182] c1 sprd-busmonitor aon-busmonitor: EAXI busmonitor is disable
+[    1.387187] c1 sprd-busmonitor aon-busmonitor: WCN busmonitor is disable
+[    1.387623] c1 sprd-busmonitor apcpu-busmonitor: ACE busmonitor is disable
+[    1.387631] c1 sprd-busmonitor apcpu-busmonitor: AP busmonitor is disable
+[    1.387973] c1 [zhtd] brightness : 102
+[    1.438289] c1 [drm:sprd_panel_probe] *ERROR* enable lcd regulator success
+[    1.438300] c1 [drm:sprd_panel_probe] *ERROR* enable lcd regulator success
+[    1.438399] c1 [ videomode_from_timing ] ---------------------------------------------------
+[    1.439457] c1 [ videomode_from_timing ] dts: pixelclock:  96000000
+[    1.440277] c1 [ videomode_from_timing ] dts: hfront_porch:  53
+[    1.441015] c1 [ videomode_from_timing ] dts: hback_porch:  64
+[    1.441740] c1 [ videomode_from_timing ] dts: hsync_len:  32
+[    1.442443] c1 [ videomode_from_timing ] dts: vfront_porch:  23
+[    1.443179] c1 [ videomode_from_timing ] dts: vback_porch:  20
+[    1.443904] c1 [ videomode_from_timing ] dts: vsync_len:  10
+[    1.444624] c1 [ videomode_from_timing ] ---------------------------------------------------
+[    1.445714] c1 [ videomode_from_timing ] ---------------------------------------------------
+[    1.446764] c1 [ videomode_from_timing ] dts: pixelclock:  96000000
+[    1.447544] c1 [ videomode_from_timing ] dts: hfront_porch:  53
+[    1.448297] c1 [ videomode_from_timing ] dts: hback_porch:  64
+[    1.449023] c1 [ videomode_from_timing ] dts: hsync_len:  32
+[    1.449727] c1 [ videomode_from_timing ] dts: vfront_porch:  23
+[    1.450463] c1 [ videomode_from_timing ] dts: vback_porch:  20
+[    1.451188] c1 [ videomode_from_timing ] dts: vsync_len:  10
+[    1.451891] c1 [ videomode_from_timing ] ---------------------------------------------------
+[    1.452957] c1 [zhtd] [of_parse_buildin_modes] 1920 x 720 
+[    1.452962] c1 [drm] info->num_buildin_modes = 1
+[    1.452975] c1 [drm] can't get panel avdd gpio: 0
+[    1.452984] c1 [drm] can't get panel avee gpio: 0
+[    1.452993] c1 [drm] can't get panel avdd2 gpio: 0
+[    1.453002] c1 [drm] can't get panel avee2 gpio: 0
+[    1.453034] c1 [drm] can't get panel reset2 gpio: 0
+[    1.453108] c1 [drm] sprd_dsi_host_attach()
+[    1.453254] c1 [ sprd_dsi_host_attach ] 0x0, 0xff: (dts:691000 -> config:36768)
+[    1.454167] c1 [ sprd_dsi_host_attach ] Rev: TW8844
+[    1.454773] c1 [ sprd_dsi_host_attach ] Rev: TW8844 576000
+[    1.455463] c1 [drm] sprd_dsi_connector_detect()
+[    1.455526] c1 [drm] panel driver probe success
+[    1.456399] c1 sc27xx-typec sc27xx-typec: failed to set typec rtrim -517
+[    1.457104] c1 sc27xx-fgu sc27xx-fgu: no fgu compensated resistance support
+[    1.457131] c1 sc27xx-fgu sc27xx-fgu: failed to get IIO channel
+[    1.457529] c1 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.457857] c1 generic-adc-thermal thermal-sensor: IIO channel not found: -517
+[    1.459376] c1 sc27xx-adc sc27xx-adc: failed to enable ADC module
+[    1.476763] c1 sc27xx-fgu sc27xx-fgu: no fgu compensated resistance support
+[    1.476793] c1 sc27xx-fgu sc27xx-fgu: failed to get IIO channel
+[    1.477194] c1 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.477516] c1 generic-adc-thermal thermal-sensor: IIO channel not found: -517
+[    1.479924] c1 sprd-dedicate-thermal 402f0000.gpu-thm: sen id = 0, cal =903,offset =66290
+[    1.480089] c1 [zhtd] cpu temperature : 0 
+[    1.486525] c1 sprd-dedicate-thermal 40390000.cpu-thm: sen id = 0, cal =893,offset =63290
+[    1.486633] c1 [zhtd] cpu temperature : 0 
+[    1.489071] c1 cpu cpu0: dev_pm_opp_remove: Couldn't find OPP with freq: 1100000000
+[    1.489160] c1 cpu cpu0: dev_pm_opp_remove: Couldn't find OPP with freq: 1000000000
+[    1.489227] c1 cpu cpu0: dev_pm_opp_remove: Couldn't find OPP with freq: 884000000
+[    1.489298] c1 cpu cpu0: dev_pm_opp_remove: Couldn't find OPP with freq: 768000000
+[    1.489388] c1 sprd_cpufreqhw: Cluster0 does not have sub-clusters
+[    1.492397] c1 cpu cpu4: dev_pm_opp_remove: Couldn't find OPP with freq: 1500000000
+[    1.492467] c1 cpu cpu4: dev_pm_opp_remove: Couldn't find OPP with freq: 1400000000
+[    1.492533] c1 cpu cpu4: dev_pm_opp_remove: Couldn't find OPP with freq: 1225000000
+[    1.492604] c1 cpu cpu4: dev_pm_opp_remove: Couldn't find OPP with freq: 1050000000
+[    1.492692] c1 cpu cpu4: dev_pm_opp_remove: Couldn't find OPP with freq: 768000000
+[    1.492810] c1 sprd_cpufreqhw: Slave cluster0 is found: /cpufreq-fcm
+[    1.494887] c1 sprd_cpufreqhw: Cluster1 does not have sub-clusters
+[    1.495634] c1 sprd_hwdvfs: ENABLE HWDVFS!
+[    1.496339] c1 sched-energy: Sched-energy-costs installed from DT, min_cap_cpu_mask: 0-3
+[    1.496643] c1 WARN: cpu=4, domain=DIE: incr. energy eff 7408[0]->8095[1]
+[    1.500030] c0 CPU0: update max cpu_capacity 768
+[    1.502104] c1 sprd-hardware-cpufreq sprd-hardware-cpufreq.0: Succeeded to register cpufreq driver
+[    1.533772] c1 sc27xx-fgu sc27xx-fgu: no fgu compensated resistance support
+[    1.534137] c1 thermal thermal_zone3: power_allocator: sustainable_power will be estimated
+[    1.553879] c1 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.555502] c1 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.555757] c0 WCN BASE: entry!
+[    1.555763] c0 WCN BASE: wcn_global_source_init, finish!
+[    1.556076] c1 CPU4: update max cpu_capacity 1024
+[    1.556242] c0 WCN BASE: wcn_probe, start!
+[    1.556249] c0 WCN BASE: start!
+[    1.556267] c0 WCN BASE: platform chip type: [2]
+[    1.556399] c0 WCN BASE: success to find sprd,wcn-reg for SharkL3         (ptrval)
+[    1.556412] c0 WCN BASE: ctrl_reg[0] = 0x1004
+[    1.556416] c0 WCN BASE: ctrl_reg[1] = 0x3198
+[    1.556420] c0 WCN BASE: ctrl_reg[2] = 0x2100
+[    1.556424] c0 WCN BASE: ctrl_reg[3] = 0x20cc
+[    1.556428] c0 WCN BASE: ctrl_reg[4] = 0x20b0
+[    1.556432] c0 WCN BASE: ctrl_reg[5] = 0x1008
+[    1.556438] c0 WCN BASE: ctrl_mask[0] = 0x00ffffff
+[    1.556442] c0 WCN BASE: ctrl_mask[1] = 0x000007ff
+[    1.556446] c0 WCN BASE: ctrl_mask[2] = 0x03000000
+[    1.556450] c0 WCN BASE: ctrl_mask[3] = 0x00080000
+[    1.556454] c0 WCN BASE: ctrl_mask[4] = 0x00010800
+[    1.556458] c0 WCN BASE: ctrl_mask[5] = 0x00000040
+[    1.556463] c0 WCN BASE: ctrl_value[0] = 0x00300000
+[    1.556467] c0 WCN BASE: ctrl_value[1] = 0x00000102
+[    1.556471] c0 WCN BASE: ctrl_value[2] = 0x03000000
+[    1.556475] c0 WCN BASE: ctrl_value[3] = 0x00080000
+[    1.556478] c0 WCN BASE: ctrl_value[4] = 0x00010800
+[    1.556482] c0 WCN BASE: ctrl_value[5] = 0x00000040
+[    1.556488] c0 WCN BASE: ctrl_rw_offset[0] = 0x00001000
+[    1.556492] c0 WCN BASE: ctrl_rw_offset[1] = 0x00000000
+[    1.556495] c0 WCN BASE: ctrl_rw_offset[2] = 0x00002000
+[    1.556499] c0 WCN BASE: ctrl_rw_offset[3] = 0x00002000
+[    1.556503] c0 WCN BASE: ctrl_rw_offset[4] = 0x00002000
+[    1.556507] c0 WCN BASE: ctrl_rw_offset[5] = 0x00001000
+[    1.556512] c0 WCN BASE: ctrl_us_delay[0] = 0x0000000a
+[    1.556516] c0 WCN BASE: ctrl_us_delay[1] = 0x0000000a
+[    1.556520] c0 WCN BASE: ctrl_us_delay[2] = 0x0000000a
+[    1.556523] c0 WCN BASE: ctrl_us_delay[3] = 0x0000000a
+[    1.556527] c0 WCN BASE: ctrl_us_delay[4] = 0x0000000a
+[    1.556531] c0 WCN BASE: ctrl_us_delay[5] = 0x0000000a
+[    1.556536] c0 WCN BASE: ctrl_type[0] = 0x00000003
+[    1.556540] c0 WCN BASE: ctrl_type[1] = 0x00000000
+[    1.556544] c0 WCN BASE: ctrl_type[2] = 0x00000001
+[    1.556547] c0 WCN BASE: ctrl_type[3] = 0x00000001
+[    1.556551] c0 WCN BASE: ctrl_type[4] = 0x00000001
+[    1.556555] c0 WCN BASE: ctrl_type[5] = 0x00000003
+[    1.556562] c0 WCN BASE: ctrl_shutdown_reg[0] = 0x2008
+[    1.556566] c0 WCN BASE: ctrl_shutdown_reg[1] = 0x10b0
+[    1.556571] c0 WCN BASE: ctrl_shutdown_mask[0] = 0x00000040
+[    1.556575] c0 WCN BASE: ctrl_shutdown_mask[1] = 0x00000800
+[    1.556581] c0 WCN BASE: ctrl_shutdown_value[0] = 0x00000040
+[    1.556585] c0 WCN BASE: ctrl_shutdown_value[1] = 0x00000800
+[    1.556590] c0 WCN BASE: ctrl_shutdown_rw_offset[0] = 0x00002000
+[    1.556594] c0 WCN BASE: ctrl_shutdown_rw_offset[1] = 0x00001000
+[    1.556600] c0 WCN BASE: ctrl_shutdown_us_delay[0] = 0x0000000a
+[    1.556604] c0 WCN BASE: ctrl_shutdown_us_delay[1] = 0x0000000a
+[    1.556610] c0 WCN BASE: ctrl_shutdown_type[0] = 0x00000003
+[    1.556613] c0 WCN BASE: ctrl_shutdown_type[1] = 0x00000001
+[    1.556617] c0 WCN BASE: vddcon is NULL
+[    1.556742] c0 WCN BASE: cp base = 2217738240, size = 0x100000
+[    1.556749] c0 WCN BASE: firmware name:/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/gpsgl
+[    1.556755] c0 WCN BASE: firmware name ext:/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/gpsbd
+[    1.556761] c0 WCN BASE: wcn_dev->file_length:1048576
+[    1.556769] c0 WCN BASE: ctrl_reg[0]=0x4,read=0x0, set=300000
+[    1.556774] c0 WCN BASE: rmap[3]=        (ptrval),ctrl_reg=0x1004 ctrl_us_delay=10
+[    1.557074] c4 WCN BASE: ctrl_reg[0] = 0x4, val=0x300000
+[    1.557080] c4 WCN BASE: ctrl_reg[1]=0x3198,read=0x0, set=102
+[    1.557084] c4 WCN BASE: rmap[0]=        (ptrval),ctrl_reg=0x3198 ctrl_us_delay=10
+[    1.557159] c4 WCN BASE: ctrl_reg[1] = 0x3198, val=0x102
+[    1.557173] c4 WCN BASE: entry name is start type 0x2040 addr: 0xffffffc0f77263a0
+[    1.557179] c4 WCN BASE: entry name is stop type 0x4040 addr: 0xffffffc0f77263c0
+[    1.557185] c4 WCN BASE: entry name is status type 0x420 addr: 0xffffffc0f77263e0
+[    1.557190] c4 WCN BASE: vddcon is falsed
+[    1.557293] c4 WCN BASE: wcn_sys_soft_release, finish!
+[    1.563628] c4 WCN BASE: wcn_sys_deep_sleep_en, finish!
+[    1.563632] c4 WCN BASE: wcn_probe, finish!
+[    1.563910] c4 WCN BASE: marlin_init entry!
+[    1.564362] c4 WCN BASE: marlin_probe: device node name: sprd-marlin3
+[    1.564828] c4 WCN BASE: wcn-power-gpios enable!
+[    1.564840] c4 WCN BASE: wcn-power-gpios-1v2 enable!
+[    1.564857] c4 WCN BASE: BTWF_FIRMWARE_PATH len=0
+[    1.564861] c4 WCN BASE: btwf firmware name:/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/wcnmodem
+[    1.564865] c4 WCN BASE: BTWG path is /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/wcnmodem
+[    1.564868] c4 WCN BASE: BTWF_FIRMWARE_PATH2 len=65
+[    1.564872] c4 WCN BASE: gnss firmware name:/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/gnssmodem
+[    1.564879] c4 WCN BASE error: marlin_parse_dt:failed to find pmu_apb_gpr(26M)(ignore)
+[    1.564882] c4 WCN BASE: marlin2 parse_dt some para not config
+[    1.564889] c4 WCN SLP_MGR: slp_mgr_init enter
+[    1.564893] c4 WCN SLP_MGR: 0X1 pub_int_RegCb
+[    1.564895] c4 WCN SLP_MGR: 0X2 pub_int_RegCb
+[    1.564898] c4 WCN SLP_MGR: slp_mgr_init ok!
+[    1.564902] c4 WCN SDIOHAL: sdiohal_init entry
+[    1.565011] c4 WCN SDIOHAL: adma enable tx:1, rx:1
+[    1.565016] c4 WCN SDIOHAL: sdiohal_parse_dt sdio pwrseq enable:0
+[    1.565063] c4 WCN SDIOHAL: host_mmc:        (ptrval) parent:        (ptrval), pdev->dev:        (ptrval)
+[    1.565066] c4 WCN SDIOHAL: get host ok!!!
+[    1.567612] c4 WCN SDIOHAL: sdiohal_host_irq_init enter
+[    1.567762] c4 WCN BASE: [+]bus_chn_init(2, 0)
+[    1.567767] c4 WCN BASE: mbuf_pool->mem:0x1764f4400
+[    1.567771] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64f4400, 0x1764f4400}
+[    1.567774] c4 WCN BASE: buf_pool_init mbuf[1]:{0xffffffc0f64f4420, 0x1764f4420}
+[    1.567778] c4 WCN BASE: buf_pool_init mbuf[2]:{0xffffffc0f64f4440, 0x1764f4440}
+[    1.567782] c4 WCN BASE: buf_pool_init mbuf[3]:{0xffffffc0f64f4460, 0x1764f4460}
+[    1.567785] c4 WCN BASE: buf_pool_init mbuf[4]:{0xffffffc0f64f4480, 0x1764f4480}
+[    1.567789] c4 WCN BASE: buf_pool_init mbuf[5]:{0xffffffc0f64f44a0, 0x1764f44a0}
+[    1.567792] c4 WCN BASE: buf_pool_init mbuf[6]:{0xffffffc0f64f44c0, 0x1764f44c0}
+[    1.567795] c4 WCN BASE: buf_pool_init mbuf[7]:{0xffffffc0f64f44e0, 0x1764f44e0}
+[    1.567799] c4 WCN BASE: buf_pool_init mbuf[8]:{0xffffffc0f64f4500, 0x1764f4500}
+[    1.567802] c4 WCN BASE: buf_pool_init mbuf[9]:{0xffffffc0f64f4520, 0x1764f4520}
+[    1.567806] c4 WCN BASE: buf_pool_init mbuf[10]:{0xffffffc0f64f4540, 0x1764f4540}
+[    1.567809] c4 WCN BASE: buf_pool_init mbuf[11]:{0xffffffc0f64f4560, 0x1764f4560}
+[    1.567813] c4 WCN BASE: buf_pool_init mbuf[12]:{0xffffffc0f64f4580, 0x1764f4580}
+[    1.567816] c4 WCN BASE: [-]bus_chn_init(2)
+[    1.567819] c4 WCN BASE: [+]bus_chn_init(16, 0)
+[    1.567823] c4 WCN BASE: mbuf_pool->mem:0x1764ab880
+[    1.567826] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64ab880, 0x1764ab880}
+[    1.567829] c4 WCN BASE: [-]bus_chn_init(16)
+[    1.567832] c4 unisoc_hub_init entry!
+[    1.567857] c4 WCN BASE: [+]bus_chn_init(7, 0)
+[    1.567861] c4 WCN BASE: mbuf_pool->mem:0x1764f4600
+[    1.567864] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64f4600, 0x1764f4600}
+[    1.567867] c4 WCN BASE: buf_pool_init mbuf[1]:{0xffffffc0f64f4620, 0x1764f4620}
+[    1.567871] c4 WCN BASE: buf_pool_init mbuf[2]:{0xffffffc0f64f4640, 0x1764f4640}
+[    1.567874] c4 WCN BASE: buf_pool_init mbuf[3]:{0xffffffc0f64f4660, 0x1764f4660}
+[    1.567877] c4 WCN BASE: buf_pool_init mbuf[4]:{0xffffffc0f64f4680, 0x1764f4680}
+[    1.567881] c4 WCN BASE: buf_pool_init mbuf[5]:{0xffffffc0f64f46a0, 0x1764f46a0}
+[    1.567884] c4 WCN BASE: buf_pool_init mbuf[6]:{0xffffffc0f64f46c0, 0x1764f46c0}
+[    1.567887] c4 WCN BASE: buf_pool_init mbuf[7]:{0xffffffc0f64f46e0, 0x1764f46e0}
+[    1.567890] c4 WCN BASE: buf_pool_init mbuf[8]:{0xffffffc0f64f4700, 0x1764f4700}
+[    1.567894] c4 WCN BASE: buf_pool_init mbuf[9]:{0xffffffc0f64f4720, 0x1764f4720}
+[    1.567897] c4 WCN BASE: buf_pool_init mbuf[10]:{0xffffffc0f64f4740, 0x1764f4740}
+[    1.567901] c4 WCN BASE: buf_pool_init mbuf[11]:{0xffffffc0f64f4760, 0x1764f4760}
+[    1.567904] c4 WCN BASE: buf_pool_init mbuf[12]:{0xffffffc0f64f4780, 0x1764f4780}
+[    1.567907] c4 WCN BASE: buf_pool_init mbuf[13]:{0xffffffc0f64f47a0, 0x1764f47a0}
+[    1.567910] c4 WCN BASE: buf_pool_init mbuf[14]:{0xffffffc0f64f47c0, 0x1764f47c0}
+[    1.567914] c4 WCN BASE: buf_pool_init mbuf[15]:{0xffffffc0f64f47e0, 0x1764f47e0}
+[    1.567917] c4 WCN BASE: [-]bus_chn_init(7)
+[    1.567920] c4 WCN BASE: [+]bus_chn_init(21, 0)
+[    1.567924] c4 WCN BASE: mbuf_pool->mem:0x176440000
+[    1.567928] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f6440000, 0x176440000}
+[    1.567931] c4 WCN BASE: buf_pool_init mbuf[1]:{0xffffffc0f6440020, 0x176440020}
+[    1.567934] c4 WCN BASE: buf_pool_init mbuf[2]:{0xffffffc0f6440040, 0x176440040}
+[    1.567937] c4 WCN BASE: buf_pool_init mbuf[3]:{0xffffffc0f6440060, 0x176440060}
+[    1.567941] c4 WCN BASE: buf_pool_init mbuf[4]:{0xffffffc0f6440080, 0x176440080}
+[    1.567944] c4 WCN BASE: buf_pool_init mbuf[5]:{0xffffffc0f64400a0, 0x1764400a0}
+[    1.567947] c4 WCN BASE: buf_pool_init mbuf[6]:{0xffffffc0f64400c0, 0x1764400c0}
+[    1.567950] c4 WCN BASE: buf_pool_init mbuf[7]:{0xffffffc0f64400e0, 0x1764400e0}
+[    1.567954] c4 WCN BASE: buf_pool_init mbuf[8]:{0xffffffc0f6440100, 0x176440100}
+[    1.567957] c4 WCN BASE: buf_pool_init mbuf[9]:{0xffffffc0f6440120, 0x176440120}
+[    1.567960] c4 WCN BASE: buf_pool_init mbuf[10]:{0xffffffc0f6440140, 0x176440140}
+[    1.567964] c4 WCN BASE: buf_pool_init mbuf[11]:{0xffffffc0f6440160, 0x176440160}
+[    1.567967] c4 WCN BASE: buf_pool_init mbuf[12]:{0xffffffc0f6440180, 0x176440180}
+[    1.567970] c4 WCN BASE: buf_pool_init mbuf[13]:{0xffffffc0f64401a0, 0x1764401a0}
+[    1.567973] c4 WCN BASE: buf_pool_init mbuf[14]:{0xffffffc0f64401c0, 0x1764401c0}
+[    1.567977] c4 WCN BASE: buf_pool_init mbuf[15]:{0xffffffc0f64401e0, 0x1764401e0}
+[    1.567980] c4 WCN BASE: buf_pool_init mbuf[16]:{0xffffffc0f6440200, 0x176440200}
+[    1.567983] c4 WCN BASE: buf_pool_init mbuf[17]:{0xffffffc0f6440220, 0x176440220}
+[    1.567987] c4 WCN BASE: buf_pool_init mbuf[18]:{0xffffffc0f6440240, 0x176440240}
+[    1.567990] c4 WCN BASE: buf_pool_init mbuf[19]:{0xffffffc0f6440260, 0x176440260}
+[    1.567993] c4 WCN BASE: buf_pool_init mbuf[20]:{0xffffffc0f6440280, 0x176440280}
+[    1.567997] c4 WCN BASE: buf_pool_init mbuf[21]:{0xffffffc0f64402a0, 0x1764402a0}
+[    1.568000] c4 WCN BASE: buf_pool_init mbuf[22]:{0xffffffc0f64402c0, 0x1764402c0}
+[    1.568033] c4 WCN BASE: buf_pool_init mbuf[23]:{0xffffffc0f64402e0, 0x1764402e0}
+[    1.568036] c4 WCN BASE: buf_pool_init mbuf[24]:{0xffffffc0f6440300, 0x176440300}
+[    1.568040] c4 WCN BASE: buf_pool_init mbuf[25]:{0xffffffc0f6440320, 0x176440320}
+[    1.568044] c4 WCN BASE: buf_pool_init mbuf[26]:{0xffffffc0f6440340, 0x176440340}
+[    1.568047] c4 WCN BASE: buf_pool_init mbuf[27]:{0xffffffc0f6440360, 0x176440360}
+[    1.568050] c4 WCN BASE: buf_pool_init mbuf[28]:{0xffffffc0f6440380, 0x176440380}
+[    1.568054] c4 WCN BASE: buf_pool_init mbuf[29]:{0xffffffc0f64403a0, 0x1764403a0}
+[    1.568057] c4 WCN BASE: buf_pool_init mbuf[30]:{0xffffffc0f64403c0, 0x1764403c0}
+[    1.568060] c4 WCN BASE: buf_pool_init mbuf[31]:{0xffffffc0f64403e0, 0x1764403e0}
+[    1.568063] c4 WCN BASE: buf_pool_init mbuf[32]:{0xffffffc0f6440400, 0x176440400}
+[    1.568067] c4 WCN BASE: buf_pool_init mbuf[33]:{0xffffffc0f6440420, 0x176440420}
+[    1.568070] c4 WCN BASE: buf_pool_init mbuf[34]:{0xffffffc0f6440440, 0x176440440}
+[    1.568073] c4 WCN BASE: buf_pool_init mbuf[35]:{0xffffffc0f6440460, 0x176440460}
+[    1.568077] c4 WCN BASE: buf_pool_init mbuf[36]:{0xffffffc0f6440480, 0x176440480}
+[    1.568080] c4 WCN BASE: buf_pool_init mbuf[37]:{0xffffffc0f64404a0, 0x1764404a0}
+[    1.568083] c4 WCN BASE: buf_pool_init mbuf[38]:{0xffffffc0f64404c0, 0x1764404c0}
+[    1.568086] c4 WCN BASE: buf_pool_init mbuf[39]:{0xffffffc0f64404e0, 0x1764404e0}
+[    1.568090] c4 WCN BASE: buf_pool_init mbuf[40]:{0xffffffc0f6440500, 0x176440500}
+[    1.568093] c4 WCN BASE: buf_pool_init mbuf[41]:{0xffffffc0f6440520, 0x176440520}
+[    1.568096] c4 WCN BASE: buf_pool_init mbuf[42]:{0xffffffc0f6440540, 0x176440540}
+[    1.568099] c4 WCN BASE: buf_pool_init mbuf[43]:{0xffffffc0f6440560, 0x176440560}
+[    1.568103] c4 WCN BASE: buf_pool_init mbuf[44]:{0xffffffc0f6440580, 0x176440580}
+[    1.568106] c4 WCN BASE: buf_pool_init mbuf[45]:{0xffffffc0f64405a0, 0x1764405a0}
+[    1.568109] c4 WCN BASE: buf_pool_init mbuf[46]:{0xffffffc0f64405c0, 0x1764405c0}
+[    1.568113] c4 WCN BASE: buf_pool_init mbuf[47]:{0xffffffc0f64405e0, 0x1764405e0}
+[    1.568116] c4 WCN BASE: buf_pool_init mbuf[48]:{0xffffffc0f6440600, 0x176440600}
+[    1.568119] c4 WCN BASE: buf_pool_init mbuf[49]:{0xffffffc0f6440620, 0x176440620}
+[    1.568122] c4 WCN BASE: buf_pool_init mbuf[50]:{0xffffffc0f6440640, 0x176440640}
+[    1.568126] c4 WCN BASE: buf_pool_init mbuf[51]:{0xffffffc0f6440660, 0x176440660}
+[    1.568129] c4 WCN BASE: buf_pool_init mbuf[52]:{0xffffffc0f6440680, 0x176440680}
+[    1.568132] c4 WCN BASE: buf_pool_init mbuf[53]:{0xffffffc0f64406a0, 0x1764406a0}
+[    1.568136] c4 WCN BASE: buf_pool_init mbuf[54]:{0xffffffc0f64406c0, 0x1764406c0}
+[    1.568139] c4 WCN BASE: buf_pool_init mbuf[55]:{0xffffffc0f64406e0, 0x1764406e0}
+[    1.568142] c4 WCN BASE: buf_pool_init mbuf[56]:{0xffffffc0f6440700, 0x176440700}
+[    1.568145] c4 WCN BASE: buf_pool_init mbuf[57]:{0xffffffc0f6440720, 0x176440720}
+[    1.568151] c0 power_supply sc27xx-fgu: driver failed to report `status' property: -22
+[    1.568153] c4 WCN BASE: buf_pool_init mbuf[58]:{0xffffffc0f6440740, 0x176440740}
+[    1.568156] c4 WCN BASE: buf_pool_init mbuf[59]:{0xffffffc0f6440760, 0x176440760}
+[    1.568160] c4 WCN BASE: buf_pool_init mbuf[60]:{0xffffffc0f6440780, 0x176440780}
+[    1.568163] c4 WCN BASE: buf_pool_init mbuf[61]:{0xffffffc0f64407a0, 0x1764407a0}
+[    1.568166] c4 WCN BASE: buf_pool_init mbuf[62]:{0xffffffc0f64407c0, 0x1764407c0}
+[    1.568170] c4 WCN BASE: buf_pool_init mbuf[63]:{0xffffffc0f64407e0, 0x1764407e0}
+[    1.568173] c4 WCN BASE: buf_pool_init mbuf[64]:{0xffffffc0f6440800, 0x176440800}
+[    1.568176] c4 WCN BASE: buf_pool_init mbuf[65]:{0xffffffc0f6440820, 0x176440820}
+[    1.568180] c4 WCN BASE: buf_pool_init mbuf[66]:{0xffffffc0f6440840, 0x176440840}
+[    1.568183] c4 WCN BASE: buf_pool_init mbuf[67]:{0xffffffc0f6440860, 0x176440860}
+[    1.568186] c4 WCN BASE: buf_pool_init mbuf[68]:{0xffffffc0f6440880, 0x176440880}
+[    1.568189] c4 WCN BASE: buf_pool_init mbuf[69]:{0xffffffc0f64408a0, 0x1764408a0}
+[    1.568193] c4 WCN BASE: buf_pool_init mbuf[70]:{0xffffffc0f64408c0, 0x1764408c0}
+[    1.568196] c4 WCN BASE: buf_pool_init mbuf[71]:{0xffffffc0f64408e0, 0x1764408e0}
+[    1.568199] c4 WCN BASE: buf_pool_init mbuf[72]:{0xffffffc0f6440900, 0x176440900}
+[    1.568203] c4 WCN BASE: buf_pool_init mbuf[73]:{0xffffffc0f6440920, 0x176440920}
+[    1.568206] c4 WCN BASE: buf_pool_init mbuf[74]:{0xffffffc0f6440940, 0x176440940}
+[    1.568209] c4 WCN BASE: buf_pool_init mbuf[75]:{0xffffffc0f6440960, 0x176440960}
+[    1.568212] c4 WCN BASE: buf_pool_init mbuf[76]:{0xffffffc0f6440980, 0x176440980}
+[    1.568216] c4 WCN BASE: buf_pool_init mbuf[77]:{0xffffffc0f64409a0, 0x1764409a0}
+[    1.568219] c4 WCN BASE: buf_pool_init mbuf[78]:{0xffffffc0f64409c0, 0x1764409c0}
+[    1.568222] c4 WCN BASE: buf_pool_init mbuf[79]:{0xffffffc0f64409e0, 0x1764409e0}
+[    1.568226] c4 WCN BASE: buf_pool_init mbuf[80]:{0xffffffc0f6440a00, 0x176440a00}
+[    1.568229] c4 WCN BASE: buf_pool_init mbuf[81]:{0xffffffc0f6440a20, 0x176440a20}
+[    1.568232] c4 WCN BASE: buf_pool_init mbuf[82]:{0xffffffc0f6440a40, 0x176440a40}
+[    1.568236] c4 WCN BASE: buf_pool_init mbuf[83]:{0xffffffc0f6440a60, 0x176440a60}
+[    1.568239] c4 WCN BASE: buf_pool_init mbuf[84]:{0xffffffc0f6440a80, 0x176440a80}
+[    1.568242] c4 WCN BASE: buf_pool_init mbuf[85]:{0xffffffc0f6440aa0, 0x176440aa0}
+[    1.568246] c4 WCN BASE: buf_pool_init mbuf[86]:{0xffffffc0f6440ac0, 0x176440ac0}
+[    1.568249] c4 WCN BASE: buf_pool_init mbuf[87]:{0xffffffc0f6440ae0, 0x176440ae0}
+[    1.568252] c4 WCN BASE: buf_pool_init mbuf[88]:{0xffffffc0f6440b00, 0x176440b00}
+[    1.568255] c4 WCN BASE: buf_pool_init mbuf[89]:{0xffffffc0f6440b20, 0x176440b20}
+[    1.568259] c4 WCN BASE: buf_pool_init mbuf[90]:{0xffffffc0f6440b40, 0x176440b40}
+[    1.568262] c4 WCN BASE: buf_pool_init mbuf[91]:{0xffffffc0f6440b60, 0x176440b60}
+[    1.568265] c4 WCN BASE: buf_pool_init mbuf[92]:{0xffffffc0f6440b80, 0x176440b80}
+[    1.568268] c4 WCN BASE: buf_pool_init mbuf[93]:{0xffffffc0f6440ba0, 0x176440ba0}
+[    1.568272] c4 WCN BASE: buf_pool_init mbuf[94]:{0xffffffc0f6440bc0, 0x176440bc0}
+[    1.568275] c4 WCN BASE: buf_pool_init mbuf[95]:{0xffffffc0f6440be0, 0x176440be0}
+[    1.568278] c4 WCN BASE: buf_pool_init mbuf[96]:{0xffffffc0f6440c00, 0x176440c00}
+[    1.568282] c4 WCN BASE: buf_pool_init mbuf[97]:{0xffffffc0f6440c20, 0x176440c20}
+[    1.568285] c4 WCN BASE: buf_pool_init mbuf[98]:{0xffffffc0f6440c40, 0x176440c40}
+[    1.568288] c4 WCN BASE: buf_pool_init mbuf[99]:{0xffffffc0f6440c60, 0x176440c60}
+[    1.568291] c4 WCN BASE: buf_pool_init mbuf[100]:{0xffffffc0f6440c80, 0x176440c80}
+[    1.568295] c4 WCN BASE: buf_pool_init mbuf[101]:{0xffffffc0f6440ca0, 0x176440ca0}
+[    1.568298] c4 WCN BASE: buf_pool_init mbuf[102]:{0xffffffc0f6440cc0, 0x176440cc0}
+[    1.568301] c4 WCN BASE: buf_pool_init mbuf[103]:{0xffffffc0f6440ce0, 0x176440ce0}
+[    1.568305] c4 WCN BASE: buf_pool_init mbuf[104]:{0xffffffc0f6440d00, 0x176440d00}
+[    1.568308] c4 WCN BASE: buf_pool_init mbuf[105]:{0xffffffc0f6440d20, 0x176440d20}
+[    1.568311] c4 WCN BASE: buf_pool_init mbuf[106]:{0xffffffc0f6440d40, 0x176440d40}
+[    1.568315] c4 WCN BASE: buf_pool_init mbuf[107]:{0xffffffc0f6440d60, 0x176440d60}
+[    1.568318] c4 WCN BASE: buf_pool_init mbuf[108]:{0xffffffc0f6440d80, 0x176440d80}
+[    1.568321] c4 WCN BASE: buf_pool_init mbuf[109]:{0xffffffc0f6440da0, 0x176440da0}
+[    1.568325] c4 WCN BASE: buf_pool_init mbuf[110]:{0xffffffc0f6440dc0, 0x176440dc0}
+[    1.568328] c4 WCN BASE: buf_pool_init mbuf[111]:{0xffffffc0f6440de0, 0x176440de0}
+[    1.568331] c4 WCN BASE: buf_pool_init mbuf[112]:{0xffffffc0f6440e00, 0x176440e00}
+[    1.568334] c4 WCN BASE: buf_pool_init mbuf[113]:{0xffffffc0f6440e20, 0x176440e20}
+[    1.568338] c4 WCN BASE: buf_pool_init mbuf[114]:{0xffffffc0f6440e40, 0x176440e40}
+[    1.568341] c4 WCN BASE: buf_pool_init mbuf[115]:{0xffffffc0f6440e60, 0x176440e60}
+[    1.568344] c4 WCN BASE: buf_pool_init mbuf[116]:{0xffffffc0f6440e80, 0x176440e80}
+[    1.568348] c4 WCN BASE: buf_pool_init mbuf[117]:{0xffffffc0f6440ea0, 0x176440ea0}
+[    1.568351] c4 WCN BASE: buf_pool_init mbuf[118]:{0xffffffc0f6440ec0, 0x176440ec0}
+[    1.568354] c4 WCN BASE: buf_pool_init mbuf[119]:{0xffffffc0f6440ee0, 0x176440ee0}
+[    1.568357] c4 WCN BASE: buf_pool_init mbuf[120]:{0xffffffc0f6440f00, 0x176440f00}
+[    1.568361] c4 WCN BASE: buf_pool_init mbuf[121]:{0xffffffc0f6440f20, 0x176440f20}
+[    1.568364] c4 WCN BASE: buf_pool_init mbuf[122]:{0xffffffc0f6440f40, 0x176440f40}
+[    1.568367] c4 WCN BASE: buf_pool_init mbuf[123]:{0xffffffc0f6440f60, 0x176440f60}
+[    1.568371] c4 WCN BASE: buf_pool_init mbuf[124]:{0xffffffc0f6440f80, 0x176440f80}
+[    1.568374] c4 WCN BASE: buf_pool_init mbuf[125]:{0xffffffc0f6440fa0, 0x176440fa0}
+[    1.568377] c4 WCN BASE: buf_pool_init mbuf[126]:{0xffffffc0f6440fc0, 0x176440fc0}
+[    1.568381] c4 WCN BASE: buf_pool_init mbuf[127]:{0xffffffc0f6440fe0, 0x176440fe0}
+[    1.568384] c4 WCN BASE: [-]bus_chn_init(21)
+[    1.568386] c4 WCN SDIOHAL: sdiohal_init ok
+[    1.568393] c4 WCN SLP_MGR: public_int, gpio-313
+[    1.568499] c4 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.568617] c4 WCN SLP_MGR: sdio_pub_int_init ok!
+[    1.568620] c4 [mem_pd_new]mem_pd_init start
+[    1.568623] c4 [mem_pd_new]mem_pd_init end!
+[    1.568642] c4 WCN BASE: [+]bus_chn_init(0, 0)
+[    1.568646] c4 WCN BASE: mbuf_pool->mem:0x17608de00
+[    1.568649] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f608de00, 0x17608de00}
+[    1.568653] c4 WCN BASE: buf_pool_init mbuf[1]:{0xffffffc0f608de20, 0x17608de20}
+[    1.568656] c4 WCN BASE: buf_pool_init mbuf[2]:{0xffffffc0f608de40, 0x17608de40}
+[    1.568660] c4 WCN BASE: buf_pool_init mbuf[3]:{0xffffffc0f608de60, 0x17608de60}
+[    1.568663] c4 WCN BASE: buf_pool_init mbuf[4]:{0xffffffc0f608de80, 0x17608de80}
+[    1.568666] c4 WCN BASE: [-]bus_chn_init(0)
+[    1.568670] c4 WCN BASE: [+]bus_chn_init(12, 0)
+[    1.568673] c4 WCN BASE: mbuf_pool->mem:0x1764aba80
+[    1.568676] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64aba80, 0x1764aba80}
+[    1.568679] c4 WCN BASE: [-]bus_chn_init(12)
+[    1.568683] c4 WCN BASE: [+]bus_chn_init(13, 0)
+[    1.568686] c4 WCN BASE: mbuf_pool->mem:0x1764ab780
+[    1.568690] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64ab780, 0x1764ab780}
+[    1.568692] c4 WCN BASE: [-]bus_chn_init(13)
+[    1.568696] c4 WCN BASE: [+]bus_chn_init(14, 0)
+[    1.568699] c4 WCN BASE: mbuf_pool->mem:0x1764abb00
+[    1.568702] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64abb00, 0x1764abb00}
+[    1.568705] c4 WCN BASE: [-]bus_chn_init(14)
+[    1.568737] c4 WCN BASE: mdbg_pt_ring_reg
+[    1.568741] c4 WCN BASE: [+]bus_chn_init(15, 0)
+[    1.568744] c4 WCN BASE: mbuf_pool->mem:0x1764abe00
+[    1.568748] c4 WCN BASE: buf_pool_init mbuf[0]:{0xffffffc0f64abe00, 0x1764abe00}
+[    1.568751] c4 WCN BASE: [-]bus_chn_init(15)
+[    1.568754] c4 WCN BASE: success!
+[    1.568758] c4 WCN BASE: log_cdev_init
+[    1.568784] c4 WCN BASE: log dev major=255,minor=0
+[    1.569134] c4 WCN BASE: log dev major=255,minor=1
+[    1.569260] c4 wcn_op_init
+[    1.569388] c4 WCN BASE[slp_mgr]usb_int, gpio-245
+[    1.569388] c4 
+[    1.569479] c4 WCN BASE: marlin_probe ok!
+[    1.569649] c4 [ ext_attr_init ] enter
+[    1.570605] c4 [ ext_attr_probe ] enter
+[    1.571221] c4 [ ext_attr_probe ] wakeup_gpio : 285
+[    1.571896] c4 [ ext_attr_probe ] ctrl1_gpio : 238
+[    1.576552] c4 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.772627] c5 [ ext_attr_probe ] ctrl2_gpio : 314
+[    1.773339] c5 [ ext_attr_probe ] mute_gpio : 284
+[    1.773995] c5 [ ext_attr_probe ] map_gpio : 282
+[    1.774567] c5 [zhtd] ckx_uevt_init
+[    1.775036] c5 [ ext_attr_probe ] leave
+[    1.775774] c5 sc2721-charger sc27xx-charger: failed to find USB phy
+[    1.775958] c5 [ ext_attr_init ] leave
+[    1.776503] c5 otg_wakelock_init: No USB transceiver found
+[    1.777163] c5 sprd-hsphy 20e00000.hsphy: No separate ID extcon device
+[    1.777194] c5 sprd-hsphy 20e00000.hsphy: sprd usb phy probe ok
+[    1.778583] c5 musb-sprd 20200000.usb: 20200000.usb supply vbus not found, using dummy regulator
+[    1.778643] c5 musb-sprd 20200000.usb: failed to get pmu regmap!
+[    1.778818] c5 (NULL device *): sprd_musb_enable:MUSB_POWER_SOFTDISCONN
+[    1.780609] c5 sc2721-charger sc27xx-charger: battery present = 1, charger type = 1
+[    1.792630] c0 power_supply sc2721_charger: driver failed to report `constant_charge_voltage_max' property: -22
+[    1.809277] c5 musb-hdrc: kernel must blacklist external hubs
+[    1.809339] c5 musb-hdrc musb-hdrc.0.auto: MUSB HDRC host driver
+[    1.809357] c5 musb-hdrc musb-hdrc.0.auto: new USB bus registered, assigned bus number 1
+[    1.809377] c5 [USB] udev->state = addressed 
+[    1.809491] c5 usb usb1: default language 0x0409
+[    1.809555] c5 usb usb1: udev 1, busnum 1, minor = 0
+[    1.809562] c5 usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.809567] c5 usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.809572] c5 usb usb1: Product: MUSB HDRC host driver
+[    1.809576] c5 usb usb1: Manufacturer: Linux 4.14.133 musb-hcd
+[    1.809580] c5 usb usb1: SerialNumber: musb-hdrc.0.auto
+[    1.810294] c4 usb usb1: usb_probe_device
+[    1.810343] c4 [USB] udev->state = configured 
+[    1.810351] c4 usb usb1: adding 1-0:1.0 (config #1, interface 0)
+[    1.810416] c4 hub 1-0:1.0: usb_probe_interface
+[    1.810421] c4 hub 1-0:1.0: usb_probe_interface - got id
+[    1.810431] c4 hub 1-0:1.0: USB hub found
+[    1.810464] c4 hub 1-0:1.0: 1 port detected
+[    1.810469] c4 hub 1-0:1.0: standalone hub
+[    1.810473] c4 hub 1-0:1.0: individual port power switching
+[    1.810477] c4 hub 1-0:1.0: no over-current protection
+[    1.810482] c4 hub 1-0:1.0: Single TT
+[    1.810487] c4 hub 1-0:1.0: TT requires at most 8 FS bit times (666 ns)
+[    1.810492] c4 hub 1-0:1.0: power on to power good time: 10ms
+[    1.810539] c4 hub 1-0:1.0: local power source is good
+[    1.810602] c4 hub 1-0:1.0: enabling power on all ports
+[    1.811369] c4 musb-sprd 20200000.usb: No separate ID extcon device.
+[    1.812780] c4 input: gpio-keys as /devices/platform/gpio-keys/input/input2
+[    1.813313] c4 cannot find compatible node "adaptive-touchscreen"
+[    1.813318] c4 board init failed!
+[    1.813323] c4 [goodix_ts_init] enter 1920, 720, 0
+[    1.813964] c4 <<-GTP-DEBUG->> [3340]IMOTOR: Gt9xx driver installing..
+[    1.813964] c4 
+[    1.814080] c4 goodix-ts 3-005d: IMOTOR: GTP Driver Version: V2.8.0.2<2017/12/14>
+[    1.814085] c4 goodix-ts 3-005d: IMOTOR: GTP I2C Address: 0x5d
+[    1.814097] c4 goodix-ts 3-005d: touch input parameters is [id x y w p]<10 1920 720 512 512>
+[    1.814103] c4 goodix-ts 3-005d: int-sync enabled
+[    1.814115] c4 goodix-ts 3-005d: auto-update-cfg enabled
+[    1.814120] c4 goodix-ts 3-005d: esd-protect enabled
+[    1.814132] c4 goodix-ts 3-005d: key-map is [73 72 66 71 74]
+[    1.814274] c4 goodix-ts 3-005d: 3-005d supply vcc_i2c not found, using dummy regulator
+[    1.814326] c4 <<-GTP-DEBUG->> [2095]No pinctrl found
+[    1.814326] c4 
+[    1.814337] c4 <<-GTP-DEBUG->> [2162]Success request irq-gpio
+[    1.814337] c4 
+[    1.814344] c4 <<-GTP-DEBUG->> [2179]Success request rst-gpio
+[    1.814344] c4 
+[    1.814823] c4 check_ds927_exist 0x00 = 0x0 
+[    1.815364] c4 goodix-ts 3-005d: Guitar reset
+[    1.913102] c0 hub 1-0:1.0: hub_event state 7 ports 1 chg 0000 evt 0000
+[    1.913125] c0 hub 1-0:1.0: hub_suspend
+[    1.913183] c0 usb usb1: bus auto-suspend, wakeup 1
+[    1.913190] c0 [USB] udev->state = suspended 
+[    1.925396] c4 [gtp_read_fw_version] g_fw_ver:0x1060
+[    1.928376] c4 [gtp_check_product_id] g_product_id:911
+[    1.930881] c4 [gt9xx_read_vendor_id] g_vendor_id:0x3
+[    1.933744] c4 [gt9xx_read_resolution] x_resolution:1280,y_resolution=480
+[    1.934616] c4 [CheckTouchType] CHIP_GT9XX_PUBLIC default!
+[    1.938051] c4 goodix-ts 3-005d: IC Version: 911_1060
+[    1.941541] c4 <<-GTP-DEBUG->> [1381]Driver set not send config
+[    1.941541] c4 
+[    1.986770] c0 <<-GTP-DEBUG->> [2247]Use slot report protocol
+[    1.986770] c0 
+[    1.986776] c0 [gtp_request_input_dev] abs_size_x:1920,abs_size_y:720
+[    1.987735] c0 input: goodix-ts as /devices/platform/soc/soc:ap-apb/70800000.i2c/i2c-3/3-005d/input/input3
+[    1.987949] c0 <<-GTP-DEBUG->> [2201][TP] Enter function gtp_request_irq() ts->pdata->irq_gpio(336) ts->client->irq(0).
+[    1.987949] c0 
+[    1.988051] c0 <<-GTP-DEBUG->> [2208]INT num 84, trigger type:2
+[    1.988051] c0 
+[    1.988494] c2 goodix-ts 3-005d: Create sysfs group success 0
+[    1.988502] c2 <<-GTP-DEBUG->> [3265]ESD on
+[    1.988666] c2 [JDTP] jadard_jd9366t_init
+[    1.988671] c2 [jadard_jd9366t_init] enter 1920, 720, 0
+[    1.989333] c2 [jadard_jd9366t_init] return!
+[    1.989874] c2 [JDTP] Jadard common touch panel driver init
+[    1.989878] c2 [jadard_common_init] enter 1920, 720, 0, 0x00
+[    1.990590] c2 [jadard_common_init] return!
+[    1.991128] c2 sprd-rtc sc27xx-rtc: RTC values are invalid
+[    1.991135] c2 sprd-rtc sc27xx-rtc: hctosys: unable to read the hardware clock
+[    1.991984] c1 charger-manager charger-manager: Ignoring full-battery soc(state of charge) threshold as it is not supplied
+[    1.992878] c1 charger-manager charger-manager: charger-manager supply vddgen0 not found, using dummy regulator
+[    1.992956] c1 charger-manager charger-manager: 'vddgen0' regulator's externally_control is 0
+[    1.993023] c1 charger-manager charger-manager: Failed to feed charger watchdog
+[    1.993148] c1 charger-manager charger-manager: Charging Start/Stop
+[    1.994020] c1 sprd_cpu_device: fail to get cooling devices resistance-ja
+[    1.994027] c1 sprd_cpu_device: sensor names not found
+[    1.994293] c1 [zhtd] cpu temperature : 41191 
+[    1.994318] c1 sprd_cpu_cooling: cpu0 update max_freq to 1200000
+[    1.994329] c1 sprd_cpu_cooling: hotplug: test cpu:0, cpu num in cluster: 4
+[    1.994373] c1 sprd_cpu_device: fail to get cooling devices resistance-ja
+[    1.994379] c1 sprd_cpu_device: sensor names not found
+[    1.994460] c1 [zhtd] cpu temperature : 41191 
+[    1.994486] c1 sprd_cpu_cooling: cpu4 update max_freq to 1600000
+[    1.994495] c1 sprd_cpu_cooling: hotplug: test cpu:4, cpu num in cluster: 4
+[    1.996201] c1 [ASoC: VBC ] vbc_parse_dt arch_audio_set_aon_apb_gpr
+[    1.996222] c1 [ASoC: VBC ] vbc virtual address: 0xffffff800db90000, ffffff800db90000
+[    1.996265] c1 [ASoC: VBC ] vbc_use_ad01_only=0x1
+[    1.996269] c1 [ASoC: VBC ] dynamic_eq_support=0x0
+[    1.996274] c1 [ASoC: VBC ] vbc_parse_dt sprd_vbc_phy_base =0x40020000, sprd_vbc_base(virt)=ffffff800db90000,
+[    1.996278] c1 [ASoC: VBC ] vbc_iis_lr_invert[0]=[0x0][1]=0x1[2]=0x1
+[    1.996282] c1 [ASoC: VBC ]  vbc_idx[0] vbc_use_dma_type = AON DMA
+[    1.996286] c1 [ASoC: VBC ]  vbc_idx[1] vbc_use_dma_type = AON DMA
+[    1.996290] c1 [ASoC: VBC ]  vbc_idx[2] vbc_use_dma_type = AON DMA
+[    1.996294] c1 [ASoC: VBC ]  vbc_idx[3] vbc_use_dma_type = AON DMA
+[    1.996297] c1 [ASoC: VBC ] 
+[    1.996317] c1 arch_audio_vbc_dma_switch master =1 val =0xa8
+[    1.996324] c1 arch_audio_vbc_dma_switch master =1 val =0xa8
+[    1.997620] c1 [ASoC:SC2721] zwt11 enter sprd_codec_driver_init
+[    1.998266] c1 [ASoC:SC2721] sprd_codec_probe
+[    1.998274] c1 [ASoC:SC2721] sprd_codec_probe: ckx kzalloc 
+[    1.998739] c1 [ASoC:SC2721] ana_chip_id is 0x2721
+[    1.999691] c1 lookat_debug_init init ok
+[    1.999804] c1 sprd-sysdump:  detect pmic is sc2721 ,offset = 0xed8 !!!
+[    1.999965] c1 sprd-sysdump: sprd_sysdump_enable_prepare ok
+[    1.999970] c1 sprd-sysdump: userdebug enable sysdump in default !!!
+[    2.000056] c1 sprd-sysdump: set_sysdump_enable: get rst mode  value is = 0
+[    2.000060] c1 sprd-sysdump: set_sysdump_enable: enable sysdump!
+[    2.000303] c1 sprd-sysdump: ylog_buffer_init: ylog_buffer vaddr is         (ptrval)
+[    2.000552] c1 sprd-sysdump: section_info_log_buf in. vaddr : 0xffffff80094a2d44  len :0x80000  section_index: 7
+[    2.000558] c1 sprd-sysdump: section_info_ylog_buf in. vaddr : 0xffffffc0f6700000  len :0x100000  section_index: 8
+[    2.000565] c1 sprd-sysdump: pgd vaddr start: 0xffffff8009592000  paddr start: 0x81592000  len :0x2000  section_index: 9
+[    2.000689] c1 sprd-sysdump: cm4_dump_start : 0x800000 cm4_dump_end :0x83ffff , size : 0x40000 
+[    2.000693] c1 sprd-sysdump: minidump_init out.
+[    2.001075] c1 oem_otg_ext_vreg: disabling
+[    2.001668] c1 [ASoC:BOARD] warning: [asoc_sprd_card_probe] Get agcp ahb grp failed!(-19)
+[    2.001857] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vbc-r1p0v3-sprd-codec-normal
+[    2.001863] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vbc-r1p0v3-sprd-codec-normal
+[    2.001949] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vaudio-sprd-codec-voice
+[    2.001955] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vaudio-sprd-codec-voice
+[    2.002024] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vbc-r1p0v3-ad23-sprd-codec-ad1
+[    2.002030] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vbc-r1p0v3-ad23-sprd-codec-ad1
+[    2.002111] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vaudio-ad23-sprd-codec-ad1-voice
+[    2.002117] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vaudio-ad23-sprd-codec-ad1-voice
+[    2.002187] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vbc-dfm-sprd-codec-fm
+[    2.002192] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vbc-dfm-sprd-codec-fm
+[    2.002261] c1 vbc-rxpx-codec-sc27xx sound@0: 	name : vbc-deep-buf-sprd-codec-offload-playback
+[    2.002267] c1 vbc-rxpx-codec-sc27xx sound@0: 	stream_name : vbc-deep-buf-sprd-codec-offload-playback
+[    2.002289] c1 vbc-rxpx-codec-sc27xx sound@0: Count 'sprd,spk-ext-pa-info' failed!(-22)
+[    2.002995] c1 sprd-codec-sc2721 sc27xx-audio-codec: codec_reconfig_dai_rate, use rate(48000) for the unsupported rate capture.
+[    2.003007] c1 sprd-codec-sc2721 sc27xx-audio-codec: ERR:Register power supply error!
+[    2.003519] c1 [ASoC:HDST2721] sprd_headset_parse_dt :no match found for switch gpio.
+[    2.003546] c1 [ASoC:HDST2721] use GPIO_184 for 'detect_l', trigr level: 1, debounce: 100
+[    2.003565] c1 [ASoC:HDST2721] use GPIO_188 for 'detect_h', trigr level: 1, debounce: 100
+[    2.003588] c1 [ASoC:HDST2721] use GPIO_181 for 'detect_mic', trigr level: 1, debounce: 100
+[    2.003613] c1 [ASoC:HDST2721] use GPIO_189 for 'detect_all', trigr level: 1, debounce: 100
+[    2.003626] c1 [ASoC:HDST2721] use GPIO_179 for 'button', trigr level: 1, debounce: 10
+[    2.003636] c1 [ASoC:HDST2721] half_adc_gnd=168,one_half_adc_gnd=504
+[    2.003650] c1 [ASoC:HDST2721] device tree data: adc_min = 0 adc_max = 490 code = 226
+[    2.003657] c1 [ASoC:HDST2721] device tree data: adc_min = 540 adc_max = 1020 code = 115
+[    2.003665] c1 [ASoC:HDST2721] device tree data: adc_min = 1090 adc_max = 2400 code = 114
+[    2.003670] c1 [ASoC:HDST2721] automatic EU/US type switch is unsupported
+[    2.003964] c1 [ASoC:HDST2721] headset_detect_probe success
+[    2.004054] c1 [ASoC:HDST2721] adie chip is 0x2721, 0xa000
+[    2.004287] c1 [ASoC:HDST2721] headset_detect_reg_init: ANA_HDT0: 0xa02
+[    2.004486] c1 [ASoC:HDST2721] headset_detect_reg_init: ANA_HDT1: 0xce85
+[    2.004614] c1 [ASoC:HDST2721] headset_detect_reg_init: ANA_HDT2: 0x34
+[    2.004682] c1 [ASoC:HDST2721] headset_detect_reg_init: ANA_DCL0: 0x46
+[    2.004870] c1 [ASoC:HDST2721] headset_detect_reg_init: ANA_PMU0: 0x2049
+[    2.005052] c1 [ASoC:POWER] HEADMICBIAS Set Voltage 950000--950000
+[    2.007630] c1 [ASoC:HDST2721] headset_debug_sysfs_init success
+[    2.007635] c1 [ASoC:HDST2721] to get calibration data from efuse ...
+[    2.032188] c0 [ASoC:HDST2721] test[0] 0xffff666d -39315, test[1] 0xffffa2b4 -23884
+[    2.032197] c0 [ASoC:HDST2721] d[0] 0x6d 109 d[1] 0x66 102 d[2] 0xb4 180 d[3] 0xa2 162
+[    2.034401] c0 recovery : gtp_touch_up 
+[    2.044907] c0 recovery : gtp_touch_up 
+[    2.048197] c0 [ASoC:HDST2721] block_7 0xffff8423
+[    2.048202] c0 [ASoC:HDST2721] block 0 bit 7 set 0 have efuse data
+[    2.048268] c0 [ASoC:HDST2721] A 260, B 3253 E1 2860 E2 1948
+[    2.048357] c0 [ASoC:HDST2721] sprd_headset_soc_probe:2344 default plug headset in
+[    2.049111] c0 [ASoC: PCM ] platform_pcm_parse_dt audio use_2stage_dma_case = 0x2, node_count_2stage_level1=0x1
+[    2.049116] c0 [ASoC: PCM ] audio dma_2stage_level_1_int_source=0x1
+[    2.049122] c0 [Audio:MEM] audio_mem_alloc mem_type=12 addr = 0x2000, size=0xb000
+[    2.049222] c0 [Audio:MEM] audio_mem_alloc mem_type=13 addr = 0x2000, size=0x0
+[    2.049227] c0 [Audio:MEM] audio_mem_alloc mem_type=14 addr = 0x2000, size=0xa000
+[    2.049232] c0 [Audio:MEM] audio_mem_alloc mem_type=15 addr = 0xc000, size=0x1000
+[    2.049241] c0 [ASoC: PCM ] aud_init_iram_addr normal:phy[0x2000] virt[        (ptrval)] size=0x0, deepbuf:phy=0x2000, virt[        (ptrval)], size=0xa000, arm7:phy=0xc000, virt[        (ptrval)], size=0x1000
+[    2.049250] c0 [ASoC: PCM ] Get the 2stage dma pcm pmu com apb syscon failed!
+[    2.049454] c0 [ASoC: PCM ] sprd_pcm_new VBC daiid[0]
+[    2.049543] c0 [ASoC: PCM ] pcm_preallocate_dma_buffer stream = playback daiid[0], phy[0x1766c0000], bytes[0x10000], area[        (ptrval)], dmabuffer type=0x2
+[    2.049572] c0 [ASoC: PCM ] ret = 0
+[    2.049581] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-normal <-> vbc-r1p0v3 mapping ok
+[    2.049698] c0 [ASoC: PCM ] sprd_pcm_new VAUDIO daiid[1453]
+[    2.049702] c0 [ASoC: PCM ] ret = 0
+[    2.049709] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-voice <-> vaudio mapping ok
+[    2.049787] c0 [ASoC: PCM ] sprd_pcm_new VBC daiid[1]
+[    2.049818] c0 [ASoC: PCM ] ret = 0
+[    2.049825] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-ad1 <-> vbc-r1p0v3-ad23 mapping ok
+[    2.049896] c0 [ASoC: PCM ] sprd_pcm_new VAUDIO daiid[1454]
+[    2.049901] c0 [ASoC: PCM ] ret = 0
+[    2.049907] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-ad1-voice <-> vaudio-ad23 mapping ok
+[    2.049985] c0 [ASoC: PCM ] sprd_pcm_new DFM daiid[1980]
+[    2.049989] c0 [ASoC: PCM ] ret = 0
+[    2.049996] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-fm <-> vbc-dfm mapping ok
+[    2.050069] c0 [ASoC: PCM ] sprd_pcm_new VBC daiid[2]
+[    2.050139] c0 [ASoC: PCM ] ret = 0
+[    2.050146] c0 vbc-rxpx-codec-sc27xx sound@0: sprd-codec-offload-playback <-> vbc-deep-buf mapping ok
+[    2.050367] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: no sink widget found for Aud input1
+[    2.050374] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: Failed to add route AD Clk -> direct -> Aud input1
+[    2.050397] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: no sink widget found for Aud input1
+[    2.050403] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: Failed to add route Digital ADC1L Switch -> direct -> Aud input1
+[    2.050417] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: no sink widget found for Aud input1
+[    2.050423] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: Failed to add route Digital ADC1R Switch -> direct -> Aud input1
+[    2.050443] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: DAPM unknown pin inter Spk PA
+[    2.050453] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: DAPM unknown pin inter Spk1 PA
+[    2.050476] c0 vbc-rxpx-codec-sc27xx sound@0: ASoC: unknown pin inter Spk PA
+[    2.055917] c1 recovery : gtp_touch_up 
+[    2.056333] c2 input: sprdphone Headset Jack as /devices/platform/sound@0/sound/card0/input4
+[    2.056653] c1 input: sprdphone Headset Keyboard as /devices/platform/sound@0/sound/card0/input5
+[    2.057865] c1 [ASoC:BOARD] warning: [asoc_sprd_card_probe] Get agcp ahb grp failed!(-19)
+[    2.057961] c1 [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[    2.057966] c1 [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[    2.058015] c1 i2s-null-codec sound@1: 	name : i2s_bt_sco0-snd-soc-dummy-dai
+[    2.058020] c1 i2s-null-codec sound@1: 	stream_name : i2s_bt_sco0-snd-soc-dummy-dai
+[    2.058031] c1 i2s-null-codec sound@1: Count 'sprd,spk-ext-pa-info' failed!(-22)
+[    2.058201] c1 [ASoC: PCM ] platform_pcm_parse_dt audio use_2stage_dma_case = 0x2, node_count_2stage_level1=0x1
+[    2.058206] c1 [ASoC: PCM ] audio dma_2stage_level_1_int_source=0x1
+[    2.058212] c1 [Audio:MEM] audio_mem_alloc mem_type=12 addr = 0x2000, size=0xb000
+[    2.058312] c1 [Audio:MEM] audio_mem_alloc mem_type=13 addr = 0x2000, size=0x0
+[    2.058317] c1 [Audio:MEM] audio_mem_alloc mem_type=14 addr = 0x2000, size=0xa000
+[    2.058321] c1 [Audio:MEM] audio_mem_alloc mem_type=15 addr = 0xc000, size=0x1000
+[    2.058331] c1 [ASoC: PCM ] aud_init_iram_addr normal:phy[0x2000] virt[        (ptrval)] size=0x0, deepbuf:phy=0x2000, virt[        (ptrval)], size=0xa000, arm7:phy=0xc000, virt[        (ptrval)], size=0x1000
+[    2.058341] c1 [ASoC: PCM ] Get the 2stage dma pcm pmu com apb syscon failed!
+[    2.058490] c1 [ASoC: PCM ] sprd_pcm_new I2S daiid[292]
+[    2.058595] c1 [ASoC: PCM ] ret = 0
+[    2.058604] c1 i2s-null-codec sound@1: snd-soc-dummy-dai <-> i2s_bt_sco0 mapping ok
+[    2.059952] c2 ALSA device list:
+[    2.059957] c2   #0: sprdphone
+[    2.059961] c2   #1: all-i2s
+[    2.060212] c2 sprd_serial 70100000.serial: request TX DMA channel failed, ret = -19
+[    2.060219] c2 sprd_serial 70100000.serial: request RX DMA channel failed, ret = -19
+[    2.060223] c2 uart dma start error
+[    2.060527] c1 random: fast init done
+[    2.063527] c2 Freeing unused kernel memory: 4416K
+[    2.063607] c2 run init
+[    2.080092] c1 [saudio] saudio_wait_monitor_cmd error -5
+[    2.080102] c1 sblock_receive:sblock-5-13 not ready!
+[    2.080106] c0 [saudio] saudio_wait_monitor_cmd error -5
+[    2.080111] c1 [saudio] Error: sblock_receive dst 5, channel 13 result is -5
+[    2.080117] c0 sblock_receive:sblock-5-17 not ready!
+[    2.080122] c0 [saudio] Error: sblock_receive dst 5, channel 17 result is -5
+[    2.091495] c4 init: init first stage started!
+[    2.091602] c4 init: First stage mount skipped (recovery mode)
+[    2.091885] c4 init: [libfs_mgr]ReadFstabFromDt(): failed to read fstab from dt
+[    2.092954] c4 init: Using Android DT directory /proc/device-tree/firmware/android/
+[    2.138437] c4 init: [libfs_avb]avb_slot_verify failed, result: 6
+[    2.138457] c4 init: Failed to open AvbHandle for INIT_AVB_VERSION: No such file or directory
+[    2.140408] c4 random: init: uninitialized urandom read (40 bytes read)
+[    2.163435] c4 random: init: uninitialized urandom read (40 bytes read)
+[    2.165573] c4 init: Loading SELinux policy
+[    2.170589] c4 SELinux: 8192 avtab hash slots, 30788 rules.
+[    2.187244] c4 SELinux: 8192 avtab hash slots, 30788 rules.
+[    2.187260] c4 SELinux:  1 users, 2 roles, 1757 types, 0 bools, 1 sens, 1024 cats
+[    2.187269] c4 SELinux:  97 classes, 30788 rules
+[    2.191734] c4 SELinux:  policy capability network_peer_controls=1
+[    2.191740] c4 SELinux:  policy capability open_perms=1
+[    2.191743] c4 SELinux:  policy capability extended_socket_class=1
+[    2.191747] c4 SELinux:  policy capability always_check_network=0
+[    2.191750] c4 SELinux:  policy capability cgroup_seclabel=0
+[    2.191753] c4 SELinux:  policy capability nnp_nosuid_transition=1
+[    2.191757] c4 SELinux:  Completing initialization.
+[    2.191759] c4 SELinux:  Setting up existing superblocks.
+[    2.332662] c0 musb-sprd 20200000.usb: enter into idle mode
+[    2.332793] c0 musb-sprd 20200000.usb: enter into suspend mode
+[    2.344960] c4 selinux: SELinux: Loaded policy from /sepolicy
+[    2.344960] c4 
+[    2.348735] c4 selinux: SELinux:  Skipping /product_file_contexts:  empty file
+[    2.348735] c4 
+[    2.348840] c4 selinux: SELinux:  Skipping /odm_file_contexts:  empty file
+[    2.348840] c4 
+[    2.348991] c4 selinux: SELinux: Loaded file_contexts
+[    2.348991] c4 
+[    2.352703] c4 random: init: uninitialized urandom read (40 bytes read)
+[    2.377376] c4 init: init second stage started!
+[    2.404098] c4 init: Using Android DT directory /proc/device-tree/firmware/android/
+[    2.405199] c4 init: is wifionly version: 0
+[    2.408857] c4 selinux: SELinux:  Skipping /product_file_contexts:  empty file
+[    2.408857] c4 
+[    2.409005] c4 selinux: SELinux:  Skipping /odm_file_contexts:  empty file
+[    2.409005] c4 
+[    2.409103] c4 selinux: SELinux: Loaded file_contexts
+[    2.409103] c4 
+[    2.409130] c4 init: Running restorecon...
+[    2.430310] c4 init: Couldn't load property file '/system/etc/prop.default': open() failed: No such file or directory: No such file or directory
+[    2.435402] c4 init: Overriding previous 'ro.' property 'ro.carrier':'unknown' with new value 'oversea'
+[    2.435584] c4 init: Couldn't load property file '/system/build.prop': open() failed: No such file or directory: No such file or directory
+[    2.435616] c4 init: Couldn't load property file '/vendor/default.prop': open() failed: No such file or directory: No such file or directory
+[    2.435644] c4 init: Couldn't load property file '/vendor/build.prop': open() failed: No such file or directory: No such file or directory
+[    2.435701] c4 init: Couldn't load property file '/odm/etc/build.prop': open() failed: No such file or directory: No such file or directory
+[    2.435730] c4 init: Couldn't load property file '/product/build.prop': open() failed: No such file or directory: No such file or directory
+[    2.435765] c4 init: Couldn't load property file '/product_services/build.prop': open() failed: No such file or directory: No such file or directory
+[    2.435793] c4 init: Couldn't load property file '/factory/factory.prop': open() failed: No such file or directory: No such file or directory
+[    2.437364] c4 init: Setting product property ro.product.brand to 'SPRD' (from ro.product.product.brand)
+[    2.437390] c4 init: Setting product property ro.product.device to 'uis8581a2h10' (from ro.product.product.device)
+[    2.437415] c4 init: Setting product property ro.product.manufacturer to 'sprd' (from ro.product.product.manufacturer)
+[    2.437439] c4 init: Setting product property ro.product.model to 'uis8581a2h10_Automotive' (from ro.product.product.model)
+[    2.437464] c4 init: Setting product property ro.product.name to 'uis8581a2h10_Automotive' (from ro.product.product.name)
+[    2.437498] c4 init: Setting property 'ro.build.fingerprint' to 'SPRD/s9863a1h10_Natv/s9863a1h10:10/QP1A.190711.020/36218:userdebug/test-keys'
+[    2.437545] c4 init: lzy...Unable to open persistent property file: /mnt/appconfig/serialnumber.ini
+[    2.437847] c4 init: read_width_height width=1920
+[    2.437855] c4 init: ,height=720
+[    2.437861] c4 init: 
+[    2.456407] c0 musb-sprd 20200000.usb: enter into resume mode
+[    2.456453] c0 musb-sprd 20200000.usb: is running as DEVICE
+[    2.473279] c4 init: Created socket '/dev/socket/property_service', mode 666, user 0, group 0
+[    2.474539] c4 init: SetupMountNamespaces done
+[    2.475961] c4 init: Forked subcontext for 'u:r:vendor_init:s0' with pid 247
+[    2.477520] c4 init: Forked subcontext for 'u:r:vendor_init:s0' with pid 248
+[    2.477666] c4 init: Parsing file /init.rc...
+[    2.477781] c4 init: Added '/init.recovery.uis8581a2h10.rc' to import list
+[    2.478665] c4 init: Parsing file /init.recovery.uis8581a2h10.rc...
+[    2.478732] c4 init: Added '/init.recovery.common.rc' to import list
+[    2.478751] c4 init: Parsing file /init.recovery.common.rc...
+[    2.480160] c4 init: Parsing file /system/etc/init...
+[    2.480217] c4 init: Unable to read config file '/system/etc/init': open() failed: No such file or directory
+[    2.480240] c4 init: Parsing file /product/etc/init...
+[    2.480270] c4 init: Unable to read config file '/product/etc/init': open() failed: No such file or directory
+[    2.480305] c4 init: Parsing file /product_services/etc/init...
+[    2.480338] c4 init: Unable to read config file '/product_services/etc/init': open() failed: No such file or directory
+[    2.480371] c4 init: Parsing file /odm/etc/init...
+[    2.480403] c4 init: Unable to read config file '/odm/etc/init': open() failed: No such file or directory
+[    2.480424] c4 init: Parsing file /vendor/etc/init...
+[    2.480449] c4 init: Unable to read config file '/vendor/etc/init': open() failed: No such file or directory
+[    2.481288] c4 init: processing action (SetupCgroups) from (<Builtin Action>:0)
+[    2.483048] c4 init: processing action (early-init) from (/init.rc:3)
+[    2.483258] c4 init: starting service 'ueventd'...
+[    2.485099] c0 init: cpuset cgroup controller is not mounted!
+[    2.487091] c4 init: processing action (wait_for_coldboot_done) from (<Builtin Action>:0)
+[    2.517235] c5 ueventd: ueventd started!
+[    2.520683] c5 selinux: SELinux:  Skipping /product_file_contexts:  empty file
+[    2.520683] c5 
+[    2.520788] c5 selinux: SELinux:  Skipping /odm_file_contexts:  empty file
+[    2.520788] c5 
+[    2.520917] c5 selinux: SELinux: Loaded file_contexts
+[    2.520917] c5 
+[    2.521000] c5 ueventd: Parsing file /ueventd.rc...
+[    2.521332] c5 ueventd: Parsing file /vendor/ueventd.rc...
+[    2.521365] c5 ueventd: Unable to read config file '/vendor/ueventd.rc': open() failed: No such file or directory
+[    2.521386] c5 ueventd: Parsing file /odm/ueventd.rc...
+[    2.521411] c5 ueventd: Unable to read config file '/odm/ueventd.rc': open() failed: No such file or directory
+[    2.521428] c5 ueventd: Parsing file /ueventd.uis8581a2h10.rc...
+[    2.566831] c5 power_supply sc2721_charger: driver failed to report `constant_charge_voltage_max' property: -22
+[    2.566841] c5 synth uevent: /devices/platform/soc/soc:aon/41800000.spi/spi_master/spi4/spi4.0/sc27xx-charger/power_supply/sc2721_charger: failed to send uevent
+[    2.566846] c5 power_supply sc2721_charger: uevent: failed to send synthetic uevent
+[    2.576299] c5 power_supply sc27xx-fgu: driver failed to report `calibrate' property: -22
+[    2.576311] c5 synth uevent: /devices/platform/soc/soc:aon/41800000.spi/spi_master/spi4/spi4.0/sc27xx-fgu/power_supply/sc27xx-fgu: failed to send uevent
+[    2.576316] c5 power_supply sc27xx-fgu: uevent: failed to send synthetic uevent
+[    2.899840] c5 ueventd: Coldboot took 0.377 seconds
+[    2.904679] c0 init: wait for '/dev/.coldboot_done' took 417ms
+[    2.905222] c0 init: Command 'wait_for_coldboot_done' action=wait_for_coldboot_done (<Builtin Action>:0) took 418ms and succeeded
+[    2.905321] c0 init: processing action (MixHwrngIntoLinuxRng) from (<Builtin Action>:0)
+[    2.905376] c0 init: /dev/hw_random not found
+[    2.905438] c0 init: processing action (SetMmapRndBits) from (<Builtin Action>:0)
+[    2.906668] c0 init: processing action (SetKptrRestrict) from (<Builtin Action>:0)
+[    2.907003] c0 init: processing action (KeychordInit) from (<Builtin Action>:0)
+[    2.907049] c0 init: processing action (console_init) from (<Builtin Action>:0)
+[    2.907100] c0 init: processing action (init) from (/init.rc:11)
+[    2.909562] c0 init: Command 'mount cgroup none /acct cpuacct' action=init (/init.rc:23) took 0ms and failed: mount() failed: Device or resource busy
+[    2.914751] c0 init: processing action (init) from (/init.recovery.common.rc:75)
+[    2.918359] c0 init: Command 'loglevel 7' action=init (/init.recovery.common.rc:100) took 0ms and succeeded
+[    2.918649] c0 init: Command 'chown system root /proc/mdbg/assert' action=init (/init.recovery.common.rc:102) took 0ms and succeeded
+[    2.918776] c0 init: Command 'chown system root /proc/mdbg/wdtirq' action=init (/init.recovery.common.rc:103) took 0ms and failed: lchown() failed: No such file or directory
+[    2.918915] c0 init: Command 'chown system root /proc/mdbg/at_cmd' action=init (/init.recovery.common.rc:104) took 0ms and succeeded
+[    2.919035] c0 init: Command 'chown system root /proc/mdbg/loopcheck' action=init (/init.recovery.common.rc:105) took 0ms and succeeded
+[    2.919193] c0 init: Command 'chmod 760 /proc/mdbg/assert' action=init (/init.recovery.common.rc:107) took 0ms and succeeded
+[    2.919305] c0 init: Command 'chmod 760 /proc/mdbg/wdtirq' action=init (/init.recovery.common.rc:108) took 0ms and failed: fchmodat() failed: No such file or directory
+[    2.919453] c0 init: Command 'chmod 760 /proc/mdbg/at_cmd' action=init (/init.recovery.common.rc:109) took 0ms and succeeded
+[    2.919603] c0 init: Command 'chmod 760 /proc/mdbg/loopcheck' action=init (/init.recovery.common.rc:110) took 0ms and succeeded
+[    2.919672] c0 init: Command 'chown system root /proc/cpwcn/wdtirq' action=init (/init.recovery.common.rc:112) took 0ms and failed: lchown() failed: No such file or directory
+[    2.919732] c0 init: Command 'chmod 766 /proc/cpwcn/wdtirq' action=init (/init.recovery.common.rc:113) took 0ms and failed: fchmodat() failed: No such file or directory
+[    2.919859] c0 init: Command 'mount configfs none /config' action=init (/init.recovery.common.rc:117) took 0ms and succeeded
+[    2.921078] c4 init: Command 'mkdir /config/usb_gadget/g1 0770 shell shell' action=init (/init.recovery.common.rc:118) took 0ms and succeeded
+[    2.921517] c4 init: Command 'write /config/usb_gadget/g1/idVendor 0x1782' action=init (/init.recovery.common.rc:119) took 0ms and succeeded
+[    2.921826] c4 init: Command 'write /config/usb_gadget/g1/idProduct 0x4d00' action=init (/init.recovery.common.rc:120) took 0ms and succeeded
+[    2.922106] c4 init: Command 'mkdir /config/usb_gadget/g1/strings/0x409 0770 shell shell' action=init (/init.recovery.common.rc:121) took 0ms and succeeded
+[    2.922129] c4 init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+[    2.922406] c4 init: Command 'write /config/usb_gadget/g1/strings/0x409/serialnumber $ro.serialno' action=init (/init.recovery.common.rc:122) took 0ms and succeeded
+[    2.922676] c4 init: Command 'write /config/usb_gadget/g1/strings/0x409/manufacturer Unisoc' action=init (/init.recovery.common.rc:123) took 0ms and succeeded
+[    2.922917] c4 init: Command 'write /config/usb_gadget/g1/strings/0x409/product Unisoc Phone' action=init (/init.recovery.common.rc:124) took 0ms and succeeded
+[    2.923169] c4 init: Command 'mkdir /config/usb_gadget/g1/configs/b.1 0770 shell shell' action=init (/init.recovery.common.rc:125) took 0ms and succeeded
+[    2.923418] c4 init: Command 'mkdir /config/usb_gadget/g1/configs/b.1/strings/0x409 0770 shell shell' action=init (/init.recovery.common.rc:126) took 0ms and succeeded
+[    2.923699] c4 init: Command 'write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration Conf 1' action=init (/init.recovery.common.rc:127) took 0ms and succeeded
+[    2.923934] c4 init: Command 'write /config/usb_gadget/g1/configs/b.1/MaxPower 120' action=init (/init.recovery.common.rc:128) took 0ms and succeeded
+[    2.924199] c4 file system registered
+[    2.924278] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/ffs.adb 0770 shell shell' action=init (/init.recovery.common.rc:131) took 0ms and succeeded
+[    2.924534] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/ffs.fastboot 0770 shell shell' action=init (/init.recovery.common.rc:132) took 0ms and succeeded
+[    2.925004] c4 init: Command 'mkdir /dev/usb-ffs 0770 shell shell' action=init (/init.recovery.common.rc:133) took 0ms and succeeded
+[    2.925393] c4 init: Command 'mkdir /dev/usb-ffs/adb 0770 shell shell' action=init (/init.recovery.common.rc:134) took 0ms and succeeded
+[    2.925729] c4 init: Command 'mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000' action=init (/init.recovery.common.rc:135) took 0ms and succeeded
+[    2.926349] c4 init: Command 'mkdir /dev/usb-ffs/fastboot 0770 system system' action=init (/init.recovery.common.rc:136) took 0ms and succeeded
+[    2.926559] c4 init: Command 'mount functionfs fastboot /dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000' action=init (/init.recovery.common.rc:137) took 0ms and succeeded
+[    2.927607] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/mtp.gs0 0770 shell shell' action=init (/init.recovery.common.rc:140) took 0ms and succeeded
+[    2.928089] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/ptp.gs1 0770 shell shell' action=init (/init.recovery.common.rc:141) took 0ms and succeeded
+[    2.928377] c4 using random self ethernet address
+[    2.928384] c4 using random host ethernet address
+[    2.928580] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/rndis.gs4 0770 shell shell' action=init (/init.recovery.common.rc:142) took 0ms and succeeded
+[    2.929358] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/vser.gs7 0770 shell shell' action=init (/init.recovery.common.rc:143) took 0ms and succeeded
+[    2.929934] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/accessory.gs2 0770 shell shell' action=init (/init.recovery.common.rc:144) took 0ms and succeeded
+[    2.930394] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/audio_source.gs3 0770 shell shell' action=init (/init.recovery.common.rc:145) took 0ms and succeeded
+[    2.930774] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/midi.gs5 0770 shell shell' action=init (/init.recovery.common.rc:146) took 0ms and succeeded
+[    2.931268] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs0 0770 shell shell' action=init (/init.recovery.common.rc:147) took 0ms and succeeded
+[    2.931819] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs1 0770 shell shell' action=init (/init.recovery.common.rc:148) took 0ms and succeeded
+[    2.932403] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs2 0770 shell shell' action=init (/init.recovery.common.rc:149) took 0ms and succeeded
+[    2.932914] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs3 0770 shell shell' action=init (/init.recovery.common.rc:150) took 0ms and succeeded
+[    2.933423] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs4 0770 shell shell' action=init (/init.recovery.common.rc:151) took 0ms and succeeded
+[    2.933944] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs5 0770 shell shell' action=init (/init.recovery.common.rc:152) took 0ms and succeeded
+[    2.934500] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs6 0770 shell shell' action=init (/init.recovery.common.rc:153) took 0ms and succeeded
+[    2.934984] c4 init: Command 'mkdir /config/usb_gadget/g1/functions/gser.gs7 0770 shell shell' action=init (/init.recovery.common.rc:154) took 0ms and succeeded
+[    2.935015] c4 init: processing action (StartBoringSslSelfTest) from (<Builtin Action>:0)
+[    2.936541] c4 init: Command 'StartBoringSslSelfTest' action=StartBoringSslSelfTest (<Builtin Action>:0) took 1ms and succeeded
+[    2.936649] c4 init: processing action (MixHwrngIntoLinuxRng) from (<Builtin Action>:0)
+[    2.936717] c4 init: /dev/hw_random not found
+[    2.936743] c4 init: Command 'MixHwrngIntoLinuxRng' action=MixHwrngIntoLinuxRng (<Builtin Action>:0) took 0ms and succeeded
+[    2.936773] c4 init: processing action (InitBinder) from (<Builtin Action>:0)
+[    2.936794] c4 init: Command 'InitBinder' action=InitBinder (<Builtin Action>:0) took 0ms and succeeded
+[    2.936825] c4 init: processing action (late-init) from (/init.rc:55)
+[    2.936851] c4 init: Command 'trigger early-fs' action=late-init (/init.rc:56) took 0ms and succeeded
+[    2.936874] c4 init: Command 'trigger fs' action=late-init (/init.rc:57) took 0ms and succeeded
+[    2.936897] c4 init: Command 'trigger post-fs' action=late-init (/init.rc:58) took 0ms and succeeded
+[    2.936919] c4 init: Command 'trigger post-fs-data' action=late-init (/init.rc:59) took 0ms and succeeded
+[    2.936943] c4 init: Command 'trigger load_system_props_action' action=late-init (/init.rc:64) took 0ms and succeeded
+[    2.936966] c4 init: Command 'trigger firmware_mounts_complete' action=late-init (/init.rc:67) took 0ms and succeeded
+[    2.936988] c4 init: Command 'trigger early-boot' action=late-init (/init.rc:69) took 0ms and succeeded
+[    2.937010] c4 init: Command 'trigger boot' action=late-init (/init.rc:70) took 0ms and succeeded
+[    2.937028] c4 init: processing action (queue_property_triggers) from (<Builtin Action>:0)
+[    2.937058] c4 init: Command 'queue_property_triggers' action=queue_property_triggers (<Builtin Action>:0) took 0ms and succeeded
+[    2.937103] c4 init: processing action (ro.debuggable=1 && fs) from (/init.rc:100)
+[    2.937184] c4 init: starting service 'adbd'...
+[    2.940427] c1 init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[    2.940435] c4 init: Command 'start adbd' action=ro.debuggable=1 && fs (/init.rc:101) took 3ms and succeeded
+[    2.940532] c4 init: processing action (sys.usb.configfs=0 && fs) from (/init.rc:116)
+[    2.940538] c1 init: cpuset cgroup controller is not mounted!
+[    2.941145] c4 init: Command 'write /sys/class/android_usb/android0/f_ffs/aliases adb,fastboot' action=sys.usb.configfs=0 && fs (/init.rc:117) took 0ms and failed: Unable to write to file '/sys/class/android_usb/android0/f_ffs/aliases': open() failed: No such file or directory
+[    2.941644] c4 init: Command 'write /sys/class/android_usb/android0/idVendor 18D1' action=sys.usb.configfs=0 && fs (/init.rc:118) took 0ms and failed: Unable to write to file '/sys/class/android_usb/android0/idVendor': open() failed: Permission denied
+[    2.942019] c4 init: Command 'write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}' action=sys.usb.configfs=0 && fs (/init.rc:119) took 0ms and failed: Unable to write to file '/sys/class/android_usb/android0/iManufacturer': open() failed: Permission denied
+[    2.942330] c4 init: Command 'write /sys/class/android_usb/android0/iProduct ${ro.product.model}' action=sys.usb.configfs=0 && fs (/init.rc:120) took 0ms and failed: Unable to write to file '/sys/class/android_usb/android0/iProduct': open() failed: Permission denied
+[    2.942613] c4 init: Command 'write /sys/class/android_usb/android0/iSerial ${ro.serialno}' action=sys.usb.configfs=0 && fs (/init.rc:121) took 0ms and failed: Unable to write to file '/sys/class/android_usb/android0/iSerial': open() failed: Permission denied
+[    2.942637] c4 init: processing action (fs) from (/init.rc:123)
+[    2.943257] c4 init: Command 'mkdir /dev/usb-ffs 0775 shell shell' action=fs (/init.rc:124) took 0ms and succeeded
+[    2.943880] c4 init: Command 'mkdir /dev/usb-ffs/adb 0770 shell shell' action=fs (/init.rc:125) took 0ms and succeeded
+[    2.944145] c4 ffs_data_put(): freeing
+[    2.944257] c4 init: Command 'mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000' action=fs (/init.rc:126) took 0ms and failed: mount() failed: Device or resource busy
+[    2.944969] c4 init: Command 'mkdir /dev/usb-ffs/fastboot 0770 system system' action=fs (/init.rc:127) took 0ms and succeeded
+[    2.945121] c4 ffs_data_put(): freeing
+[    2.945234] c4 init: Command 'mount functionfs fastboot /dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000' action=fs (/init.rc:128) took 0ms and failed: mount() failed: Device or resource busy
+[    2.945259] c4 init: processing action (fs) from (/init.recovery.common.rc:190)
+[    2.946390] c4 init: Command 'mkdir /data/misc/bluedroid 0770 bluetooth net_bt_stack' action=fs (/init.recovery.common.rc:191) took 1ms and failed: mkdir() failed: No such file or directory
+[    2.946791] c4 init: Command 'mkdir /data/misc/bluetooth 0770 system system' action=fs (/init.recovery.common.rc:192) took 0ms and failed: mkdir() failed: No such file or directory
+[    2.946835] c4 init: processing action (post-fs-data) from (/init.recovery.common.rc:194)
+[    2.946889] c4 init: Command 'chown system system /data' action=post-fs-data (/init.recovery.common.rc:196) took 0ms and succeeded
+[    2.946963] c4 init: Command 'chmod 0771 /data' action=post-fs-data (/init.recovery.common.rc:197) took 0ms and succeeded
+[    2.947336] c4 init: Command 'restorecon /data' action=post-fs-data (/init.recovery.common.rc:199) took 0ms and succeeded
+[    2.948833] c4 init: Command 'mkdir /data/misc 01771 system misc' action=post-fs-data (/init.recovery.common.rc:200) took 1ms and succeeded
+[    2.949441] c4 init: Command 'mkdir /data/misc/bluedroid 0770 bluetooth net_bt_stack' action=post-fs-data (/init.recovery.common.rc:201) took 0ms and failed: Unable to decode GID for 'bluetooth': getpwnam failed: No such file or directory
+[    2.949872] c4 init: Command 'mkdir /data/misc/bluetooth 0770 system system' action=post-fs-data (/init.recovery.common.rc:202) took 0ms and succeeded
+[    2.950134] c4 init: Command 'copy /system/etc/bluetooth/bt_stack.conf /data/misc/bluedroid/bt_stack.conf' action=post-fs-data (/init.recovery.common.rc:203) took 0ms and failed: Could not read input file '/system/etc/bluetooth/bt_stack.conf': open() failed: Too many symbolic links encountered
+[    2.950194] c4 init: Command 'chown bluetooth system /data/misc/bluedroid/bt_stack.conf' action=post-fs-data (/init.recovery.common.rc:204) took 0ms and failed: lchown() failed: No such file or directory
+[    2.950240] c4 init: Command 'chmod 0640 /data/misc/bluedroid/bt_stack.conf' action=post-fs-data (/init.recovery.common.rc:205) took 0ms and failed: fchmodat() failed: No such file or directory
+[    2.950407] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/gryo_firms' action=post-fs-data (/init.recovery.common.rc:207) took 0ms and succeeded
+[    2.950518] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/acc_firms' action=post-fs-data (/init.recovery.common.rc:208) took 0ms and succeeded
+[    2.950614] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/mag_firms' action=post-fs-data (/init.recovery.common.rc:209) took 0ms and succeeded
+[    2.950710] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/pressure_firms' action=post-fs-data (/init.recovery.common.rc:210) took 0ms and succeeded
+[    2.950809] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/light_firms' action=post-fs-data (/init.recovery.common.rc:211) took 0ms and succeeded
+[    2.950905] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/prox_firms' action=post-fs-data (/init.recovery.common.rc:212) took 0ms and succeeded
+[    2.950953] c4 init: Untracked pid 260 exited with status 0
+[    2.951135] c4 init: Command 'chmod 666 /sys/module/firmware_class/parameters/path' action=post-fs-data (/init.recovery.common.rc:213) took 0ms and succeeded
+[    2.951237] c4 init: Command 'chmod 666 /sys/module/shub_core/parameters/sensor_fusion_mode' action=post-fs-data (/init.recovery.common.rc:214) took 0ms and succeeded
+[    2.951805] c4 init: Command 'mkdir /data/vendor/wifi 0770 wifi wifi' action=post-fs-data (/init.recovery.common.rc:217) took 0ms and failed: mkdir() failed: No such file or directory
+[    2.952190] c4 init: Command 'mkdir /data/vendor/wifi/wpa 0770 wifi wifi' action=post-fs-data (/init.recovery.common.rc:218) took 0ms and failed: mkdir() failed: No such file or directory
+[    2.952446] c4 init: Command 'mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi' action=post-fs-data (/init.recovery.common.rc:219) took 0ms and failed: mkdir() failed: No such file or directory
+[    2.952920] c4 init: Command 'mkdir /data/system 0770 system system' action=post-fs-data (/init.recovery.common.rc:220) took 0ms and succeeded
+[    2.953325] c4 init: Command 'mkdir /etc/wifi 0770 wifi wifi' action=post-fs-data (/init.recovery.common.rc:221) took 0ms and succeeded
+[    2.953809] c4 init: Command 'write /data/vendor/wifi/fwpath sta_mode' action=post-fs-data (/init.recovery.common.rc:222) took 0ms and failed: Unable to write to file '/data/vendor/wifi/fwpath': open() failed: No such file or directory
+[    2.953864] c4 init: Command 'chmod 660 /data/vendor/wifi/fwpath' action=post-fs-data (/init.recovery.common.rc:223) took 0ms and failed: fchmodat() failed: No such file or directory
+[    2.953920] c4 init: Command 'chown wifi wifi /data/vendor/wifi/fwpath' action=post-fs-data (/init.recovery.common.rc:224) took 0ms and failed: lchown() failed: No such file or directory
+[    2.953973] c4 init: Command 'rmdir /data/system/wpa_supplicant' action=post-fs-data (/init.recovery.common.rc:225) took 0ms and failed: rmdir() failed: No such file or directory
+[    2.954453] c4 init: Command 'mkdir /data/misc/dhcp 0770 dhcp dhcp' action=post-fs-data (/init.recovery.common.rc:226) took 0ms and succeeded
+[    2.954502] c4 init: Command 'chown dhcp system /data/misc/dhcp' action=post-fs-data (/init.recovery.common.rc:229) took 0ms and succeeded
+[    2.954934] c4 init: Command 'setprop wifi.interface wlan0' action=post-fs-data (/init.recovery.common.rc:230) took 0ms and succeeded
+[    2.955343] c4 init: Command 'mkdir /data/misc/dhcp6c 0770 dhcp dhcp' action=post-fs-data (/init.recovery.common.rc:231) took 0ms and succeeded
+[    2.955392] c4 init: Command 'chown dhcp system /data/misc/dhcp6c' action=post-fs-data (/init.recovery.common.rc:232) took 0ms and succeeded
+[    2.955804] c4 init: Command 'mkdir /data/vendor 0751 root root' action=post-fs-data (/init.recovery.common.rc:235) took 0ms and succeeded
+[    2.956256] c4 init: Command 'mkdir /data/vendor/local 0751 root root' action=post-fs-data (/init.recovery.common.rc:236) took 0ms and succeeded
+[    2.956664] c4 init: Command 'mkdir /data/vendor/ylog 0770 shell system' action=post-fs-data (/init.recovery.common.rc:239) took 0ms and succeeded
+[    2.956954] c4 init: Command 'mkdir /data/vendor/local/slogmodem 0770 shell system' action=post-fs-data (/init.recovery.common.rc:240) took 0ms and succeeded
+[    2.957200] c4 init: Command 'mkdir /data/vendor/local/mlogservice 0770 shell system' action=post-fs-data (/init.recovery.common.rc:241) took 0ms and succeeded
+[    2.957476] c4 init: Command 'mkdir /mnt/vendor/sensorhub 0777 system root' action=post-fs-data (/init.recovery.common.rc:242) took 0ms and succeeded
+[    2.957692] c4 init: Command 'mkdir /mnt/vendor/productinfo 0771 system root' action=post-fs-data (/init.recovery.common.rc:243) took 0ms and succeeded
+[    2.957892] c4 init: Command 'mkdir /mnt/vendor/productinfo/sensor_calibration_data 0770 system root' action=post-fs-data (/init.recovery.common.rc:244) took 0ms and succeeded
+[    2.958146] c4 init: Command 'mkdir /data/vendor/local/otpdata 0777 system root' action=post-fs-data (/init.recovery.common.rc:245) took 0ms and succeeded
+[    2.958175] c4 init: processing action (load_system_props_action) from (/init.rc:48)
+[    2.958189] c4 init: deprecated action `load_system_props` called.
+[    2.958209] c4 init: Command 'load_system_props' action=load_system_props_action (/init.rc:49) took 0ms and succeeded
+[    2.958228] c4 init: processing action (firmware_mounts_complete) from (/init.rc:51)
+[    2.958287] c4 init: Command 'rm /dev/.booting' action=firmware_mounts_complete (/init.rc:52) took 0ms and succeeded
+[    2.958307] c4 init: processing action (boot) from (/init.rc:40)
+[    2.958716] c4 init: Command 'ifup lo' action=boot (/init.rc:41) took 0ms and succeeded
+[    2.959163] c4 init: Command 'hostname localhost' action=boot (/init.rc:42) took 0ms and succeeded
+[    2.959435] c4 init: Command 'domainname localdomain' action=boot (/init.rc:43) took 0ms and succeeded
+[    2.959496] c4 init: starting service 'charger'...
+[    2.961220] c0 init: cpuset cgroup controller is not mounted!
+[    2.962220] c4 init: Command 'class_start default' action=boot (/init.rc:45) took 2ms and succeeded
+[    2.962293] c4 init: processing action (boot) from (/init.recovery.common.rc:156)
+[    2.962660] c4 init: Command 'setprop sys.usb.configfs 1' action=boot (/init.recovery.common.rc:157) took 0ms and succeeded
+[    2.963537] c4 init: Command 'write /sys/block/mmcblk0boot0/force_ro 0' action=boot (/init.recovery.common.rc:158) took 0ms and succeeded
+[    2.964227] c4 init: Command 'write /sys/block/mmcblk0boot1/force_ro 0' action=boot (/init.recovery.common.rc:159) took 0ms and succeeded
+[    2.964337] c4 init: Command 'chown system system /dev/iio:device1' action=boot (/init.recovery.common.rc:161) took 0ms and succeeded
+[    2.964460] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/iio/trigger/current_trigger' action=boot (/init.recovery.common.rc:162) took 0ms and succeeded
+[    2.964565] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/batch' action=boot (/init.recovery.common.rc:163) took 0ms and succeeded
+[    2.964660] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/logctl' action=boot (/init.recovery.common.rc:164) took 0ms and succeeded
+[    2.964927] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/calibrator_cmd' action=boot (/init.recovery.common.rc:165) took 0ms and succeeded
+[    2.965030] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/calibrator_data' action=boot (/init.recovery.common.rc:166) took 0ms and succeeded
+[    2.965127] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/enable' action=boot (/init.recovery.common.rc:167) took 0ms and succeeded
+[    2.965219] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/flush' action=boot (/init.recovery.common.rc:168) took 0ms and succeeded
+[    2.965324] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/iio' action=boot (/init.recovery.common.rc:169) took 0ms and succeeded
+[    2.965441] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/version' action=boot (/init.recovery.common.rc:170) took 0ms and succeeded
+[    2.965534] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/op_download' action=boot (/init.recovery.common.rc:171) took 0ms and succeeded
+[    2.965637] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/mag_cali_flag' action=boot (/init.recovery.common.rc:172) took 0ms and succeeded
+[    2.965728] c4 init: Command 'chown system system /sys/class/sprd_sensorhub/sensor_hub/sensorhub' action=boot (/init.recovery.common.rc:173) took 0ms and succeeded
+[    2.965851] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/iio/trigger/current_trigger' action=boot (/init.recovery.common.rc:175) took 0ms and succeeded
+[    2.965934] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/batch' action=boot (/init.recovery.common.rc:176) took 0ms and succeeded
+[    2.966015] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/logctl' action=boot (/init.recovery.common.rc:177) took 0ms and succeeded
+[    2.966100] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/calibrator_cmd' action=boot (/init.recovery.common.rc:178) took 0ms and succeeded
+[    2.966189] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/calibrator_data' action=boot (/init.recovery.common.rc:179) took 0ms and succeeded
+[    2.966273] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/enable' action=boot (/init.recovery.common.rc:180) took 0ms and succeeded
+[    2.966359] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/flush' action=boot (/init.recovery.common.rc:181) took 0ms and succeeded
+[    2.966444] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/iio' action=boot (/init.recovery.common.rc:182) took 0ms and succeeded
+[    2.966528] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/version' action=boot (/init.recovery.common.rc:183) took 0ms and succeeded
+[    2.966616] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/op_download' action=boot (/init.recovery.common.rc:184) took 0ms and succeeded
+[    2.966704] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/mag_cali_flag' action=boot (/init.recovery.common.rc:185) took 0ms and succeeded
+[    2.966792] c4 init: Command 'chmod 660 /sys/class/sprd_sensorhub/sensor_hub/sensorhub' action=boot (/init.recovery.common.rc:186) took 0ms and succeeded
+[    2.967001] c4 init: Command 'chmod 660 /sys/class/power_supply/battery/charger.0/stop_charge' action=boot (/init.recovery.common.rc:187) took 0ms and succeeded
+[    2.967121] c4 init: Command 'chmod 660 /sys/class/power_supply/battery/charger.0/jeita_control' action=boot (/init.recovery.common.rc:188) took 0ms and succeeded
+[    2.967154] c4 init: processing action (enable_property_trigger) from (<Builtin Action>:0)
+[    2.967178] c4 init: Command 'enable_property_trigger' action=enable_property_trigger (<Builtin Action>:0) took 0ms and succeeded
+[    2.967263] c4 init: processing action (ro.debuggable=1) from (/init.recovery.common.rc:247)
+[    2.967857] c4 init: Command 'write /sys/module/smsg/parameters/debug_enable 1' action=ro.debuggable=1 (/init.recovery.common.rc:248) took 0ms and succeeded
+[    2.967884] c4 init: processing action (ro.bootmode=recovery) from (/init.recovery.common.rc:250)
+[    2.967951] c4 init: starting service 'recovery'...
+[    2.970334] c1 read descriptors
+[    2.970350] c1 read strings
+[    2.971029] c0 init: Created socket '/dev/socket/recovery', mode 422, user 1000, group 1000
+[    2.971143] c0 init: cpuset cgroup controller is not mounted!
+[    2.971362] c4 init: Command 'class_start recovery' action=ro.bootmode=recovery (/init.recovery.common.rc:251) took 3ms and succeeded
+[    2.984420] c4 healthd: No battery devices found
+[    2.985039] c4 healthd: battery l=80 v=4000 t=25.0 h=2 st=3 chg=u
+[    2.985051] c4 android.hardware.health@2.0-impl: wakealarm_set_interval: timerfd_settime failed
+[    3.004603] c0 [zhtd] cpu temperature : 45656 
+[    3.019096] c4 EXT4-fs (mmcblk0p34): Ignoring removed nomblk_io_submit option
+[    3.021301] c4 EXT4-fs (mmcblk0p34): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+[    3.051664] c5 EXT4-fs (mmcblk0p34): Ignoring removed nomblk_io_submit option
+[    3.053946] c5 EXT4-fs (mmcblk0p34): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,noauto_da_alloc
+[    3.098711] c4 [drm] sprd_dsi_connector_detect()
+[    3.098719] c4 [drm] sprd_dsi_connector_get_modes()
+[    3.098723] c4 [drm] sprd_panel_get_modes()
+[    3.098745] c4 [drm] sprd_dsi_connector_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098753] c4 [drm] sprd_crtc_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098784] c4 [drm] sprd_dsi_connector_detect()
+[    3.098787] c4 [drm] sprd_dsi_connector_get_modes()
+[    3.098790] c4 [drm] sprd_panel_get_modes()
+[    3.098801] c4 [drm] sprd_dsi_connector_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098807] c4 [drm] sprd_crtc_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098827] c4 [drm] sprd_dsi_connector_detect()
+[    3.098830] c4 [drm] sprd_dsi_connector_get_modes()
+[    3.098833] c4 [drm] sprd_panel_get_modes()
+[    3.098843] c4 [drm] sprd_dsi_connector_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098849] c4 [drm] sprd_crtc_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098868] c4 [drm] sprd_dsi_connector_detect()
+[    3.098871] c4 [drm] sprd_dsi_connector_get_modes()
+[    3.098873] c4 [drm] sprd_panel_get_modes()
+[    3.098883] c4 [drm] sprd_dsi_connector_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098890] c4 [drm] sprd_crtc_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098917] c4 [drm] sprd_dsi_connector_detect()
+[    3.098920] c4 [drm] sprd_dsi_connector_get_modes()
+[    3.098923] c4 [drm] sprd_panel_get_modes()
+[    3.098932] c4 [drm] sprd_dsi_connector_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.098939] c4 [drm] sprd_crtc_mode_valid() mode: 105:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.100086] c0 [saudio] saudio_wait_monitor_cmd error -5
+[    3.100095] c0 sblock_receive:sblock-5-17 not ready!
+[    3.100100] c0 [saudio] Error: sblock_receive dst 5, channel 17 result is -5
+[    3.101707] c4 [drm] sprd_dsi_connector_best_encoder()
+[    3.101714] c4 [drm] sprd_dsi_connector_best_encoder()
+[    3.101719] c4 [drm] sprd_dsi_connector_best_encoder()
+[    3.101730] c4 [drm] sprd_crtc_mode_valid() mode: 0:"1920x720" 60 96000 1920 1973 2005 2069 720 743 753 773 0x48 0x0
+[    3.101735] c4 [drm] sprd_dsi_encoder_atomic_check()
+[    3.101742] c4 [drm] dpu has already powered off
+[    3.101751] c4 [drm] sprd_crtc_mode_set_nofb() set mode: 1920x720
+[    3.101760] c4 [drm][         dpu_modeset] begin switch to 1920 x 720
+[    3.101764] c4 [drm] sprd_dsi_encoder_mode_set() set mode: 1920x720
+[    3.101768] c4 [drm] sprd_crtc_atomic_enable()
+[    3.101779] c4 [drm][        dpu_clk_init] DPU_CORE_CLK = 384000000, DPI_CLK_SRC = 192000000
+[    3.101783] c4 [drm][        dpu_clk_init] dpi clock is 96000000
+[    3.101794] c4 [drm][        dpu_dpi_init] Warning: (vsync + vbp) < 32, underflow risk!
+[    3.101850] c4 [drm] sprd_dsi_encoder_enable()
+[    3.101950] c0 [drm][         dpu_scaling] do scaling enhace: 0x0, top layer(1920x720)
+[    3.104061] c0 [saudio] saudio_wait_monitor_cmd error -5
+[    3.104067] c0 sblock_receive:sblock-5-13 not ready!
+[    3.104072] c0 [saudio] Error: sblock_receive dst 5, channel 13 result is -5
+[    3.112483] c0 [drm] free logo memory addr:0xfd482000 size:0x8e7000
+[    3.115088] c0 Freeing logo memory: 9116K
+[    3.451306] c4 init: processing action (sys.usb.config=none && sys.usb.configfs=1) from (/init.rc:161)
+[    3.451857] c4 init: Command 'write /config/usb_gadget/g1/UDC none' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:162) took 0ms and failed: Unable to write to file '/config/usb_gadget/g1/UDC': Unable to write file contents: No such device
+[    3.451896] c4 init: Sending signal 9 to service 'adbd' (pid 261) process group...
+[    3.504780] c0 libprocessgroup: Successfully killed process cgroup uid 0 pid 261 in 52ms
+[    3.505543] c0 init: Command 'stop adbd' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:163) took 53ms and succeeded
+[    3.505606] c0 init: Service 'adbd' (pid 261) received signal 9
+[    3.506684] c0 init: Command 'stop fastbootd' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:164) took 0ms and succeeded
+[    3.507275] c0 init: Command 'setprop sys.usb.ffs.ready 0' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:165) took 0ms and succeeded
+[    3.507386] c0 init: Command 'rm /config/usb_gadget/g1/configs/b.1/f1' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:166) took 0ms and failed: unlink() failed: No such file or directory
+[    3.507741] c0 init: Command 'setprop sys.usb.state ${sys.usb.config}' action=sys.usb.config=none && sys.usb.configfs=1 (/init.rc:167) took 0ms and succeeded
+[    3.508067] c0 init: processing action (sys.usb.config=adb) from (/init.rc:130)
+[    3.508127] c0 init: starting service 'adbd'...
+[    3.511024] c0 init: Command 'start adbd' action=sys.usb.config=adb (/init.rc:131) took 2ms and succeeded
+[    3.511046] c1 init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[    3.511159] c1 init: cpuset cgroup controller is not mounted!
+[    3.537341] c0 read descriptors
+[    3.537355] c0 read strings
+[    3.537958] c0 init: processing action (sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1) from (/init.rc:176)
+[    3.538564] c0 init: Command 'write /config/usb_gadget/g1/idProduct 0xD001' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.rc:177) took 0ms and succeeded
+[    3.539151] c0 init: Command 'write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration adb' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.rc:178) took 0ms and succeeded
+[    3.539586] c0 init: Command 'symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f1' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.rc:179) took 0ms and succeeded
+[    3.539985] c0 musb-sprd 20200000.usb: sprd_musb_enable:MUSB_POWER_SOFTCONN
+[    3.540250] c0 init: Command 'write /config/usb_gadget/g1/UDC ${sys.usb.controller}' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.rc:180) took 0ms and succeeded
+[    3.540754] c0 init: Command 'setprop sys.usb.state ${sys.usb.config}' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.rc:181) took 0ms and succeeded
+[    3.695876] c0 <== DevCtl=99, int_usb=0x4
+[    3.776819] c0 android_work: sent uevent USB_STATE=CONNECTED
+[    3.875528] c0 configfs-gadget gadget: high-speed config #1: b
+[    3.875667] c0 android_work: sent uevent USB_STATE=CONFIGURED
+[    3.998401] c2 IC works normally, Write 0x8040 0xAA
+[    4.028421] c0 [zhtd] cpu temperature : 42977 
+[    4.124363] c1 [saudio] saudio_wait_monitor_cmd error -5
+[    4.124367] c0 [saudio] saudio_wait_monitor_cmd error -5
+[    4.124373] c1 sblock_receive:sblock-5-17 not ready!
+[    4.124376] c0 sblock_receive:sblock-5-13 not ready!
+[    4.124380] c1 [saudio] Error: sblock_receive dst 5, channel 17 result is -5
+[    4.124385] c0 [saudio] Error: sblock_receive dst 5, channel 13 result is -5
+[    4.277293] c1 trusty: [    0.000000] c0 
+[    4.277297] c1 trusty: welcome to lk/MP
+[    4.277300] c1 trusty: 
+[    4.277303] c1 trusty: [    0.000000] c0 boot args 0x1fc0000 0x0 0x2000 0x0
+[    4.277307] c1 trusty: [    0.000000] c0 calling constructors
+[    4.277310] c1 trusty: [    0.000000] c0 initializing heap
+[    4.277313] c1 trusty: [    0.000000] c0 gic 0x14000000
+[    4.277317] c1 trusty: [    0.003158] c0 parse_teecfg_header:97: ********** teecfg parse **********
+[    4.277320] c1 trusty: [    0.003164] c0 parse_teecfg_header:98: cfg_header_name:TEE_CONFIG_HEADER
+[    4.277324] c1 trusty: [    0.003169] c0 parse_teecfg_header:99: cfg_header_version:0x1
+[    4.277327] c1 trusty: [    0.003175] c0 parse_teecfg_header:100: cfg_header_size:0x2b8
+[    4.277330] c1 trusty: [    0.003181] c0 parse_teecfg_header:101: cfg_header_tos_size:0x1fc0000
+[    4.277334] c1 trusty: [    0.003186] c0 parse_teecfg_header:102: cfg_header_seg_desc_off:0x38
+[    4.277337] c1 trusty: [    0.003192] c0 parse_teecfg_header:103: cfg_header_seg_desc_num:0x2
+[    4.277341] c1 trusty: [    0.003197] c0 parse_teecfg_header:107: cfg_seg_name:firewall
+[    4.277344] c1 trusty: [    0.003202] c0 parse_teecfg_header:108: cfg_seg_offset:0x2b8
+[    4.277347] c1 trusty: [    0.003208] c0 parse_teecfg_header:109: cfg_seg_size:0x2b
+[    4.277351] c1 trusty: [    0.003213] c0 parse_teecfg_header:107: cfg_seg_name:tos
+[    4.277354] c1 trusty: [    0.003217] c0 parse_teecfg_header:108: cfg_seg_offset:0x2e3
+[    4.277358] c1 trusty: [    0.003222] c0 parse_teecfg_header:109: cfg_seg_size:0x15
+[    4.277361] c1 trusty: [    0.003235] c0 display_teecfg_tlv_list:342: <---------- teecfg tlv list ------------->
+[    4.277365] c1 trusty: [    0.003240] c0 display_teecfg_tlv_list:348: seg_name:firewall
+[    4.277368] c1 trusty: [    0.003245] c0 display_teecfg_tlv_list:351: |---prop_id:modem
+[    4.277372] c1 trusty: [    0.003250] c0 display_teecfg_tlv_list:354:     |---t:0x7fdd
+[    4.277375] c1 trusty: [    0.003256] c0 display_teecfg_tlv_list:355:         l:0x8
+[    4.277379] c1 trusty: [    0.003261] c0 display_teecfg_tlv_list:368:         v:0x89600000
+[    4.277382] c1 trusty: [    0.003267] c0 display_teecfg_tlv_list:354:     |---t:0x7fdd
+[    4.277385] c1 trusty: [    0.003273] c0 display_teecfg_tlv_list:355:         l:0x8
+[    4.277389] c1 trusty: [    0.003278] c0 display_teecfg_tlv_list:368:         v:0x5850000
+[    4.277392] c1 trusty: [    0.003283] c0 display_teecfg_tlv_list:348: seg_name:tos
+[    4.277395] c1 trusty: [    0.003288] c0 display_teecfg_tlv_list:351: |---prop_id:tos
+[    4.277399] c1 trusty: [    0.003293] c0 display_teecfg_tlv_list:354:     |---t:0x7fcc
+[    4.277402] c1 trusty: [    0.003298] c0 display_teecfg_tlv_list:355:         l:0x4
+[    4.277406] c1 trusty: [    0.003304] c0 display_teecfg_tlv_list:365:         v:0x1fc0000
+[    4.277410] c1 trusty: [    0.003309] c0 display_teecfg_tlv_list:380: <---------- teecfg tlv list ------------->
+[    4.277413] c1 trusty: [    0.003315] c0 initializing mp
+[    4.277416] c1 trusty: [    0.003319] c0 initializing threads
+[    4.277419] c1 trusty: [    0.003323] c0 initializing timers
+[    4.277422] c1 trusty: [    0.003327] c0 creating bootstrap completion thread
+[    4.277425] c1 trusty: [    0.003342] c0 top of bootstrap2()
+[    4.277429] c1 trusty: [    0.003348] c0 creating bootstrap completion thread for cpu 1
+[    4.277432] c1 trusty: [    0.003364] c0 creating bootstrap completion thread for cpu 2
+[    4.277435] c1 trusty: [    0.003380] c0 creating bootstrap completion thread for cpu 3
+[    4.277439] c1 trusty: [    0.003386] c0 creating bootstrap completion thread for cpu 4
+[    4.277442] c1 trusty: [    0.003402] c0 creating bootstrap completion thread for cpu 5
+[    4.277445] c1 trusty: [    0.003408] c0 creating bootstrap completion thread for cpu 6
+[    4.277449] c1 trusty: [    0.003424] c0 creating bootstrap completion thread for cpu 7
+[    4.277452] c1 trusty: [    0.003440] c0 initializing platform
+[    4.277455] c1 trusty: [    0.003465] c0 sprd glb clk is ok!
+[    4.277459] c1 trusty: [    0.003480] c0 sprd dma init ok!
+[    4.277462] c1 trusty: [    0.003486] c0 sprd hwspinlock is ok!
+[    4.277465] c1 trusty: [    0.003847] c0 initializing target
+[    4.277468] c1 trusty: [    0.003984] c0 i2c0, freq=100000
+[    4.277471] c1 trusty: [    0.003991] c0 i2c0 is ok!
+[    4.277474] c1 trusty: [    0.003998] c0 i2c1, freq=100000
+[    4.277477] c1 trusty: [    0.004005] c0 i2c1 is ok!
+[    4.277480] c1 trusty: [    0.004011] c0 i2c2, freq=100000
+[    4.277483] c1 trusty: [    0.004018] c0 i2c2 is ok!
+[    4.277486] c1 trusty: [    0.004025] c0 i2c3, freq=100000
+[    4.277489] c1 trusty: [    0.004031] c0 i2c3 is ok!
+[    4.277492] c1 trusty: [    0.004038] c0 i2c4, freq=100000
+[    4.277495] c1 trusty: [    0.004045] c0 i2c4 is ok!
+[    4.277498] c1 trusty: [    0.004051] c0 i2c5, freq=100000
+[    4.277501] c1 trusty: [    0.004058] c0 i2c5 is ok!
+[    4.277504] c1 trusty: [    0.004064] c0 i2c6, freq=100000
+[    4.277507] c1 trusty: [    0.004071] c0 i2c6 is ok!
+[    4.277510] c1 trusty: [    0.004094] c0 sprd_kbc_init() enter.
+[    4.277513] c1 trusty: [    0.004097] c0 map size = 65536 
+[    4.277516] c1 trusty: [    0.004101] c0 CTL_BASE_AON_APB = 0x402e0000 
+[    4.277519] c1 trusty: [    0.004121] c0 pmu_vaddr = 0xffffffffe25fe000 
+[    4.277523] c1 trusty: [    0.004126] c0 CTL_BASE_PMU_APB = 0x402b0000 
+[    4.277526] c1 trusty: [    0.004133] c0 aon_vaddr = 0xffffffffe260e000 
+[    4.277529] c1 trusty: [    0.004141] c0 spi0 init ok
+[    4.277532] c1 trusty: [    0.004147] c0 spi1 init ok
+[    4.277535] c1 trusty: [    0.004153] c0 spi2 init ok
+[    4.277538] c1 trusty: [    0.004159] c0 spi3 init ok
+[    4.277543] c1 trusty: [    0.004166] c0 sprd_uart_init: portnum = 0, uart_port[portnum].regbase_vaddr = 0xffffffffe2622000, uart_port[portnum].regbase = 0x70000000
+[    4.277547] c1 trusty: [    0.004176] c0 sprd_uart_init: portnum = 1, uart_port[portnum].regbase_vaddr = 0xffffffffe2623000, uart_port[portnum].regbase = 0x70100000
+[    4.277551] c1 trusty: [    0.004185] c0 sprd_uart_init: portnum = 2, uart_port[portnum].regbase_vaddr = 0xffffffffe2624000, uart_port[portnum].regbase = 0x70200000
+[    4.277556] c1 trusty: [    0.004194] c0 sprd_uart_init: portnum = 3, uart_port[portnum].regbase_vaddr = 0xffffffffe2625000, uart_port[portnum].regbase = 0x70300000
+[    4.277560] c1 trusty: [    0.004203] c0 sprd_uart_init: portnum = 4, uart_port[portnum].regbase_vaddr = 0xffffffffe2626000, uart_port[portnum].regbase = 0x70400000
+[    4.277563] c1 trusty: [    0.004211] c0 calling apps_init()
+[    4.277566] c1 trusty: [    0.004222] c0 initializing ta_manager enter
+[    4.277570] c1 trusty: [    0.004255] c0 initializing ta_manager thread_resume
+[    4.277573] c1 trusty: [    0.004260] c0 ta_manager_thread_fun:898: ta_manager_thread_fun enter
+[    4.277577] c1 trusty: [    0.004276] c0 ta_manager_unload_thread_fun:957: ta_manager_unload_thread_fun enter
+[    4.277580] c1 trusty: [    0.004323] c0 initializing trusty (sharkl3, Built: 21:26:25 Mar 31 2021)
+[    4.277584] c1 trusty: [    0.004329] c0 trusty_app:(32) start 0xffffffffe005e000 size 0x0000a000
+[    4.277588] c1 trusty: [    0.004343] c0 trusty_app 0 uuid: 0xfee67f9f 0xe1b1 0x4e3d 0x8455 0x47f601afef
+[    4.277591] c1 trusty: [    0.004353] c0 trusty_app 0xffffffffe0292870: stack_sz=0x2000
+[    4.277595] c1 trusty: [    0.004358] c0 trusty_app 0xffffffffe0292870: heap_sz=0x4000
+[    4.277598] c1 trusty: [    0.004363] c0 trusty_app 0xffffffffe0292870: one_shot=0x0
+[    4.277602] c1 trusty: [    0.004368] c0 trusty_app:(32) start 0xffffffffe0068000 size 0x000b2000
+[    4.277605] c1 trusty: [    0.004380] c0 trusty_app 1 uuid: 0x5f902ace 0x5e5c 0x4cd8 0xae54 0x87b88c22ddaf
+[    4.277608] c1 trusty: [    0.004388] c0 trusty_app 0xffffffffe0292928: stack_sz=0x10000
+[    4.277612] c1 trusty: [    0.004393] c0 trusty_app 0xffffffffe0292928: heap_sz=0x20000
+[    4.277615] c1 trusty: [    0.004398] c0 trusty_app 0xffffffffe0292928: one_shot=0x0
+[    4.277619] c1 trusty: [    0.004403] c0 trusty_app:(32) start 0xffffffffe011a000 size 0x00012000
+[    4.277623] c1 trusty: [    0.004414] c0 trusty_app 2 uuid: 0x38ba0cdc 0xdf0e 0x11e4 0x9869 0x233fb6ae4795
+[    4.277626] c1 trusty: [    0.004422] c0 trusty_app 0xffffffffe02929e0: stack_sz=0x1000
+[    4.277629] c1 trusty: [    0.004427] c0 trusty_app 0xffffffffe02929e0: heap_sz=0x2000
+[    4.277633] c1 trusty: [    0.004432] c0 trusty_app 0xffffffffe02929e0: one_shot=0x0
+[    4.277637] c1 trusty: [    0.004437] c0 trusty_app:(32) start 0xffffffffe012c000 size 0x0000e000
+[    4.277640] c1 trusty: [    0.004448] c0 trusty_app 3 uuid: 0x10259fa6 0xd64d 0x11e6 0x918b 0x3b2c3abe2b31
+[    4.277644] c1 trusty: [    0.004456] c0 trusty_app 0xffffffffe0292a98: stack_sz=0x4000
+[    4.277647] c1 trusty: [    0.004461] c0 trusty_app 0xffffffffe0292a98: heap_sz=0xc000
+[    4.277650] c1 trusty: [    0.004465] c0 trusty_app 0xffffffffe0292a98: one_shot=0x0
+[    4.277654] c1 trusty: [    0.004471] c0 trusty_app:(32) start 0xffffffffe013a000 size 0x00009000
+[    4.277658] c1 trusty: [    0.004481] c0 trusty_app 4 uuid: 0xdf8ec70d 0xbb93 0x4b7b 0xab88 0x72dfd3f33953
+[    4.277661] c1 trusty: [    0.004489] c0 trusty_app 0xffffffffe0292b50: stack_sz=0x4000
+[    4.277664] c1 trusty: [    0.004494] c0 trusty_app 0xffffffffe0292b50: heap_sz=0x8000
+[    4.277668] c1 trusty: [    0.004498] c0 trusty_app 0xffffffffe0292b50: one_shot=0x0
+[    4.277671] c1 trusty: [    0.004504] c0 trusty_app:(32) start 0xffffffffe0143000 size 0x00031000
+[    4.277675] c1 trusty: [    0.004516] c0 trusty_app 5 uuid: 0xcea8706d 0x6cb4 0x49f3 0xb994 0x29e0e478bd29
+[    4.277678] c1 trusty: [    0.004525] c0 trusty_app 0xffffffffe0292c08: stack_sz=0x4000
+[    4.277682] c1 trusty: [    0.004530] c0 trusty_app 0xffffffffe0292c08: heap_sz=0x49000
+[    4.277685] c1 trusty: [    0.004534] c0 trusty_app 0xffffffffe0292c08: one_shot=0x0
+[    4.277689] c1 trusty: [    0.004539] c0 trusty_app:(32) start 0xffffffffe0174000 size 0x0000a000
+[    4.277692] c1 trusty: [    0.004550] c0 trusty_app 6 uuid: 0x32305457 0x1 0x2 0x5365 0x63426f6f740
+[    4.277696] c1 trusty: [    0.004558] c0 trusty_app 0xffffffffe0292cc0: stack_sz=0x1000
+[    4.277699] c1 trusty: [    0.004563] c0 trusty_app 0xffffffffe0292cc0: heap_sz=0x2000
+[    4.277702] c1 trusty: [    0.004568] c0 trusty_app 0xffffffffe0292cc0: one_shot=0x0
+[    4.277706] c1 trusty: [    0.004647] c0 trusty_app 0: code: start 0x00008000 end 0x0000def0
+[    4.277709] c1 trusty: [    0.004654] c0 trusty_app 0: data: start 0x0000e000 end 0x00010000
+[    4.277712] c1 trusty: [    0.004660] c0 trusty_app 0: bss:                end 0x0000f454
+[    4.277716] c1 trusty: [    0.004665] c0 trusty_app 0: brk:  start 0x00010000 end 0x00014000
+[    4.277720] c1 trusty: [    0.004672] c0 trusty_app 0: entry 0x00008eb4
+[    4.277723] c1 trusty: [    0.004808] c0 trusty_app 1: code: start 0x00008000 end 0x000b4064
+[    4.277727] c1 trusty: [    0.004814] c0 trusty_app 1: data: start 0x000b5000 end 0x000b8000
+[    4.277730] c1 trusty: [    0.004820] c0 trusty_app 1: bss:                end 0x000b789c
+[    4.277733] c1 trusty: [    0.004825] c0 trusty_app 1: brk:  start 0x000b8000 end 0x000d8000
+[    4.277737] c1 trusty: [    0.004830] c0 trusty_app 1: entry 0x000279e8
+[    4.277740] c1 trusty: [    0.004922] c0 trusty_app 2: code: start 0x00008000 end 0x00016f8c
+[    4.277744] c1 trusty: [    0.004928] c0 trusty_app 2: data: start 0x00017000 end 0x00018000
+[    4.277747] c1 trusty: [    0.004933] c0 trusty_app 2: bss:                end 0x00017424
