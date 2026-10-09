@@ -69,6 +69,9 @@ def main():
         print("[FOUND] Device is ALREADY in Sideload mode!")
     elif "recovery" in adb_out:
         print("[FOUND] Device is in Recovery main menu.")
+        print(">>> Rebooting recovery to ensure 100% clean RAM / PageCache...")
+        r = subprocess.run([ADB, "reboot", "recovery"], capture_output=True, text=True)
+        print(f"    ADB output: {r.stdout.strip() or r.stderr.strip()}")
     else:
         print("[WAIT] Device not detected immediately. Waiting for connection...")
 
